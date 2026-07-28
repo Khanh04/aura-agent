@@ -1,0 +1,21 @@
+/* Aura identity — lacquer red-black ground, warm gold accent (Ngọc Hạp
+   Thông Thư / Tết lunar-almanac feel), serif display for the wordmark,
+   mono for Can-Chi/date readouts. Every color/type value derives from here. */
+:root {
+  --ground: #170b09;
+  --panel: #221310;
+  --panel-2: #2c1815;
+  --gold: #d9a44c; /* accent, used with restraint */
+  --gold-dim: #8a6b34;
+  --alert: #e2634f;
+  --text: #f3e7d9;
+  --muted: #a4897790;
+  --line: rgba(243, 231, 217, 0.12);
+
+  --display: "Cormorant Garamond", Georgia, serif;
+  --body: "Inter", system-ui, sans-serif;
+  --mono: "JetBrains Mono", ui-monospace, monospace;
+
+  --radius: 12px;
+  --shadow: 0 12px 40px rgba(0, 0, 0, 0.45);
+}
