@@ -1,0 +1,21 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+frontend/node_modules/
+frontend/dist/
+frontend/*.tsbuildinfo
+.pytest_cache/
+.claude/settings.local.json
+
+# Source PDF and OCR pipeline scratch output -- regenerable via
+# ocr_all.py/ocr_layout.py against the PDF; database/ and db/ (the final
+# structured JSON) are what the app actually reads and stay tracked.
+Ngoc Hap Thong Thu.pdf
+ocr_pages/
+ocr_layout/
+extract/
+raw_text.txt
+ocr_progress.log
+page_markers.txt
+hit_lines.txt
