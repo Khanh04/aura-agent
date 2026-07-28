@@ -172,6 +172,24 @@ def solar_to_lunar(day: int, month: int, year: int) -> LunarDate:
     return LunarDate(day=lunar_day, month=lunar_month, year=lunar_year, is_leap_month=is_leap_month, jd=day_number)
 
 
+_MAX_RANGE_DAYS = 60  # ~2 lunar months; same brute-force-window size lunar_to_solar already uses.
+
+
+def solar_range_to_lunar(start: date, end: date) -> list[LunarDate]:
+    """Convert every day in [start, end] (inclusive) to its lunar equivalent.
+    Loops solar_to_lunar per day -- fine at this capped size. Raises ValueError
+    if the range is empty/backwards or exceeds the cap; callers must narrow."""
+    days = (end - start).days + 1
+    if days <= 0:
+        raise ValueError("end date must not be before start date")
+    if days > _MAX_RANGE_DAYS:
+        raise ValueError(f"range spans {days} days, over the {_MAX_RANGE_DAYS}-day cap -- narrow it")
+    return [
+        solar_to_lunar((start + timedelta(n)).day, (start + timedelta(n)).month, (start + timedelta(n)).year)
+        for n in range(days)
+    ]
+
+
 def lunar_to_solar(day: int, month: int, year: int, is_leap_month: bool = False) -> date:
     """Inverse of solar_to_lunar. Brute-force search over a window around the
     target lunar date -- simplest correct approach; this isn't called in any

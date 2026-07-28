@@ -1,7 +1,8 @@
 import os
+from datetime import date, timedelta
 from typing import Literal
 
-from pydantic_ai import Agent
+from pydantic_ai import Agent, ModelRetry
 
 from app.config import settings
 from app.schemas import ChatReply, LunarDateInfo
@@ -48,7 +49,17 @@ aura_agent = Agent(
         "8. Trường 'lunar' trong kết quả trả về: LUÔN điền đầy đủ trường này bằng kết quả gọi "
         "'convert_date' bất kỳ khi nào bạn đã xác định được một ngày dương lịch cụ thể trong lượt trả "
         "lời này (kể cả khi câu trả lời còn thiếu thông tin khác). Chỉ để trống khi lượt này chưa xác "
-        "định được ngày nào (VD: bạn đang hỏi lại người dùng về ngày tháng)."
+        "định được ngày nào (VD: bạn đang hỏi lại người dùng về ngày tháng).\n"
+        "9. Khi người dùng nhờ chọn/tìm ngày tốt trong một khoảng thời gian (không phải một "
+        "ngày cụ thể), hãy tự quy đổi khoảng đó sang một khoảng ngày dương lịch ISO cụ thể "
+        "(như cách quy tắc 1 xử lý ngày tương đối). Nếu khoảng quá rộng (quá 60 ngày) hoặc "
+        "không rõ ràng ('năm sau', 'quý 3'), hãy hỏi lại người dùng để thu hẹp trước khi gọi "
+        "tool. Gọi 'get_candidate_days' một lần cho khoảng đã thu hẹp; nếu cần đối chiếu sao "
+        "tốt/xấu cho (các) ngày có khả năng cao, gọi thêm 'get_star_info' riêng cho từng ngày "
+        "đó. Luôn gọi 'get_event_rules' cho loại sự kiện liên quan để đối chiếu, và áp dụng "
+        "quy tắc 3 nếu cần thông tin riêng của người liên quan. Chọn ra 1-3 ngày tốt nhất kèm "
+        "lý do và trích dẫn nguồn; cuối cùng gọi 'convert_date' cho ngày được đề xuất tốt "
+        "nhất để điền trường 'lunar' theo quy tắc 8 (trường 'lunar' chỉ chứa một ngày)."
     ),
 )
 
@@ -120,3 +131,31 @@ def get_trung_tang(birth_year: int, death_lunar_year: int, gender: Literal["nam"
     """Check Trùng Tang (used for an táng only) for the deceased, given their birth
     year, the lunar year of death, and their gender (direction of the count differs)."""
     return almanac_rules.get_trung_tang(birth_year, death_lunar_year, gender)
+
+
+@aura_agent.tool_plain
+def get_candidate_days(start_date: str, end_date: str) -> list[dict]:
+    """Scan every day in an inclusive ISO date range (max 60 days) and return each
+    day's lunar date, Can-Chi, and universal bad-day flags (Tam Nương/Nguyệt Kỵ/Dương
+    Công) -- for picking a good day within a period. Does NOT include star_info
+    (call 'get_star_info' per shortlisted candidate) or event-specific rules (call
+    'get_event_rules' separately) -- combine all three to recommend specific days."""
+    start = date.fromisoformat(start_date)
+    end = date.fromisoformat(end_date)
+    try:
+        lunar_days = lunar_calendar.solar_range_to_lunar(start, end)
+    except ValueError as e:
+        raise ModelRetry(str(e)) from e
+
+    return [
+        {
+            "gregorian_date": (start + timedelta(days=i)).isoformat(),
+            "lunar_day": lunar["day"],
+            "lunar_month": lunar["month"],
+            "lunar_year": lunar["year"],
+            "is_leap_month": lunar["is_leap_month"],
+            "day_can_chi": lunar_calendar.get_can_chi_for_day(lunar["jd"]),
+            "bad_day_flags": almanac_rules.get_global_bad_day_flags(lunar["day"], lunar["month"]),
+        }
+        for i, lunar in enumerate(lunar_days)
+    ]

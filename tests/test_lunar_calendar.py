@@ -1,3 +1,5 @@
+from datetime import date, timedelta
+
 from app.services import lunar_calendar
 
 
@@ -48,6 +50,36 @@ def test_can_chi_for_day_and_month_are_valid_names():
     assert chi in lunar_calendar._CHI
 
 
+def test_solar_range_to_lunar_matches_single_date():
+    days = lunar_calendar.solar_range_to_lunar(date(2026, 7, 27), date(2026, 7, 29))
+    assert len(days) == 3
+    expected = [lunar_calendar.solar_to_lunar(d, 7, 2026) for d in (27, 28, 29)]
+    for got, want in zip(days, expected):
+        assert (got["day"], got["month"], got["year"], got["is_leap_month"]) == (
+            want["day"],
+            want["month"],
+            want["year"],
+            want["is_leap_month"],
+        )
+
+
+def test_solar_range_to_lunar_rejects_backwards_range():
+    try:
+        lunar_calendar.solar_range_to_lunar(date(2026, 7, 29), date(2026, 7, 27))
+        assert False, "expected ValueError"
+    except ValueError:
+        pass
+
+
+def test_solar_range_to_lunar_rejects_over_cap():
+    start = date(2026, 1, 1)
+    try:
+        lunar_calendar.solar_range_to_lunar(start, start + timedelta(days=lunar_calendar._MAX_RANGE_DAYS))
+        assert False, "expected ValueError"
+    except ValueError:
+        pass
+
+
 if __name__ == "__main__":
     test_tet_2024()
     test_tet_2025()
@@ -55,4 +87,7 @@ if __name__ == "__main__":
     test_round_trip()
     test_can_chi_for_year_matches_almanac()
     test_can_chi_for_day_and_month_are_valid_names()
+    test_solar_range_to_lunar_matches_single_date()
+    test_solar_range_to_lunar_rejects_backwards_range()
+    test_solar_range_to_lunar_rejects_over_cap()
     print("ok")
