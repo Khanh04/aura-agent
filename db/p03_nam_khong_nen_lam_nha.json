@@ -1,0 +1,76 @@
+{
+  "source": "Ngoc Hap Thong Thu",
+  "pages": [
+    66
+  ],
+  "topic": "Những năm sát không nên làm nhà",
+  "description": "Birth-branch groups whose members hit a yearly/monthly/hourly 'Sát' that forbids building.",
+  "rules": [
+    {
+      "id": "nb-1",
+      "born_branches": [
+        "Dần",
+        "Ngọ",
+        "Tuất"
+      ],
+      "sat_branch": "Sửu",
+      "scope": [
+        "niên",
+        "nguyệt",
+        "thời"
+      ]
+    },
+    {
+      "id": "nb-2",
+      "born_branches": [
+        "Tỵ",
+        "Dậu",
+        "Sửu"
+      ],
+      "sat_branch": "Thìn",
+      "scope": [
+        "niên",
+        "nguyệt",
+        "thời"
+      ]
+    },
+    {
+      "id": "nb-3",
+      "born_branches": [
+        "Hợi",
+        "Mão",
+        "Mùi"
+      ],
+      "sat_branch": "Tuất",
+      "scope": [
+        "niên",
+        "nguyệt",
+        "thời"
+      ]
+    },
+    {
+      "id": "nb-4",
+      "born_branches": [
+        "Thân",
+        "Tý",
+        "Thìn"
+      ],
+      "sat_branch": "Mùi",
+      "scope": [
+        "niên",
+        "nguyệt",
+        "thời"
+      ]
+    },
+    {
+      "id": "nb-5",
+      "type": "general",
+      "text": "Niên sát bất nghi tạo trạch — gặp năm sát không nên làm nhà."
+    },
+    {
+      "id": "nb-6",
+      "type": "general",
+      "text": "Cưỡng mà làm nhà không vượng — ép làm thì nhà không thịnh."
+    }
+  ]
+}

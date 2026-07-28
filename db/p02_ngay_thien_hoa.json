@@ -1,0 +1,44 @@
+{
+ "source": "Ngoc Hap Thong Thu",
+ "pages": [
+  39
+ ],
+ "topic": "Ngày Thiên Hoả",
+ "description": "Thien Hoa (heavenly fire) days — avoid building/roofing a house.",
+ "verse": "Một năm hai sáu chuột già, hai sáu mười mèo ra / Ba bảy mười một ngựa, bốn tám mười hai gà",
+ "rules": [
+  {
+   "thang": [
+    1,
+    5,
+    9
+   ],
+   "ngay": "Tý"
+  },
+  {
+   "thang": [
+    2,
+    6,
+    10
+   ],
+   "ngay": "Mão"
+  },
+  {
+   "thang": [
+    3,
+    7,
+    11
+   ],
+   "ngay": "Ngọ"
+  },
+  {
+   "thang": [
+    4,
+    8,
+    12
+   ],
+   "ngay": "Dậu"
+  }
+ ],
+ "avoid": "làm nhà, lợp nhà"
+}

@@ -1,0 +1,2792 @@
+{
+  "source": "Ngoc Hap Thong Thu.pdf",
+  "cat_tinh": {
+    "note": "II. CÁC SAO TỐT - danh sách 20 sao tốt và ý nghĩa/việc nên làm",
+    "source_page": 9,
+    "stars": [
+      {
+        "stt": 1,
+        "ten": "Thiên phúc",
+        "y_nghia": "Nên đi nhận công tác (việc quan), về nhà mới, lễ cúng."
+      },
+      {
+        "stt": 2,
+        "ten": "Thiên phú",
+        "y_nghia": "Nên làm kho tàng để chứa đựng thóc lúa đồ dùng."
+      },
+      {
+        "stt": 3,
+        "ten": "Thiên hỷ",
+        "y_nghia": "Nên cưới xin, đi xuất hành, nhận trầu cau ăn hỏi, mọi việc tốt."
+      },
+      {
+        "stt": 4,
+        "ten": "Thiên xá",
+        "y_nghia": "Nên lễ cầu thần, tha cho người phạm tội, kỵ sỹ săn bắn, đâm chém, chôn cất."
+      },
+      {
+        "stt": 5,
+        "ten": "Thiên y",
+        "y_nghia": "Nên tìm thầy chữa bệnh, bốc thuốc bệnh dược mau khỏi."
+      },
+      {
+        "stt": 6,
+        "ten": "Nguyệt không",
+        "y_nghia": "Nên dâng sớ trình bày công việc, đóng giường nằm, làm nhà, may màn."
+      },
+      {
+        "stt": 7,
+        "ten": "Nguyệt tài",
+        "y_nghia": "Nên mở cửa hàng, buôn bán, làm kho, làm bếp, xuất hành, rời chỗ ở."
+      },
+      {
+        "stt": 8,
+        "ten": "Minh tinh",
+        "y_nghia": "Nên đi việc quan, khiếu nại, tố tụng và dỡ mồ mả."
+      },
+      {
+        "stt": 9,
+        "ten": "Sinh khí",
+        "y_nghia": "Nên tu sửa, động thổ và nhận trầu cau ăn hỏi, cưới xin."
+      },
+      {
+        "stt": 10,
+        "ten": "Giải thần",
+        "y_nghia": "Nên giải bỏ việc kiện cáo và tha cho người phạm tội, tìm thuốc giải trừ, tắm gội."
+      },
+      {
+        "stt": 11,
+        "ten": "Phả hộ",
+        "y_nghia": "Nên làm việc phúc, cưới vợ, gả chồng và đi xuất hành."
+      },
+      {
+        "stt": 12,
+        "ten": "Tục thế",
+        "y_nghia": "Nên hỏi vợ gả chồng, dựng con trưởng, nhận trầu cau ăn hỏi."
+      },
+      {
+        "stt": 13,
+        "ten": "Ích hậu",
+        "y_nghia": "Nên cưới hỏi, nhận trầu cau, tìm người kế tự, di chúc cho con cháu."
+      },
+      {
+        "stt": 14,
+        "ten": "Địa tài",
+        "y_nghia": "Nên thu nhận tiền tài, đồ vật nhập vào kho phát tài."
+      },
+      {
+        "stt": 15,
+        "ten": "Mẫu xương",
+        "y_nghia": "Nên làm kho tàng chứa đựng tiền của và thóc lúa, chăn nuôi, trồng trọt, thụ dưỡng được nhiều lợi."
+      },
+      {
+        "stt": 16,
+        "ten": "Lộc khố",
+        "y_nghia": "Nên thu cất thóc lúa tài vật vào kho chứa đựng mọi thứ tốt."
+      },
+      {
+        "stt": 17,
+        "ten": "Quan Nhật",
+        "y_nghia": "Nên làm các việc lớn như thăng quan, tiến chức, tặng thưởng."
+      },
+      {
+        "stt": 18,
+        "ten": "Dân nhật",
+        "y_nghia": "Nên động thổ đào đắp và chữa các việc vặt, đồ dùng hàng ngày."
+      },
+      {
+        "stt": 19,
+        "ten": "Dịch mã",
+        "y_nghia": "Nên xuất hành, cầu y, trị bệnh."
+      },
+      {
+        "stt": 20,
+        "ten": "Diệu xương",
+        "y_nghia": "Nên thu nợ, mua gia súc."
+      }
+    ],
+    "sao_dong_nghia_khac": [
+      "Thiên đức",
+      "Nguyệt đức",
+      "Thiên Đức hợp",
+      "Nguyệt đức hợp",
+      "Thiên Quý",
+      "Thiên mã",
+      "Thiên Giải",
+      "Thiên hành",
+      "Thiên quan",
+      "Nguyệt ân",
+      "Yếu an",
+      "Dịch mã",
+      "Lục hợp",
+      "Tam hợp",
+      "Kính Tâm",
+      "Mãn đức Tinh",
+      "Hoạt diệu",
+      "Hội hộ",
+      "U vi Tinh",
+      "Thánh Tâm",
+      "Cát Khánh",
+      "Tứ Vương",
+      "Tuế Hợp",
+      "Đại Hồng Sa",
+      "Ngọc Đường",
+      "Minh Đức"
+    ],
+    "luu_y": "Nói chung là tốt nhưng gặp phải ngày xấu như: Thụ tử, Sát chủ, Tam nương sát, Nguyệt kỵ, Dương Công kỵ, ngày con nước thì phải kiêng mọi việc không nên làm."
+  },
+  "hung_tinh": {
+    "note": "III. CÁC NGÀY XẤU - danh sách 34 sao xấu/ngày xấu và việc kiêng kỵ",
+    "source_page": 10,
+    "stars": [
+      {
+        "stt": 1,
+        "ten": "Thiên Cương",
+        "kieng_ky": "Kiêng kỵ mọi việc không làm"
+      },
+      {
+        "stt": 2,
+        "ten": "Thiên Phùng",
+        "kieng_ky": "Kiêng việc kiện tụng, xuất hành"
+      },
+      {
+        "stt": 3,
+        "ten": "Thiên hoả",
+        "kieng_ky": "Kiêng lợp nhà, mở đường"
+      },
+      {
+        "stt": 4,
+        "ten": "Thiên cẩu",
+        "kieng_ky": "Kiêng lễ bái cầu cúng"
+      },
+      {
+        "stt": 5,
+        "ten": "Thiên tặc",
+        "kieng_ky": "Kiêng cất nhà, dỡ mả, mở kho"
+      },
+      {
+        "stt": 6,
+        "ten": "Thiên ôn",
+        "kieng_ky": "Kiêng về nhà mới, chữa bệnh, không làm chuồng nuôi súc vật"
+      },
+      {
+        "stt": 7,
+        "ten": "Địa hoả",
+        "kieng_ky": "Kiêng trồng cây cối"
+      },
+      {
+        "stt": 8,
+        "ten": "Địa tặc",
+        "kieng_ky": "Kiêng làm nhà cửa xuất hành, động thổ, đào ao"
+      },
+      {
+        "stt": 9,
+        "ten": "Thụ tử",
+        "kieng_ky": "Kiêng mọi việc không làm"
+      },
+      {
+        "stt": 10,
+        "ten": "Sát chủ",
+        "kieng_ky": "Mọi việc đều phải kiêng"
+      },
+      {
+        "stt": 11,
+        "ten": "Hoang vu",
+        "kieng_ky": "Kiêng mọi việc chớ làm"
+      },
+      {
+        "stt": 12,
+        "ten": "Phá bại",
+        "kieng_ky": "Kiêng làm dở dang các thứ"
+      },
+      {
+        "stt": 13,
+        "ten": "Đại hao",
+        "kieng_ky": "Trăm việc đều phải kiêng"
+      },
+      {
+        "stt": 14,
+        "ten": "Tiêu hao",
+        "kieng_ky": "Kiêng buôn bán cho vay mượn"
+      },
+      {
+        "stt": 15,
+        "ten": "Du hoạ",
+        "kieng_ky": "Kiêng làm nhà chữa cửa"
+      },
+      {
+        "stt": 16,
+        "ten": "Thần cách",
+        "kieng_ky": "Kiêng lễ bái cầu thần"
+      },
+      {
+        "stt": 17,
+        "ten": "Nhân cách",
+        "kieng_ky": "Kiêng lấy vợ, lấy chồng, không nuôi thêm người ở giúp việc"
+      },
+      {
+        "stt": 18,
+        "ten": "Ngũ Quỷ",
+        "kieng_ky": "Kiêng xuất hành đi xa"
+      },
+      {
+        "stt": 19,
+        "ten": "Tam chuyển",
+        "kieng_ky": "Kiêng việc động thổ"
+      },
+      {
+        "stt": 20,
+        "ten": "Tam cương",
+        "kieng_ky": "Kiêng nhiều việc không làm"
+      },
+      {
+        "stt": 21,
+        "ten": "Tam thi",
+        "kieng_ky": "Mọi việc nên tránh"
+      },
+      {
+        "stt": 22,
+        "ten": "Lâm nhật",
+        "kieng_ky": "Kiêng xuất hành việc quan"
+      },
+      {
+        "stt": 23,
+        "ten": "Cầu Giáo",
+        "kieng_ky": "Kiêng nhiều việc không làm"
+      },
+      {
+        "stt": 24,
+        "ten": "Hà Khôi",
+        "kieng_ky": "Kiêng làm nhà xây cửa"
+      },
+      {
+        "stt": 25,
+        "ten": "Kho tiêu",
+        "kieng_ky": "Kiêng trồng cây cối"
+      },
+      {
+        "stt": 26,
+        "ten": "Vãng Vong",
+        "kieng_ky": "Kiêng xuất hành cầu mưu, lấy vợ lấy chồng"
+      },
+      {
+        "stt": 27,
+        "ten": "Cửu không",
+        "kieng_ky": "Kiêng xuất hành, cầu tài, mở kho, trồng cây cối"
+      },
+      {
+        "stt": 28,
+        "ten": "Âm thác",
+        "kieng_ky": "Kiêng xuất hành, nhận công tác"
+      },
+      {
+        "stt": 29,
+        "ten": "Dương thác",
+        "kieng_ky": "Kiêng đi xa, hôn nhân, giá thú, không di chuyển chỗ ở"
+      },
+      {
+        "stt": 30,
+        "ten": "Tiểu hồng sa",
+        "kieng_ky": "Mọi việc phải kiêng"
+      },
+      {
+        "stt": 31,
+        "ten": "Lục Bất thành",
+        "kieng_ky": "Kiêng làm nhà cửa"
+      },
+      {
+        "stt": 32,
+        "ten": "Lỗ Ban Sát",
+        "kieng_ky": "Kiêng làm nhà, đặt cọc"
+      },
+      {
+        "stt": 33,
+        "ten": "Phủ đầu sát",
+        "kieng_ky": "Kiêng động thổ, làm nhà"
+      },
+      {
+        "stt": 34,
+        "ten": "Mộc mã sát",
+        "kieng_ky": "Kiêng bốc thuốc, châm cứu"
+      }
+    ]
+  },
+  "nhi_thap_bat_tu": {
+    "note": "28 Sao dùng xem ngày - Chấp Bát Tinh Lâm Nhật (28 constellations / lunar mansions), mỗi sao có tên, Ngũ Hành + con vật biểu tượng, phân loại Tốt/Xấu, và bài thơ giải nghĩa",
+    "source_pages": [
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77
+    ],
+    "stars": [
+      {
+        "stt": 1,
+        "ten": "Giác",
+        "phan_loai": "Tốt",
+        "ngu_hanh_dong_vat": "Mộc Giao (rồng)",
+        "tho": "Giác tính được việc chủ vinh thân / Đi thi đỗ đạt, gặp quý nhân / Giá thú hôn nhân sinh quý tử / Nên kiêng mai táng, sửa âm phần"
+      },
+      {
+        "stt": 2,
+        "ten": "Cang",
+        "phan_loai": "Xấu",
+        "ngu_hanh_dong_vat": "Kim Long (rồng)",
+        "tho": "Cang kim đứng trưởng phải giữ mình / Mọi việc làm ăn tính thật rành / Chôn cất, hôn nhân đều nên tránh / Làm liều hậu quả khó phân minh"
+      },
+      {
+        "stt": 3,
+        "ten": "Đê",
+        "phan_loai": "Xấu",
+        "ngu_hanh_dong_vat": "Thổ Lạc (lạc đà/chồn)",
+        "tho": "Đê tinh rất xấu phải đề phòng / Động thổ, hôn nhân dễ tai ương / Kinh doanh, ký kết hàng chìm đắm / Xuất hành, xây cất ngoại đôi phương"
+      },
+      {
+        "stt": 4,
+        "ten": "Phòng",
+        "phan_loai": "Tốt",
+        "ngu_hanh_dong_vat": "Nhật Thỏ (thỏ)",
+        "tho": "Phòng tinh tốt lắm, vượng điền tài / Hạnh phúc, giàu sang đẹp cả hai / Xây cất cưới xin gia cảnh thẳm / Sĩ, nông, công, cổ thấy hòa hài"
+      },
+      {
+        "stt": 5,
+        "ten": "Tâm",
+        "phan_loai": "Xấu",
+        "ngu_hanh_dong_vat": "Nguyệt Hồ (cáo)",
+        "tho": "Sao tâm xấu lắm, chớ xem thường / Việc việc dặn lòng hãy thủy chung / Ăn hỏi, cưới xin đều bất lợi / Kinh doanh thua lỗ kiện nhau hung"
+      },
+      {
+        "stt": 6,
+        "ten": "Vĩ",
+        "phan_loai": "Tốt",
+        "ngu_hanh_dong_vat": "Hỏa Hổ (hổ)",
+        "tho": "Vĩ tinh chiếu sáng tốt vô cùng / Làm nhà cưới gả được hanh thông / Xuất ngoại kinh doanh nhiều thuận lợi / Tiến chức thăng quan sự nghiệp hưng"
+      },
+      {
+        "stt": 7,
+        "ten": "Cơ",
+        "phan_loai": "Tốt",
+        "ngu_hanh_dong_vat": "Thủy Báo (báo)",
+        "tho": "Cơ tính sáng chiếu giúp cho người / Sự nghiệp cao cường viễn cảnh tươi / Cửa to nhà rộng, tiền bạc, chứa / Mộ kết ông bà, phúc để đời"
+      },
+      {
+        "stt": 8,
+        "ten": "Đẩu",
+        "phan_loai": "Tốt",
+        "ngu_hanh_dong_vat": "Mộc Giải (cua/kỳ lân)",
+        "tho": "Đẩu tinh sáng láng, lại dồi dào / Hôn nhân sinh nở vẹn toàn sao / Chăn nuôi, cấy gặt nhiều tiền của / Làm nhà, thả cá xứng ước ao"
+      },
+      {
+        "stt": 9,
+        "ten": "Ngưu",
+        "phan_loai": "Xấu",
+        "ngu_hanh_dong_vat": "Kim Ngưu (trâu)",
+        "tho": "Sao Ngưu tổn lực với hao tài / Gây dựng bất lợi, dễ bi ai / Cưới hỏi xa nhà nên cẩn thận / Kinh doanh trồng trọt mất vốn lời"
+      },
+      {
+        "stt": 10,
+        "ten": "Nữ",
+        "phan_loai": "Xấu",
+        "ngu_hanh_dong_vat": "Thổ Bức (dơi)",
+        "tho": "Nữ tinh phụ nữ phải e mình / Giao dịch, đề phòng kẻ sở khanh / Sinh nở nên tầm thầy thuốc giỏi / Hao tài tốn của thiệt gia đình",
+        "luu_y_doc": "chữ con vật OCR/đọc chưa chắc chắn tuyệt đối, giữ nguyên theo bản đọc trực tiếp"
+      },
+      {
+        "stt": 11,
+        "ten": "Hư",
+        "phan_loai": "Xấu",
+        "ngu_hanh_dong_vat": "Nhật Thử (chuột)",
+        "tho": "Sao hư chiếu tới chủ tai ương / Nam nữ gần nhau phải giữ chừng / Một phút ba năm hoa dễ héo / Sau này đã chắc mãi thương yêu?",
+        "luu_y_doc": "tên con vật đọc chưa chắc chắn tuyệt đối (có thể là Nhật Thử theo hệ thống Nhị Thập Bát Tú cổ điển)"
+      },
+      {
+        "stt": 12,
+        "ten": "Nguy",
+        "phan_loai": "Xấu",
+        "ngu_hanh_dong_vat": "Nguyệt Yến (chim én)",
+        "tho": "Sao nguy kỵ nhất việc làm nhà / Nhà rộng lầu cao ở được a? / Kinh doanh việc hiếu đều nên tránh / E rồi bại sản với khuynh gia"
+      },
+      {
+        "stt": 13,
+        "ten": "Thất",
+        "phan_loai": "Tốt",
+        "ngu_hanh_dong_vat": "Hỏa Trư (lợn)",
+        "tho": "Thất tinh chiếu sáng việc thông hanh / Công danh sự nghiệp rất quang minh / Mở hiệu, làm nhà đều thành đạt / Hôn nhân, con cái ắt thân vinh"
+      },
+      {
+        "stt": 14,
+        "ten": "Bích",
+        "phan_loai": "Tốt",
+        "ngu_hanh_dong_vat": "Thủy Dư (nhím)",
+        "tho": "Bích tinh mọi việc thuận nhân tình / Cưới hỏi sinh con xứng ý mình / Thương mại kinh doanh nhiều lợi lộc / Làm nhà lợp mái ắt khang minh"
+      },
+      {
+        "stt": 15,
+        "ten": "Khuê",
+        "phan_loai": "Xấu",
+        "ngu_hanh_dong_vat": "Mộc Lang (sói/chó sói)",
+        "tho": "Khuê tính thuộc mộc có phần lành / Vợ chồng hòa thuận phúc lộc sinh / Chỉ tránh mở hàng cùng động thổ / Đưa ma, sửa mộ cùng nên rành"
+      },
+      {
+        "stt": 16,
+        "ten": "Lâu",
+        "phan_loai": "Tốt",
+        "ngu_hanh_dong_vat": "Kim Cẩu (chó)",
+        "tho": "Sao lâu lợp mái tốt vô cùng / Thêm người, thêm của thịnh lại hưng / Hôn nhân ngày ấy thịnh quý tử / Nhận chức sao ngày chức lại thăng"
+      },
+      {
+        "stt": 17,
+        "ten": "Vị",
+        "phan_loai": "Tốt",
+        "ngu_hanh_dong_vat": "Thổ Trĩ (chim trĩ)",
+        "tho": "Vị tinh phú quý với vinh hoa / Mọi việc nên hay ráng sức ta / Mua bán xây nhà cùng cưới hỏi / Công to việc lớn rất thuận hòa"
+      },
+      {
+        "stt": 18,
+        "ten": "Mão",
+        "phan_loai": "Xấu",
+        "ngu_hanh_dong_vat": "Nhật Kê (gà)",
+        "tho": "Mão tinh cẩn thận việc chăn nuôi / Làm nhà làm cửa e thiệt người / Làm quan nhậm chức phòng tai họa / Hôn nhân giá thú kém xinh tươi"
+      },
+      {
+        "stt": 19,
+        "ten": "Tất",
+        "phan_loai": "Tốt",
+        "ngu_hanh_dong_vat": "Nguyệt Ô (quạ)",
+        "tho": "Tất tinh chiếu sáng tốt hòa điều / Nông trang thóc gạo, hoa tằm nhiều / Nhà cửa khang trang hôn thú đẹp / Sinh con nam quý nữ yêu kiều"
+      },
+      {
+        "stt": 20,
+        "ten": "Chủy",
+        "phan_loai": "Xấu",
+        "ngu_hanh_dong_vat": "Hỏa Hầu (khỉ)",
+        "tho": "Chủy tinh cẩn thận mắc cửa quan / Vàng nén bạc kho dễ sạch sanh / Quan viên danh chức càng nên giữ / Thầy thợ coi chừng chuyện tiếng tăm"
+      },
+      {
+        "stt": 21,
+        "ten": "Sâm",
+        "phan_loai": "Tốt",
+        "ngu_hanh_dong_vat": "Thủy Viên (vượn)",
+        "tho": "Sâm tinh cũng gọi văn khúc xương / Mưu cầu sự nghiệp đại cát tường / Mở hiệu xây nhà thì rất tốt / Hôn thú về sau rẽ đôi đường"
+      },
+      {
+        "stt": 22,
+        "ten": "Tỉnh",
+        "phan_loai": "Tốt",
+        "ngu_hanh_dong_vat": "Mộc Hãn (con hãn/lửng)",
+        "tho": "Tỉnh tinh chỉ tránh việc tang thôi / Thi cử công danh đệ nhất ngôi / Trồng trọt chăn nuôi thu hoạch tốt / Làm nhà hôn thú đẹp cả đôi"
+      },
+      {
+        "stt": 23,
+        "ten": "Quỷ",
+        "phan_loai": "Xấu",
+        "ngu_hanh_dong_vat": "Kim Dương (dê)",
+        "tho": "Quỷ tinh chiếu rọi khiến buồn thương / Làm nhà chẳng ở chủ nhân vong / Cưới xin ngày ấy cần nên tránh / Sao này chỉ lợi việc hiếu tang"
+      },
+      {
+        "stt": 24,
+        "ten": "Liễu",
+        "phan_loai": "Xấu",
+        "ngu_hanh_dong_vat": "Thổ Chương (con chương/hoẵng)",
+        "tho": "Liễu tinh chiếu dọi lắm nguy nan / Hao tài tổn sức lại bi thương / Hơn hết thì nên chăm hướng thiện / Lo sao bản mệnh được an khang"
+      },
+      {
+        "stt": 25,
+        "ten": "Tinh",
+        "phan_loai": "Xấu",
+        "ngu_hanh_dong_vat": "Nhật Mã (ngựa)",
+        "tho": "Sao tinh chiếu rọi tránh hợp hôn / Vợ bỏ chồng ruồng, trẻ héo hon / Nhất việc làm nhà thì rất tốt / Nhì việc công danh dễ mãn nguyện"
+      },
+      {
+        "stt": 26,
+        "ten": "Trương",
+        "phan_loai": "Tốt",
+        "ngu_hanh_dong_vat": "Nguyệt Lộc (hươu/nai)",
+        "tho": "Sao chương ngày ấy đẹp làm nhà / Cưới hỏi gia đình thắm tựa hoa / Mở hàng nhập học đều hay cả / Tang ma chu đáo phú hà xa"
+      },
+      {
+        "stt": 27,
+        "ten": "Dực",
+        "phan_loai": "Xấu",
+        "ngu_hanh_dong_vat": "Hỏa Xà (rắn)",
+        "tho": "Dực tinh tốt kỵ việc làm nhà / Tai nạn chợt xảy thiệt chủ nhà / Nam nữ gần nhau gìn chữ chinh / Thói nguyệt, tham hoa, lắm xót xa",
+        "luu_y_doc": "sách in tên sao là 'Đực'; theo hệ Nhị Thập Bát Tú chuẩn tên đúng là 'Dực' (có thể do phông chữ Đ/D)"
+      },
+      {
+        "stt": 28,
+        "ten": "Chẩn",
+        "phan_loai": "Tốt",
+        "ngu_hanh_dong_vat": "Thủy Dẫn (giun đất)",
+        "tho": "Chẩn tinh chiếu rọi chủ vẻ vang / Thăng quan, thăng chức lộc tài tăng / Việc hiếu, việc hôn đều rất tốt / Kinh doanh buôn bán ắt phồn xương"
+      }
+    ]
+  },
+  "monthly_day_branch_stars": {
+    "note": "Bảng sao chiếu theo Chi mỗi ngày, tổng hợp riêng cho từng tháng âm lịch (tháng 1-12). Tra theo tháng rồi theo Chi của ngày để biết những sao nào đang chiếu vào ngày đó. Phần lớn tên sao trùng với cat_tinh/hung_tinh/nhi_thap_bat_tu ở trên; đây là bảng TRA CỨU theo ngày-tháng, không phải bảng định nghĩa. Một số cụm chữ ở ranh giới ô bảng (ví dụ ghi chú theo ngày Can cụ thể như 'ngày Giáp', 'ngày Bính Ngọ') được giữ nguyên trong danh sách vì không tách rời được khỏi tên sao một cách chắc chắn.",
+    "source_pages": "12-32",
+    "months": {
+      "1": {
+        "chi": {
+          "Tý": [
+            "Mẫu Sương",
+            "Ích hạn",
+            "Sinh khí",
+            "Thanh long hoàng đạo",
+            "Lỗ ban sát",
+            "Thiên hoả",
+            "Thiên sư",
+            "Sát địa sư",
+            "Thiên ngục",
+            "Thiên hình",
+            "Phi ma sát",
+            "Thiên cẩu",
+            "Hạ thực hơi thời"
+          ],
+          "Sửu": [
+            "Thiên y",
+            "Tuế hợp",
+            "Tục thế",
+            "Minh đường hoàng đạo",
+            "Địa tặc",
+            "Nguyệt sát",
+            "Nguyệt hư",
+            "Phủ đầu sát (ngày Mùi)"
+          ],
+          "Dần": [
+            "Yếu an",
+            "Phúc hậu",
+            "Tứ vượng",
+            "Mân đức tính",
+            "Lục bất thành",
+            "Thổ phù",
+            "Thổ kỵ"
+          ],
+          "Mão": [
+            "Kim đường",
+            "Thiên lôi địa dốc (Ất Mão nhật)",
+            "Chu tước hắc đạo",
+            "Phá bại",
+            "Nguyệt kiến",
+            "Chuyển sát"
+          ],
+          "Thìn": [
+            "Thiên phúc",
+            "Thiên tài",
+            "Lộc khố",
+            "Ngọc đường",
+            "Thiên ôn",
+            "Quả tú",
+            "Thiên cẩu",
+            "Thiên tặc",
+            "Cửu long",
+            "Khô tiêu",
+            "Đại bại",
+            "Tài ly",
+            "Phủ đầu sát"
+          ],
+          "Tỵ": [
+            "Thiên tài",
+            "Hoạt diệu",
+            "Thiên đức hoàng đạo",
+            "Thiên cương",
+            "Thần cách",
+            "Nguyệt hoả",
+            "Độc hoả",
+            "Sát sư",
+            "Phản sư",
+            "Diệt môn",
+            "Long hổ",
+            "Mộc mã sát",
+            "Tiểu hồng sa",
+            "Du hoạ",
+            "Băng tiêu ngoã giải",
+            "Tiêu hao"
+          ],
+          "Ngọ": [
+            "Thiên mã",
+            "Thiên giải",
+            "Tam hợp",
+            "Nguyệt đức",
+            "Ngũ quỷ",
+            "Tử khí",
+            "Quan phù",
+            "Tôi chí",
+            "Thiên Phùng",
+            "Hoàng sa",
+            "Đại hao",
+            "Lâm nhật",
+            "Bạch hổ (hắc đạo)"
+          ],
+          "Mùi": [
+            "Thiên thành",
+            "Kính tâm",
+            "Ngọc đường",
+            "Hoàng đạo",
+            "Thiên ôn",
+            "Không vong"
+          ],
+          "Thân": [
+            "Nguyệt giải",
+            "Giải thần",
+            "Dịch mã",
+            "Minh tinh",
+            "Hội hộ",
+            "Phả hộ",
+            "Nguyệt phá",
+            "Nguyệt bại"
+          ],
+          "Dậu": [
+            "Ân đức",
+            "Phúc sinh",
+            "Cát Khánh",
+            "Thiên lai",
+            "Nhân cách",
+            "Huyền vũ hắc đạo"
+          ],
+          "Tuất": [
+            "Thiên quan",
+            "Thiên hỷ",
+            "Hoàng ân",
+            "Tam hợp",
+            "Thu tử",
+            "Phi liêm đài sát",
+            "Địa hoả",
+            "Nguyệt yếm",
+            "Đại hoa",
+            "Cô thần"
+          ],
+          "Hợi": [
+            "Thánh tâm",
+            "Mẫu sương",
+            "Lục hợp",
+            "Phúc đức",
+            "Ngũ phú",
+            "U vi tinh",
+            "Diệt môn",
+            "Cầu giáo",
+            "Hà khôi",
+            "Sát sư",
+            "Bát tọa địa phá",
+            "Thổ cấm",
+            "Không vong",
+            "Cầu trần hắc đạo"
+          ]
+        },
+        "monthly_notes": [
+          "Thiên đức ngày Đinh; Thiên đức hợp ngày Nhâm; Thiên quý ngày Giáp Ất; Thiên phúc ngày Tỵ; Để thích giáng hạ ngày Tuất; Đại hồng sa ngày Tuất Tý; Con nước ngày 5-19; Dương công kỵ ngày 13; Chính tứ phế ngày Canh Tuất; Trùng tang ngày Giáp; Âm thác ngày Canh Tuất; Ngũ hư ngày Tỵ-Dậu-Sửu; Thiên ma ngày Mùi-Tuất-Hợi; Tứ thời dai mô ngày Ất Mùi; Nguyệt đức nguyệt ân ngày Bính; Nguyệt đức hợp ngày Tân; Thiên xá ngày Tuất-Dần; Nguyệt không ngày Nhâm; Tứ thời sát chủ ngày Dậu; Giờ thìn lên Tỵ xuống; Cái hoang ngày Tỵ-Dậu-Sửu; Bàng tứ phế ngày Canh Thân (Tân Dậu); Trùng phục ngày Canh; Dương thác ngày Giáp Dần; Thổ kỵ ngày mùng 6; Tứ thời sát sư ngày Giáp Dần; Quan sát giờ Tỵ Hợi"
+        ]
+      },
+      "2": {
+        "chi": {
+          "Tý": [
+            "Phúc đức",
+            "Tuế hợp",
+            "Thiên quan",
+            "Mẫu sương",
+            "Thiên cương",
+            "Tôi chí",
+            "Địa tặc",
+            "Bát tạo địa phá",
+            "Diệt môn",
+            "Băng tiêu ngoã giải",
+            "Đại bại"
+          ],
+          "Sửu": [
+            "Ngọc đường",
+            "Mẫu sương",
+            "Tam hợp",
+            "Mãn đức tính",
+            "Tử khí quan phù",
+            "Đại hao",
+            "Phản chủ",
+            "Mộc mã sát",
+            "Câu trần hắc đạo",
+            "Phản sư"
+          ],
+          "Dần": [
+            "Phúc đức",
+            "Mẫu sương",
+            "Kính tâm",
+            "Minh tinh",
+            "Thiên ôn",
+            "Thiên cương",
+            "Dốc hoả",
+            "Nguyệt hoả",
+            "Phá bại",
+            "Diệt môn",
+            "Bát tạo địa phá"
+          ],
+          "Mão": [
+            "Thiên y",
+            "Yếu an",
+            "Thiên tài",
+            "Nguyệt hoả",
+            "Dốc hoả",
+            "Câu trần hắc đạo",
+            "Diệt môn",
+            "Huyết chi"
+          ],
+          "Thìn": [
+            "Màn đức tính",
+            "Tứ vượng",
+            "Kim đường",
+            "Thanh long hoàng đạo",
+            "Thiên ôn",
+            "Ngũ quỷ",
+            "Thổ phù",
+            "Đại bại"
+          ],
+          "Tỵ": [
+            "Kim đường",
+            "Thiên y",
+            "Phúc hậu",
+            "Huyết chi",
+            "Du hoạ",
+            "Huyền vũ hắc đạo"
+          ],
+          "Ngọ": [
+            "Thiên quan",
+            "Ngọc đường",
+            "Tứ vượng",
+            "Quan nhật",
+            "Mãn đức tinh",
+            "Thiên ôn",
+            "Địa hoả",
+            "Đại hoạ",
+            "Nguyệt yếm",
+            "Thổ phủ"
+          ],
+          "Mùi": [
+            "Địa tài",
+            "Minh đức",
+            "Tục thế",
+            "Thiên đức hoàng đạo",
+            "Tam hợp",
+            "Màn đức tính"
+          ],
+          "Thân": [
+            "Thiên đức",
+            "Nguyệt giải",
+            "Thiên mã",
+            "Giải thần",
+            "Thiên giải",
+            "Yến an",
+            "Bạch hổ hắc đạo",
+            "Thiên phùng"
+          ],
+          "Dậu": [
+            "Thiên thành",
+            "Kim đường",
+            "Ngọc đường",
+            "Hoàng đạo",
+            "Lôi đình sát chủ",
+            "Thiên tặc",
+            "Nguyệt ấn",
+            "Đại hoạ",
+            "Địa hoả",
+            "Nguyệt phá",
+            "Tiểu hồng sa",
+            "Phi ma sát"
+          ],
+          "Tuất": [
+            "Hoạt diệu",
+            "Ngọc đường",
+            "Thiên ôn",
+            "Phá bại",
+            "Sát sư",
+            "Nguyệt sát",
+            "Nguyệt hư"
+          ],
+          "Hợi": [
+            "Mẫu sương",
+            "Thiên hỷ",
+            "Tam hợp",
+            "Thổ cấm",
+            "Cô thần",
+            "Lôi công",
+            "Lâm nhật",
+            "Phản chủ",
+            "Long hổ",
+            "Ngọc hoàng sát chủ",
+            "Huyền vũ hắc đạo"
+          ]
+        },
+        "monthly_notes": [
+          "Thiên đức ngày Giáp; Thiên đức ngày Canh; Thiên đức ngày Bính; Năm Mậu Quý ở ngày Mậu dâng biểu tấu sớ; Nguyệt đức ở ngày Kỷ; Nguyệt ân ở ngày Đinh; Giờ Tỵ lên Ngọ xuống; Thổ kỵ ngày 23; Quan sát ngày Thìn Tuất; Trùng phục ngày Tân; Âm thác ngày Tân Dậu; Ngày tứ quý là Đinh Mão Mậu Thìn; Thiên Ân ngày Tân Tỵ-Canh Tuất-Tân Hợi-Nhâm Tý; Nguyệt không ngày Bính; Con nước ngày 13-27; Dương công kỵ ngày mồng 9; Trùng tang trùng phục ngày Kỷ; Dương thác ngày Canh Thân"
+        ]
+      },
+      "3": {
+        "chi": {
+          "Tý": [
+            "Thiên hỷ",
+            "Mẫu sương",
+            "Tam hợp",
+            "Minh tinh",
+            "Thánh tâm",
+            "Phá bại",
+            "Cô thần",
+            "Hoàng sa"
+          ],
+          "Sửu": [
+            "Phúc đức",
+            "Ích hậu",
+            "U vi tính",
+            "Thần cách",
+            "Phá bại",
+            "Diệt môn",
+            "Bát toạ địa phá",
+            "Hà khôi",
+            "Huyền vũ hắc đạo",
+            "Cầu giáo",
+            "Tiểu hồng sa",
+            "Băng tiêu ngoã giải"
+          ],
+          "Dần": [
+            "Sinh khí",
+            "Tụ thế",
+            "Dịch mã",
+            "Thiên quang",
+            "Phúc hậu",
+            "Hoàng ân",
+            "Thiên cẩu hà thực sưu thời",
+            "Thiên tặc",
+            "Huyết kỵ",
+            "Hoả tai"
+          ],
+          "Mão": [
+            "Thiên y",
+            "Yếu an",
+            "Thiên tài",
+            "Nguyệt hoả",
+            "Dốc hoả",
+            "Câu trần hắc đạo",
+            "Diệt môn",
+            "Huyết chi"
+          ],
+          "Thìn": [
+            "Thiên quan",
+            "Phúc sinh",
+            "Thiên y",
+            "Cát khánh",
+            "Nguyệt sát",
+            "Nguyệt hư",
+            "Huyết chi",
+            "Phản chủ"
+          ],
+          "Tỵ": [
+            "Tứ vượng",
+            "Phúc hậu",
+            "Hoàng ân",
+            "Âm thác (Đinh Tỵ nhật)",
+            "Thổ phủ",
+            "Câu trần hắc đạo",
+            "Thụ tử",
+            "Tiểu hồng sa",
+            "Lục bất thành"
+          ],
+          "Ngọ": [
+            "Thánh tâm",
+            "U vi tinh",
+            "Thanh long hoàng đạo",
+            "Thiên lôi địa độc (Bính Ngọ nhất)",
+            "Hoàng sa"
+          ],
+          "Mùi": [
+            "Hoạt diệu",
+            "Sát chủ",
+            "Tam thi",
+            "Sát địa sư",
+            "Thiên sư",
+            "Tiểu hao",
+            "Thiên Cương",
+            "Nguyệt sát",
+            "Nguyệt hư",
+            "Tôi chí",
+            "Chu tước hắc đạo"
+          ],
+          "Thân": [
+            "Thiên tài",
+            "Tam hợp",
+            "Kính tâm",
+            "Địa hoả",
+            "Nguyệt yếm",
+            "Đại hoạ",
+            "Thổ kỵ",
+            "Tử khí quan phù",
+            "Lâm Nhật",
+            "Phản chủ",
+            "Đại hao",
+            "Vãng Vong"
+          ],
+          "Dậu": [
+            "Lục hợp",
+            "Hội hộ",
+            "Phả hộ",
+            "Địa tài",
+            "Thiên đức",
+            "Hoàng đạo",
+            "Mộc mã sát",
+            "Sát sư"
+          ],
+          "Tuất": [
+            "Thiên giải",
+            "Thiên mã",
+            "Giải thần",
+            "Phúc sinh",
+            "Âm thác (Canh Thìn)",
+            "Thiên phùng",
+            "Nguyệt phá",
+            "Cửu không",
+            "Bạch hổ hắc đạo",
+            "Khô tiêu",
+            "Lục bất thành",
+            "Tài ly"
+          ],
+          "Hợi": [
+            "Tuế hợp",
+            "Cát Khánh",
+            "Thiên thánh",
+            "Ngọc đường Hoàng đạo",
+            "Mẫu sương",
+            "Thụ tử",
+            "Địa tặc",
+            "Du hoạ",
+            "Không vong"
+          ]
+        },
+        "monthly_notes": [
+          "Giáp Tý-Ất Sửu-Bính Dần",
+          "Kỷ Mão-Canh Thìn",
+          "Nhâm Ngọ-Quý Mùi-Kỷ Dậu",
+          "Quý Sửu làm nhiều việc tốt; Ngày Nhâm nguyệt ân ngày Canh",
+          "ngày Đinh; Giờ Tuất Hợi xuống; Quan sát giờ Mão Dậu; Thiên ma ngày Hợi; Thiên đức ngày Tân; Thiên quý ngày Bính Đinh; Nguyệt đức hợp nguyệt đức hợp; Để thích giáng hạ ngày Tỵ; Con nước ngày 11-25; Dương công kỵ ngày 7; Thiên đức chính chuyển; Chính tứ phế ngày Nhâm Tý; Lỗ ban sát ngày Mão; Dao dâm sát ngày Dần Mão; Ngũ hư ngày Thân-Tý-Thìn; Trùng tang ngày Bính"
+        ]
+      },
+      "4": {
+        "chi": {
+          "Tý": [
+            "Hoạt diệu",
+            "Thiên giải",
+            "Thiên mã",
+            "Thiên lai",
+            "Long hổ",
+            "Ương bại",
+            "Thiên phùng",
+            "Bạch hổ hắc đạo"
+          ],
+          "Sửu": [
+            "Thiên thành",
+            "Thiên hỷ",
+            "Ngọc đường hoàng đạo",
+            "Tam hợp",
+            "Tôi chí",
+            "Cô thần",
+            "Lâm nhật",
+            "Phủ đầu sát (ngày Mùi)"
+          ],
+          "Dần": [
+            "Minh tinh",
+            "Yến an",
+            "Sinh khí",
+            "Thiên cẩu hà thực hơi thời",
+            "Phá bại"
+          ],
+          "Mão": [
+            "Thiên thành",
+            "Mẫu sương",
+            "Tam hợp",
+            "U vi tinh",
+            "Tục thế",
+            "Phúc đức",
+            "Ngọc đường hoàng đạo",
+            "Thổ kỵ",
+            "Diệt môn",
+            "Câu giáo",
+            "Hà khôi",
+            "Bát toạ địa phá",
+            "Khô tiêu",
+            "Hoả tai",
+            "Vãng vong",
+            "Cửu không",
+            "Thiết kỵ",
+            "Băng tiêu ngoã giải"
+          ],
+          "Thìn": [
+            "Thiên phú",
+            "Phúc đức",
+            "Nguyệt tài",
+            "Thánh tâm",
+            "Lộc khố",
+            "Dịch mã",
+            "Thiên đức hợp",
+            "Thiên sư",
+            "Sát địa sư",
+            "Thiên cẩu",
+            "Quả tú",
+            "Thổ kỵ",
+            "Chu tước hắc đạo",
+            "Thổ ôn",
+            "Thi liêm đại sát",
+            "Vãng vong"
+          ],
+          "Tỵ": [
+            "Kim đường",
+            "Thiên y",
+            "Phúc hậu",
+            "Huyết chi",
+            "Du hoạ",
+            "Huyền vũ hắc đạo"
+          ],
+          "Ngọ": [
+            "Thiên quan",
+            "Ngọc đường",
+            "Tứ vượng",
+            "Quan nhật",
+            "Mãn đức tinh",
+            "Thiên ôn",
+            "Địa hoả",
+            "Đại hoạ",
+            "Nguyệt yếm",
+            "Thổ phủ"
+          ],
+          "Mùi": [
+            "Địa tài",
+            "Minh đức",
+            "Tục thế",
+            "Thiên đức hoàng đạo",
+            "Tam hợp",
+            "Màn đức tính"
+          ],
+          "Thân": [
+            "Lục hợp",
+            "Ngũ phúc",
+            "Lục thế",
+            "Phản sư",
+            "Sát sư",
+            "Hoả tai",
+            "Tiểu hao",
+            "Cầu giáo",
+            "Hà khôi",
+            "Lôi công",
+            "Du hoạ",
+            "Huyết kỵ",
+            "Băng tiêu ngoã giải",
+            "Mộc mã sát"
+          ],
+          "Dậu": [
+            "Mãn đức tinh",
+            "Nguyệt an",
+            "Tam hợp",
+            "Nguyệt giải",
+            "Thiên ngục",
+            "Thiên hoả",
+            "Đại hao",
+            "Tử khí quan phù",
+            "Ngũ quỷ",
+            "Chu tước hắc đạo",
+            "Phản chủ"
+          ],
+          "Tuất": [
+            "Thiên tài",
+            "Tuế hợp",
+            "Ngọc đường",
+            "Giải thần",
+            "Bạch hổ ngày Thân-Tý-Thìn",
+            "Thổ cấm ngày Dần",
+            "Tứ thời dai mô ngày Bính Tuất",
+            "Trùng phục ngày Nhâm",
+            "Nguyệt kiến chuyển sát ngày Ngọ"
+          ],
+          "Hợi": [
+            "Đại tài",
+            "Dịch mã",
+            "Kim đường",
+            "Thiên đức",
+            "Hoàng đạo",
+            "Nguyệt phá",
+            "Thần cách",
+            "Vãng vong",
+            "Thổ kỵ"
+          ]
+        },
+        "monthly_notes": [
+          "Nguyệt đức ngày Canh; Nguyệt tân ngày Kỷ; Ngày Nhâm Thiên xá Giáp Ngọ; Đại hồng sa ngày Thìn; Giờ Ngọ lên Mùi xuống; Tứ thời sát chủ ngày Tý-Bính Ngọ; Bảng tứ phế ngày Nhâm; Tứ quý thiên thuỵ ngày Canh Dần-Nhâm Tý; Nguyệt đức ngày Bính; Nguyệt đức hợp ngày Tân; Con nước ngày 9-23; Dương công kỵ ngày 5; Thiên mã ngày Tỵ; Dương thác",
+          "Âm thác; Trùng tang ngày Đinh"
+        ]
+      },
+      "5": {
+        "chi": {
+          "Tý": [
+            "Thiên tài",
+            "Giải thần",
+            "Thiên ngục",
+            "Thi ma sát",
+            "Thiên hoả",
+            "Thiên tặc",
+            "Nguyệt bại",
+            "Thu tử"
+          ],
+          "Sửu": [
+            "Thánh tâm",
+            "Địa tài",
+            "Lục hợp",
+            "Minh đức",
+            "Thiên đức",
+            "Hoàng đạo",
+            "Nguyệt giải",
+            "Độc hoả",
+            "Diệt môn",
+            "Nguyệt sát",
+            "Nguyệt hư",
+            "Nhân cách"
+          ],
+          "Dần": [
+            "Thiên hỷ",
+            "Mẫu sương",
+            "Tam hợp",
+            "Thiên đức hợp",
+            "Thiên mã",
+            "Thiên giải",
+            "Ích hậu",
+            "Thiên phùng",
+            "Hoàng sa",
+            "Lôi công",
+            "Bạch hổ hắc đạo",
+            "Tài ly",
+            "Phi liêm đại sát",
+            "Cô thần"
+          ],
+          "Mão": [
+            "Thiên đức",
+            "Hoàng đạo",
+            "Thiên ân",
+            "Thiên hỷ",
+            "Tam hợp",
+            "Kính tâm",
+            "Thiên giải",
+            "Địa tài",
+            "Mẫu sương",
+            "Thiên ngục",
+            "Cô thần",
+            "Phi liêm sát",
+            "Phản chủ"
+          ],
+          "Thìn": [
+            "Phúc đức",
+            "Hội hộ",
+            "Phả hộ",
+            "Thiên mã",
+            "Thiên cương",
+            "Diệt môn",
+            "Thiên phùng",
+            "Bạch hổ hắc đạo",
+            "Bát toạ địa phá"
+          ],
+          "Tỵ": [
+            "Ngọc đường hoàng đạo",
+            "Phúc hậu",
+            "Thiên thành",
+            "Phúc sinh",
+            "Dịch mã",
+            "U vi tính",
+            "Sinh khí",
+            "Thiên cẩu hạ thực thìn thời",
+            "Thiên tắc",
+            "Địa hoả",
+            "Đại hoạ",
+            "Nguyệt yếm"
+          ],
+          "Ngọ": [
+            "Thiên y",
+            "Tam hợp",
+            "Cát khánh",
+            "Minh tinh",
+            "Thụ tử",
+            "Sát sư",
+            "Thiên lai",
+            "Thổ kỵ",
+            "Phá bại",
+            "Vãng vong",
+            "Huyết chi"
+          ],
+          "Mùi": [
+            "Thiên đức",
+            "Lục hợp",
+            "Dân Nhật",
+            "Long hổ",
+            "Sát sư",
+            "Câu trần hắc đạo"
+          ],
+          "Thân": [
+            "Thiên phú",
+            "Lộc khố",
+            "Dịch mã",
+            "Thanh long hoàng đạo",
+            "Sát chủ",
+            "Sát địa sư",
+            "Thổ ôn",
+            "Quả tú",
+            "Tôi chí",
+            "Thiên sư",
+            "Thiên cẩu"
+          ],
+          "Dậu": [
+            "Minh đường",
+            "Hoàng đạo",
+            "Nguyệt tài",
+            "Dân nhật",
+            "Tuế hợp",
+            "Hoàng ân",
+            "Kính tâm",
+            "Hoạt diệu",
+            "Thiên cương",
+            "Phản sư",
+            "Địa tặc",
+            "Thiên lai",
+            "Tiêu hao",
+            "Thần cách",
+            "Lục bất thành",
+            "Tiểu hồng sa"
+          ],
+          "Tuất": [
+            "Nguyệt giải",
+            "Hội hộ",
+            "Phả hộ",
+            "Tam hợp",
+            "Tử khí quan phù",
+            "Đạo hao",
+            "Lâm môn",
+            "Mộc mã sát"
+          ],
+          "Hợi": [
+            "Ngũ phúc",
+            "Phúc sinh",
+            "Thiên đức",
+            "Ngũ phúc",
+            "Phá bại",
+            "Phản chủ",
+            "Chu tước hắc đạo"
+          ]
+        },
+        "monthly_notes": [
+          "Mậu Dần-Kỷ Mão-Tân Tỵ mọi việc làm đều tốt; Nguyệt ân ngày Mậu; Nguyệt không ngày Nhâm; Giờ Dần lên Mão xuống; Giờ quan sát Sửu Mùi; Thổ kỵ ngày 16 ngày Bính Ngọ; Trùng phục ngày Quý; Thiên đức",
+          "nguyệt đức; Thiên đức hợp",
+          "nguyệt đức hợp; Nguyệt ân ngày Tân; Con nước ngày 7-21; Dương công kỵ ngày 3; Thiên ma ngày Tý; Dương thác ngày Đinh Tỵ; Trùng tang ngày Tỵ"
+        ]
+      },
+      "6": {
+        "chi": {
+          "Tý": [
+            "Giải thần",
+            "Ngọc đường",
+            "Thiên ôn",
+            "Diệt môn",
+            "Mộc mã sát",
+            "Nguyệt hoả",
+            "Dốc hoả",
+            "Khô tiêu",
+            "Hoàng sa",
+            "Cửu không",
+            "Tài ly"
+          ],
+          "Sửu": [
+            "Ngọc đường",
+            "Tam hợp",
+            "Thiên đức",
+            "Hoàng ân",
+            "Long hổ",
+            "Nguyệt phá",
+            "Tiểu hồng sa",
+            "Chu tước hắc đạo",
+            "Lục bất thành"
+          ],
+          "Dần": [
+            "Mẫu sương",
+            "Ngũ Phúc",
+            "Thiên tài",
+            "Ngũ phú",
+            "Hoạt diệu",
+            "Tôi chí",
+            "Du hoạ"
+          ],
+          "Mão": [
+            "Thiên đức",
+            "Hoàng đạo",
+            "Thiên ân",
+            "Thiên hỷ",
+            "Tam hợp",
+            "Kính tâm",
+            "Thiên giải",
+            "Địa tài",
+            "Mẫu sương",
+            "Thiên ngục",
+            "Cô thần",
+            "Phi liêm sát",
+            "Phản chủ"
+          ],
+          "Thìn": [
+            "Phúc đức",
+            "Hội hộ",
+            "Phả hộ",
+            "Thiên mã",
+            "Thiên cương",
+            "Diệt môn",
+            "Thiên phùng",
+            "Bạch hổ hắc đạo",
+            "Bát toạ địa phá"
+          ],
+          "Tỵ": [
+            "Ngọc đường hoàng đạo",
+            "Phúc hậu",
+            "Thiên thành",
+            "Phúc sinh",
+            "Dịch mã",
+            "U vi tính",
+            "Sinh khí",
+            "Thiên cẩu hạ thực thìn thời",
+            "Thiên tắc",
+            "Địa hoả",
+            "Đại hoạ",
+            "Nguyệt yếm"
+          ],
+          "Ngọ": [
+            "Thiên y",
+            "Tam hợp",
+            "Cát khánh",
+            "Minh tinh",
+            "Thụ tử",
+            "Sát sư",
+            "Thiên lai",
+            "Thổ kỵ",
+            "Phá bại",
+            "Vãng vong",
+            "Huyết chi"
+          ],
+          "Mùi": [
+            "Thành tâm",
+            "Tứ vượng",
+            "Thổ phủ",
+            "Thần cách",
+            "Huyền vũ hắc đạo"
+          ],
+          "Thân": [
+            "Ích hậu",
+            "Lục hợp",
+            "Thiên quan",
+            "U vi tính",
+            "Địa tặc",
+            "Ngũ quỷ"
+          ],
+          "Dậu": [
+            "Lộc khố",
+            "Thiên phú",
+            "Tục thế",
+            "Lôi đình sát chủ",
+            "Thiên cẩu",
+            "Thổ ôn",
+            "Huyết kỵ",
+            "Hoả tai",
+            "Câu trần hắc đạo",
+            "Quả tú",
+            "Phi ma sát"
+          ],
+          "Tuất": [
+            "Nguyệt giải",
+            "Yến an",
+            "Thanh long hoàng đạo",
+            "Sát chủ",
+            "Hà khôi",
+            "Phá bại",
+            "Thiên sư",
+            "Sát địa sư",
+            "Cầu giáo",
+            "Nguyệt sát",
+            "Nguyệt hư",
+            "Phản sư",
+            "Băng tiêu ngoã giải",
+            "Tiểu hao"
+          ],
+          "Hợi": [
+            "Mãn đức tinh",
+            "Nguyệt tài",
+            "Kim đường tam hợp",
+            "Minh đức",
+            "Minh đường hoàng đạo",
+            "Phản chủ",
+            "Tử khí quan phù",
+            "Đại hao",
+            "Nhân cách",
+            "Lôi công"
+          ]
+        },
+        "monthly_notes": [
+          "Ngày Giáp; Ngày Kỷ; Nguyệt không ngày Canh; Giờ Tý lên Sửu xuống; Quan sát giờ Tý Ngọ; Thổ kỵ ngày 14; Âm thác ngày Đinh Mùi; Trùng phục ngày Tuất; Thiên đức hợp ngày Mậu; Thiên quý ngày Canh Tân; Nguyệt không ngày Ất; Nguyệt không ngày Mậu; Đại hồng an ngày Ngọ Mùi; Giờ Thìn lên Tý xuống; Cát hoang ngày Hợi-Mão-Mùi; Tân Dậu ngày Quý Dậu; Nguyệt kiến chuyển sát ngày Dậu; Bảng tứ phế ngày Giáp Ất; Lỗ ban sát ngày Ngọ; Tứ thời dai mô ngày Tân Sửu; Âm thác ngày Canh Thân; Tứ thời sát chủ ngày Mùi"
+        ]
+      },
+      "7": {
+        "chi": {
+          "Tý": [
+            "Hoàng Ân",
+            "Phúc sinh",
+            "Tam hợp",
+            "Thanh long hoàng đạo",
+            "Tử khí quan phù",
+            "Đại hao",
+            "Lâm nhật",
+            "Phản chủ",
+            "Thổ kỵ"
+          ],
+          "Sửu": [
+            "Minh đường",
+            "Hoàng đạo",
+            "Mẫu sương",
+            "Thu tử",
+            "Sát chủ",
+            "Ngũ Quỷ"
+          ],
+          "Dần": [
+            "Thánh tâm",
+            "Giải thần",
+            "Dịch mã",
+            "Phản chủ",
+            "Nguyệt phá",
+            "Hoả lai"
+          ],
+          "Mão": [
+            "Cát khánh",
+            "Ích hậu",
+            "Thiên lai",
+            "Tứ đại sát",
+            "Chu tước hắc đạo"
+          ],
+          "Thìn": [
+            "Lục hợp",
+            "Mẫu sương",
+            "Hoạt diệu",
+            "Kính tâm",
+            "Nguyệt phá",
+            "Nguyệt hư",
+            "Sát sư",
+            "Thổ kỵ"
+          ],
+          "Tỵ": [
+            "Thiên hỷ",
+            "Hội hộ",
+            "Tam hợp",
+            "Phả hộ",
+            "Nguyệt tài",
+            "Ngũ quỷ",
+            "Lâm nhật",
+            "Thổ cấm",
+            "Cô thần",
+            "Chu tước hắc đạo"
+          ],
+          "Ngọ": [
+            "Hoàng ân",
+            "Phúc đức",
+            "Phúc sinh",
+            "Thiên tài",
+            "Tuế hợp",
+            "Địa tặc",
+            "Thiên cương",
+            "Khô tiêu",
+            "Tài ly",
+            "Bát toạ địa phá",
+            "Diệt môn",
+            "Thiên khôi",
+            "Băng tiêu ngoã giải"
+          ],
+          "Mùi": [
+            "Thiên đức",
+            "Hoàng đạo",
+            "Sinh khí",
+            "Địa tài",
+            "Âm đức",
+            "Mẫu sương",
+            "Thụ tử",
+            "Nhân cách",
+            "Thiên cẩu hạ thực Ngọ thời"
+          ],
+          "Thân": [
+            "Thiên giải",
+            "Phúc hậu",
+            "Thiên mã",
+            "Ngũ phú",
+            "Cát khánh",
+            "Tuế đức hợp",
+            "Thiên y",
+            "Thanh tâm",
+            "Thiết ôn",
+            "Phá bại",
+            "Du hoạ",
+            "Lôi công",
+            "Thiên phùng",
+            "Huyết chi",
+            "Bạch hổ hắc đạo"
+          ],
+          "Dậu": [
+            "Minh đức",
+            "Thiên lôi địa độc (Tân Dậu nhất)",
+            "Huyền vũ hắc đạo",
+            "Cửu không",
+            "Thiên ôn",
+            "Thổ kỵ",
+            "Tài ly",
+            "Vãng vong",
+            "Nhân chính ương bại",
+            "Khô tiêu",
+            "Tôi chí"
+          ],
+          "Tuất": [
+            "Thiên phú",
+            "Mẫu sương",
+            "Thiên quan",
+            "Lộc khố",
+            "Kính tâm",
+            "Thiên cẩu",
+            "Quả tú",
+            "Thiên ôn",
+            "Thiên tắc"
+          ],
+          "Hợi": [
+            "Nguyệt giải",
+            "Phả hộ",
+            "Hoạt diệu",
+            "Diệt môn",
+            "Băng tiêu ngoã giải",
+            "Thiên cương",
+            "Nguyệt hoả",
+            "Độc hoả",
+            "Mộc mã sát",
+            "Câu trần hắc đạo",
+            "Phản sư",
+            "Tiểu hao",
+            "Du hoạ"
+          ]
+        },
+        "monthly_notes": [
+          "Thiên đức hợp ngày Mậu; Thiên quý ngày Canh Tân; Nguyệt không ngày Ất; Nguyệt không ngày Mậu; Đại hồng an ngày Ngọ Mùi; Giờ Thìn lên Tý xuống; Cát hoang ngày Hợi-Mão-Mùi; Tân Dậu ngày Quý Dậu; Nguyệt kiến chuyển sát ngày Dậu; Bảng tứ phế ngày Giáp Ất; Lỗ ban sát ngày Ngọ; Tứ thời dai mô ngày Tân Sửu; Âm thác ngày Canh Thân; Tứ thời sát chủ ngày Mùi; Nguyệt đức ngày Canh; Thiên quý ngày Canh Tân; Thiên phúc ngày Giáp; Đại hồng sa ngày Ngọ Mùi"
+        ]
+      },
+      "8": {
+        "chi": {
+          "Tý": [
+            "Dịch mã",
+            "Thiên quan",
+            "Kim đường",
+            "Thiên lai",
+            "Thổ kỵ",
+            "Tiểu hao",
+            "Câu giáo",
+            "Hà khôi",
+            "Vãng vong",
+            "Lục bất thành"
+          ],
+          "Sửu": [
+            "Hoạt diệu",
+            "Phúc sinh",
+            "Mẫu sương",
+            "Phản sư",
+            "Thiên sư",
+            "Sát địa sư",
+            "Thiên cương",
+            "Nguyệt sát",
+            "Nguyệt hư",
+            "Tiểu hao",
+            "Thần cách",
+            "Tiểu hồng sa",
+            "Huyền vũ hắc đạo",
+            "Diệt mô"
+          ],
+          "Dần": [
+            "Thiên quan",
+            "Tam hợp",
+            "Thụ tử",
+            "Khô tiêu",
+            "Cửu không",
+            "Địa tài",
+            "Nguyệt yếm",
+            "Đại hoạ",
+            "Lôi công",
+            "Đại hao",
+            "Lâm nhật",
+            "Tử khí quan phù"
+          ],
+          "Mão": [
+            "Thánh tâm",
+            "Lục hợp",
+            "Tứ thời đại sát",
+            "Sát sư",
+            "Câu trần hắc đạo",
+            "Mộc mã sát"
+          ],
+          "Thìn": [
+            "Giải thần",
+            "Mẫu sương",
+            "Thanh long hoàng đạo",
+            "Ích hậu",
+            "Nguyệt phá",
+            "Vãng vong",
+            "Thổ kỵ",
+            "Lục bất thành"
+          ],
+          "Tỵ": [
+            "Minh đường",
+            "Hoàng đạo",
+            "Nguyệt tài",
+            "Minh đức",
+            "Tuế hợp",
+            "Cát Khánh",
+            "Tục thế",
+            "Thiên ôn",
+            "Địa tặc",
+            "Nhân cách",
+            "Thổ cẩm",
+            "Huyết kỵ",
+            "Đa hoa"
+          ],
+          "Ngọ": [
+            "Nguyệt giải",
+            "Tam hợp",
+            "Thiên hỷ",
+            "Yếu an",
+            "Sát chủ",
+            "Cô thần"
+          ],
+          "Mùi": [
+            "Kim đường hoàng đạo",
+            "Mẫu sương",
+            "Phúc đức",
+            "U vi tinh",
+            "Phá bại",
+            "Bát toạ địa phá",
+            "Chu tước hắc đạo",
+            "Câu giáo",
+            "Băng tiêu ngoã giải",
+            "Hà khôi"
+          ],
+          "Thân": [
+            "Hoàng ân",
+            "Sinh khí",
+            "Thiên tài",
+            "Dịch mã",
+            "Phúc hậu",
+            "Ngọc đường",
+            "Hoàng đạo",
+            "Thiên cẩu thực Mùi thời",
+            "Thiên tặc"
+          ],
+          "Dậu": [
+            "Thiên thành",
+            "Tứ vượng",
+            "Ngọc đường hoàng đạo",
+            "Quan sát nhật",
+            "Ích hậu",
+            "Thiên ngục",
+            "Thổ phù",
+            "Thiên hoả",
+            "Tiểu hồng sa"
+          ],
+          "Tuất": [
+            "Mẫu sương",
+            "Minh tinh",
+            "U vi tinh",
+            "Tục thế",
+            "Nguyệt hoả",
+            "Độc hoả",
+            "Phá bại",
+            "Huyết kỵ",
+            "Diệt môn",
+            "Hoả tai"
+          ],
+          "Hợi": [
+            "Yến An",
+            "Dịch mã",
+            "Thiên phú",
+            "Nguyệt giải",
+            "Lộc khố",
+            "Thiên đức hợp",
+            "Sát chủ",
+            "Phi liêm đại sát",
+            "Thiên sư",
+            "Sát địa sư",
+            "Phản chủ",
+            "Thiên cẩu",
+            "Thổ ôn",
+            "Huyền vũ hắc đạo",
+            "Quả tú"
+          ]
+        },
+        "monthly_notes": [
+          "Nguyệt đức hợp ngày Ất; Nguyệt ân ngày Quý; Nguyệt không ngày Giáp; Nguyệt đức",
+          "Nguyệt đức; Thiên đức hợp",
+          "nguyệt đức hợp; Thiên quý ngày Canh Tân; Thiên Xá ngày Mậu Thân; Đại hồng sa ngày Ngọ Mùi; Giờ Tý lên Ngọ xuống; Quan sát giờ Thìn Tuất; Âm thác ngày Tân Dậu; Trùng phục ngày Ất; Ngày Tân Sửu; Thiên ma ngày Dậu"
+        ]
+      },
+      "9": {
+        "chi": {
+          "Tý": [
+            "Thiên phú",
+            "Phả hộ",
+            "Hội hộ",
+            "Minh tính",
+            "Lộc khố",
+            "Quả tú",
+            "Phá bai",
+            "Hoàng sa",
+            "Hoả tai",
+            "Thiên ngục",
+            "Ngũ quỷ",
+            "Thiên cẩu",
+            "Phi ma sát",
+            "Thiên ôn",
+            "Thiên hoả",
+            "Phi liêm sát"
+          ],
+          "Sửu": [
+            "Thiên thành",
+            "Thiên phúc",
+            "Lộc khố",
+            "Ngọc đường hoàng đạo",
+            "Địa hoả",
+            "Thiên cẩu",
+            "Nguyệt yếm",
+            "Đại hoạ",
+            "Phi liêm đại sát",
+            "Thiên tắc",
+            "Thổ ân",
+            "Quả tú"
+          ],
+          "Dần": [
+            "Kim đường",
+            "Ngũ phúc",
+            "Minh tinh",
+            "Lục hợp",
+            "Phản sư",
+            "Sát sư",
+            "Mộc mã sát",
+            "Phá bại",
+            "Băng tiêu ngoã giải",
+            "Câu giáo",
+            "Hà khôi",
+            "Du hoạ",
+            "Tiểu hao"
+          ],
+          "Mão": [
+            "Minh đức",
+            "Tuế hợp",
+            "Tam hợp",
+            "Mãn đức tinh",
+            "Tử khí quan phù",
+            "Thiên ngục",
+            "đại hao",
+            "Phản chủ",
+            "Thiên hoả",
+            "Long hổ",
+            "Nhân cách",
+            "Tài ly",
+            "Huyền vũ hắc đạo"
+          ],
+          "Thìn": [
+            "Thiên phú",
+            "Giải thần",
+            "Hoàng ân",
+            "Địa tặc",
+            "Tôi chí"
+          ],
+          "Tỵ": [
+            "Kính tâm",
+            "Dịch mã",
+            "Nguyệt phá",
+            "Tiểu hồng sa",
+            "Cẩu trần hắc đạo"
+          ],
+          "Ngọ": [
+            "Nguyệt giải",
+            "Hoạt diệu",
+            "Hội hộ",
+            "Phả hộ",
+            "Thanh long",
+            "Hoàng đạo",
+            "Thiên lai",
+            "Hoàng sa",
+            "Phá bại",
+            "Tứ thời",
+            "đại sát"
+          ],
+          "Mùi": [
+            "Minh đường",
+            "Hoàng đạo",
+            "Nguyệt tài",
+            "Tam hợp",
+            "Thiên hỷ",
+            "Phúc sinh",
+            "Thổ kỵ",
+            "Lâm nhật",
+            "Vãng vong",
+            "Cô thần"
+          ],
+          "Thân": [
+            "Phúc đức",
+            "Mẫu sương",
+            "Thụ tử",
+            "Thiên tinh",
+            "Độc hoả",
+            "Nguyệt hoả",
+            "Thổ cấm",
+            "Diệt môn",
+            "Bát tao địa phá"
+          ],
+          "Dậu": [
+            "Thiên Y",
+            "Địa tài",
+            "Thiên đức",
+            "Hoàng đạo",
+            "Thiên lai",
+            "Phản chủ",
+            "Nguyệt hoả",
+            "Độc hoả",
+            "Long hổ",
+            "Diệt môn",
+            "Huyết chi"
+          ],
+          "Tuất": [
+            "Thiên Giải",
+            "Tú Vượng",
+            "Thiên mã",
+            "Mẫu sương",
+            "Mãn đức tính",
+            "Thiên phùng",
+            "Thổ phủ",
+            "Tôi chí"
+          ],
+          "Hợi": [
+            "Thiên thành",
+            "Kính tâm",
+            "Ngũ phù",
+            "Hoàng ân",
+            "Ngọc đường",
+            "Hoàng đạo",
+            "Tài ly"
+          ]
+        },
+        "monthly_notes": [
+          "Ngày Bính; Ngày Tân; Nguyệt ân ngày Canh; Nguyệt không ngày Nhâm; Giờ Tuất lên Hợi xuống; Quan sát giờ Mão Dậu; Thổ kỵ ngày mồng 4; Âm thác ngày Canh Tuất; Trùng tang trùng phục Kỷ; Thiên đức ngày Ất; Thiên hỷ ngày Nhâm Quý; Nguyệt đức ngày Giáp; Thiên Xá ngày Giáp Tý; Nguyệt ân ngày Ất; Để thích giáng hạ ngày Thân; Con nước ngày 11-25; Dương công kỵ ngày 23; Dương thác ngày Quý Sửu; Chính tứ phi ngày Bính Ngọ; Tứ thời sát chủ Nhâm Dần; Lỗ ban sát ngày Dậu; Huyền Vũ ngày Dần-Ngọ-Tuất"
+        ]
+      },
+      "10": {
+        "chi": {
+          "Tý": [
+            "Thiên mã",
+            "Yến an",
+            "Liên giải",
+            "U vi tinh",
+            "Âm lôi địa độc Nhâm Tí nhất",
+            "Thổ phủ",
+            "Thiên phùng",
+            "Bạch hổ hắc đạo"
+          ],
+          "Sửu": [
+            "Minh đức",
+            "Địa tài",
+            "Lục hợp",
+            "Phả hộ",
+            "Hội hộ",
+            "Thiên đức",
+            "Hoàng đạo",
+            "Thiên Ôn",
+            "Sát sư",
+            "nhân cách"
+          ],
+          "Dần": [
+            "Thiên mã",
+            "Thiên phúc",
+            "Lộc khố",
+            "Dịch mã",
+            "Thiên giải",
+            "Phúc sinh",
+            "Thiên sư",
+            "Sát địa sư",
+            "Thiên cẩu",
+            "Quả tú",
+            "Thiên phùng",
+            "Hoàng sa",
+            "Thổ ẩm",
+            "Bạch hổ hắc đạo",
+            "Sát chủ"
+          ],
+          "Mão": [
+            "Thiên thành",
+            "Hoạt diệu",
+            "Ngọc đường hoàng đạo",
+            "Thụ tử",
+            "Thiên cương",
+            "Thiên lai",
+            "Địa tặc",
+            "Phản sư",
+            "Lục bất thành"
+          ],
+          "Thìn": [
+            "Thánh tâm",
+            "Tuế hợp",
+            "Minh tinh",
+            "Tam hợp",
+            "Tử khí quan phù",
+            "Đại hao",
+            "Phá bại",
+            "Ôn nhật",
+            "Phản chủ",
+            "Mộc mã sát"
+          ],
+          "Tỵ": [
+            "Thiên đức",
+            "Ngũ phúc",
+            "Ích hậu",
+            "Phá bại",
+            "Lôi công",
+            "Huyền vũ",
+            "Hắc đạo"
+          ],
+          "Ngọ": [
+            "Thiên quan",
+            "Tục thế",
+            "Giải thần",
+            "Thiên ngục",
+            "Thi ma sát",
+            "Thiên tắc",
+            "Tứ thời đại sát",
+            "Thiên hoả",
+            "Huyết kỵ",
+            "Nguyệt phá"
+          ],
+          "Mùi": [
+            "Yến an",
+            "Nguyệt giải",
+            "Cát Khánh",
+            "Nguyệt hoả",
+            "Địa hoả",
+            "Ngũ Quỷ",
+            "Nguyên sát",
+            "Nguyệt hư",
+            "Diệt môn",
+            "Cẩu trần hắc đạo"
+          ],
+          "Thân": [
+            "Thiên hỷ",
+            "Hoàng Ân",
+            "Mẫu sương",
+            "Thiên đức hợp",
+            "Tam hợp",
+            "Kim đường",
+            "Thanh long hoàng đạo",
+            "Thổ cấm",
+            "Phi liêm sát",
+            "Cô thần",
+            "Khô tiêu",
+            "Tiểu hao",
+            "Tài ly"
+          ],
+          "Dậu": [
+            "Thánh tâm",
+            "Sinh khí",
+            "Mẫu sương",
+            "Sát chủ",
+            "Chu tước hắc đạo",
+            "Thiên sư",
+            "Sát địa sư",
+            "Phù ma sát",
+            "Thiên cẩu hạ thực Thân thời"
+          ],
+          "Tuất": [
+            "Thiên y",
+            "Ích hậu",
+            "Thiên tài",
+            "Cát Khánh",
+            "Nguyệt sát",
+            "Nguyệt hư",
+            "Huyết chi"
+          ],
+          "Hợi": [
+            "Địa tài",
+            "Tứ vượng",
+            "Phúc hậu",
+            "Tục thế",
+            "Thiên đức",
+            "Hoàng đạo",
+            "Thổ phủ",
+            "Lục bất thành",
+            "Huyết kỵ",
+            "Hoả tai",
+            "Thiên ôn",
+            "Cửu không",
+            "Thần cách",
+            "Ngũ Quỷ",
+            "Lôi công",
+            "Khô tiêu"
+          ]
+        },
+        "monthly_notes": [
+          "Thiên đức hợp ngày Canh; Thiên phúc ngày Đinh; Nguyệt đức ngày Kỷ; Nguyệt không ngày Canh; Đại hồng sa ngày Giáp Tuất; Giờ Ngọ lên Mùi xuống; Thổ kỵ ngày 14; Âm thác ngày Quý Hợi; Bàng tứ phế Bính Đinh (Đinh Tý); Phủ đầu sát ngày Tý; Quan sát ngày Dần Thân; Thiên ma ngày Mùi-Ngọ-Dần; Nguyệt Ân ngày Giáp; Nguyệt Đức ngày Nhâm; Thiên quý ngày Nhâm; Đại hồng sa ngày Giáp Tuất; Con nước ngày mồng 9-23; Dương công kỵ ngày 21; Thiên ma ngày Mão; Trùng tang trùng phục; Dương thác Âm thác"
+        ]
+      },
+      "11": {
+        "chi": {
+          "Tý": [
+            "Kính tâm",
+            "Tứ vượng",
+            "Mãn đức tính",
+            "Thiên tài",
+            "Quan nhật",
+            "Đại hoa",
+            "Địa hoả",
+            "Hoả tai",
+            "Nguyệt yếm",
+            "Thổ phù"
+          ],
+          "Sửu": [
+            "Minh đức",
+            "Địa tài",
+            "Lục hợp",
+            "Phả hộ",
+            "Hội hộ",
+            "Thiên đức",
+            "Hoàng đạo",
+            "Thiên Ôn",
+            "Sát sư",
+            "Nhân cách"
+          ],
+          "Dần": [
+            "U vi tính",
+            "Ngọc đường",
+            "Thiên tài",
+            "Tuế hợp",
+            "Địa tặc"
+          ],
+          "Mão": [
+            "Thiên phúc",
+            "Địa đại",
+            "Lộc khố",
+            "Thiên giải",
+            "Kim đường",
+            "Thiên đức",
+            "Hoàng đạo",
+            "Thiên ôn",
+            "Thổ ôn",
+            "Thiên cẩu",
+            "Quả tú",
+            "Thi ma sát"
+          ],
+          "Thìn": [
+            "Thiên mã",
+            "Thiên phùng",
+            "Nguyên sát",
+            "Diệt môn",
+            "Phân sư",
+            "Thiên sư",
+            "Sát địa sư",
+            "Ương bai",
+            "Câu giáo",
+            "Hà khôi",
+            "Phản chủ",
+            "Tiểu hao",
+            "Bạch hổ hắc đạo",
+            "Long hổ",
+            "Băng tiêu ngoã giải",
+            "Sát chủ"
+          ],
+          "Tỵ": [
+            "Mãn đức tinh",
+            "Thiên thành",
+            "Yên An",
+            "Tam hợp",
+            "Tứ vượng",
+            "Ngọc đường Hoàng đạo",
+            "Cửu không",
+            "Tử khí",
+            "Quan phù",
+            "Đại hao",
+            "Tôi chí",
+            "Tài ly",
+            "Khô tiêu"
+          ],
+          "Ngọ": [
+            "Kính tâm",
+            "Giải thần",
+            "Minh tính",
+            "Tuế hợp",
+            "Thiên ly",
+            "Nguyệt hoả",
+            "Độc hoả",
+            "Phá bai",
+            "Hoả tai",
+            "Túi thời đại sát",
+            "Mộc mã sát",
+            "Diệt môn"
+          ],
+          "Mùi": [
+            "Hoàng ân",
+            "Phả hộ",
+            "Hội hộ",
+            "Nguyệt giải",
+            "Thần cách",
+            "Thổ cấm",
+            "Nhật phá",
+            "Lôi công",
+            "Du hoạ",
+            "Lục bất hành",
+            "Huyền vũ hắc đạo"
+          ],
+          "Thân": [
+            "Thiên quan",
+            "Mẫu sương",
+            "Ngũ phúc",
+            "Phúc sinh",
+            "Hoạt triệu",
+            "Tuế hợp đức",
+            "Thổ cấm",
+            "Lôi công",
+            "Du hoạ"
+          ],
+          "Dậu": [
+            "Phúc Đức Nguyệt tài",
+            "Mẫu sương",
+            "Minh đường hoàng đạo",
+            "Ngọc đường",
+            "Vi tinh",
+            "Thần Cách",
+            "Câu giáo",
+            "Hà Khôi",
+            "Băng tiêu ngoã giải",
+            "diệt môn",
+            "Tiểu hoà sa",
+            "Bát tao địa phá"
+          ],
+          "Tuất": [
+            "Sinh khí",
+            "Thiên cẩu hạ thực Dậu thời",
+            "Long hổ",
+            "Thổ kỵ",
+            "Vãng vong"
+          ],
+          "Hợi": [
+            "Thiên y",
+            "Phúc hậu",
+            "Huyết chi",
+            "Tôi chí",
+            "Chu tước hắc đạo",
+            "Du thần"
+          ]
+        },
+        "monthly_notes": [
+          "Nguyệt không ngày Bính; Thiên phúc ngày Dậu; Nguyệt Đức ngày Đinh; Giờ Dần lên Mão xuống; Quan sát giờ Sửu Mùi; Thiên kỵ ngày 20; Ngày Quý; Ngày Nhâm Tý; Con nước ngày 7-21; Dương công kỵ ngày 19; Trùng tang",
+          "trùng phục; Dương thác Âm thác; Quan sát giờ Tý Ngọ"
+        ]
+      },
+      "12": {
+        "chi": {
+          "Tý": [
+            "Lục hợp",
+            "Tục thế",
+            "Cát khánh",
+            "Sát sư",
+            "Thiên lai",
+            "Hoàng sa"
+          ],
+          "Sửu": [
+            "Minh đức",
+            "Địa tài",
+            "Lục hợp",
+            "Phả hộ",
+            "Hội hộ",
+            "Thiên đức",
+            "Hoàng đạo",
+            "Thiên Ôn",
+            "Sát sư",
+            "nhân cách"
+          ],
+          "Dần": [
+            "Sát chủ",
+            "Không sài",
+            "Trùng tam tang",
+            "Phủ đầu sát"
+          ],
+          "Mão": [
+            "Thiên phúc",
+            "Địa đại",
+            "Lộc khố",
+            "Thiên giải",
+            "Kim đường",
+            "Thiên đức",
+            "Hoàng đạo",
+            "Thiên ôn",
+            "Thổ ôn",
+            "Thiên cẩu",
+            "Quả tú",
+            "Thi ma sát"
+          ],
+          "Thìn": [
+            "Ngũ hư",
+            "Trường nhật",
+            "Sát chủ",
+            "Không sài",
+            "Trùng tam tang",
+            "Phủ đầu sát"
+          ],
+          "Tỵ": [
+            "Huyết chi",
+            "Huyết kỵ",
+            "Ngũ hư",
+            "Trường nhật",
+            "Sát chủ",
+            "Không sài",
+            "Trùng tam tang",
+            "Phủ đầu sát"
+          ],
+          "Ngọ": [
+            "Thiên tắc",
+            "Nguyệt yếm",
+            "Đại hoạ",
+            "Địa tắc",
+            "Nhân cách",
+            "Phản chủ",
+            "Dân nhật",
+            "Trường nhật"
+          ],
+          "Mùi": [
+            "Nguyệt đức",
+            "Vượng ngày Giáp Ất",
+            "Thiên quý ngày Giáp Ất",
+            "Thiên xá ngày Mậu Dần",
+            "Thiên khôi tinh ngày Giáp Thìn"
+          ],
+          "Thân": [
+            "Chính tứ phế ngày Canh",
+            "Thủ nhật"
+          ],
+          "Dậu": [
+            "Thiên hỷ",
+            "Tam hợp",
+            "Mẫu sương",
+            "Thiên cẩu",
+            "Phí liêm đại sát",
+            "Thiên hoả",
+            "Câu trần hắc đạo",
+            "Cô thần",
+            "Ôn nhật",
+            "Thu tử"
+          ],
+          "Tuất": [
+            "Phúc đức",
+            "Thánh tâm",
+            "Thanh long hoàng đạo",
+            "Thiên cương",
+            "Ngũ quỷ",
+            "Bát toạ địa phá",
+            "Lỗ ban sát",
+            "Diễu sương"
+          ],
+          "Hợi": [
+            "Minh đường hoàng đạo",
+            "Phúc hậu",
+            "Sinh khí",
+            "Dịch mã",
+            "Minh đức",
+            "Nguyệt tài",
+            "Ích hậu",
+            "Địa hoả",
+            "Thiên cẩu hạ thực tuất thời",
+            "Dao chém sát",
+            "Thiên Đức",
+            "Diễu sương",
+            "Thiên địa chuyển",
+            "Quan nhật"
+          ]
+        },
+        "monthly_notes": [
+          "Nguyệt ân ngày Tân; Ngày Canh; Nguyệt đức hợp ngày Ất; Giờ Tý lên Sửu xuống; Thổ kỵ ngày mùng 6; Ngày Kỷ; Âm thác ngày Quý Sửu"
+        ]
+      }
+    }
+  },
+  "seasonal_day_branch_stars": {
+    "note": "Bảng thứ hai, riêng biệt với bảng theo tháng ở trên: sao chiếu theo Chi mỗi ngày nhưng nhóm theo BỐN MÙA (Xuân/Hạ/Thu/Đông) thay vì theo tháng. Cách trình bày gốc dùng nhãn Chi/Mùa lồng ghép trong ô, khó tách bạch hoàn toàn - dữ liệu dưới đây giữ đúng nội dung đọc được nhưng có thể có một vài chỗ ghép nhóm chưa chắc chắn 100% (đã đánh dấu).",
+    "source_pages": "33-36",
+    "do_tin_cay": "trung bình - bố cục bảng gốc dùng chữ xoay/lồng ô phức tạp hơn bảng theo tháng",
+    "seasons": {
+      "Xuân": {
+        "chi": {
+          "Tý": [
+            "Lỗ ban sát",
+            "Diễu sương"
+          ],
+          "Sửu": [
+            "Ngũ Hư",
+            "Ly Sào",
+            "Cô thần",
+            "Quả tú"
+          ],
+          "Dần": [
+            "Ngũ Hư",
+            "Ly Sào",
+            "Cô thần",
+            "Quả tú"
+          ],
+          "Mão": [
+            "Niêm sát",
+            "Phúc hậu",
+            "Vương nhật",
+            "Thiên xá ngày Mậu"
+          ],
+          "Thìn": [
+            "Sát sư ngày Giáp Dần thuộc mộc",
+            "Chính tư phế ngày Canh Thân",
+            "Tứ tuyệt trước Lập Xuân 1 ngày",
+            "Tử ly trước xuân phân 1 ngày",
+            "Thiên địa chuyển sát ngày Tân Mão",
+            "Ất Mão"
+          ],
+          "Tỵ": [
+            "Huyết chi",
+            "Huyết kỵ",
+            "Ngũ hư",
+            "Trường nhật",
+            "Sát chủ",
+            "Không sài",
+            "Trùng tam tang",
+            "Phủ đầu sát"
+          ],
+          "Ngọ": [
+            "Thiên tắc",
+            "Nguyệt yếm",
+            "Đại hoạ",
+            "Địa tắc",
+            "Nhân cách",
+            "Phản chủ",
+            "Dân nhật",
+            "Trường nhật"
+          ],
+          "Mùi": [
+            "Nguyệt đức",
+            "Vượng ngày Giáp Ất",
+            "Thiên quý ngày Giáp Ất",
+            "Thiên xá ngày Mậu Dần",
+            "Thiên khôi tinh ngày Giáp Thìn"
+          ],
+          "Thân": [
+            "Chính tứ phế ngày Canh",
+            "Thủ nhật"
+          ],
+          "Dậu": [
+            "Phúc Đức Nguyệt tài",
+            "Mẫu sương",
+            "Minh đường hoàng đạo",
+            "Ngọc đường",
+            "Vi tinh",
+            "Thần Cách",
+            "Câu giáo",
+            "Hà Khôi",
+            "Băng tiêu ngoã giải",
+            "diệt môn",
+            "Tiểu hoà sa",
+            "Bát tao địa phá"
+          ],
+          "Tuất": [
+            "Sinh khí",
+            "Thiên cẩu hạ thực Dậu thời",
+            "Long hổ",
+            "Thổ kỵ",
+            "Vãng vong"
+          ],
+          "Hợi": [
+            "Dao chém sát",
+            "Thiên Đức",
+            "Diễu sương",
+            "Thiên địa chuyển",
+            "Quan nhật"
+          ]
+        }
+      },
+      "Hạ": {
+        "chi": {
+          "Tý": [
+            "Ngũ hư",
+            "Sát chủ"
+          ],
+          "Sửu": [
+            "Dao chém sát",
+            "Thiên đức",
+            "Diễu sương",
+            "Tướng nhật"
+          ],
+          "Dần": [
+            "Lỗ ban sát",
+            "Diễu sương"
+          ],
+          "Mão": [
+            "Ngũ hư",
+            "Ly sào",
+            "Cô thần",
+            "Quả tú"
+          ],
+          "Thìn": [
+            "Sát sư ngày Đinh Tỵ thuộc hoả vượng",
+            "Chính tư phế ngày Nhâm Tý",
+            "Tứ tuyệt trước Lập Hạ 1 ngày",
+            "Thiên địa chuyển sát ngày Bính",
+            "Mậu",
+            "Ngọ"
+          ],
+          "Tỵ": [
+            "Niêm sát",
+            "Vương nhật"
+          ],
+          "Ngọ": [
+            "Sát ngày Bính Ngọ",
+            "Vương nhật"
+          ],
+          "Mùi": [
+            "Trùng tam tang",
+            "Tam tan",
+            "Không sài",
+            "Phủ đầu sát",
+            "Tường nhật",
+            "Vượng ngày Bính Đinh",
+            "Thiên quý ngày Bính Đinh",
+            "Thiên sá ngày Giáp Ngọ",
+            "Khôi tinh ngày Canh Thìn"
+          ],
+          "Thân": [
+            "Ngũ hư"
+          ],
+          "Dậu": [
+            "Dân nhật"
+          ],
+          "Tuất": [
+            "Nguyệt đức",
+            "Tường nhật"
+          ],
+          "Hợi": [
+            "Nguyệt đức",
+            "Tường nhật"
+          ]
+        }
+      },
+      "Thu": {
+        "chi": {
+          "Tý": [
+            "Dần nhật",
+            "Tướng nhật"
+          ],
+          "Sửu": [
+            "Nguyệt đức",
+            "Mẫu sương"
+          ],
+          "Dần": [
+            "Chính phương tứ phế ngày Giáp"
+          ],
+          "Mão": [
+            "Ngũ hư",
+            "Thủ nhật",
+            "Không sài",
+            "Đại sát"
+          ],
+          "Thìn": [
+            "Nguyệt đức"
+          ],
+          "Tỵ": [
+            "(nối tiếp không rõ thêm)"
+          ],
+          "Ngọ": [
+            "Ngũ hư",
+            "Thủ nhật",
+            "Đại sát",
+            "Thuộc Thuỷ vượng",
+            "Sát sư ngày Nhâm Ngọ",
+            "Chính tứ phế ngày Bính Ngọ",
+            "Tứ tuyệt trước Lập đông 1 ngày",
+            "Tử ly trước Đông Chí 1 ngày"
+          ],
+          "Mùi": [
+            "Sát chủ",
+            "Ly sào",
+            "Cô thần",
+            "Quả tú",
+            "Ngũ hư"
+          ],
+          "Thân": [
+            "Phúc hậu",
+            "Vượng nhật",
+            "Thiên xá ngày Mậu"
+          ],
+          "Dậu": [
+            "Phủ đầu sát",
+            "Dần nhật",
+            "Vượng nhật",
+            "Thiên quý ngày Canh Tân",
+            "Thiên sá ngày Mậu Thân",
+            "Khôi tinh ngày Giáp Tuất"
+          ],
+          "Tuất": [
+            "Tam lang",
+            "Trùng tang",
+            "Diễu sương"
+          ],
+          "Hợi": [
+            "Ngũ hư",
+            "Tướng nhật"
+          ]
+        }
+      },
+      "Đông": {
+        "chi": {
+          "Tý": [
+            "Thiên địa chuyển sát ngày Nhâm",
+            "Bính",
+            "Tý"
+          ],
+          "Sửu": [
+            "Tam tang",
+            "Trùng tang",
+            "Không sải"
+          ],
+          "Dần": [
+            "Sát chủ",
+            "Ngũ hư"
+          ],
+          "Mão": [
+            "Dần nhật",
+            "Tướng nhật"
+          ],
+          "Thìn": [
+            "(không rõ thêm)"
+          ],
+          "Tỵ": [
+            "(không rõ thêm)"
+          ],
+          "Ngọ": [
+            "(không rõ thêm)"
+          ],
+          "Mùi": [
+            "(không rõ thêm)"
+          ],
+          "Thân": [
+            "Dao chém sát",
+            "Thiên đức",
+            "Mẫu sương"
+          ],
+          "Dậu": [
+            "Lỗ ban sát",
+            "Mẫu sương",
+            "Tướng nhật",
+            "Ngũ hư",
+            "Cô quả",
+            "Ly sào",
+            "Thiên quý ngày Nhâm Quý",
+            "Thiên sá ngày Giáp Tý",
+            "Khôi tinh ngày Canh Tuất"
+          ],
+          "Tuất": [
+            "(không rõ thêm)"
+          ],
+          "Hợi": [
+            "Niêm sát",
+            "Phúc hậu"
+          ]
+        }
+      }
+    }
+  },
+  "quy_nhan_gio": {
+    "note": "Các bảng tra giờ/ngày Quý Nhân (sao tốt phụ trợ) theo Can của Ngày - dùng chung cho mọi việc, không thuộc riêng 1 trong 4 nhóm sự kiện",
+    "source_pages": [
+      78,
+      79,
+      81,
+      82,
+      83
+    ],
+    "gio_phuc_tinh": {
+      "note": "Giờ Phúc Tinh theo Can ngày",
+      "entries": {
+        "Giáp": "Dần",
+        "Ất": [
+          "Hợi",
+          "Sửu"
+        ],
+        "Bính": [
+          "Tý",
+          "Sửu"
+        ],
+        "Đinh": "Dậu",
+        "Mậu": "Thân",
+        "Kỷ": "Mùi",
+        "Canh": "Ngọ",
+        "Tân": "Tý",
+        "Nhâm": "Thìn",
+        "Quý": "Mão"
+      }
+    },
+    "gio_nhat_loc": {
+      "note": "Giờ Nhật Lộc theo Can ngày",
+      "entries": {
+        "Giáp": "Thìn",
+        "Ất": [
+          "Mão",
+          "Tuất"
+        ],
+        "Bính": [
+          "Tý",
+          "Thân"
+        ],
+        "Đinh": "Ngọ",
+        "Mậu": [
+          "Tý",
+          "Thìn"
+        ],
+        "Kỷ": "Dần",
+        "Canh": [
+          "Thân",
+          "Tuất"
+        ],
+        "Tân": [
+          "Thân",
+          "Dậu"
+        ],
+        "Nhâm": [
+          "Ngọ",
+          "Hợi"
+        ],
+        "Quý": [
+          "Tý",
+          "Thìn"
+        ]
+      }
+    },
+    "thien_at_quy_nhan_khoi_viet": {
+      "note": "Thiên Khôi, Thiên Việt - 2 Chi quý nhân theo Can ngày",
+      "entries": {
+        "Giáp": [
+          "Sửu",
+          "Mùi"
+        ],
+        "Mậu": [
+          "Sửu",
+          "Mùi"
+        ],
+        "Ất": [
+          "Tý",
+          "Thân"
+        ],
+        "Kỷ": [
+          "Tý",
+          "Thân"
+        ],
+        "Canh": [
+          "Ngọ",
+          "Dần"
+        ],
+        "Tân": [
+          "Ngọ",
+          "Dần"
+        ],
+        "Nhâm": [
+          "Mão",
+          "Tỵ"
+        ],
+        "Quý": [
+          "Mão",
+          "Tỵ"
+        ]
+      }
+    },
+    "gio_thien_quan_thien_phuc_quy_nhan": {
+      "note": "Giờ Thiên Quan Quý Nhân + Giờ Thiên Phúc Quý Nhân theo Can ngày",
+      "entries": [
+        {
+          "can": "Giáp",
+          "thien_quan": "Mùi",
+          "thien_phuc": "Dần"
+        },
+        {
+          "can": "Ất",
+          "thien_quan": "Thìn",
+          "thien_phuc": "Thân"
+        },
+        {
+          "can": "Bính",
+          "thien_quan": "Tý",
+          "thien_phuc": "Tỵ"
+        },
+        {
+          "can": "Đinh",
+          "thien_quan": "Dần",
+          "thien_phuc": "Hợi"
+        },
+        {
+          "can": "Mậu",
+          "thien_quan": "Mão",
+          "thien_phuc": "Mão"
+        },
+        {
+          "can": "Kỷ",
+          "thien_quan": "Dậu",
+          "thien_phuc": "Dần"
+        },
+        {
+          "can": "Canh",
+          "thien_quan": "Hợi",
+          "thien_phuc": "Ngọ"
+        },
+        {
+          "can": "Tân",
+          "thien_quan": "Dậu",
+          "thien_phuc": "Tỵ"
+        },
+        {
+          "can": "Nhâm",
+          "thien_quan": "Tuất",
+          "thien_phuc": "Ngọ"
+        },
+        {
+          "can": "Quý",
+          "thien_quan": "Ngọ",
+          "thien_phuc": "Tỵ"
+        }
+      ]
+    },
+    "dinh_can_gio": {
+      "note": "Xác định Can của Giờ Tý trong ngày, dựa vào Can của Ngày (dùng để tính đủ 60 giờ Can Chi). Ví dụ: ngày Giáp Tý hoặc Kỷ Sửu thì giờ Tý là giờ Giáp Tý, các giờ khác tính nối tiếp theo thứ tự Can.",
+      "entries": {
+        "Giáp,Kỷ": "Giáp Tý",
+        "Ất,Canh": "Bính Tý",
+        "Bính,Tân": "Mậu Tý",
+        "Đinh,Nhâm": "Canh Tý",
+        "Mậu,Quý": "Nhâm Tý"
+      }
+    },
+    "ngay_thien_duc_hoang_dao_minh_duong_hoang_dao": {
+      "note": "2 hệ ngày Hoàng Đạo bổ sung, tính theo cặp tháng cách nhau 6 tháng",
+      "thien_duc_hoang_dao": {
+        "1+7": "Tỵ",
+        "2+8": "Mùi",
+        "3+9": "Dậu",
+        "4+10": "Hợi",
+        "5+11": "Sửu",
+        "6+12": "Mão"
+      },
+      "minh_duong_hoang_dao": {
+        "1+7": "Tý",
+        "2+8": "Mão",
+        "3+9": "Tỵ",
+        "4+10": "Mùi",
+        "5+11": "Dậu",
+        "6+12": "Hợi"
+      }
+    }
+  }
+}

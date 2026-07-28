@@ -1,0 +1,95 @@
+{
+  "source": "Ngoc Hap Thong Thu",
+  "pages": [
+    65,
+    66
+  ],
+  "topic": "Thái Tuế nhập trạch đại sát niên hung",
+  "description": "When Tai Sui enters the house: conflicting branch-years that are inauspicious for building/creating a residence.",
+  "rules": [
+    {
+      "id": "ttue-poem",
+      "type": "poem",
+      "title": "Thái Tuế nhập trạch đại sát niên hung",
+      "text": "Thái tuế nhập trạch thì lan dan / Tý ngộ Ngọ niên phá Kim Dương / Sửu ngộ Ngọ vi sát chủ / Dần phùng Dương vị chủ hung lang / Mão ngộ hầu (Thân) cung lan tạo trạch / Mùi kỵ Tý cung vi sát chủ / Thân phùng Sửu vị tất ôn hoàng / Dậu phạm hổ lang (Dần) tư thiết kỵ / Khuyển (Tuất) tương Dương (Ngọ) nhi bất lục lương / Hợi phạm Long (Thìn) cung tu tạo trạch / Tu tạo phạm chỉ chủ bất lương"
+    },
+    {
+      "id": "ttue-1",
+      "type": "conflict",
+      "branch": "Tý",
+      "conflict_with": "Ngọ",
+      "effect": "phá Kim Dương (hung)"
+    },
+    {
+      "id": "ttue-2",
+      "type": "conflict",
+      "branch": "Sửu",
+      "conflict_with": "Ngọ",
+      "effect": "vi sát chủ (hung)"
+    },
+    {
+      "id": "ttue-3",
+      "type": "conflict",
+      "branch": "Dần",
+      "conflict_with": "Ngọ (Dương)",
+      "effect": "chủ hung lang (hung)"
+    },
+    {
+      "id": "ttue-4",
+      "type": "conflict",
+      "branch": "Mão",
+      "conflict_with": "Thân (hầu)",
+      "effect": "cung lan tạo trạch (hung)"
+    },
+    {
+      "id": "ttue-5",
+      "type": "conflict",
+      "branch": "Mùi",
+      "conflict_with": "Tý",
+      "effect": "vi sát chủ (hung)"
+    },
+    {
+      "id": "ttue-6",
+      "type": "conflict",
+      "branch": "Thân",
+      "conflict_with": "Sửu",
+      "effect": "tất ôn hoàng (hung)"
+    },
+    {
+      "id": "ttue-7",
+      "type": "conflict",
+      "branch": "Dậu",
+      "conflict_with": "Dần (hổ lang)",
+      "effect": "tư thiết kỵ (hung)"
+    },
+    {
+      "id": "ttue-8",
+      "type": "conflict",
+      "branch": "Tuất (Khuyển)",
+      "conflict_with": "Ngọ (Dương)",
+      "effect": "nhi bất lục lương (hung)"
+    },
+    {
+      "id": "ttue-9",
+      "type": "conflict",
+      "branch": "Hợi",
+      "conflict_with": "Thìn (Long)",
+      "effect": "tu tạo trạch (hung)"
+    },
+    {
+      "id": "ttue-10",
+      "type": "general",
+      "text": "Tu tạo phạm chỉ chủ bất lương — làm nhà/trạch phạm Thái Tuế đều bất lương."
+    },
+    {
+      "id": "ttue-11",
+      "type": "personal",
+      "text": "Người sinh năm Tý trong năm Tỵ (ky Ty niên) bất tu tạo trạch (không nên làm nhà)."
+    },
+    {
+      "id": "ttue-12",
+      "type": "note",
+      "text": "Như thiên can kỵ địa chi — còn tùy thiên can kỵ với địa chi."
+    }
+  ]
+}

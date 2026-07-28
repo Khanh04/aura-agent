@@ -1,0 +1,21 @@
+{
+ "source": "Ngoc Hap Thong Thu",
+ "pages": [
+  37,
+  38
+ ],
+ "topic": "Xem tuổi làm nhà kỵ Kim Lâu",
+ "description": "Kim Lau taboo ages for building a house / marrying / buying livestock.",
+ "verse": "Một ba sáu tám kỵ Kim Lâu / Làm nhà cưới vợ tậu trâu thì đừng",
+ "rules": [
+  {
+   "rule": "Tuổi (âm lịch) có hàng đơn vị 1, 3, 6, 8 phạm Kim Lâu (vd: 21, 23, 26, 28, 31, 33, 36, 38...)"
+  },
+  {
+   "rule": "Cưới vợ kiêng tuổi đàn bà; làm nhà kiêng tuổi đàn ông"
+  },
+  {
+   "kim_lau_do": "Tính theo bát quái: 1 Khôn, 2 Đoài, 3 Càn, 4 Khảm, 5 vào giữa, 6 Cấn, 7 Chấn, 8 Tốn, 9 Ly, 10 vào giữa (ngũ thập nhập trung cung). Phạm vào Khôn, Càn, Cấn, Tốn là phạm Kim Lâu; các cung khác không sao."
+  }
+ ]
+}

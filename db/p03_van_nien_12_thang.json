@@ -1,0 +1,290 @@
+{
+  "source": "Ngoc Hap Thong Thu",
+  "pages": [
+    58,
+    59,
+    60,
+    61,
+    62,
+    63
+  ],
+  "topic": "Vận Niên mười hai tháng",
+  "description": "Monthly weather/harvest omens (verse + Vietnamese interpretation) and seasonal notes.",
+  "rules": [
+    {
+      "id": "vn-01",
+      "type": "thang",
+      "month": 1,
+      "verse": [
+        "Tuế tiền vân bắc tứ biên thiên",
+        "Đại tiết phân phan thi vấn niên",
+        "Dân đắc lập xuân tinh trạch thử",
+        "Nông pha bất dụng lực Canh Điền"
+      ],
+      "interpretation": [
+        "Lập xuân tạnh thì được mùa",
+        "Mùng một sương mù thì hạn tai",
+        "Thương nguyên mà nóng thì hay",
+        "Hoa quả năm ấy tốt thay mọi bề"
+      ]
+    },
+    {
+      "id": "vn-02",
+      "type": "thang",
+      "month": 2,
+      "verse": [
+        "Kinh trập văn xuôi mễ tự mê (bủn)",
+        "Xuân phân hữu vũ bệnh nhân ly (ít)",
+        "Nguyệt chung dân đắc phùng tam Mão (trong)",
+        "Ba ngày Mão hoa quả được mùa",
+        "Chính thảo cao hoa xứ xứ phỉ"
+      ],
+      "interpretation": [
+        "Tháng hai kinh trập sấm dền",
+        "Gạo thóc năm ấy tốt thay mọi bề",
+        "Xuân phân xuân xả mưa dầm",
+        "Gạo thóc năm ấy mười phần kém đi"
+      ]
+    },
+    {
+      "id": "vn-03",
+      "type": "thang",
+      "month": 3,
+      "verse": [
+        "Phong vũ nhược phùng sơ thất dẩu",
+        "Dã thôn ôn dịch vạn nhân sâu",
+        "Thanh minh phong nhật tòng tây phương (ít gió)",
+        "Khỏi định mông pha miễn hữu thu"
+      ],
+      "interpretation": [
+        "Mưa ngày mùng một tháng ba",
+        "Bệnh tật chẳng hòa điều ấy không hay",
+        "Thanh minh gió nam cả ngày",
+        "Nhà nông cấy cày thỏa mãn lòng ăn"
+      ]
+    },
+    {
+      "id": "vn-04",
+      "type": "thang",
+      "month": 4,
+      "verse": [
+        "Lập hạ đông phong hữu bệnh lao",
+        "Tỉnh phùng xẻ bát quả sinh da",
+        "Lôi minh Giáp Tý Canh Thìn nhật",
+        "Định hữu hoàng trùng tổn hại hoài"
+      ],
+      "interpretation": [
+        "Tháng tư lập hạ gió nam",
+        "Mưa ngày mồng tám phong quang được mùa"
+      ]
+    },
+    {
+      "id": "vn-05",
+      "type": "thang",
+      "month": 5,
+      "verse": [
+        "Đan dương hữu vũ thi phong niên",
+        " Mang chủng phong lôi riệc mỹ nhiên",
+        "Hạ chi phong tòng tay bắc khởi",
+        "Tảo sư viên nội thu ngac tiên"
+      ],
+      "interpretation": [
+        "Tháng năm Đoan ngọ có mưa",
+        "Sớm ngày nắng chửng chẳng lo lắng gì",
+        "Mưa ngày hạ chí chả chi",
+        "Hửng gió tây bắc ấy thì hạn tai"
+      ]
+    },
+    {
+      "id": "vn-06",
+      "type": "thang",
+      "month": 6,
+      "verse": [
+        "Tam phục sơ trung, mạt phúc chí",
+        "Phùng cốc- nhiệt ngũ cốc điền trùng",
+        "Thủ thời bằng nhược bất khiến tai",
+        "Định chủ tam đông đa vũ tiết"
+      ],
+      "interpretation": [
+        "Tam phục nắng dai",
+        "Ruộng nhiều thóc ít hạn tai chẳng vừa"
+      ]
+    },
+    {
+      "id": "vn-07",
+      "type": "thang",
+      "month": 7,
+      "verse": [
+        "Lập thu vô vũ chính kham ưu",
+        "Vạn vật trùng lai nhất bán thu",
+        "Sử thử nhược phùng thiên hạ",
+        "Trung niên kết quả dã man lực"
+      ],
+      "interpretation": [
+        "Lập thu tháng bẩy không mưa",
+        "Vật nào vật ấy trời cho nửa phần",
+        "Ngày xử thử ấy mưa dầm",
+        "Lúa mùa năm ấy mười phần kém đi"
+      ]
+    },
+    {
+      "id": "vn-08",
+      "type": "thang",
+      "month": 8,
+      "verse": [
+        "Thu phần thiên sắc bạch vân da",
+        "Xứ xứ hoan ca văn hỏa hòa",
+        "Tối phạ thử nhật lôi diện giáng",
+        "Đông lai mễ giá bách như hà"
+      ],
+      "interpretation": [
+        "Thu phân tháng tám mưa ly",
+        "Lúa mùa năm ấy tốt mùa sang năm",
+        "Thu phần mây trắng kéo đầm",
+        "Lúa mạ lại tốt vui chung thỏa lòng"
+      ]
+    },
+    {
+      "id": "vn-09",
+      "type": "thang",
+      "month": 9,
+      "verse": [
+        "Xơ nhất sương phi tổn hại dân",
+        "Trùng dương vỡ vũ phản dông tình",
+        "Nguyệt trung thiên sắc người da bệnh",
+        "Cánh lộ lôi minh mễ giá tăng"
+      ],
+      "interpretation": [
+        "Mùng một tháng 9 mưa lỳ",
+        "Ấy là bệnh tật dâm di chẳng lành",
+        "Ngày trùng dương mà nắng hanh, lại thêm sấm bể rành rành kém to",
+        "Ngày trùng dương mà có mưa, các xứ được mùa thỏa mãn nhà nông"
+      ]
+    },
+    {
+      "id": "vn-10",
+      "type": "thang",
+      "month": 10,
+      "verse": [
+        "Lập đông chí nhật pha phùng Nhâm",
+        "Lái tuế cao điều uổng phí tầm",
+        "Thử nhật cánh phùng Nhâm chí nhật",
+        "Tai ương dự báo phỉ nhân dân"
+      ],
+      "interpretation": [
+        "Ngày Nhâm tháng 10 lập đông, ruộng cao ắt hẳn tốn công cày bừa",
+        "Gặp ngày Nhâm Tý ấy là, lo nê hao tổn người ta chẳng cày"
+      ]
+    },
+    {
+      "id": "vn-11",
+      "type": "thang",
+      "month": 11,
+      "verse": [
+        "Sơ nhất hữu phong tật bệnh da",
+        "Cánh hiều dại tiết hữu tai ma",
+        "Đông chí thiên tính vô hữu sắc",
+        "Lai liên dinh sướng thái bình ca"
+      ],
+      "interpretation": [
+        "Tháng 11 mồng một gió tây thì sinh đói khát",
+        "Đông chí trời quang thuận hòa, thái bình thiên hạ người ta vui lòng"
+      ]
+    },
+    {
+      "id": "vn-12",
+      "type": "thang",
+      "month": 12,
+      "verse": [
+        "Sơ nhất dông phong lục súc tai",
+        "Thảng phùng dại tiết hạn niên lai",
+        "Nhược nhiên thử nhật thiên tình hảo",
+        "Hạ thế nông phu đại phát tài"
+      ],
+      "interpretation": [
+        "Tháng 12 mồng một gió dông, tai ương lục súc hãi hùng biết bao"
+      ]
+    },
+    {
+      "id": "vn-kymao",
+      "type": "ky_mao_mua",
+      "note": "Vận niên 12 tháng (phần 2, trang 63)",
+      "rules": [
+        {
+          "season": "Mùa xuân",
+          "day": "Kỷ Mão",
+          "effect": "có gió cây không quả"
+        },
+        {
+          "season": "Mùa Hạ",
+          "day": "Kỷ Mão",
+          "effect": "lúa ít quả"
+        },
+        {
+          "season": "Mùa Thu",
+          "day": "Kỷ Mão",
+          "effect": "lúa lép"
+        },
+        {
+          "season": "Mùa Đông",
+          "day": "Kỷ Mão",
+          "effect": "thiên ly hoa màu kém"
+        }
+      ]
+    },
+    {
+      "id": "vn-lapha",
+      "type": "lap_ha_lap_thu",
+      "note": "Trang 63",
+      "rules": [
+        {
+          "event": "Lập hạ mưa",
+          "effect": "được mùa lúa chiêm"
+        },
+        {
+          "event": "Ngày thu xa mưa",
+          "effect": "được mùa nhưng nhiều cảm ốm"
+        }
+      ]
+    },
+    {
+      "id": "vn-xamday",
+      "type": "xam_day_phuong",
+      "note": "XEM XẤM DÂY (theo bát quái phương), trang 63",
+      "rules": [
+        {
+          "phuong": "Dậy phương",
+          "effect": "cần được tiện"
+        },
+        {
+          "phuong": "Chấn phương",
+          "effect": "quế nong tài mộc quế"
+        },
+        {
+          "phuong": "Tốn phương",
+          "effect": "lắm sâu bệnh"
+        },
+        {
+          "phuong": "Ly phương",
+          "effect": "hạn"
+        },
+        {
+          "phuong": "Khôn phương",
+          "effect": "đại hoàng trùng"
+        },
+        {
+          "phuong": "Đài phương",
+          "effect": "kim thiết mỹ"
+        },
+        {
+          "phuong": "Càn phương",
+          "effect": "quốc dân hữu lai"
+        },
+        {
+          "phuong": "Khảm phương",
+          "effect": "năm ấy mưa nhiều"
+        }
+      ]
+    }
+  ]
+}

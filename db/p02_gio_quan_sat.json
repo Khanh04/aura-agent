@@ -1,0 +1,60 @@
+{
+ "source": "Ngoc Hap Thong Thu",
+ "pages": [
+  52,
+  53
+ ],
+ "topic": "Phạm giờ quan sát",
+ "description": "Quan Sat hour taboo per lunar month (children/birth related).",
+ "rules": [
+  {
+   "thang": 1,
+   "gio": "Tý"
+  },
+  {
+   "thang": 2,
+   "gio": "Ngọ"
+  },
+  {
+   "thang": 3,
+   "gio": "Mùi"
+  },
+  {
+   "thang": 4,
+   "gio": "Thân"
+  },
+  {
+   "thang": 5,
+   "gio": "Dậu"
+  },
+  {
+   "thang": 6,
+   "gio": "Tuất"
+  },
+  {
+   "thang": 7,
+   "gio": "Hợi"
+  },
+  {
+   "thang": 8,
+   "gio": "Tý"
+  },
+  {
+   "thang": 9,
+   "gio": "Sửu"
+  },
+  {
+   "thang": 10,
+   "gio": "Dần"
+  },
+  {
+   "thang": 11,
+   "gio": "Mão"
+  },
+  {
+   "thang": 12,
+   "gio": "Thìn"
+  }
+ ],
+ "note": "Giờ ghi trong sách kèm khung giờ đồng hồ; tháng 1 sách in 'giờ Tý 9-11 giờ trưa' có thể là lỗi in."
+}

@@ -1,0 +1,1242 @@
+{
+  "source": "Ngoc Hap Thong Thu.pdf",
+  "luc_thap_hoa_giap": [
+    {
+      "stt": 1,
+      "can_chi_pair": [
+        "Giáp Tý",
+        "Ất Sửu"
+      ],
+      "menh": "Kim",
+      "nap_am": "Vàng dưới biển"
+    },
+    {
+      "stt": 2,
+      "can_chi_pair": [
+        "Bính Dần",
+        "Đinh Mão"
+      ],
+      "menh": "Hỏa",
+      "nap_am": "Lửa trong lò"
+    },
+    {
+      "stt": 3,
+      "can_chi_pair": [
+        "Mậu Thìn",
+        "Kỷ Tỵ"
+      ],
+      "menh": "Mộc",
+      "nap_am": "Cây rừng lớn"
+    },
+    {
+      "stt": 4,
+      "can_chi_pair": [
+        "Canh Ngọ",
+        "Tân Mùi"
+      ],
+      "menh": "Thổ",
+      "nap_am": "Đất đường lộ"
+    },
+    {
+      "stt": 5,
+      "can_chi_pair": [
+        "Nhâm Thân",
+        "Quý Dậu"
+      ],
+      "menh": "Kim",
+      "nap_am": "Vàng gươm nhọn"
+    },
+    {
+      "stt": 6,
+      "can_chi_pair": [
+        "Giáp Tuất",
+        "Ất Hợi"
+      ],
+      "menh": "Hỏa",
+      "nap_am": "Lửa trên núi"
+    },
+    {
+      "stt": 7,
+      "can_chi_pair": [
+        "Bính Tý",
+        "Đinh Sửu"
+      ],
+      "menh": "Thủy",
+      "nap_am": "Nước dưới sông"
+    },
+    {
+      "stt": 8,
+      "can_chi_pair": [
+        "Mậu Dần",
+        "Kỷ Mão"
+      ],
+      "menh": "Thổ",
+      "nap_am": "Đất đầu thành"
+    },
+    {
+      "stt": 9,
+      "can_chi_pair": [
+        "Canh Thìn",
+        "Tân Tỵ"
+      ],
+      "menh": "Kim",
+      "nap_am": "Vàng chân đèn"
+    },
+    {
+      "stt": 10,
+      "can_chi_pair": [
+        "Nhâm Ngọ",
+        "Quý Mùi"
+      ],
+      "menh": "Mộc",
+      "nap_am": "Cây dương liễu"
+    },
+    {
+      "stt": 11,
+      "can_chi_pair": [
+        "Giáp Thân",
+        "Ất Dậu"
+      ],
+      "menh": "Thủy",
+      "nap_am": "Nước trong giếng"
+    },
+    {
+      "stt": 12,
+      "can_chi_pair": [
+        "Bính Tuất",
+        "Đinh Hợi"
+      ],
+      "menh": "Thổ",
+      "nap_am": "Đất nóc nhà"
+    },
+    {
+      "stt": 13,
+      "can_chi_pair": [
+        "Mậu Tý",
+        "Kỷ Sửu"
+      ],
+      "menh": "Hỏa",
+      "nap_am": "Lửa sấm chớp"
+    },
+    {
+      "stt": 14,
+      "can_chi_pair": [
+        "Canh Dần",
+        "Tân Mão"
+      ],
+      "menh": "Mộc",
+      "nap_am": "Cây tòng bá"
+    },
+    {
+      "stt": 15,
+      "can_chi_pair": [
+        "Nhâm Thìn",
+        "Quý Tỵ"
+      ],
+      "menh": "Thủy",
+      "nap_am": "Nước chảy dài"
+    },
+    {
+      "stt": 16,
+      "can_chi_pair": [
+        "Giáp Ngọ",
+        "Ất Mùi"
+      ],
+      "menh": "Kim",
+      "nap_am": "Vàng trong cát"
+    },
+    {
+      "stt": 17,
+      "can_chi_pair": [
+        "Bính Thân",
+        "Đinh Dậu"
+      ],
+      "menh": "Hỏa",
+      "nap_am": "Lửa dưới núi"
+    },
+    {
+      "stt": 18,
+      "can_chi_pair": [
+        "Mậu Tuất",
+        "Kỷ Hợi"
+      ],
+      "menh": "Mộc",
+      "nap_am": "Cây đất bằng"
+    },
+    {
+      "stt": 19,
+      "can_chi_pair": [
+        "Canh Tý",
+        "Tân Sửu"
+      ],
+      "menh": "Thổ",
+      "nap_am": "Đất tách nhà"
+    },
+    {
+      "stt": 20,
+      "can_chi_pair": [
+        "Nhâm Dần",
+        "Quý Mão"
+      ],
+      "menh": "Kim",
+      "nap_am": "Vàng lá trắng"
+    },
+    {
+      "stt": 21,
+      "can_chi_pair": [
+        "Giáp Thìn",
+        "Ất Tỵ"
+      ],
+      "menh": "Hỏa",
+      "nap_am": "Lửa ngọn đèn"
+    },
+    {
+      "stt": 22,
+      "can_chi_pair": [
+        "Bính Ngọ",
+        "Đinh Mùi"
+      ],
+      "menh": "Thủy",
+      "nap_am": "Nước trên trời"
+    },
+    {
+      "stt": 23,
+      "can_chi_pair": [
+        "Mậu Thân",
+        "Kỷ Dậu"
+      ],
+      "menh": "Thổ",
+      "nap_am": "Đất nền chòi"
+    },
+    {
+      "stt": 24,
+      "can_chi_pair": [
+        "Canh Tuất",
+        "Tân Hợi"
+      ],
+      "menh": "Kim",
+      "nap_am": "Vàng đeo tay"
+    },
+    {
+      "stt": 25,
+      "can_chi_pair": [
+        "Nhâm Tý",
+        "Quý Sửu"
+      ],
+      "menh": "Mộc",
+      "nap_am": "Cây dâu"
+    },
+    {
+      "stt": 26,
+      "can_chi_pair": [
+        "Giáp Dần",
+        "Ất Mão"
+      ],
+      "menh": "Thủy",
+      "nap_am": "Nước khe lớn"
+    },
+    {
+      "stt": 27,
+      "can_chi_pair": [
+        "Bính Thìn",
+        "Đinh Tỵ"
+      ],
+      "menh": "Thổ",
+      "nap_am": "Đất trong cát"
+    },
+    {
+      "stt": 28,
+      "can_chi_pair": [
+        "Mậu Ngọ",
+        "Kỷ Mùi"
+      ],
+      "menh": "Hỏa",
+      "nap_am": "Lửa trên núi"
+    },
+    {
+      "stt": 29,
+      "can_chi_pair": [
+        "Canh Thân",
+        "Tân Dậu"
+      ],
+      "menh": "Mộc",
+      "nap_am": "Cây lựu đá"
+    },
+    {
+      "stt": 30,
+      "can_chi_pair": [
+        "Nhâm Tuất",
+        "Quý Hợi"
+      ],
+      "menh": "Thủy",
+      "nap_am": "Nước biển lớn"
+    }
+  ],
+  "age_conflicts": {
+    "note": "Lục Thập Hoa Giáp Nhật Xung Niên Tuế (Ngày xung năm tuổi) - each of the 60 Can-Chi days clashes with people born in the two listed Can-Chi years",
+    "source_pages": [
+      137,
+      138,
+      139,
+      140
+    ],
+    "entries": [
+      {
+        "ngay": "Giáp Tý",
+        "xung_tuoi": [
+          "Mậu Ngọ",
+          "Nhâm Ngọ"
+        ]
+      },
+      {
+        "ngay": "Ất Sửu",
+        "xung_tuoi": [
+          "Kỷ Mùi",
+          "Quý Mùi"
+        ]
+      },
+      {
+        "ngay": "Bính Dần",
+        "xung_tuoi": [
+          "Canh Thân",
+          "Nhâm Thân"
+        ]
+      },
+      {
+        "ngay": "Đinh Mão",
+        "xung_tuoi": [
+          "Tân Dậu",
+          "Quý Dậu"
+        ]
+      },
+      {
+        "ngay": "Mậu Thìn",
+        "xung_tuoi": [
+          "Nhâm Tuất",
+          "Bính Tuất"
+        ]
+      },
+      {
+        "ngay": "Kỷ Tỵ",
+        "xung_tuoi": [
+          "Quý Hợi",
+          "Đinh Hợi"
+        ]
+      },
+      {
+        "ngay": "Canh Ngọ",
+        "xung_tuoi": [
+          "Giáp Tý",
+          "Bính Tý"
+        ]
+      },
+      {
+        "ngay": "Tân Mùi",
+        "xung_tuoi": [
+          "Ất Sửu",
+          "Đinh Sửu"
+        ]
+      },
+      {
+        "ngay": "Nhâm Thân",
+        "xung_tuoi": [
+          "Bính Dần",
+          "Canh Dần"
+        ]
+      },
+      {
+        "ngay": "Quý Dậu",
+        "xung_tuoi": [
+          "Đinh Mão",
+          "Tân Mão"
+        ]
+      },
+      {
+        "ngay": "Giáp Tuất",
+        "xung_tuoi": [
+          "Mậu Thìn",
+          "Canh Thìn"
+        ]
+      },
+      {
+        "ngay": "Ất Hợi",
+        "xung_tuoi": [
+          "Kỷ Tỵ",
+          "Tân Tỵ"
+        ]
+      },
+      {
+        "ngay": "Bính Tý",
+        "xung_tuoi": [
+          "Canh Ngọ",
+          "Mậu Ngọ"
+        ]
+      },
+      {
+        "ngay": "Đinh Sửu",
+        "xung_tuoi": [
+          "Tân Mùi",
+          "Kỷ Mùi"
+        ]
+      },
+      {
+        "ngay": "Mậu Dần",
+        "xung_tuoi": [
+          "Nhâm Thân",
+          "Giáp Thân"
+        ]
+      },
+      {
+        "ngay": "Kỷ Mão",
+        "xung_tuoi": [
+          "Quý Dậu",
+          "Ất Dậu"
+        ]
+      },
+      {
+        "ngay": "Canh Thìn",
+        "xung_tuoi": [
+          "Giáp Tuất",
+          "Mậu Tuất"
+        ]
+      },
+      {
+        "ngay": "Tân Tỵ",
+        "xung_tuoi": [
+          "Ất Hợi",
+          "Kỷ Hợi"
+        ]
+      },
+      {
+        "ngay": "Nhâm Ngọ",
+        "xung_tuoi": [
+          "Bính Tý",
+          "Canh Tý"
+        ]
+      },
+      {
+        "ngay": "Quý Mùi",
+        "xung_tuoi": [
+          "Đinh Sửu",
+          "Tân Sửu"
+        ]
+      },
+      {
+        "ngay": "Giáp Thân",
+        "xung_tuoi": [
+          "Mậu Dần",
+          "Bính Dần"
+        ]
+      },
+      {
+        "ngay": "Ất Dậu",
+        "xung_tuoi": [
+          "Kỷ Mão",
+          "Đinh Mão"
+        ]
+      },
+      {
+        "ngay": "Bính Tuất",
+        "xung_tuoi": [
+          "Canh Thìn",
+          "Nhâm Thìn"
+        ]
+      },
+      {
+        "ngay": "Đinh Hợi",
+        "xung_tuoi": [
+          "Tân Tỵ",
+          "Quý Tỵ"
+        ]
+      },
+      {
+        "ngay": "Mậu Tý",
+        "xung_tuoi": [
+          "Nhâm Ngọ",
+          "Giáp Ngọ"
+        ]
+      },
+      {
+        "ngay": "Kỷ Sửu",
+        "xung_tuoi": [
+          "Quý Mùi",
+          "Ất Mùi"
+        ]
+      },
+      {
+        "ngay": "Canh Dần",
+        "xung_tuoi": [
+          "Giáp Thân",
+          "Mậu Thân"
+        ]
+      },
+      {
+        "ngay": "Tân Mão",
+        "xung_tuoi": [
+          "Ất Dậu",
+          "Kỷ Dậu"
+        ]
+      },
+      {
+        "ngay": "Nhâm Thìn",
+        "xung_tuoi": [
+          "Bính Tuất",
+          "Giáp Tuất"
+        ]
+      },
+      {
+        "ngay": "Quý Tỵ",
+        "xung_tuoi": [
+          "Đinh Hợi",
+          "Ất Hợi"
+        ]
+      },
+      {
+        "ngay": "Giáp Ngọ",
+        "xung_tuoi": [
+          "Mậu Tý",
+          "Nhâm Tý"
+        ]
+      },
+      {
+        "ngay": "Ất Mùi",
+        "xung_tuoi": [
+          "Kỷ Sửu",
+          "Quý Sửu"
+        ]
+      },
+      {
+        "ngay": "Bính Thân",
+        "xung_tuoi": [
+          "Canh Dần",
+          "Nhâm Dần"
+        ]
+      },
+      {
+        "ngay": "Đinh Dậu",
+        "xung_tuoi": [
+          "Tân Mão",
+          "Quý Mão"
+        ]
+      },
+      {
+        "ngay": "Mậu Tuất",
+        "xung_tuoi": [
+          "Nhâm Thìn",
+          "Bính Thìn"
+        ]
+      },
+      {
+        "ngay": "Kỷ Hợi",
+        "xung_tuoi": [
+          "Quý Tỵ",
+          "Đinh Tỵ"
+        ]
+      },
+      {
+        "ngay": "Canh Tý",
+        "xung_tuoi": [
+          "Giáp Ngọ",
+          "Bính Ngọ"
+        ]
+      },
+      {
+        "ngay": "Tân Sửu",
+        "xung_tuoi": [
+          "Ất Mùi",
+          "Đinh Mùi"
+        ]
+      },
+      {
+        "ngay": "Nhâm Dần",
+        "xung_tuoi": [
+          "Bính Thân",
+          "Canh Thân"
+        ]
+      },
+      {
+        "ngay": "Quý Mão",
+        "xung_tuoi": [
+          "Đinh Dậu",
+          "Tân Dậu"
+        ]
+      },
+      {
+        "ngay": "Giáp Thìn",
+        "xung_tuoi": [
+          "Mậu Tuất",
+          "Canh Tuất"
+        ]
+      },
+      {
+        "ngay": "Ất Tỵ",
+        "xung_tuoi": [
+          "Kỷ Hợi",
+          "Tân Hợi"
+        ]
+      },
+      {
+        "ngay": "Bính Ngọ",
+        "xung_tuoi": [
+          "Canh Tý",
+          "Mậu Tý"
+        ]
+      },
+      {
+        "ngay": "Đinh Mùi",
+        "xung_tuoi": [
+          "Tân Sửu",
+          "Kỷ Sửu"
+        ]
+      },
+      {
+        "ngay": "Mậu Thân",
+        "xung_tuoi": [
+          "Nhâm Dần",
+          "Giáp Dần"
+        ]
+      },
+      {
+        "ngay": "Kỷ Dậu",
+        "xung_tuoi": [
+          "Quý Mão",
+          "Ất Mão"
+        ]
+      },
+      {
+        "ngay": "Canh Tuất",
+        "xung_tuoi": [
+          "Giáp Thìn",
+          "Mậu Thìn"
+        ]
+      },
+      {
+        "ngay": "Tân Hợi",
+        "xung_tuoi": [
+          "Kỷ Tỵ",
+          "Đinh Tỵ"
+        ]
+      },
+      {
+        "ngay": "Nhâm Tý",
+        "xung_tuoi": [
+          "Bính Ngọ",
+          "Canh Ngọ"
+        ]
+      },
+      {
+        "ngay": "Quý Sửu",
+        "xung_tuoi": [
+          "Đinh Mùi",
+          "Tân Mùi"
+        ]
+      },
+      {
+        "ngay": "Giáp Dần",
+        "xung_tuoi": [
+          "Mậu Thân",
+          "Bính Thân"
+        ]
+      },
+      {
+        "ngay": "Ất Mão",
+        "xung_tuoi": [
+          "Kỷ Dậu",
+          "Tân Dậu"
+        ]
+      },
+      {
+        "ngay": "Bính Thìn",
+        "xung_tuoi": [
+          "Canh Tuất",
+          "Nhâm Tuất"
+        ]
+      },
+      {
+        "ngay": "Đinh Tỵ",
+        "xung_tuoi": [
+          "Tân Hợi",
+          "Quý Hợi"
+        ]
+      },
+      {
+        "ngay": "Mậu Ngọ",
+        "xung_tuoi": [
+          "Nhâm Tý",
+          "Giáp Tý"
+        ]
+      },
+      {
+        "ngay": "Kỷ Mùi",
+        "xung_tuoi": [
+          "Quý Sửu",
+          "Ất Sửu"
+        ]
+      },
+      {
+        "ngay": "Canh Thân",
+        "xung_tuoi": [
+          "Giáp Dần",
+          "Mậu Dần"
+        ]
+      },
+      {
+        "ngay": "Tân Dậu",
+        "xung_tuoi": [
+          "Ất Mão",
+          "Kỷ Mão"
+        ]
+      },
+      {
+        "ngay": "Nhâm Tuất",
+        "xung_tuoi": [
+          "Bính Thìn",
+          "Mậu Thìn"
+        ]
+      },
+      {
+        "ngay": "Quý Hợi",
+        "xung_tuoi": [
+          "Đinh Tỵ",
+          "Ất Tỵ"
+        ]
+      }
+    ]
+  },
+  "ngu_hanh_tuong_sinh": [
+    {
+      "from": "Thổ",
+      "to": "Kim"
+    },
+    {
+      "from": "Kim",
+      "to": "Thủy"
+    },
+    {
+      "from": "Thủy",
+      "to": "Mộc"
+    },
+    {
+      "from": "Mộc",
+      "to": "Hỏa"
+    },
+    {
+      "from": "Hỏa",
+      "to": "Thổ"
+    }
+  ],
+  "ngu_hanh_tuong_khac": [
+    {
+      "from": "Thổ",
+      "to": "Thủy"
+    },
+    {
+      "from": "Thủy",
+      "to": "Hỏa"
+    },
+    {
+      "from": "Hỏa",
+      "to": "Kim"
+    },
+    {
+      "from": "Kim",
+      "to": "Mộc"
+    },
+    {
+      "from": "Mộc",
+      "to": "Thổ"
+    }
+  ],
+  "ngu_hanh_phuong_huong": {
+    "Mộc": "Đông Phương",
+    "Hỏa": "Nam Phương",
+    "Kim": "Tây Phương",
+    "Thủy": "Bắc Phương",
+    "Thổ": "Trung tâm"
+  },
+  "ngu_hanh_tang_phu": {
+    "Mộc": "Gan",
+    "Hỏa": "Tim",
+    "Kim": "Phổi",
+    "Thổ": "Lá lách",
+    "Thủy": "Thận"
+  },
+  "ngu_hanh_tuong_ung_yeu_to": {
+    "table": {
+      "Mộc": {
+        "bon_mua": "Xuân",
+        "bon_phuong": "Đông",
+        "thoi_tiet_khi": "Ấm",
+        "mau_sac": "Xanh",
+        "mui_vi": "Chua",
+        "bat_quai": [
+          "Ly",
+          "Cấn"
+        ],
+        "thap_can": [
+          "Giáp",
+          "Ất"
+        ],
+        "thap_nhi_chi": [
+          "Dần",
+          "Mão"
+        ],
+        "ngu_tang": "Gan (Can)",
+        "luc_phu": "Đảm (Mật)",
+        "ngu_khi": "Mắt"
+      },
+      "Hỏa": {
+        "bon_mua": "Hạ",
+        "bon_phuong": "Nam",
+        "thoi_tiet_khi": "Nóng",
+        "mau_sac": "Đỏ",
+        "mui_vi": "Đắng",
+        "bat_quai": [
+          "Càn",
+          "Tốn"
+        ],
+        "thap_can": [
+          "Bính",
+          "Đinh"
+        ],
+        "thap_nhi_chi": [
+          "Tỵ",
+          "Ngọ"
+        ],
+        "ngu_tang": "Tim (Tâm)",
+        "luc_phu": "Ruột non",
+        "ngu_khi": "Lưỡi"
+      },
+      "Thổ": {
+        "bon_mua": null,
+        "bon_phuong": "Giữa",
+        "thoi_tiet_khi": "Ẩm",
+        "mau_sac": "Vàng",
+        "mui_vi": "Ngọt",
+        "bat_quai": [],
+        "thap_can": [
+          "Mậu",
+          "Kỷ"
+        ],
+        "thap_nhi_chi": [
+          "Thìn",
+          "Tuất",
+          "Sửu",
+          "Mùi"
+        ],
+        "ngu_tang": "Tỳ",
+        "luc_phu": "Vị (Dạ dày)",
+        "ngu_khi": "Miệng"
+      },
+      "Kim": {
+        "bon_mua": "Thu",
+        "bon_phuong": "Tây",
+        "thoi_tiet_khi": "Mát",
+        "mau_sac": "Trắng",
+        "mui_vi": "Cay",
+        "bat_quai": [
+          "Khảm",
+          "Đoài"
+        ],
+        "thap_can": [
+          "Canh",
+          "Tân"
+        ],
+        "thap_nhi_chi": [
+          "Thân",
+          "Dậu"
+        ],
+        "ngu_tang": "Phổi (Phế)",
+        "luc_phu": "Ruột già",
+        "ngu_khi": "Mũi"
+      },
+      "Thủy": {
+        "bon_mua": "Đông",
+        "bon_phuong": "Bắc",
+        "thoi_tiet_khi": "Lạnh",
+        "mau_sac": "Đen",
+        "mui_vi": "Mặn",
+        "bat_quai": [
+          "Khôn",
+          "Chấn"
+        ],
+        "thap_can": [
+          "Nhâm",
+          "Quý"
+        ],
+        "thap_nhi_chi": [
+          "Hợi",
+          "Tý"
+        ],
+        "ngu_tang": "Thận",
+        "luc_phu": "Bàng quang",
+        "ngu_khi": "Tai"
+      }
+    },
+    "source_pages": [
+      159,
+      160
+    ]
+  },
+  "duong_nien_hanh_khien": {
+    "note": "12 vị Hành Binh/Hành Khiển cúng đầu năm (sáng mùng 3 Tết) theo năm Chi, cầu gia đạo an lành làm ăn phát tài",
+    "source_pages": [
+      56,
+      57
+    ],
+    "entries": [
+      {
+        "nam": "Tý",
+        "hanh_binh": "Ông Thiên ôn hành binh",
+        "hanh_khien": "Ông Chu Vương hành khiến"
+      },
+      {
+        "nam": "Sửu",
+        "hanh_binh": "Ông Tam thập lục thống hành binh",
+        "hanh_khien": "Ông Triệu Vương hành khiến"
+      },
+      {
+        "nam": "Dần",
+        "hanh_binh": "Ông Mộc Tinh Liễu Tào hành binh",
+        "hanh_khien": "Ông Nguỵ Vương hành khiến"
+      },
+      {
+        "nam": "Mão",
+        "hanh_binh": "Ông Thạch Tinh Liễu Tào hành binh",
+        "hanh_khien": "Ông Trịnh Vương hành khiến"
+      },
+      {
+        "nam": "Thìn",
+        "hanh_binh": "Ông Hỏa Tinh Liễu Tào hành binh",
+        "hanh_khien": "Ông Sở Vương hành khiến"
+      },
+      {
+        "nam": "Tỵ",
+        "hanh_binh": "Ông Thiên Hao Hứa Tào hành binh",
+        "hanh_khien": "Ông Ngô Vương hành khiến"
+      },
+      {
+        "nam": "Ngọ",
+        "hanh_binh": "Ông Thiên Hao Vương Tào hành binh",
+        "hanh_khien": "Ông Tần Vương hành khiến"
+      },
+      {
+        "nam": "Mùi",
+        "hanh_binh": "Ông Ngũ Đạo Lâm Tào hành binh",
+        "hanh_khien": "Ông Tống Vương hành khiến"
+      },
+      {
+        "nam": "Thân",
+        "hanh_binh": "Ông Ngũ Miếu Tống Tào hành binh",
+        "hanh_khien": "Ông Tề Vương hành khiến"
+      },
+      {
+        "nam": "Dậu",
+        "hanh_binh": "Ông Ngũ Nhạc Cự Tào hành binh",
+        "hanh_khien": "Ông Lỗ Vương hành khiến"
+      },
+      {
+        "nam": "Tuất",
+        "hanh_binh": "Ông Thiên Bá Thành Tào hành binh",
+        "hanh_khien": "Ông Việt Vương hành khiến"
+      },
+      {
+        "nam": "Hợi",
+        "hanh_binh": "Ông Ngũ Ôn Nguyễn Tào hành binh",
+        "hanh_khien": "Ông Lưu Vương hành khiến"
+      }
+    ],
+    "nghi_le": "Sáng sớm mùng 3 Tết dùng nhang đèn trầu rượu, thuốc, hoa quả, bánh mứt, trà hoặc xôi chè (cúng chay) cúng các vị hành binh, hành khiển năm đó, khấn tên đúng vị thần năm đó mới có thần chứng."
+  },
+  "xem_nam_tim_nguyet_kien": {
+    "note": "Tìm Chi của tháng giêng (Nguyệt Kiến) dựa theo Can của năm",
+    "source_page": 58,
+    "entries": [
+      {
+        "can_nam": [
+          "Giáp",
+          "Kỷ"
+        ],
+        "thang_gieng_tai": "Bính Dần"
+      },
+      {
+        "can_nam": [
+          "Ất",
+          "Canh"
+        ],
+        "thang_gieng_tai": "Mậu Dần"
+      },
+      {
+        "can_nam": [
+          "Bính",
+          "Tân"
+        ],
+        "thang_gieng_tai": "Canh Dần"
+      },
+      {
+        "can_nam": [
+          "Đinh",
+          "Nhâm"
+        ],
+        "thang_gieng_tai": "Nhâm Dần"
+      },
+      {
+        "can_nam": [
+          "Mậu",
+          "Quý"
+        ],
+        "thang_gieng_tai": "Giáp Dần"
+      }
+    ]
+  },
+  "phuong_huong_tot_tung_nam": {
+    "note": "Hướng lợi / hướng sát theo nhóm năm Tam Hợp",
+    "source_page": 58,
+    "entries": [
+      {
+        "nam_nhom": [
+          "Dần",
+          "Ngọ",
+          "Tuất"
+        ],
+        "loi_huong": [
+          "Đông",
+          "Tây"
+        ],
+        "sat_huong": "Bắc"
+      },
+      {
+        "nam_nhom": [
+          "Thân",
+          "Tý",
+          "Thìn"
+        ],
+        "loi_huong": [
+          "Đông",
+          "Tây"
+        ],
+        "sat_huong": "Nam"
+      },
+      {
+        "nam_nhom": [
+          "Hợi",
+          "Mão",
+          "Mùi"
+        ],
+        "loi_huong": [
+          "Nam",
+          "Bắc"
+        ],
+        "sat_huong": "Tây"
+      },
+      {
+        "nam_nhom": [
+          "Tỵ",
+          "Dậu",
+          "Sửu"
+        ],
+        "loi_huong": [
+          "Nam",
+          "Bắc"
+        ],
+        "sat_huong": "Đông"
+      }
+    ]
+  },
+  "tam_tai_han": {
+    "note": "Hạn Tam Tai - 3 năm liên tiếp xui xẻo, dễ gặp bệnh hoạn/thất bại/tang chế, tính theo nhóm năm sinh Tam Hợp",
+    "source_page": 64,
+    "bang_tra": [
+      {
+        "nhom_sinh": [
+          "Thân",
+          "Tý",
+          "Thìn"
+        ],
+        "nam_tam_tai": [
+          "Dần",
+          "Mão",
+          "Thìn"
+        ]
+      },
+      {
+        "nhom_sinh": [
+          "Hợi",
+          "Mão",
+          "Mùi"
+        ],
+        "nam_tam_tai": [
+          "Tý",
+          "Ngọ",
+          "Mùi"
+        ]
+      },
+      {
+        "nhom_sinh": [
+          "Dần",
+          "Ngọ",
+          "Tuất"
+        ],
+        "nam_tam_tai": [
+          "Thân",
+          "Dậu",
+          "Sửu"
+        ]
+      },
+      {
+        "nhom_sinh": [
+          "Tỵ",
+          "Dậu",
+          "Sửu"
+        ],
+        "nam_tam_tai": [
+          "Hợi",
+          "Mão",
+          "Mùi"
+        ]
+      }
+    ],
+    "cach_cung_than_tam_tai_dai_han": {
+      "note": "Mỗi năm Chi ứng với 1 vị thần để cúng vái, 1 ngày âm lịch cố định trong tháng, và 1 hướng cúng lễ mỗi tháng",
+      "entries": [
+        {
+          "nam": "Tý",
+          "than": "Ông Địa Võng",
+          "ngay_cung": 22,
+          "huong": "chính Bắc"
+        },
+        {
+          "nam": "Sửu",
+          "than": "Ông Địa Hình",
+          "ngay_cung": 24,
+          "huong": "Đông Bắc"
+        },
+        {
+          "nam": "Dần",
+          "than": "Ông Địa Thiên Hùng",
+          "ngay_cung": 15,
+          "huong": "Đông Bắc"
+        },
+        {
+          "nam": "Mão",
+          "than": "Ông Thiên Hình",
+          "ngay_cung": 14,
+          "huong": "chính Đông"
+        },
+        {
+          "nam": "Thìn",
+          "than": "Ông Thiên Kiếp",
+          "ngay_cung": 13,
+          "huong": "Đông Nam"
+        },
+        {
+          "nam": "Tỵ",
+          "than": "Ông Hắc Sát",
+          "ngay_cung": 11,
+          "huong": "Đông Nam"
+        },
+        {
+          "nam": "Ngọ",
+          "than": "Ông Âm Mưu",
+          "ngay_cung": 20,
+          "huong": "chính Nam"
+        },
+        {
+          "nam": "Mùi",
+          "than": "Ông Bạch Sát",
+          "ngay_cung": 8,
+          "huong": "Tây Nam"
+        },
+        {
+          "nam": "Thân",
+          "than": "Ông Nhân Hoàng",
+          "ngay_cung": 8,
+          "huong": "Tây Nam"
+        },
+        {
+          "nam": "Dậu",
+          "than": "Ông Thiên Họa",
+          "ngay_cung": 7,
+          "huong": "chính Tây"
+        },
+        {
+          "nam": "Tuất",
+          "than": "Ông Địa Tài",
+          "ngay_cung": 6,
+          "huong": "Tây Bắc"
+        },
+        {
+          "nam": "Hợi",
+          "than": "Ông Địa Đại",
+          "ngay_cung": 21,
+          "huong": "Tây Bắc"
+        }
+      ],
+      "phep_cung_le": "Tuổi nào gặp tam tai 3 năm liền thì cúng 1 lần trong tháng Giêng cũng được. Lễ vật: 1 bộ tam sinh (trứng, thịt luộc, tôm luộc), 1 bộ đồ thế cô hình ông cọp, gạo, muối, nhang, đèn, trầu, rượu, tóc rụng của mình (nếu có), gói chung buộc 1 sợi dây lưng và ít tiền thật; chờ trời chạng vạng tối đem ra ngã ba đường đặt lễ, thắp nhang đèn quay mặt về hướng tam tai của năm đó mà cúng đúng vị thần năm đó, xưng tên tuổi người cúng, xong bỏ lại chợ đem về chỉ trừ bầu rượu."
+    }
+  },
+  "thai_tue_nhap_trach_dai_sat_nien_hung": {
+    "note": "Thơ luận về Thái Tuế nhập trạch (khắc hướng nhà tu tạo) theo Chi của năm/tuổi - mỗi câu ứng với 1 Chi (Tý->Hợi) nêu Chi năm kỵ tu tạo trạch. Sách in lặp lại bài thơ này 4 lần (trang 65, 141, 144-145) với văn bản hơi khác nhau (dị bản/lỗi in); dưới đây là bản ghép nối rõ nhất từ các lần xuất hiện trực tiếp đọc bằng hình ảnh (141, 144-145), có đối chiếu bản trang 65.",
+    "source_pages": [
+      65,
+      141,
+      144,
+      145
+    ],
+    "tho_hop_nhat": "Thái tuế nhập trạch thị lan dan / Tý Ngọ xà niên phá kình dương / Sửu ngộ Ngọ cũng vi sát chủ / Dần phùng dương vị chủ hung lang / Mão ngộ hầu cung lang tạo trạch / Thìn phùng kê vị tất hung quyết / Tỵ khiến khuyển vị tương dương sát / Ngọ ngộ trư cung chủ nhân tàng / Mùi kỵ Tý cung vi sát chủ / Thân phùng Sửu vị tất ông Hoàng / Dậu phạm hổ lang tư thiết kỵ / Tuất (khuyển) tương dương nhi bất tắc hưởng / Hợi phạm long cung tu tạo trạch, tu tạo phạm chi chủ bất lương.",
+    "vi_du": "Như người tuổi Tý kỵ năm Tỵ bất tu tạo trạch (ví dụ minh họa cách dùng: lấy Chi tuổi người chủ, tránh năm ứng với câu thơ tương ứng)",
+    "luu_y": "Bài thơ khó tách bạch 100% do lối viết thơ lục bát và các lần in lặp lại không hoàn toàn khớp nhau; bản trang 65 (đọc qua OCR) có thứ tự câu khác bản đọc trực tiếp trang 141/144-145 - giữ nguyên cả hai không tự ý sửa."
+  },
+  "lam_nha_bo_sung": {
+    "nhung_nam_sat_khong_nen_lam_nha": {
+      "note": "Theo nhóm năm sinh Tam Hợp, có 1 Chi năm/tháng/giờ bị Sát, kỵ làm nhà",
+      "source_page": 66,
+      "entries": [
+        {
+          "nhom_sinh": [
+            "Dần",
+            "Ngọ",
+            "Tuất"
+          ],
+          "sat_tai": "Sửu (niên, nguyệt, thời)"
+        },
+        {
+          "nhom_sinh": [
+            "Tỵ",
+            "Dậu",
+            "Sửu"
+          ],
+          "sat_tai": "Thìn (niên, nguyệt, thời)"
+        },
+        {
+          "nhom_sinh": [
+            "Hợi",
+            "Mão",
+            "Mùi"
+          ],
+          "sat_tai": "Tuất (niên, nguyệt, thời)"
+        },
+        {
+          "nhom_sinh": [
+            "Thân",
+            "Tý",
+            "Thìn"
+          ],
+          "sat_tai": "Mùi (niên, nguyệt, thời)"
+        }
+      ],
+      "cau_ket": "Niên sát bất nghi tạo trạch / Cưỡng mà làm nhà không vượng"
+    }
+  },
+  "ham_chan_quan_ngoc_hap_ky": {
+    "note": "Đoạn văn giới thiệu/truyền thuyết về nguồn gốc sách Ngọc Hạp (Ông Hám Chân Quân) - văn xuôi, không phải bảng số liệu, chỉ trích đoạn mở đầu",
+    "source_page": 66,
+    "trich_doan": "Ông Hán Chân Quân thân người đài tác phúc thì nguyên, hay điều thương thương, làm chay, có người được phúc, có kẻ bị tội tai họa sinh ra họa phá tận con cháu. Vì thế Ông Hán Chân Quân sát trong bản án thiên tào thì thấy, chỉ vì những kẻ tầm thường không biết chọn ngày mà chung tiến Tổ Tiên không biết những ngày trong vòng 60 của lục Giáp tuần trong các vì sao hoặc ở địa phủ, hoặc ở nhân gian, dĩ chí phạm phải mà con cháu phạm phải chịu tai..."
+  },
+  "van_nien_12_thang_du_bao": {
+    "note": "Bài văn vần dự báo thời tiết/mùa màng/dịch bệnh theo từng tháng âm lịch trong năm (dạng 'sấm truyền' nông lịch) - văn bản dài, mang tính chất dự báo thời tiết dân gian chung cho cả năm chứ không phải quy tắc chọn ngày cá nhân, nên chỉ trích đoạn đại diện thay vì toàn văn",
+    "source_pages": "58-63 (trích đoạn từ 59-60)",
+    "trich_doan_thang_1_va_2": "Đại tiết phân phan thi vãn niên / Dân đắc lập xuân tinh trạch thử / Nông pha bất dụng lực Canh Điền // Tháng 2: Kinh trập vẫn xuôi mễ tự mê (bủn) / Xuân phân hữu vũ bệnh nhân ly (ít) / Nguyệt chung dân đắc phùng tam Mão (trong) / Ba ngày Mão hoa quả được mùa / Chính thảo cao hoa xứ xứ phì",
+    "trich_doan_thang_9": "Ngày thu xa mưa được mùa nhưng nhiều cảm ốm"
+  }
+}

@@ -1,0 +1,252 @@
+{
+ "source": "Ngoc Hap Thong Thu",
+ "pages": [
+  92,
+  93,
+  94
+ ],
+ "topic": "Cô thần - Quả tú (các bảng theo tháng, mùa)",
+ "description": "Co Than / Qua Tu tables: monthly pair days, monthly single co than days, qua/co marriage taboo by month & gender, seasonal co than.",
+ "rules": [
+  {
+   "name": "Cô thần quả tú theo tháng",
+   "rules": [
+    {
+     "thang": [
+      1,
+      7
+     ],
+     "ngay": [
+      "Thìn",
+      "Tuất"
+     ]
+    },
+    {
+     "thang": [
+      2,
+      8
+     ],
+     "ngay": [
+      "Tỵ",
+      "Hợi"
+     ]
+    },
+    {
+     "thang": [
+      3,
+      9
+     ],
+     "ngay": [
+      "Tý",
+      "Ngọ"
+     ]
+    },
+    {
+     "thang": [
+      4,
+      10
+     ],
+     "ngay": [
+      "Sửu",
+      "Mùi"
+     ]
+    },
+    {
+     "thang": [
+      5,
+      11
+     ],
+     "ngay": [
+      "Dần",
+      "Thân"
+     ]
+    },
+    {
+     "thang": 6,
+     "ngay": [
+      "Mão",
+      "Dậu"
+     ]
+    },
+    {
+     "thang": 12,
+     "ngay": [
+      "Thìn",
+      "Tuất"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Những ngày cô thần (đơn)",
+   "rules": [
+    {
+     "thang": 1,
+     "ngay": "Tuất"
+    },
+    {
+     "thang": 2,
+     "ngay": "Hợi"
+    },
+    {
+     "thang": 3,
+     "ngay": "Tý"
+    },
+    {
+     "thang": 4,
+     "ngay": "Sửu"
+    },
+    {
+     "thang": 5,
+     "ngay": "Dần"
+    },
+    {
+     "thang": 6,
+     "ngay": "Mão"
+    },
+    {
+     "thang": 7,
+     "ngay": "Thìn"
+    },
+    {
+     "thang": 8,
+     "ngay": "Tỵ"
+    },
+    {
+     "thang": 9,
+     "ngay": "Ngọ"
+    },
+    {
+     "thang": 10,
+     "ngay": "Mùi"
+    },
+    {
+     "thang": 11,
+     "ngay": "Thân"
+    },
+    {
+     "thang": 12,
+     "ngay": "Dậu"
+    }
+   ]
+  },
+  {
+   "name": "Quả cô kỵ giá thú",
+   "rules": [
+    {
+     "thang": 1,
+     "ngay": [
+      "Dần",
+      "Sửu"
+     ],
+     "loai": "nữ quả"
+    },
+    {
+     "thang": [
+      2,
+      3
+     ],
+     "ngay": [
+      "Thân",
+      "Mùi"
+     ],
+     "loai": "nam cô"
+    },
+    {
+     "thang": 4,
+     "ngay": [
+      "Ngọ",
+      "Dậu"
+     ],
+     "loai": "nữ quả"
+    },
+    {
+     "thang": 5,
+     "ngay": [
+      "Ngọ",
+      "Dậu"
+     ],
+     "loai": "nam cô"
+    },
+    {
+     "thang": 6,
+     "ngay": [
+      "Tuất",
+      "Thìn"
+     ],
+     "loai": "nữ quả"
+    },
+    {
+     "thang": [
+      7,
+      8
+     ],
+     "ngay": [
+      "Dần",
+      "Mão"
+     ],
+     "loai": "nam cô"
+    },
+    {
+     "thang": 9,
+     "ngay": [
+      "Tỵ",
+      "Ngọ"
+     ],
+     "loai": "nữ quả"
+    },
+    {
+     "thang": 10,
+     "ngay": [
+      "Ngọ"
+     ],
+     "loai": "nữ quả"
+    },
+    {
+     "thang": [
+      11,
+      12
+     ],
+     "ngay": [
+      "Dậu"
+     ],
+     "loai": "nam cô"
+    }
+   ],
+   "note": "Nam phạm cô thần thê ly biệt, nữ phùng quả tú độc phòng chung"
+  },
+  {
+   "name": "Bốn mùa cô thần",
+   "rules": [
+    {
+     "mua": "Xuân",
+     "ngay": [
+      "Thìn",
+      "Tỵ"
+     ]
+    },
+    {
+     "mua": "Hạ",
+     "ngay": [
+      "Thân",
+      "Mùi"
+     ]
+    },
+    {
+     "mua": "Thu",
+     "ngay": [
+      "Tuất",
+      "Hợi"
+     ]
+    },
+    {
+     "mua": "Đông",
+     "ngay": [
+      "Tuất",
+      "Hợi"
+     ]
+    }
+   ]
+  }
+ ]
+}

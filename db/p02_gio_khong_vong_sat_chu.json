@@ -1,0 +1,81 @@
+{
+ "source": "Ngoc Hap Thong Thu",
+ "pages": [
+  51,
+  52
+ ],
+ "topic": "Giờ không vong & giờ sát chủ theo can ngày; nguyệt kiến",
+ "description": "Void hours and master-killing hour by day-stem pair; monthly nguyet kien branch.",
+ "rules": [
+  {
+   "can_ngay": [
+    "Giáp",
+    "Kỷ"
+   ],
+   "khong_vong": [
+    "Thân",
+    "Dậu"
+   ],
+   "sat_chu_gio": "Ngọ"
+  },
+  {
+   "can_ngay": [
+    "Ất",
+    "Canh"
+   ],
+   "khong_vong": [
+    "Ngọ",
+    "Mùi"
+   ],
+   "sat_chu_gio": "Tý"
+  },
+  {
+   "can_ngay": [
+    "Bính",
+    "Tân"
+   ],
+   "khong_vong": [
+    "Thìn",
+    "Tỵ"
+   ],
+   "sat_chu_gio": "Sửu"
+  },
+  {
+   "can_ngay": [
+    "Đinh",
+    "Nhâm"
+   ],
+   "khong_vong": [
+    "Dần",
+    "Mão"
+   ],
+   "sat_chu_gio": "Hợi"
+  },
+  {
+   "can_ngay": [
+    "Mậu",
+    "Quý"
+   ],
+   "khong_vong": [
+    "Tý",
+    "Sửu"
+   ],
+   "sat_chu_gio": "Tỵ"
+  }
+ ],
+ "note": "Giờ không vong làm việc gì cũng không thành.",
+ "nguyet_kien": {
+  "1": "Dần",
+  "2": "Mão",
+  "3": "Thìn",
+  "4": "Tỵ",
+  "5": "Ngọ",
+  "6": "Mùi",
+  "7": "Thân",
+  "8": "Dậu",
+  "9": "Tuất",
+  "10": "Hợi",
+  "11": "Tý",
+  "12": "Sửu"
+ }
+}

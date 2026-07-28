@@ -1,0 +1,175 @@
+{
+  "source": "Ngoc Hap Thong Thu",
+  "pages": [
+    64,
+    65
+  ],
+  "topic": "Tam Tai hạn kỳ - đạo trạch thụ thê",
+  "description": "Tam Tai three-year misfortune cycle: which branch-years are inauspicious per birth branch, plus the offering ritual to avert it.",
+  "rules": [
+    {
+      "id": "tt-0",
+      "type": "intro",
+      "text": "Gặp việc tam tai hay gặp việc không may, lời nói hoặc bệnh hoạn, làm ăn thất bại, gia đạo bất an, hoặc chịu tang chế; người nặng thì sao hạn đi liền trong ba năm liền."
+    },
+    {
+      "id": "tt-1",
+      "type": "tam_tai_rule",
+      "born_branches": [
+        "Thân",
+        "Tý",
+        "Thìn"
+      ],
+      "tam_tai_years": [
+        "Dần",
+        "Mão",
+        "Thìn"
+      ]
+    },
+    {
+      "id": "tt-2",
+      "type": "tam_tai_rule",
+      "born_branches": [
+        "Hợi",
+        "Mão",
+        "Mùi"
+      ],
+      "tam_tai_years": [
+        "Tý",
+        "Ngọ",
+        "Mùi"
+      ]
+    },
+    {
+      "id": "tt-3",
+      "type": "tam_tai_rule",
+      "born_branches": [
+        "Dần",
+        "Ngọ",
+        "Tuất"
+      ],
+      "tam_tai_years": [
+        "Thân",
+        "Dậu",
+        "Sửu"
+      ]
+    },
+    {
+      "id": "tt-4",
+      "type": "tam_tai_rule",
+      "born_branches": [
+        "Tỵ",
+        "Dậu",
+        "Sửu"
+      ],
+      "tam_tai_years": [
+        "Hợi",
+        "Mão",
+        "Mùi"
+      ]
+    },
+    {
+      "id": "tt-altar-1",
+      "year": "Tý",
+      "deity": "Ông Địa Võng",
+      "worship_day_lunar": 22,
+      "direction": "Chính Bắc"
+    },
+    {
+      "id": "tt-altar-2",
+      "year": "Sửu",
+      "deity": "Ông Địa Hình",
+      "worship_day_lunar": 24,
+      "direction": "Đông Bắc"
+    },
+    {
+      "id": "tt-altar-3",
+      "year": "Dần",
+      "deity": "Ông Địa Thiên Hùng",
+      "worship_day_lunar": 15,
+      "direction": "Đông Bắc"
+    },
+    {
+      "id": "tt-altar-4",
+      "year": "Mão",
+      "deity": "Ông Thiên Hình",
+      "worship_day_lunar": 14,
+      "direction": "Chính Đông"
+    },
+    {
+      "id": "tt-altar-5",
+      "year": "Thìn",
+      "deity": "Ông Thiên Kiếp",
+      "worship_day_lunar": 13,
+      "direction": "Đông Nam"
+    },
+    {
+      "id": "tt-altar-6",
+      "year": "Tỵ",
+      "deity": "Ông Hắc Sát",
+      "worship_day_lunar": 11,
+      "direction": "Đông Nam"
+    },
+    {
+      "id": "tt-altar-7",
+      "year": "Ngọ",
+      "deity": "Ông Âm Mưu",
+      "worship_day_lunar": 20,
+      "direction": "Chính Nam"
+    },
+    {
+      "id": "tt-altar-8",
+      "year": "Mùi",
+      "deity": "Ông Bạch Sát",
+      "worship_day_lunar": 8,
+      "direction": "Tây Nam"
+    },
+    {
+      "id": "tt-altar-9",
+      "year": "Thân",
+      "deity": "Ông Nhân Hoàng",
+      "worship_day_lunar": 8,
+      "direction": "Tây Nam"
+    },
+    {
+      "id": "tt-altar-10",
+      "year": "Dậu",
+      "deity": "Ông Thiên Họa",
+      "worship_day_lunar": 7,
+      "direction": "Chính Tây"
+    },
+    {
+      "id": "tt-altar-11",
+      "year": "Tuất",
+      "deity": "Ông Địa Tài",
+      "worship_day_lunar": 6,
+      "direction": "Tây Bắc"
+    },
+    {
+      "id": "tt-altar-12",
+      "year": "Hợi",
+      "deity": "Ông Địa Đại",
+      "worship_day_lunar": 21,
+      "direction": "Tây Bắc"
+    },
+    {
+      "id": "tt-phep",
+      "type": "ritual_detail",
+      "when": "Có thể cúng một lần trong tháng Giêng (tuổi gặp tam tai 3 năm liền mới cúng)",
+      "offerings": [
+        "bộ tam sinh: trứng, thịt luộc, tôm luộc",
+        "bộ đồ thế cô hình ông cọp",
+        "gạo",
+        "muối",
+        "nhang",
+        "đèn",
+        "trầu",
+        "rượu",
+        "lẫy tóc rụng của mình",
+        "dây lưng",
+        "ít tiền thật"
+      ],
+      "method": "Đợi trời chạng vạng tối đem ra ngã ba đường cái, đặt lễ vật, thắp nhang đèn quay mặt về hướng tam tai của năm đó mà cúng vái đúng vị thần năm đó, xưng tên tuổi; xong bỏ lại, chỉ mang bầu rượu về."
+    }
+  ]
+}

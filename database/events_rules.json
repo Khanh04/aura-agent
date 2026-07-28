@@ -1,0 +1,6931 @@
+{
+  "source": "Ngoc Hap Thong Thu.pdf",
+  "coverage_note": "Cuốn sách có 164 trang với rất nhiều bảng ngày chi tiết (nhiều hơn số liệu bên dưới). File này tổng hợp các quy tắc chính, có tên mục rõ ràng, cho 4 nhóm sự kiện được yêu cầu, kèm số trang nguồn để tra cứu / bổ sung sau. Một số bảng rất lớn (vd. Chu Công Xuất Hành đủ 60 ngày Giáp Tý-Quý Hợi, trang 113-136) chỉ lấy mẫu đại diện do khối lượng quá lớn.",
+  "cuoi_hoi": {
+    "xem_ngay_le_ket_hon_theo_mua": {
+      "source_page": 56,
+      "note": "Ngày kỵ theo mùa khi làm lễ kết hôn",
+      "xuan": [
+        "Thìn",
+        "Tỵ",
+        "Tý"
+      ],
+      "ha": [
+        "Tuất",
+        "Mùi",
+        "Hợi"
+      ],
+      "thu": [
+        "Mão",
+        "Dần"
+      ],
+      "dong": [
+        "Thân",
+        "Dậu",
+        "Sửu"
+      ]
+    },
+    "ngay_co_than_qua_tu": {
+      "note": "Kiêng giá thú - Cô Thần (nam kỵ) / Quả Tú (nữ kỵ)",
+      "theo_mua_bon_mua_cach_1": {
+        "source_page": 56,
+        "xuan": "Sửu",
+        "ha": "Thìn",
+        "thu": "Mùi",
+        "dong": "Tuất"
+      },
+      "theo_mua_bon_mua_cach_2": {
+        "source_page": 93,
+        "xuan": "Thìn",
+        "ha": "Thân",
+        "thu": "Tuất",
+        "dong": "Tuất",
+        "luu_y": "sách ghi 2 hệ Bốn Mùa Cô Thần hơi khác nhau ở các trang khác nhau, giữ nguyên cả hai theo văn bản gốc"
+      },
+      "theo_thang": {
+        "source_page": 158,
+        "entries": [
+          {
+            "thang": 1,
+            "ngay": [
+              "Tuất",
+              "Thìn"
+            ]
+          },
+          {
+            "thang": 2,
+            "ngay": [
+              "Hợi",
+              "Tỵ"
+            ]
+          },
+          {
+            "thang": 3,
+            "ngay": [
+              "Tý",
+              "Ngọ"
+            ]
+          },
+          {
+            "thang": 4,
+            "ngay": [
+              "Sửu",
+              "Mùi"
+            ]
+          },
+          {
+            "thang": 5,
+            "ngay": [
+              "Dần",
+              "Thân"
+            ]
+          },
+          {
+            "thang": 6,
+            "ngay": [
+              "Mão",
+              "Dậu"
+            ]
+          },
+          {
+            "thang": 7,
+            "ngay": [
+              "Thìn",
+              "Tuất"
+            ]
+          },
+          {
+            "thang": 8,
+            "ngay": [
+              "Tỵ",
+              "Hợi"
+            ]
+          },
+          {
+            "thang": 9,
+            "ngay": [
+              "Ngọ",
+              "Tý"
+            ]
+          },
+          {
+            "thang": 10,
+            "ngay": [
+              "Mùi",
+              "Sửu"
+            ]
+          },
+          {
+            "thang": 11,
+            "ngay": [
+              "Thân",
+              "Dần"
+            ]
+          },
+          {
+            "thang": 12,
+            "ngay": [
+              "Dậu",
+              "Mão"
+            ]
+          }
+        ]
+      },
+      "ngay_qua_co_ky_gia_thu_theo_thang": {
+        "source_page": 93,
+        "note": "phân biệt nam cô (kỵ cho nam) / nữ quả (kỵ cho nữ)",
+        "entries": [
+          {
+            "thang": 1,
+            "ngay": [
+              "Dần",
+              "Sửu"
+            ],
+            "loai": "nữ quả"
+          },
+          {
+            "thang": "2+3",
+            "ngay": [
+              "Thân",
+              "Mùi"
+            ],
+            "loai": "nam cô"
+          },
+          {
+            "thang": 4,
+            "ngay": [
+              "Ngọ",
+              "Dậu"
+            ],
+            "loai": "nữ quả"
+          },
+          {
+            "thang": 5,
+            "ngay": [
+              "Ngọ",
+              "Dậu"
+            ],
+            "loai": "nam cô"
+          },
+          {
+            "thang": 6,
+            "ngay": [
+              "Tuất",
+              "Thìn"
+            ],
+            "loai": "nữ quả"
+          },
+          {
+            "thang": "7+8",
+            "ngay": [
+              "Dần",
+              "Mão"
+            ],
+            "loai": "nam cô"
+          },
+          {
+            "thang": 9,
+            "ngay": [
+              "Tỵ",
+              "Ngọ"
+            ],
+            "loai": "nữ quả"
+          },
+          {
+            "thang": 10,
+            "ngay": [
+              "Ngọ"
+            ],
+            "loai": "nữ quả"
+          },
+          {
+            "thang": "11+12",
+            "ngay": [
+              "Dậu"
+            ],
+            "loai": "nam cô"
+          }
+        ]
+      }
+    },
+    "ngay_ly_sao_lia_to": {
+      "note": "Kỵ nhập thất, giá thú - ngày Can Chi cụ thể",
+      "source_pages": [
+        40,
+        94,
+        140
+      ],
+      "danh_sach_can_chi": [
+        "Tân Mão",
+        "Mậu Thìn",
+        "Kỷ Tỵ",
+        "Tân Tỵ",
+        "Mậu Dần",
+        "Mậu Ngọ",
+        "Mậu Tý",
+        "Kỷ Sửu",
+        "Tân Sửu",
+        "Mậu Tuất",
+        "Nhâm Tuất",
+        "Quý Tỵ",
+        "Tân Mùi",
+        "Tân Dậu",
+        "Kỷ Hợi",
+        "Đinh Mão",
+        "Mậu Thìn (thơ)",
+        "Kỷ Tỵ (thơ)",
+        "Canh Thân",
+        "Tân Dậu (thơ)",
+        "Mậu Ngọ (thơ)",
+        "Mậu Dần (thơ)",
+        "Mậu Tý (thơ)",
+        "Mậu Thân",
+        "Kỷ Sửu (thơ)",
+        "Ất Hợi",
+        "Nhâm Thân",
+        "Nhâm Ngọ",
+        "Nhâm Tuất (thơ)",
+        "Bính Tuất",
+        "Quý Hợi",
+        "Tân Sửu (thơ)",
+        "Kỷ Hợi (thơ)",
+        "Tân Tỵ (thơ)"
+      ],
+      "tho_bo_sung": "Tân Mão ngày ấy dữ thay / Mậu Thìn, Kỷ Tỵ chớ gây hôn nhân (trang 140)"
+    },
+    "hong_sa_ky_nhat": {
+      "note": "Kiêng ba ngày về việc lấy vợ lấy chồng",
+      "source_page": 40,
+      "bon_thang_manh": {
+        "thang": [
+          1,
+          4,
+          7,
+          10
+        ],
+        "ky_ngay": "Tỵ (áp dụng chung Xuân Hạ Thu Đông)"
+      },
+      "bon_thang_trong": {
+        "thang": [
+          2,
+          5,
+          8,
+          11
+        ],
+        "ky_ngay": "Dậu"
+      },
+      "bon_thang_quy": {
+        "thang": [
+          3,
+          6,
+          9,
+          12
+        ],
+        "ky_ngay": "Sửu"
+      }
+    },
+    "nghinh_hon_ky_nhat": {
+      "note": "4 ngày xấu về việc đính hôn",
+      "source_page": 40,
+      "ngay": [
+        "Ất Tỵ",
+        "Tân Hợi",
+        "Mậu Thân",
+        "Giáp Dần"
+      ]
+    },
+    "tuyet_phong_nhat": {
+      "note": "Ngày xấu, kỵ hôn nhân (chỉ thấy tháng 10, 11 trong phần đã trích)",
+      "source_page": 40,
+      "entries": [
+        {
+          "thang": 10,
+          "ngay": [
+            "Dần",
+            "Thân",
+            "Tỵ",
+            "Hợi"
+          ]
+        },
+        {
+          "thang": 11,
+          "ngay": [
+            "Thìn",
+            "Tuất",
+            "Sửu",
+            "Mùi"
+          ]
+        }
+      ]
+    },
+    "chiem_nghinh_hon_cat_nhat": {
+      "note": "Ngày lành hôn nhân, dùng được mọi tháng",
+      "source_page": 86,
+      "ngay": [
+        "Bính Tý",
+        "Đinh Sửu",
+        "Nhâm Tý",
+        "Canh Mão",
+        "Ất Sửu",
+        "Kỷ Mão"
+      ]
+    },
+    "gia_thu_bat_tuong": {
+      "note": "Ngày Giá Thú Bất Tương theo Thiên Can của ngày cưới - các Chi kỵ tương ứng",
+      "source_pages": [
+        86,
+        87
+      ],
+      "entries": {
+        "Giáp": [
+          "Thân",
+          "Tuất"
+        ],
+        "Ất": [
+          "Sửu",
+          "Tỵ",
+          "Mùi",
+          "Dậu"
+        ],
+        "Bính": [
+          "Tý",
+          "Tuất",
+          "Dần"
+        ],
+        "Đinh": [
+          "Sửu"
+        ],
+        "Mậu": [
+          "Thìn",
+          "Thân",
+          "Ngọ"
+        ],
+        "Kỷ": [
+          "Sửu",
+          "Hợi",
+          "Mùi"
+        ],
+        "Canh": [
+          "Tý",
+          "Dần",
+          "Thìn",
+          "Ngọ"
+        ],
+        "Tân": [
+          "Tỵ",
+          "Sửu",
+          "Hợi",
+          "Mùi"
+        ],
+        "Nhâm": [
+          "Thân",
+          "Thìn",
+          "Ngọ"
+        ],
+        "Quý": [
+          "Hợi",
+          "Tỵ",
+          "Mão"
+        ]
+      }
+    },
+    "ngay_ngau_lang_chuc_nu": {
+      "note": "Ngày xấu theo mùa, kỵ cưới hỏi",
+      "source_page": 94,
+      "xuan": "nghe tiếng chim khách (kim kê)",
+      "ha": "thỏ chạy về đồng hoang",
+      "thu": "khỉ (hầu)",
+      "dong": "hổ"
+    },
+    "chu_duong_cho_viec_cuoi_vo": {
+      "note": "Phép đếm chọn ngày cưới bằng chu kỳ 4 chữ Phu - Cô - Đường - Đệ - Trù - Táo (đếm từ mùng 1 tháng, chỉ dùng khi rơi đúng vào Đường/Đệ/Trù/Táo). Phạm chữ Ông/Cô sẽ khiến bố/mẹ chồng chết sớm.",
+      "source_page": 87
+    },
+    "huong_nha_nghinh_hon_theo_tuoi": {
+      "note": "Hướng kỵ khi làm lễ đón dâu/rước rể theo tuổi (dùng chung bảng Hướng Nhà)",
+      "ref": "xem core_astrology / lam_nha.huong_nha_ky_theo_tuoi"
+    },
+    "khong_phong_nhat": {
+      "note": "Kỵ động phòng (đêm tân hôn) theo mùa",
+      "source_page": 41,
+      "xuan": [
+        "Thìn",
+        "Tỵ",
+        "Tý"
+      ],
+      "ha": [
+        "Tuất",
+        "Mùi",
+        "Hợi"
+      ],
+      "thu": [
+        "Mão",
+        "Ngọ",
+        "Dần"
+      ],
+      "dong": [
+        "Dậu",
+        "Thân",
+        "Sửu"
+      ],
+      "thang_12": "kiêng ngày Tỵ, Ngọ, Mùi, Dậu"
+    },
+    "con_trai_con_gai_kho_nuoi_ky": {
+      "note": "Hệ 1: giờ sinh kỵ theo tháng khiến con khó nuôi (phạm phải lớn lên hay đau/ho ra huyết)",
+      "source_page": 41,
+      "entries": [
+        {
+          "thang": 1,
+          "gio_ky": "Thân"
+        },
+        {
+          "thang": 2,
+          "gio_ky": "Dậu"
+        },
+        {
+          "thang": 3,
+          "gio_ky": "Tuất"
+        },
+        {
+          "thang": 4,
+          "gio_ky": "Hợi"
+        },
+        {
+          "thang": 5,
+          "gio_ky": "Tý"
+        },
+        {
+          "thang": 6,
+          "gio_ky": "Sửu"
+        },
+        {
+          "thang": 7,
+          "gio_ky": "Dần"
+        },
+        {
+          "thang": 8,
+          "gio_ky": "Mão"
+        },
+        {
+          "thang": 9,
+          "gio_ky": "Thìn"
+        },
+        {
+          "thang": 10,
+          "gio_ky": "Tỵ"
+        },
+        {
+          "thang": 11,
+          "gio_ky": "Ngọ"
+        },
+        {
+          "thang": 12,
+          "gio_ky": "Mùi"
+        }
+      ]
+    },
+    "tre_con_hay_khoc_da_de": {
+      "note": "Hệ 2 (nhóm 3 tháng): giờ sinh kỵ khiến trẻ hay khóc dạ đề",
+      "source_page": 41,
+      "entries": [
+        {
+          "thang_nhom": [
+            1,
+            2,
+            3
+          ],
+          "gio_ky": "Ngọ"
+        },
+        {
+          "thang_nhom": [
+            4,
+            5,
+            6
+          ],
+          "gio_ky": "Tý"
+        },
+        {
+          "thang_nhom": [
+            7,
+            8,
+            9
+          ],
+          "gio_ky": "Dậu"
+        },
+        {
+          "thang_nhom": [
+            10,
+            11,
+            12
+          ],
+          "gio_ky": "Mão"
+        }
+      ]
+    },
+    "tre_con_kho_nuoi_tho_rang": {
+      "note": "Hệ 3 (Thơ Rằng, khác hệ 2): giờ sinh kỵ theo nhóm 3 tháng, dùng đoán mệnh trẻ sơ sinh, liên hệ Bát Sơn Tuyệt Mạng",
+      "source_page": 53,
+      "entries": [
+        {
+          "thang_nhom": [
+            1,
+            5,
+            9
+          ],
+          "gio_ky": "Thìn"
+        },
+        {
+          "thang_nhom": [
+            4,
+            8,
+            12
+          ],
+          "gio_ky": "Dần"
+        },
+        {
+          "thang_nhom": [
+            3,
+            7,
+            11
+          ],
+          "gio_ky": "Tỵ"
+        },
+        {
+          "thang_nhom": [
+            2,
+            6,
+            10
+          ],
+          "gio_ky": "Mùi"
+        }
+      ]
+    },
+    "ngay_cau_tien_ba_cuu_benh": {
+      "note": "Tuổi con (theo Chi) ứng với ngày Chi để cầu Tiên Bà cứu bệnh (dùng cho trẻ khóc dạ đề / ốm)",
+      "source_page": 42,
+      "entries": [
+        {
+          "tuoi": "Tý",
+          "ngay_cau": [
+            "Tỵ",
+            "Hợi"
+          ]
+        },
+        {
+          "tuoi": "Tỵ",
+          "ngay_cau": [
+            "Thìn",
+            "Tuất"
+          ]
+        },
+        {
+          "tuoi": "Sửu",
+          "ngay_cau": [
+            "Tý",
+            "Ngọ"
+          ]
+        },
+        {
+          "tuoi": "Ngọ",
+          "ngay_cau": [
+            "Tỵ",
+            "Hợi"
+          ]
+        },
+        {
+          "tuoi": "Dần",
+          "ngay_cau": [
+            "Sửu",
+            "Mùi"
+          ]
+        },
+        {
+          "tuoi": "Mùi",
+          "ngay_cau": [
+            "Ngọ",
+            "Tý"
+          ]
+        },
+        {
+          "tuoi": "Mão",
+          "ngay_cau": [
+            "Dần",
+            "Thân"
+          ]
+        },
+        {
+          "tuoi": "Thân",
+          "ngay_cau": [
+            "Sửu",
+            "Mùi"
+          ]
+        },
+        {
+          "tuoi": "Thìn",
+          "ngay_cau": [
+            "Mão",
+            "Dậu"
+          ]
+        },
+        {
+          "tuoi": "Dậu",
+          "ngay_cau": [
+            "Dần",
+            "Thân"
+          ]
+        },
+        {
+          "tuoi": "Tuất",
+          "ngay_cau": [
+            "Mão",
+            "Dậu"
+          ]
+        },
+        {
+          "tuoi": "Hợi",
+          "ngay_cau": [
+            "Thìn",
+            "Tuất"
+          ]
+        }
+      ]
+    },
+    "luc_dieu_ngay_tot_di_duong": {
+      "note": "Bảng Tính Ngày Tốt - Giờ Tốt Để Đi Đường (việc nhỏ) - hệ Lục Diệu cổ điển, cặp tháng âm lịch ứng với 1 trong 6 loại ngày (Đại An, Lưu Liên, Tốc Hỷ, Xích Khẩu, Tiểu Cát, Không Vong)",
+      "source_pages": [
+        50,
+        51
+      ],
+      "note2": "Đây thực chất là dữ liệu xuất hành (đi đường), đặt tạm ở đây theo thứ tự đọc được nhưng nên tham chiếu chéo với events_rules.xuat_hanh",
+      "entries": [
+        {
+          "thang_cap": [
+            1,
+            7
+          ],
+          "loai_ngay": "Đại An"
+        },
+        {
+          "thang_cap": [
+            2,
+            8
+          ],
+          "loai_ngay": "Lưu Liên"
+        },
+        {
+          "thang_cap": [
+            3,
+            9
+          ],
+          "loai_ngay": "Tốc Hỷ"
+        },
+        {
+          "thang_cap": [
+            4,
+            10
+          ],
+          "loai_ngay": "Xích Khẩu"
+        },
+        {
+          "thang_cap": [
+            5,
+            11
+          ],
+          "loai_ngay": "Tiểu Cát"
+        },
+        {
+          "thang_cap": [
+            6,
+            12
+          ],
+          "loai_ngay": "Không Vong"
+        }
+      ]
+    },
+    "xem_ngay_nhan_duyen_sat_cong_truc_tinh_xau": {
+      "note": "Ngày Sát Cống / Ngày Nhân Duyên (tốt cho cưới hỏi VÀ làm nhà) / Ngày Trực Tinh Xấu, theo nhóm tháng Tứ Mạnh(1,4,7,10)/Tứ Trọng(2,5,8,11)/Tứ Quý(3,6,9,12)",
+      "source_pages": [
+        83,
+        84
+      ],
+      "cau_ket": "Cất nhà được ngày 'sát cống' hay 'nhân duyên' thì rất tốt.",
+      "tu_manh_1_4_7_10": {
+        "ngay_sat_cong": [
+          "Đinh Mão",
+          "Quý Mão",
+          "Ất Dậu",
+          "Tân Dậu",
+          "Nhâm Tý",
+          "Giáp Ngọ"
+        ],
+        "ngay_nhan_duyen": [
+          "Tân Mùi",
+          "Đinh Mùi",
+          "Canh Thìn",
+          "Bính Thìn",
+          "Kỷ Sửu",
+          "Mậu Tuất"
+        ],
+        "ngay_truc_tinh_xau": [
+          "Mậu Thìn",
+          "Giáp Thìn",
+          "Bính Tuất",
+          "Nhâm Tuất",
+          "Đinh Sửu",
+          "Ất Mùi",
+          "Quý Dậu"
+        ]
+      },
+      "tu_trong_2_5_8_11": {
+        "ngay_sat_cong": [
+          "Bính Dần",
+          "Nhâm Dần",
+          "Giáp Thân",
+          "Canh Thân",
+          "Ất Hợi",
+          "Tân Hợi",
+          "Quý Tỵ"
+        ],
+        "ngay_nhan_duyen": [
+          "Tân Mùi",
+          "Đinh Mùi",
+          "Canh Thìn",
+          "Bính Thìn",
+          "Kỷ Sửu",
+          "Mậu Tuất"
+        ],
+        "ngay_truc_tinh_xau": [
+          "Đinh Mão",
+          "Quý Mão",
+          "Bính Tý",
+          "Nhâm Tý",
+          "Tân Dậu",
+          "Ất Dậu",
+          "Giáp Ngọ"
+        ]
+      },
+      "tu_quy_3_6_9_12": {
+        "ngay_sat_cong": [
+          "Kỷ Sửu",
+          "Tân Sửu",
+          "Giáp Tuất",
+          "Canh Tuất",
+          "Quý Mùi",
+          "Nhâm Thìn"
+        ],
+        "ngay_nhan_duyen": [
+          "Kỷ Tỵ",
+          "Ất Tỵ",
+          "Kỷ Hợi",
+          "Quý Hợi",
+          "Giáp Dần",
+          "Mậu Dần",
+          "Bính Thân"
+        ],
+        "ngay_truc_tinh_xau": [
+          "Bính Dần",
+          "Nhâm Dần",
+          "Giáp Thân",
+          "Canh Thân",
+          "Ất Hợi",
+          "Quý Tỵ",
+          "Tân Mão"
+        ]
+      }
+    },
+    "thang_dai_loi_gai_ve_nha_chong": {
+      "note": "Tháng Đại Lợi khi con gái xuất giá (về nhà chồng), theo nhóm tuổi Tam Hợp/Lục Hợp của cô dâu. Các cột: tháng đại lợi (tốt nhất), phòng tiểu lợi mai nhân (kỵ ông bà mai nếu có), phòng ông cô (kỵ cha mẹ chú rể), phòng phụ mẫu (kỵ cha mẹ cô dâu), phòng phu chủ (kỵ chú rể), phòng nữ thân (kỵ cô dâu)",
+      "source_page": 88,
+      "entries": [
+        {
+          "nhom_tuoi": "Sửu-Mùi",
+          "thang_dai_loi": [
+            5,
+            11
+          ],
+          "phong_tieu_loi_mai_nhan": [
+            4,
+            10
+          ],
+          "phong_ong_co": [
+            2,
+            8
+          ],
+          "phong_phu_mau": [
+            2,
+            8
+          ],
+          "phong_phu_chu": [
+            1,
+            7
+          ],
+          "phong_nu_than": [
+            5,
+            12
+          ]
+        },
+        {
+          "nhom_tuoi": "Dần-Thân",
+          "thang_dai_loi": [
+            7,
+            8
+          ],
+          "phong_tieu_loi_mai_nhan": [
+            3,
+            9
+          ],
+          "phong_ong_co": [
+            4,
+            10
+          ],
+          "phong_phu_mau": [
+            5,
+            11
+          ],
+          "phong_phu_chu": [
+            6,
+            12
+          ],
+          "phong_nu_than": [
+            1,
+            7
+          ]
+        },
+        {
+          "nhom_tuoi": "Mão-Dậu",
+          "thang_dai_loi": [
+            1,
+            7
+          ],
+          "phong_tieu_loi_mai_nhan": [
+            6,
+            12
+          ],
+          "phong_ong_co": [
+            5,
+            11
+          ],
+          "phong_phu_mau": [
+            4,
+            10
+          ],
+          "phong_phu_chu": [
+            3,
+            9
+          ],
+          "phong_nu_than": [
+            2,
+            8
+          ]
+        },
+        {
+          "nhom_tuoi": "Thìn-Tuất",
+          "thang_dai_loi": [
+            4,
+            10
+          ],
+          "phong_tieu_loi_mai_nhan": [
+            5,
+            11
+          ],
+          "phong_ong_co": [
+            6,
+            12
+          ],
+          "phong_phu_mau": [
+            1,
+            7
+          ],
+          "phong_phu_chu": [
+            2,
+            8
+          ],
+          "phong_nu_than": [
+            3,
+            9
+          ]
+        },
+        {
+          "nhom_tuoi": "Tỵ-Hợi",
+          "thang_dai_loi": [
+            3,
+            9
+          ],
+          "phong_tieu_loi_mai_nhan": [
+            2,
+            8
+          ],
+          "phong_ong_co": [
+            1,
+            7
+          ],
+          "phong_phu_mau": [
+            6,
+            12
+          ],
+          "phong_phu_chu": [
+            5,
+            11
+          ],
+          "phong_nu_than": [
+            4,
+            10
+          ]
+        },
+        {
+          "nhom_tuoi": "Ngọ-Tý",
+          "thang_dai_loi": [
+            6,
+            12
+          ],
+          "phong_tieu_loi_mai_nhan": [
+            1,
+            7
+          ],
+          "phong_ong_co": [
+            2,
+            8
+          ],
+          "phong_phu_mau": [
+            3,
+            9
+          ],
+          "phong_phu_chu": [
+            4,
+            10
+          ],
+          "phong_nu_than": [
+            5,
+            11
+          ]
+        }
+      ],
+      "ghi_chu": "Nếu không còn cha mẹ cô dâu thì tháng 'phòng phụ mẫu' dùng được; phòng ông cô kỵ cha mẹ chú rể; phòng phu chủ kỵ chú rể; phòng nữ thân kỵ cô dâu."
+    },
+    "ngay_co_than_qua_tu_theo_thang_v2": {
+      "note": "Một hệ Cô Thần Quả Tú KHÁC nữa, theo tháng trực tiếp (khác với bảng theo_thang đã có trong ngay_co_than_qua_tu ở trên - có thể trùng hoặc là dị bản, giữ cả hai theo đúng văn bản gốc)",
+      "source_page": 92,
+      "entries": [
+        {
+          "thang": 1,
+          "ngay": [
+            "Thìn",
+            "Tuất"
+          ]
+        },
+        {
+          "thang": 2,
+          "ngay": [
+            "Tỵ",
+            "Hợi"
+          ]
+        },
+        {
+          "thang": 3,
+          "ngay": [
+            "Tỵ",
+            "Ngọ"
+          ]
+        },
+        {
+          "thang": 4,
+          "ngay": [
+            "Sửu",
+            "Mùi"
+          ]
+        },
+        {
+          "thang": 5,
+          "ngay": [
+            "Dần",
+            "Thân"
+          ]
+        },
+        {
+          "thang": 6,
+          "ngay": [
+            "Mão",
+            "Dậu"
+          ]
+        },
+        {
+          "thang": 7,
+          "ngay": [
+            "Thìn",
+            "Tuất"
+          ]
+        },
+        {
+          "thang": 8,
+          "ngay": [
+            "Tỵ",
+            "Hợi"
+          ]
+        },
+        {
+          "thang": 9,
+          "ngay": [
+            "Tỵ",
+            "Ngọ"
+          ]
+        },
+        {
+          "thang": 10,
+          "ngay": [
+            "Sửu",
+            "Mùi"
+          ]
+        },
+        {
+          "thang": 11,
+          "ngay": [
+            "Dần",
+            "Thân"
+          ]
+        },
+        {
+          "thang": 12,
+          "ngay": [
+            "Thìn",
+            "Tuất"
+          ]
+        }
+      ],
+      "canh_bao": "Ấy là quả tú cô thần, nếu ai phạm phải hại thân đến già"
+    },
+    "bon_mua_khong_phong": {
+      "note": "Kỵ giá thú (động phòng) theo mùa",
+      "source_page": 95,
+      "tho": "Xuân kê hạ thử thị không phòng / Hạ khuyển trương dương, ngộ đại hung / Thu Mão, Ngọ Dần, tổi tính mệnh / Đông hầu, Dậu Sửu kết hợp chung",
+      "giai": {
+        "xuan": "Dậu(kê)",
+        "ha": "Tuất(khuyển)+Mùi(dương)",
+        "thu": "Mão+Ngọ+Dần",
+        "dong": "Thân(hầu)+Dậu+Sửu"
+      },
+      "luu_y": "Nam đáo nữ gia nam tất tử / Nữ đáo nam gia nữ tất vong"
+    },
+    "nhung_ngay_bat_luong": {
+      "note": "Kỵ giá thú",
+      "source_page": 95,
+      "tho": "Xuân Dần, hạ Mùi thị bất lương / Thu Tuất, đông Sửu thập phần thương / Giá thú vị chi thị bất tường",
+      "giai": {
+        "xuan": "Dần",
+        "ha": "Mùi",
+        "thu": "Tuất",
+        "dong": "Sửu"
+      }
+    },
+    "nhung_ngay_khong_phong_v2": {
+      "note": "Một hệ Không Phòng khác (theo mùa, khác bon_mua_khong_phong)",
+      "source_page": 95,
+      "tho": "Xuân Thìn Tý Tỵ thị không phòng / Hạ Tuất, Hợi, Mùi phá bại vong / Thu Mão, Ngọ Dần phùng tất tử / Đông Thân, Dậu Sửu thì hôn ly",
+      "giai": {
+        "xuan": [
+          "Thìn",
+          "Tý",
+          "Tỵ"
+        ],
+        "ha": [
+          "Tuất",
+          "Hợi",
+          "Mùi"
+        ],
+        "thu": [
+          "Mão",
+          "Ngọ",
+          "Dần"
+        ],
+        "dong": [
+          "Thân",
+          "Dậu",
+          "Sửu"
+        ]
+      },
+      "luu_y": "Tôn kiến tam niên ly phụ mẫu / Phu thê nam bắc biệt đông tây"
+    },
+    "khong_phong_toi_ky_gio": {
+      "note": "Giờ tối kỵ động phòng theo Can ngày cưới",
+      "source_page": 96,
+      "entries": {
+        "Giáp,Kỷ": "giờ Thân Dậu",
+        "Ất,Canh": "giờ Ngọ Mùi",
+        "Bính,Tân": "giờ Tỵ Thìn",
+        "Đinh,Nhâm": "giờ Dần Mão",
+        "Mậu,Quý": "giờ Tý Sửu"
+      }
+    },
+    "gia_thu_khong_phong_ky_nhat": {
+      "note": "Ngày kỵ giá thú không phòng theo tháng",
+      "source_page": 96,
+      "entries": {
+        "1": [
+          "Tý",
+          "Dần"
+        ],
+        "2": [
+          "Dần",
+          "Mão"
+        ],
+        "3": [
+          "Thìn",
+          "Tỵ"
+        ],
+        "4": [
+          "Ngọ",
+          "Mùi"
+        ],
+        "5": [
+          "Dậu",
+          "Thân"
+        ],
+        "6": [
+          "Tuất",
+          "Hợi"
+        ],
+        "7": [
+          "Dần"
+        ],
+        "8": [
+          "Dậu",
+          "Dần"
+        ],
+        "9": [
+          "Tỵ"
+        ],
+        "10": [
+          "Ngọ"
+        ],
+        "11": [
+          "Thân",
+          "Dậu"
+        ],
+        "12": [
+          "Thìn",
+          "Tỵ"
+        ]
+      }
+    },
+    "thien_dia_tranh_hung_gia_thu_ky_nhat": {
+      "note": "Ngày kỵ giá thú (Thiên Địa Tranh Hùng) theo tháng",
+      "source_page": 96,
+      "entries": {
+        "1": [
+          "Ngọ",
+          "Tý"
+        ],
+        "2": [
+          "Hợi",
+          "Tý"
+        ],
+        "3": [
+          "Ngọ",
+          "Mùi"
+        ],
+        "4": [
+          "Tý",
+          "Sửu"
+        ],
+        "5": [
+          "Mùi",
+          "Thân"
+        ],
+        "6": [
+          "Dần",
+          "Sửu"
+        ],
+        "7": [
+          "Dần"
+        ],
+        "8": [
+          "Thân",
+          "Dậu"
+        ],
+        "9": [
+          "Dần",
+          "Mão"
+        ],
+        "10": [
+          "Mão",
+          "Thìn"
+        ],
+        "11": [
+          "Tuất",
+          "Hợi"
+        ],
+        "12": [
+          "Thìn",
+          "Tỵ"
+        ]
+      }
+    },
+    "ngay_bat_ma_sat_ky_hop_hon": {
+      "note": "Ngày kỵ hợp hôn theo tháng",
+      "source_page": [
+        96,
+        97
+      ],
+      "entries": {
+        "1": "Dần",
+        "2": "Hợi",
+        "3": "Ngọ",
+        "4": "Mão",
+        "5": "Tý",
+        "6": "Ngọ",
+        "7": "Dậu",
+        "8": "Mão",
+        "9": "Mão",
+        "10": "Ngọ",
+        "11": "Mão",
+        "12": "Dậu"
+      }
+    },
+    "gia_thu_dai_hoa_tai_vong_nhat": {
+      "note": "Ngày kỵ giá thú (đại họa tại vong nhật) theo tháng",
+      "source_page": 97,
+      "entries": {
+        "1": "Tuất",
+        "2": "Dậu",
+        "3": "Thân",
+        "4": "Mùi",
+        "5": "Ngọ",
+        "6": "Tỵ",
+        "7": "Thìn",
+        "8": "Mão",
+        "9": "Dần",
+        "10": "Sửu",
+        "11": "Thân",
+        "12": "Dậu"
+      }
+    },
+    "tu_thoi_hoang_tuyen_bat_ma_ky_gia_thu": {
+      "note": "Ngày kỵ giá thú theo mùa (Hoàng Tuyền Bắt Mã)",
+      "source_page": 97,
+      "entries": {
+        "xuan": [
+          "Dần",
+          "Ngọ",
+          "Tuất"
+        ],
+        "ha": [
+          "Tỵ",
+          "Dậu",
+          "Sửu"
+        ],
+        "thu": [
+          "Thân",
+          "Tý",
+          "Thìn"
+        ],
+        "dong": [
+          "Hợi",
+          "Mão",
+          "Mùi"
+        ]
+      }
+    },
+    "thai_bach_chu_thuong_ky_nghinh_hon": {
+      "note": "Ngày trong tháng kỵ đón dâu theo hướng Thái Bạch chiếm giữ",
+      "source_page": 97,
+      "entries": [
+        {
+          "ngay_am_lich": [
+            1,
+            11,
+            21
+          ],
+          "huong_ky": "chính Đông"
+        },
+        {
+          "ngay_am_lich": [
+            2,
+            12,
+            22
+          ],
+          "huong_ky": "Đông Nam"
+        },
+        {
+          "ngay_am_lich": [
+            3,
+            13,
+            23
+          ],
+          "huong_ky": "chính Nam"
+        },
+        {
+          "ngay_am_lich": [
+            5,
+            15,
+            25
+          ],
+          "huong_ky": "chính Tây"
+        },
+        {
+          "ngay_am_lich": [
+            6,
+            16,
+            26
+          ],
+          "huong_ky": "Tây Bắc"
+        },
+        {
+          "ngay_am_lich": [
+            7,
+            17,
+            27
+          ],
+          "huong_ky": "chính Bắc"
+        },
+        {
+          "ngay_am_lich": [
+            8,
+            18,
+            28
+          ],
+          "huong_ky": "Đông Bắc"
+        },
+        {
+          "ngay_am_lich": [
+            10,
+            20,
+            30
+          ],
+          "huong_ky": "Thiên Võ Kỵ (không rõ hướng, kỵ chung)"
+        }
+      ]
+    },
+    "chiem_nu_ve_nha_nam_loi_phuong": {
+      "note": "Hướng xuất/nhập lợi khi đón dâu theo Mệnh của cô dâu/chú rể",
+      "source_page": 98,
+      "entries": {
+        "Thổ": "xuất Bắc, nhập Bắc phương",
+        "Kim": "xuất Đông, nhập Tây (tốt)",
+        "Mộc": "xuất Đông, nhập Tây (tốt)",
+        "Thủy": "xuất Nam, nhập Tây (tốt)",
+        "Hỏa": "xuất Nam, nhập Tây (tốt)"
+      }
+    },
+    "nhung_nam_hung_nien_ky_cuoi_hoi": {
+      "note": "Tuổi (Chi) ứng với 1 năm Hung Niên kỵ cưới hỏi - khác nhau cho con trai và con gái",
+      "source_page": 98,
+      "canh_bao": "Những năm hung niên trai không nên cưới vợ, gái không nên lấy chồng, vì bị khắc kỵ khó ở đời với nhau còn thêm tai họa",
+      "entries": [
+        {
+          "tuoi": "Tý",
+          "hung_nien_trai": "Mùi",
+          "hung_nien_gai": "Mão"
+        },
+        {
+          "tuoi": "Sửu",
+          "hung_nien_trai": "Thân",
+          "hung_nien_gai": "Dần"
+        },
+        {
+          "tuoi": "Dần",
+          "hung_nien_trai": "Dậu",
+          "hung_nien_gai": "Sửu"
+        },
+        {
+          "tuoi": "Mão",
+          "hung_nien_trai": "Tuất",
+          "hung_nien_gai": "Tý"
+        },
+        {
+          "tuoi": "Thìn",
+          "hung_nien_trai": "Hợi",
+          "hung_nien_gai": "Hợi"
+        },
+        {
+          "tuoi": "Tỵ",
+          "hung_nien_trai": "Tý",
+          "hung_nien_gai": "Tuất"
+        },
+        {
+          "tuoi": "Ngọ",
+          "hung_nien_trai": "Sửu",
+          "hung_nien_gai": "Dần"
+        },
+        {
+          "tuoi": "Mùi",
+          "hung_nien_trai": "Dần",
+          "hung_nien_gai": "Thân"
+        },
+        {
+          "tuoi": "Thân",
+          "hung_nien_trai": "Mão",
+          "hung_nien_gai": "Mùi"
+        },
+        {
+          "tuoi": "Dậu",
+          "hung_nien_trai": "Thìn",
+          "hung_nien_gai": "Ngọ"
+        },
+        {
+          "tuoi": "Tuất",
+          "hung_nien_trai": "Tỵ",
+          "hung_nien_gai": "Tỵ"
+        },
+        {
+          "tuoi": "Hợi",
+          "hung_nien_trai": "Ngọ",
+          "hung_nien_gai": "Thìn"
+        }
+      ]
+    },
+    "thien_cau_hanh_thuc_gia_thu_tu_thoi_dai_hung": {
+      "note": "Ngày Can Chi đại hung cho giá thú theo mùa",
+      "source_page": 99,
+      "entries": {
+        "xuan": "Giáp Tý",
+        "ha": "Bính Tý",
+        "thu": "Canh Tý",
+        "dong": "Nhâm Tý"
+      }
+    },
+    "ngay_nu_that_khong_phong": {
+      "note": "Ngày kỵ động phòng cho nữ theo tháng",
+      "source_page": 99,
+      "entries": {
+        "1": [
+          "Dần",
+          "Hợi"
+        ],
+        "2": [
+          "Tuất",
+          "Mùi"
+        ],
+        "3": [
+          "Sửu",
+          "Ngọ"
+        ],
+        "4": [
+          "Dậu",
+          "Tý"
+        ],
+        "5": [
+          "Tý",
+          "Sửu"
+        ],
+        "6": [
+          "Mão",
+          "Dậu"
+        ],
+        "7": [
+          "Tuất",
+          "Hợi"
+        ],
+        "8": [
+          "Dậu",
+          "Tuất"
+        ],
+        "9": [
+          "Tuất",
+          "Dần"
+        ],
+        "10": [
+          "Hợi",
+          "Tuất"
+        ],
+        "11": [
+          "Tý",
+          "Tuất"
+        ],
+        "12": [
+          "Dậu",
+          "Dần"
+        ]
+      }
+    },
+    "nhung_ngay_tam_tang_sat_hung": {
+      "note": "Ngày Tam Tang Sát theo mùa - kỵ giá thú (và các việc mưu sự lớn)",
+      "source_page": [
+        99,
+        100
+      ],
+      "tho": "Xuân Chí Long, hạ Chí Chi Dương / Thu Khuyển, đông Ngưu tối kỵ cường / Táng tự tu tri nghi viễn tụy / Nhược phòng thứ nhất tất tai ương / Tam tang ngày ấy, tối hung lương / Các sự cầu mưu định bất xương / Giá thú hôn nhân vô nam nữ / Phu phụ tác sự tối bất thường",
+      "giai": {
+        "xuan": "Thìn (long)",
+        "ha": "Mùi (dương)",
+        "thu": "Tuất (khuyển)",
+        "dong": "Sửu (ngưu)"
+      }
+    },
+    "ngay_tieu_hong_xa": {
+      "note": "Ngày Tiểu Hồng Xa - kỵ cưới vợ làm nhà",
+      "source_page": 100,
+      "tho": "Tứ trọng kim kê, tứ mạnh xà / Tứ quý Sửu nhật, thị hồng xa / Cưới vợ làm nhà nên ghi nhớ / Nếu phạm về sau, hại đến ta",
+      "giai": {
+        "tu_trong_2_5_8_11": "Dậu (kim kê)",
+        "tu_manh_1_4_7_10": "Tỵ (xà)",
+        "tu_quy_3_6_9_12": "Sửu"
+      }
+    },
+    "that_ac_dai_bai_bach_su_ky": {
+      "note": "Thập Ác Đại Bại - kỵ trăm việc, tính theo nhóm năm Can (niên) + tháng + ngày Can Chi cụ thể. Chỉ trích các nhóm đọc được rõ.",
+      "source_page": [
+        100,
+        101
+      ],
+      "entries": [
+        {
+          "nhom_nam_can": "Giáp Kỷ niên",
+          "ngay": [
+            [
+              "thang",
+              3,
+              "Bính Thân"
+            ],
+            [
+              "thang",
+              7,
+              "Mậu Tuất"
+            ],
+            [
+              "thang",
+              10,
+              "Bính Thân"
+            ],
+            [
+              "thang",
+              11,
+              "Đinh Hợi"
+            ]
+          ]
+        },
+        {
+          "nhom_nam_can": "Ất Canh niên",
+          "ngay": [
+            [
+              "thang",
+              4,
+              "Nhâm Thân"
+            ],
+            [
+              "thang",
+              9,
+              "Ất Tỵ"
+            ]
+          ]
+        },
+        {
+          "nhom_nam_can": "Bính Tân niên",
+          "ngay": [
+            [
+              "thang",
+              3,
+              "Tân Tỵ"
+            ],
+            [
+              "thang",
+              9,
+              "Canh Thìn"
+            ]
+          ]
+        },
+        {
+          "nhom_nam_can": "Đinh Nhâm niên",
+          "ngay": "không kỵ (Định nhâm niên: Không kỵ)"
+        },
+        {
+          "nhom_nam_can": "Mậu Quý niên",
+          "ngay": [
+            [
+              "thang",
+              6,
+              "Kỷ Sửu"
+            ]
+          ]
+        }
+      ]
+    },
+    "bach_ho_dai_sat_nhap_cung": {
+      "note": "Bạch Hổ Đại Sát nhập cung - 100 việc đều kỵ. Mỗi năm có 24 ngày tiết khí là ngày Bạch Hổ nhập cung, các ngày Can Giáp Bính Mậu Canh Nhâm gặp Chi Dần là ngày Bạch Hổ (mọi năm mọi tháng như nhau).",
+      "source_page": 101,
+      "gio_bach_ho_nhap_cung": [
+        "Ngày Mậu Thìn giờ Giáp Tý",
+        "Ngày Giáp Tuất giờ Đinh Sửu, Giáp Thân",
+        "Ngày Bính Tuất giờ Giáp Ngọ",
+        "Ngày Kỷ Mùi giờ Giáp Thìn",
+        "Ngày Quý Mão / Nhâm Tuất giờ Giáp Dần"
+      ]
+    },
+    "chiem_sao_quy_khoc_tinh": {
+      "note": "Sao Quỷ Khốc mỗi tháng ở ngày Tuất (trừ các trường hợp liệt kê) - kỵ chung",
+      "source_page": 101,
+      "entries": {
+        "1": "Ngọ",
+        "2": "Tuất",
+        "3": "Thìn",
+        "4": "Dần",
+        "5": "Ngọ",
+        "6": "Tý",
+        "7": "Dậu",
+        "8": "Thân",
+        "9": "Tỵ",
+        "10": "Hợi",
+        "11": "Sửu",
+        "12": "Mão"
+      }
+    },
+    "chiem_ngu_mo_bach_su_ky": {
+      "note": "Ngũ Mộ - kỵ trăm việc, theo tháng",
+      "source_page": [
+        101,
+        102
+      ],
+      "entries": {
+        "1+2": "Ất Mùi",
+        "3+6+9": [
+          "Tý",
+          "Tuất",
+          "Thìn"
+        ],
+        "5": "Tuất",
+        "7+8": "Tân Sửu"
+      }
+    },
+    "chiem_kim_than_that_sat_ky_phap": {
+      "note": "Kim Thần Thất Sát - theo nhóm năm Can (niên)",
+      "source_page": 102,
+      "entries": {
+        "Giáp Kỷ niên": "ngày Ngọ Mùi",
+        "Ất Canh niên": "ngày Thìn Tỵ",
+        "Bính Tân niên": [
+          "Tý",
+          "Sửu",
+          "Dần",
+          "Mão"
+        ],
+        "Đinh Nhâm niên": [
+          "Tuất",
+          "Hợi"
+        ],
+        "Mậu Quý niên": [
+          "Thân",
+          "Dậu"
+        ]
+      }
+    },
+    "ngay_sat_su_bon_mua": {
+      "note": "Ngày Sát Sư theo mùa (thợ cả) + các ngày đại hung khác",
+      "source_page": 102,
+      "tho": "Xuân Giáp Dần hạ Đinh Tỵ / Thu Tân Mùi, đông Nhâm Tý / Giáp Tý, Canh Ngọ nhật đại hung / Bính Tý, Ất Mùi sát sự cung / Cánh hữu Nhâm Tý giai bất lợi"
+    },
+    "nhung_ngay_pha_quan_ky_gia_thu": {
+      "note": "Ngày Phá Quân - kỵ giá thú",
+      "source_page": 102,
+      "entries": [
+        "Canh Dần và Canh Thân",
+        "Nhâm Thìn ngộ Mậu Thìn",
+        "Giáp Dần phùng Kỷ Hợi"
+      ]
+    },
+    "nhung_ngay_thien_thanh_cuoi_ga_giao_dich_tot": {
+      "note": "Những Ngày Thiên Thành - tốt cho cưới gả, giao dịch, theo cặp tháng cách 6 tháng",
+      "source_pages": [
+        151,
+        152
+      ],
+      "theo_thang": [
+        {
+          "thang": [
+            1,
+            7
+          ],
+          "chi": "Mùi"
+        },
+        {
+          "thang": [
+            2,
+            8
+          ],
+          "chi": "Dậu"
+        },
+        {
+          "thang": [
+            3,
+            9
+          ],
+          "chi": "Hợi"
+        },
+        {
+          "thang": [
+            4,
+            10
+          ],
+          "chi": "Sửu"
+        },
+        {
+          "thang": [
+            5,
+            11
+          ],
+          "chi": "Mão"
+        },
+        {
+          "thang": [
+            6,
+            12
+          ],
+          "chi": "Tỵ"
+        }
+      ]
+    },
+    "nhung_ngay_nghinh_hon_hop": {
+      "note": "Những Ngày Nghinh Hôn - cặp Can Dần/Mão tốt cho việc đón dâu/nghinh hôn, mỗi cặp mang tên một loại 'hợp'",
+      "source_page": 159,
+      "entries": [
+        {
+          "can_chi": [
+            "Giáp Dần",
+            "Ất Mão"
+          ],
+          "ten_hop": "Thiên Địa hợp"
+        },
+        {
+          "can_chi": [
+            "Bính Dần",
+            "Đinh Mão"
+          ],
+          "ten_hop": "Nhật Nguyệt hợp"
+        },
+        {
+          "can_chi": [
+            "Mậu Dần",
+            "Kỷ Mão"
+          ],
+          "ten_hop": "Nhâm Dần hợp"
+        },
+        {
+          "can_chi": [
+            "Nhâm Dần",
+            "Quý Mão"
+          ],
+          "ten_hop": "Giáng Hạ hợp"
+        },
+        {
+          "can_chi": [
+            "Canh Dần",
+            "Tân Mão"
+          ],
+          "ten_hop": "Kim Trạch hợp"
+        }
+      ],
+      "ky_doi_bep": "Dời đổi hay xây bồi đắp bếp nên tránh ngày đại kỵ: Bính, Đinh - mùng 1 và ngày 25, ngày 15 tháng 5"
+    }
+  },
+  "lam_nha": {
+    "kim_lau": {
+      "note": "Tuổi phạm Kim Lâu (tính theo tuổi mụ): các tuổi có số cuối (mod 9) là 1, 3, 6, 8 đều kỵ làm nhà, cưới vợ, tậu trâu",
+      "source_pages": [
+        37,
+        113
+      ],
+      "cau_ca": "Một ba sáu tám kỵ Kim Lâu / Làm nhà cưới vợ tậu trâu thì đừng",
+      "vi_du_tuoi_pham": [
+        21,
+        23,
+        26,
+        28
+      ],
+      "kim_lau_do_bat_quai": {
+        "Khôn": [
+          1,
+          11
+        ],
+        "Đoài": [
+          2,
+          12
+        ],
+        "Càn": [
+          3,
+          13
+        ],
+        "Khảm": [
+          4,
+          14
+        ],
+        "Trung_uong": [
+          5,
+          10,
+          16
+        ],
+        "Cấn": [
+          6,
+          16
+        ],
+        "Chấn": [
+          7,
+          17
+        ],
+        "Tốn": [
+          8,
+          18
+        ],
+        "Ly": [
+          9,
+          19
+        ]
+      },
+      "truyen_thuyet": "Kim Lâu vốn là con trai của Nguyễn Hiệu Thế và Phạm Thị Nha (sinh Bính Dần, mùng 1 tháng 8), sau hóa thành thần Kim Lâu; ai làm nhà phạm tuổi 1,3,6,8 thì hại người hại của.",
+      "kim_lau_tam_pham_sat": {
+        "note": "Người phạm Kim Lâu tam phạm theo nhóm năm sinh - chỉ rõ sát thân/sát vợ/sát con",
+        "source_page": 113,
+        "entries": [
+          {
+            "nhom_tuoi": [
+              "Thân",
+              "Tý",
+              "Thìn"
+            ],
+            "sat_than": "Thìn",
+            "sat_vo": "Mão",
+            "sat_con": "Tỵ"
+          },
+          {
+            "nhom_tuoi": [
+              "Hợi",
+              "Mão",
+              "Mùi"
+            ],
+            "sat_than": "Tuất",
+            "sat_vo": "Ngọ",
+            "sat_con": "Tỵ"
+          },
+          {
+            "nhom_tuoi": [
+              "Tỵ",
+              "Dậu",
+              "Sửu"
+            ],
+            "sat_than": "Thìn",
+            "sat_vo": "Mão",
+            "sat_con": "Tỵ"
+          }
+        ]
+      }
+    },
+    "huong_nha_ky_theo_tuoi": {
+      "source_page": 55,
+      "entries": [
+        {
+          "tuoi": "Tý",
+          "huong_ky": [
+            "Nam"
+          ]
+        },
+        {
+          "tuoi": "Ngọ",
+          "huong_ky": [
+            "Bắc"
+          ]
+        },
+        {
+          "tuoi": "Mão",
+          "huong_ky": [
+            "Đông"
+          ]
+        },
+        {
+          "tuoi": "Dậu",
+          "huong_ky": [
+            "Tây"
+          ]
+        },
+        {
+          "tuoi": "Sửu",
+          "huong_ky": [
+            "Bắc",
+            "Đông Bắc"
+          ]
+        },
+        {
+          "tuoi": "Mùi",
+          "huong_ky": [
+            "Nam",
+            "Tây Nam"
+          ]
+        },
+        {
+          "tuoi": "Thìn",
+          "huong_ky": [
+            "Nam",
+            "Đông Nam"
+          ]
+        },
+        {
+          "tuoi": "Tuất",
+          "huong_ky": [
+            "Tây",
+            "Tây Bắc"
+          ]
+        },
+        {
+          "tuoi": "Dần",
+          "huong_ky": [
+            "Đông",
+            "Đông Nam"
+          ]
+        },
+        {
+          "tuoi": "Thân",
+          "huong_ky": [
+            "Tây",
+            "Tây Bắc"
+          ]
+        },
+        {
+          "tuoi": "Tỵ",
+          "huong_ky": [
+            "Nam",
+            "Đông Nam"
+          ]
+        },
+        {
+          "tuoi": "Hợi",
+          "huong_ky": [
+            "Bắc",
+            "Tây Bắc"
+          ]
+        }
+      ]
+    },
+    "co_nhat_tuan_phong_tranh_lam_nha_cuoi_vo": {
+      "note": "Ngày Chi kỵ làm nhà / cưới vợ theo tháng",
+      "source_page": 55,
+      "entries": [
+        {
+          "thang": 1,
+          "ngay": "Thìn"
+        },
+        {
+          "thang": 2,
+          "ngay": "Sửu"
+        },
+        {
+          "thang": 3,
+          "ngay": "Tuất"
+        },
+        {
+          "thang": 4,
+          "ngay": "Mùi"
+        },
+        {
+          "thang": 5,
+          "ngay": "Mão"
+        },
+        {
+          "thang": 6,
+          "ngay": "Tý"
+        },
+        {
+          "thang": 7,
+          "ngay": "Dậu"
+        },
+        {
+          "thang": 8,
+          "ngay": "Ngọ"
+        },
+        {
+          "thang": 9,
+          "ngay": "Dần"
+        },
+        {
+          "thang": 10,
+          "ngay": "Hợi"
+        },
+        {
+          "thang": 11,
+          "ngay": "Thân"
+        },
+        {
+          "thang": 12,
+          "ngay": "Tý"
+        }
+      ]
+    },
+    "duong_cong_ky_nhat_lam_nha": {
+      "ref": "xem global_bad_days.json -> duong_cong_ky_nhat"
+    },
+    "ngu_hanh_tuong_sinh_khac": {
+      "ref": "xem core_astrology.json -> ngu_hanh_tuong_sinh / ngu_hanh_tuong_khac"
+    },
+    "nhung_ngay_thien_hoa_ky_cat_lam_nha": {
+      "note": "Ngày Thiên Hỏa - kỵ lợp nhà/làm nhà",
+      "source_page": 39,
+      "tho": "Một năm hai sáu chuột già, hai sáu mười mèo ra / Ba bảy mười một ngựa, bốn tám mười hai gà",
+      "giai_nghia": "Tháng giêng, tháng năm, tháng chín ngày Tý là ngày Thiên Hỏa; cứ thế suy ra cho các tháng khác theo quy luật con vật trong bài thơ (Tý, Mão, Ngọ, Dậu lần lượt theo nhóm tháng 1-5-9, 2-6-10, 3-7-11, 4-8-12)"
+    },
+    "nhung_ngay_thien_cuong_xau": {
+      "note": "Ngày Thiên Cường xấu, theo tháng",
+      "source_page": 142,
+      "entries": [
+        {
+          "thang": 1,
+          "ngay": "Tỵ"
+        },
+        {
+          "thang": 2,
+          "ngay": "Tý"
+        },
+        {
+          "thang": 3,
+          "ngay": "Mùi"
+        },
+        {
+          "thang": 4,
+          "ngay": "Dần"
+        },
+        {
+          "thang": 5,
+          "ngay": "Dậu"
+        },
+        {
+          "thang": 6,
+          "ngay": "Thìn"
+        },
+        {
+          "thang": 7,
+          "ngay": "Hợi"
+        },
+        {
+          "thang": 8,
+          "ngay": "Ngọ"
+        },
+        {
+          "thang": 9,
+          "ngay": "Sửu"
+        },
+        {
+          "thang": 10,
+          "ngay": "Thân"
+        },
+        {
+          "thang": 11,
+          "ngay": "Mão"
+        },
+        {
+          "thang": 12,
+          "ngay": "Tuất"
+        }
+      ]
+    },
+    "sat_chu_thien_hoa_dia_hoa_hoa_tai_nguyet_pha": {
+      "note": "Kiêng làm nhà - bảng Sát Chủ theo tháng (khớp với hệ Thọ Tử-Sát Chủ đã ghi trong global_bad_days)",
+      "source_page": 156,
+      "entries": [
+        {
+          "thang": 1,
+          "ngay": "Tỵ"
+        },
+        {
+          "thang": 2,
+          "ngay": "Tý"
+        },
+        {
+          "thang": 3,
+          "ngay": "Mùi"
+        },
+        {
+          "thang": 4,
+          "ngay": "Mão"
+        },
+        {
+          "thang": 5,
+          "ngay": "Thân"
+        },
+        {
+          "thang": 6,
+          "ngay": "Tuất"
+        },
+        {
+          "thang": 7,
+          "ngay": "Sửu"
+        },
+        {
+          "thang": 8,
+          "ngay": "Hợi"
+        },
+        {
+          "thang": 9,
+          "ngay": "Ngọ"
+        },
+        {
+          "thang": 10,
+          "ngay": "Dậu"
+        },
+        {
+          "thang": 11,
+          "ngay": "Dần"
+        },
+        {
+          "thang": 12,
+          "ngay": "Thìn"
+        }
+      ]
+    },
+    "tieu_hao_ky_xuat_nhap_tien_tai": {
+      "note": "Ngày kỵ xuất/nhập tiền tài theo tháng (liên quan xây dựng/kinh doanh)",
+      "source_page": 156,
+      "entries": [
+        {
+          "thang": 1,
+          "ngay": "Tỵ"
+        },
+        {
+          "thang": 2,
+          "ngay": "Ngọ"
+        },
+        {
+          "thang": 3,
+          "ngay": "Mùi"
+        },
+        {
+          "thang": 4,
+          "ngay": "Hợi"
+        },
+        {
+          "thang": 5,
+          "ngay": "Tý"
+        },
+        {
+          "thang": 6,
+          "ngay": "Sửu"
+        },
+        {
+          "thang": 7,
+          "ngay": "Thân"
+        },
+        {
+          "thang": 8,
+          "ngay": "Dậu"
+        },
+        {
+          "thang": 9,
+          "ngay": "Tuất"
+        },
+        {
+          "thang": 10,
+          "ngay": "Dần"
+        },
+        {
+          "thang": 11,
+          "ngay": "Mão"
+        },
+        {
+          "thang": 12,
+          "ngay": "Thìn"
+        }
+      ]
+    },
+    "nhung_ngay_thu_tru_thuong_luong": {
+      "note": "Ngày dựng thượng lương (đòn dông) - nhóm Tứ Mạnh/Tứ Trọng/Tứ Quý",
+      "source_page": 87,
+      "tu_manh": [
+        "Tân Kỷ Dậu",
+        "Đinh Mùi",
+        "Bính Dần",
+        "Quý Mão",
+        "Giáp Ngọ",
+        "Bính Tý"
+      ],
+      "tu_trong": [
+        "Bính Ngọ",
+        "Dần",
+        "Canh Giáp Thân",
+        "Tân Ất Hợi",
+        "Nhâm Dần",
+        "Quý Tỵ",
+        "Ất Mão"
+      ],
+      "tu_quy": [
+        "Kỷ Tân Sửu",
+        "Kỷ Mão",
+        "Mùi",
+        "Giáp Dần",
+        "Nhâm Thìn",
+        "Ất Tỵ",
+        "Canh Tuất",
+        "Quý Hợi"
+      ]
+    },
+    "tu_thoi_sat_su": {
+      "note": "Thơ chữ Hán Việt: kiêng động thổ/làm nhà theo mùa (đối với thợ cả)",
+      "source_page": 140,
+      "xuan": [
+        "Thìn",
+        "Tuất"
+      ],
+      "ha": [
+        "Mão",
+        "Dậu"
+      ],
+      "thu": [
+        "Sửu",
+        "Mùi"
+      ],
+      "dong": [
+        "Tý",
+        "Ngọ"
+      ]
+    },
+    "gio_hoang_dao": {
+      "note": "Bảng kê ngày Hoàng Đạo tốt / Hắc Đạo xấu theo lịch Can Chi từng tháng (2 nguồn trang 45 và 47, khớp nhau)",
+      "source_pages": [
+        45,
+        47
+      ],
+      "entries": [
+        {
+          "thang": "Giêng-Bảy",
+          "hoang_dao": [
+            "Tý",
+            "Sửu",
+            "Tỵ",
+            "Mùi"
+          ],
+          "hac_dao": [
+            "Ngọ",
+            "Mão",
+            "Hợi",
+            "Dậu"
+          ]
+        },
+        {
+          "thang": "Hai-Tám",
+          "hoang_dao": [
+            "Dần",
+            "Mão",
+            "Mùi",
+            "Dậu"
+          ],
+          "hac_dao": [
+            "Thân",
+            "Tỵ",
+            "Hợi",
+            "Sửu"
+          ]
+        },
+        {
+          "thang": "Ba-Chín",
+          "hoang_dao": [
+            "Thìn",
+            "Tỵ",
+            "Dậu",
+            "Hợi"
+          ],
+          "hac_dao": [
+            "Tuất",
+            "Mùi",
+            "Mão",
+            "Sửu"
+          ]
+        },
+        {
+          "thang": "Tư-Mười",
+          "hoang_dao": [
+            "Ngọ",
+            "Mùi",
+            "Hợi",
+            "Sửu"
+          ],
+          "hac_dao": [
+            "Tý",
+            "Dậu",
+            "Mão",
+            "Tỵ"
+          ]
+        },
+        {
+          "thang": "Năm-Một",
+          "hoang_dao": [
+            "Thân",
+            "Dậu",
+            "Sửu",
+            "Mão"
+          ],
+          "hac_dao": [
+            "Dần",
+            "Hợi",
+            "Mùi",
+            "Tỵ"
+          ]
+        },
+        {
+          "thang": "Sáu-Chạp",
+          "hoang_dao": [
+            "Tuất",
+            "Hợi",
+            "Mão",
+            "Tỵ"
+          ],
+          "hac_dao": [
+            "Thìn",
+            "Sửu",
+            "Mùi",
+            "Dậu"
+          ]
+        }
+      ],
+      "phep_tinh_gio_hoang_dao": "Câu quyết: 'Dần Thân gia Tý, Mão Dậu Dần; Thìn Tuất tầm Thìn, Tý Ngọ Thân; Tỵ Ngọ thiên cương tầm Ngọ vị; Sửu Mùi Tòng Tuất định kỳ chân' - dùng để tính giờ Hoàng Đạo trong ngày dựa vào Chi của ngày đó. Ví dụ ngày Dần/Thân: bấm 12 chữ 'Đạo Viễn Kỳ Thời Thông Đạt Lộ Dao Hà Nhật Hoàn Trình' lần lượt vào 12 cung Tý-Hợi; chữ nào có phụ âm đầu là 'Đ' thì giờ (Chi) đó là giờ Hoàng Đạo."
+    },
+    "bat_son_tuyet_mang": {
+      "note": "Cặp hướng/quẻ bát quái xung khắc, kỵ khi chọn hướng nhà",
+      "source_page": 53,
+      "cap_ky": [
+        [
+          "Càn",
+          "Ly"
+        ],
+        [
+          "Cấn",
+          "Tốn"
+        ],
+        [
+          "Khảm",
+          "Khôn"
+        ],
+        [
+          "Đoài",
+          "Chấn"
+        ]
+      ],
+      "tho": "Bà Càn đi chợ Hồ Ly / Mua con cá Cấn làm chi tốn tiền / Làm Khôn ông Khảm đứng lên / Nom Đoài gánh nước, Chấn liền gãy xương"
+    },
+    "bang_lap_thanh_tuoi_lam_nha": {
+      "note": "Bát Cẩm Trạch - tuổi (mụ) ứng với 1 trong 9 loại Trạch, lặp lại theo chu kỳ 9 tuổi (tuổi 1,10,19,28... cùng loại). Thứ tự chu kỳ 9: Phúc, Đức, Bại, Hư, Khốc, Quỷ, Tử, Bảo, Lộc.",
+      "source_page": 54,
+      "chu_ky_thu_tu": [
+        "Trạch Phúc",
+        "Trạch Đức",
+        "Trạch Bại",
+        "Trạch Hư",
+        "Trạch Khốc",
+        "Trạch Quỷ",
+        "Trạch Tử",
+        "Trạch Bảo",
+        "Trạch Lộc"
+      ],
+      "cong_thuc": "Trạch loại = chu_ky_thu_tu[(tuoi - 1) mod 9]",
+      "vi_du_day_du_1_64": {
+        "1,10,19,28,37,46,55,64": "Trạch Phúc",
+        "2,11,20,29,38,47,56": "Trạch Đức",
+        "3,12,21,30,39,48,57": "Trạch Bại",
+        "4,13,22,31,40,49,58": "Trạch Hư",
+        "5,14,23,32,41,50,59": "Trạch Khốc",
+        "6,15,24,33,42,51,60": "Trạch Quỷ",
+        "7,16,25,34,43,52,61": "Trạch Tử",
+        "8,17,26,35,44,53,62": "Trạch Bảo",
+        "9,18,27,36,45,54,63": "Trạch Lộc"
+      }
+    },
+    "gio_quan_sat_theo_thang": {
+      "note": "Giờ Quan Sát theo tháng (liên quan tới trẻ nhỏ mới sinh / 'Giờ quan sát ký tiểu nhi xuất thế'), tháng 4-12 đọc được rõ; tháng 1-3 nguồn ở trang 52 chưa khớp rõ với mẫu này nên chưa đưa vào để tránh sai lệch",
+      "source_page": 53,
+      "entries": [
+        {
+          "thang": 4,
+          "gio": "Thân",
+          "khung_gio": "3-5 giờ chiều"
+        },
+        {
+          "thang": 5,
+          "gio": "Dậu",
+          "khung_gio": "5-7 giờ tối"
+        },
+        {
+          "thang": 6,
+          "gio": "Tuất",
+          "khung_gio": "7-9 giờ tối"
+        },
+        {
+          "thang": 7,
+          "gio": "Hợi",
+          "khung_gio": "9-11 giờ tối"
+        },
+        {
+          "thang": 8,
+          "gio": "Tý",
+          "khung_gio": "11-1 giờ sáng"
+        },
+        {
+          "thang": 9,
+          "gio": "Sửu",
+          "khung_gio": "1-3 giờ sáng"
+        },
+        {
+          "thang": 10,
+          "gio": "Dần",
+          "khung_gio": "3-5 giờ sáng"
+        },
+        {
+          "thang": 11,
+          "gio": "Mão",
+          "khung_gio": "5-7 giờ sáng"
+        },
+        {
+          "thang": 12,
+          "gio": "Thìn",
+          "khung_gio": "7-9 giờ sáng"
+        }
+      ]
+    },
+    "huong_khoi_cong_bat_cuu_trach": {
+      "note": "Đồ hình Bát Cửu Trạch (bát quái) dùng để tính hướng khởi công theo tuổi/tháng - trang 43, sơ đồ dạng bảng bát quái (Tốn/Ly/Khôn, Chấn/(trung ương)/Đoài, Cấn/Khảm/Càn với các số 1-12); dữ liệu dạng hình vẽ, khó số hoá đầy đủ, ghi chú ví dụ: 'Tháng 10 tại cung Ly thì mùng 1 cũng tại cung Ly' (tránh xung)",
+      "source_page": 43,
+      "tranh_xung": {
+        "tu_hoanh_xung": [
+          "Dần-Thân-Tỵ-Hợi"
+        ],
+        "khac_nhom": [
+          "Tý-Ngọ-Mão-Dậu",
+          "Thìn-Tuất-Sửu-Mùi"
+        ],
+        "tam_hop_cuc": [
+          [
+            "Thân",
+            "Tý",
+            "Thìn"
+          ],
+          [
+            "Dần",
+            "Ngọ",
+            "Tuất"
+          ],
+          [
+            "Hợi",
+            "Mão",
+            "Mùi"
+          ],
+          [
+            "Tỵ",
+            "Dậu",
+            "Sửu"
+          ]
+        ]
+      },
+      "nam_khoi_tu": "Dần",
+      "nu_khoi_tu": "Thân"
+    },
+    "nhung_ngay_tao_oc_tot": {
+      "note": "Những ngày tốt để hạ móng, tu sửa, tạo (xây nhà) - dùng chung mọi năm mọi tháng",
+      "source_page": 85,
+      "ngay": [
+        "Giáp Dần",
+        "Mậu Dần",
+        "Canh Dần",
+        "Kỷ Mão",
+        "Quý Mão",
+        "Giáp Thìn",
+        "Mậu Thìn",
+        "Ất Tỵ",
+        "Quý Tỵ",
+        "Quý Mùi",
+        "Ất Mùi",
+        "Giáp Thân",
+        "Mậu Thân",
+        "Quý Dậu",
+        "Ất Dậu",
+        "Kỷ Dậu",
+        "Giáp Tuất",
+        "Kỷ Hợi",
+        "Tân Hợi",
+        "Mậu Tý",
+        "Kỷ Sửu",
+        "Tân Sửu"
+      ],
+      "cau_ket": "Thụ tru cát nhật tạo trạch hành / Đông tác phúc tu tự thượng lương / Kỵ tam cường nhật ngày Bính Dần, Tân Tỵ, Mậu Thân, Kỷ Hợi"
+    },
+    "tim_thang_dai_loi_trai_lam_nha_theo_menh": {
+      "note": "Tháng tốt/xấu để trai làm nhà, theo Mệnh (Nạp Âm) của gia chủ - nhãn mô tả kết quả từng tháng",
+      "source_pages": [
+        89,
+        90
+      ],
+      "menh_kim": {
+        "1": "Chủ nghèo",
+        "2": "Con chết",
+        "3": "Cha mẹ ốm",
+        "4": "Giàu Sang",
+        "5": "Vợ con chết",
+        "6": "Đại cát",
+        "7": "Con nghèo",
+        "8": "Gia đình ốm",
+        "9": "Tốt",
+        "10": "Hưng",
+        "11": "Hưng",
+        "12": "Tán tài"
+      },
+      "menh_moc": {
+        "1": "Hưng",
+        "2": "Phú",
+        "3": "Quý",
+        "4": "Bệnh",
+        "5": "Phú",
+        "6": "Hưng",
+        "7": "Nghèo",
+        "8": "Tán",
+        "9": "Tài",
+        "10": "Hưng",
+        "11": "Tán tài",
+        "12": "Con cháu hay"
+      },
+      "menh_thuy": {
+        "1": "Sát",
+        "2": "Phú",
+        "3": "Hưng",
+        "4": "Bệnh",
+        "5": "Suy",
+        "6": "Tiền tài",
+        "7": "Không vong",
+        "8": "Bệnh",
+        "9": "Phú",
+        "10": "Quý",
+        "11": "Sát",
+        "12": "Tán tài"
+      },
+      "menh_hoa": {
+        "1": "Hưng",
+        "2": "Phú",
+        "3": "Tử",
+        "4": "Tiến tài",
+        "5": "Mất của",
+        "6": "Phú",
+        "7": "Sát",
+        "8": "Quý",
+        "9": "Sát",
+        "10": "Phúc",
+        "11": "Hưng",
+        "12": "Đại phú"
+      },
+      "menh_tho": {
+        "1": "Bát tràng",
+        "2": "Bần",
+        "3": "Thất vật",
+        "4": "Phú quý",
+        "5": "Sát",
+        "6": "Đại cát",
+        "7": "Hưng",
+        "8": "Suy",
+        "9": "Tiến tài",
+        "10": "Con bệnh",
+        "11": "Vợ chồng chẳng hòa",
+        "12": "Con bệnh",
+        "luu_y": "nguyên văn trang 90 in nhãn tháng 8 là 'Tháng 2' (lặp) - có thể là lỗi in ấn, suy luận theo thứ tự là tháng 8"
+      }
+    },
+    "nhung_ngay_thien_dao_tuong_giao": {
+      "note": "Ngày kỵ (thiên đạo tương giao)",
+      "source_page": 90,
+      "ngay": [
+        "Mậu Thìn",
+        "Kỷ Tỵ",
+        "Canh Thìn"
+      ]
+    },
+    "sat_chu_gio": {
+      "note": "Giờ Sát Chủ theo tháng (đếm theo Chi bắt đầu từ giờ Tý cộng dồn, và giờ Chi tương ứng) - chỉ đọc được tháng 1-6",
+      "source_page": 92,
+      "entries": [
+        {
+          "thang": 1,
+          "gio_dem": 7,
+          "gio_chi": "Tý"
+        },
+        {
+          "thang": 2,
+          "gio_dem": 8,
+          "gio_chi": "Sửu"
+        },
+        {
+          "thang": 3,
+          "gio_dem": 9,
+          "gio_chi": "Dần"
+        },
+        {
+          "thang": 4,
+          "gio_dem": 10,
+          "gio_chi": "Mão"
+        },
+        {
+          "thang": 5,
+          "gio_dem": 11,
+          "gio_chi": "Thìn"
+        },
+        {
+          "thang": 6,
+          "gio_dem": 12,
+          "gio_chi": "Tỵ"
+        }
+      ]
+    },
+    "gio_thu_tu_ky": {
+      "note": "Giờ Thư Tứ Kỵ theo cặp tháng cách nhau 4 tháng",
+      "source_page": 92,
+      "entries": {
+        "1+2": "Mão",
+        "3+7": "Sửu",
+        "4+8": "Thìn",
+        "5+6": "Tý",
+        "9+10": "Dậu",
+        "11+12": "Thân"
+      }
+    },
+    "nhung_ngay_thien_hoa_ky_cat_lam_nha_v2": {
+      "note": "Ngày Thiên Hỏa kỵ cất làm nhà theo nhóm tháng, dạng con vật (khác bản thơ đã có)",
+      "source_page": 103,
+      "entries": {
+        "1,5,9": "Tý (chuột già)",
+        "2,6,10": "Mão (mèo)",
+        "3,7,11": "Ngọ (ngựa)",
+        "4,8,12": "Dậu (gà)"
+      }
+    },
+    "nhung_ngay_thien_hoa_dia_hoa_kieng_ky_chi_tiet": {
+      "note": "Bảng chi tiết Thiên Hỏa/Thiên Lôi/Địa Hỏa kỵ làm nhà theo từng tháng",
+      "source_pages": [
+        103,
+        104,
+        105
+      ],
+      "entries": [
+        {
+          "thang": 1,
+          "thien_hoa": "Tý",
+          "dia_hoa": "Tỵ"
+        },
+        {
+          "thang": 2,
+          "thien_hoa": "Mão",
+          "dia_hoa": "Ngọ"
+        },
+        {
+          "thang": 3,
+          "thien_hoa": "Ngọ",
+          "thien_loi": "Tuất",
+          "dia_hoa": "Mùi"
+        },
+        {
+          "thang": 4,
+          "thien_hoa": "Dậu",
+          "thien_loi": "Mão",
+          "dia_hoa": "Thân"
+        },
+        {
+          "thang": 5,
+          "thien_hoa": "Tý",
+          "dia_hoa": "Dậu"
+        },
+        {
+          "thang": 6,
+          "thien_hoa": "Mão",
+          "thien_loi": "Hợi"
+        },
+        {
+          "thang": 7,
+          "thien_hoa": "Ngọ",
+          "thien_loi": "Hợi",
+          "dia_hoa": "Hợi"
+        },
+        {
+          "thang": 8,
+          "thien_hoa": [
+            "Dậu",
+            "Thân"
+          ],
+          "dia_hoa": [
+            "Dậu",
+            "Tý"
+          ]
+        },
+        {
+          "thang": 9,
+          "thien_hoa": "Tý",
+          "thien_loi": "Mão"
+        },
+        {
+          "thang": 10,
+          "thien_hoa": "Mão",
+          "thien_loi": "Tý"
+        },
+        {
+          "thang": 11,
+          "thien_hoa": "Ngọ",
+          "thien_loi": "Tuất"
+        },
+        {
+          "thang": 12,
+          "thien_hoa": "Dậu",
+          "dia_hoa": "Tý"
+        }
+      ]
+    },
+    "chiem_sao_hoang_oc_ma_oc": {
+      "note": "Chiêm Sao Hoang Ốc (nhà bỏ hoang) và Ma Ốc (nhà ma ở) theo mùa",
+      "source_page": 105,
+      "hoang_oc": {
+        "xuan": "Thìn",
+        "ha": "Mùi",
+        "thu": "Tuất",
+        "dong": "Hợi"
+      },
+      "ma_oc": {
+        "xuan": "Thân",
+        "ha": "Dần",
+        "thu": "Tỵ",
+        "dong": "Hợi"
+      },
+      "ghi_chu": "Xuân Thân, Hạ Dần tạo ốc ma / Thu Tỵ, Đông Hợi bất cư gia"
+    },
+    "nhung_ngay_thien_ma_ky_gia_thu_va_tao_oc": {
+      "note": "Kỵ giá thú và tạo ốc, theo mùa",
+      "source_page": 106,
+      "entries": {
+        "xuan": [
+          "Mùi",
+          "Tuất",
+          "Hợi"
+        ],
+        "ha": [
+          "Thìn",
+          "Tý",
+          "Tỵ"
+        ],
+        "thu": [
+          "Thân",
+          "Dậu",
+          "Sửu"
+        ],
+        "dong": [
+          "Dần",
+          "Mão",
+          "Ngọ"
+        ]
+      }
+    },
+    "nhung_ngay_nguyen_ky_chi_tiet": {
+      "note": "Diễn giải chi tiết vì sao mùng 5,14,23 là Nguyệt Kỵ - dựa theo phép đếm Tứ Mạnh/Trọng/Quý",
+      "source_page": 107,
+      "tu_manh_1_4_7_10": "vào ngày 5",
+      "tu_trong_2_5_8_11": "vào ngày 14",
+      "tu_quy_3_6_9_12": "vào ngày 23",
+      "tich": "Truyền rằng ông Lý Khan ra nhà mới thì chết 3 người con trai vào những ngày này (Sở ngũ, thập tứ, nhị thập tam)"
+    },
+    "nhung_ngay_trung_nhi_ky": {
+      "note": "Ngày Trùng Nhị Kỵ (kỵ chung, làm nhà/cưới hỏi) theo cụm ngày âm lịch trong tháng",
+      "source_page": 108,
+      "entries": [
+        "1,11,21",
+        "2,12 (riêng ngày 11 tháng 11 thì không kỵ)",
+        "3,13,23 (riêng ngày 12 tháng 12 thì không kỵ)",
+        "4,14,24",
+        "5,15,25",
+        "6,16,26",
+        "7,17,27 (ngày 7 tháng 7 là Thất Tịch)",
+        "8,18,28",
+        "9,19,29",
+        "10 tháng 10"
+      ],
+      "luu_y": "Sau tiết Đại Hàn, 100 việc không kỵ ngày trùng nhị nữa (đại hàn dĩ hậu bách, vô câm kỵ)"
+    },
+    "nhung_ngay_lo_ban_sat_ky_phat_moc": {
+      "note": "Ngày Lỗ Ban Sát kỵ đốn/phạt gỗ, theo mùa",
+      "source_page": 108,
+      "entries": {
+        "xuan": "Tý",
+        "ha": "Mão",
+        "thu": "Ngọ",
+        "dong": "Dậu"
+      }
+    },
+    "ky_khoi_cong_lam_nha_phu_dau_sat": {
+      "note": "Kỵ khởi công làm nhà (Phủ Đầu Sát) theo mùa",
+      "source_page": [
+        108,
+        109
+      ],
+      "entries": {
+        "xuan": "Thìn",
+        "ha": "Mùi",
+        "thu": "Ngọ",
+        "dong": "Dậu"
+      }
+    },
+    "nhung_ngay_mua_lon_nuoi_tot": {
+      "note": "Ngày tốt để mua lợn về nuôi",
+      "source_page": 109,
+      "ngay": [
+        "Giáp Tý",
+        "Giáp Thìn",
+        "Ất Sửu",
+        "Ất Mùi",
+        "Bính Thìn",
+        "Nhâm Tý",
+        "Nhâm Tuất",
+        "Quý Mùi",
+        "Quý Sửu"
+      ]
+    },
+    "nhung_ngay_ky_lam_nha_lon": {
+      "note": "Ngày kỵ làm nhà lớn",
+      "source_page": 109,
+      "entries": [
+        "Canh Dần và Canh Thân",
+        "Giáp Dần",
+        "Nhâm Thìn và Mậu Thìn",
+        "Kỷ Mão"
+      ]
+    },
+    "gio_quan_sat_ky_tieu_nhi_xuat_the": {
+      "note": "Giờ Quan Sát kỵ trẻ mới sinh, theo độ tuổi bà mẹ/mốc tuổi (thơ Hán Việt)",
+      "source_page": 110,
+      "tho": "Chính thất sơ sinh Tỵ Hợi thời / Nhị bát Thìn Tuất diệc nan y / Tam cửu Mão Dậu sinh vô dưỡng / Tứ thập Dần Thân số định kỳ / Ngũ thập nhất nguyệt Tý Ngọ suy / Lục thập nhị Sửu Mùi kim xà"
+    },
+    "bat_cuu_trach_chi_tiet_tuoi": {
+      "note": "Bát Cửu Trạch - bảng Bát Quái đầy đủ với số tuổi cụ thể (bổ sung/đối chiếu với bang_lap_thanh_tuoi_lam_nha ở trên, dùng tên gọi Bát Quái)",
+      "source_pages": [
+        111,
+        112
+      ],
+      "so_do": {
+        "8_Tốn": "Bản",
+        "9_Ly": "Lộc",
+        "10_Khôn": "Phúc (vật)",
+        "7_Chấn": "Tử (con)",
+        "5_Khốc": "Trung",
+        "2_Đoài": "Đức",
+        "6_Cấn": "Quỷ (thê)",
+        "4_Khảm": "hư",
+        "3_Càn": "Bại (thân)"
+      },
+      "cach_dem": "Khởi 1 tuổi tại cung Khôn, xuôi theo chiều mũi tên (Khôn->Ly->Tốn->Chấn->Khốc->Đoài->Cấn->Khảm->Càn rồi vòng lại)",
+      "tuoi_theo_cung": {
+        "Khôn Phúc": [
+          1,
+          10,
+          19,
+          28,
+          37,
+          46,
+          55
+        ],
+        "Đoài Đức": [
+          2,
+          11,
+          20,
+          29,
+          38,
+          47,
+          56
+        ],
+        "Càn Bại": [
+          3,
+          12,
+          21,
+          30,
+          39,
+          48,
+          57
+        ],
+        "Khảm Hư": [
+          4,
+          13,
+          22,
+          31,
+          40,
+          49,
+          58
+        ],
+        "Trung Khốc": [
+          5,
+          14,
+          23,
+          32,
+          41,
+          50,
+          59
+        ],
+        "Cấn Quỷ": [
+          6,
+          15,
+          24,
+          33,
+          42,
+          51,
+          60
+        ],
+        "Chấn Tử": [
+          7,
+          16,
+          25,
+          34,
+          43,
+          52,
+          61
+        ],
+        "Tốn Bản": [
+          8,
+          17,
+          26,
+          35,
+          44,
+          53,
+          62
+        ],
+        "Ly Lộc": [
+          9,
+          18,
+          27,
+          36,
+          45,
+          54,
+          63,
+          72,
+          81
+        ]
+      },
+      "y_nghia": "Bốn trạch tốt (Phúc-Đức-Bản-Lộc) nên làm nhà cưới vợ; 5 trạch xấu (Bại-Hư-Khốc-Quỷ-Tử) nên tránh, phạm phải dễ sát chủ hoặc sát vợ (thê)",
+      "quy_tac_bo_sung": "Tuổi thuộc Dương cục (Can Giáp Bính Mậu Canh Nhâm, Chi Dần Ngọ Tuất Thân Tý Thìn) thì lấy vợ/làm nhà vào các năm 9,18,27,36,45,54,63,72,81. Tuổi thuộc Âm cục (Can Ất Tân Bính Quý Kỷ, Chi Tỵ Dậu Sửu Hợi Mão Mùi) thì vào các năm 2,11,20,29,38,47,56."
+    },
+    "dien_tich_than_kim_lau_truyen_thuyet": {
+      "note": "Truyền thuyết về nguồn gốc Thần Kim Lâu (bổ sung câu chuyện quê quán)",
+      "source_page": 112,
+      "trich_doan": "Thủy tổ đường thế đến nay, quê tại Tràng An phủ, Thạch Uy huyện, Phú Uy xã..."
+    },
+    "nhung_ngay_khong_nen_sua_lam_chuong_nuoi_lon": {
+      "note": "Những ngày không nên sửa chữa/làm chuồng nuôi lợn",
+      "source_page": 143,
+      "quy_tac_chung": "Kỵ trong các tháng 1, 2, 3, 4, 7, 11 (âm lịch)",
+      "theo_mua": [
+        {
+          "mua": "3 tháng mùa xuân",
+          "ky_ngay": [
+            "Hợi",
+            "Tý",
+            "Thìn"
+          ],
+          "ky_ngay_v2": [
+            "Canh Thân",
+            "Tân Dậu",
+            "Canh Dần",
+            "Nhâm Thìn"
+          ]
+        },
+        {
+          "mua": "3 tháng mùa hạ",
+          "ky_ngay": [
+            "Hợi",
+            "Tý",
+            "Tỵ",
+            "Dậu",
+            "Sửu"
+          ],
+          "ky_ngay_v2": [
+            "Canh Thân",
+            "Tân Dậu",
+            "Canh Dần",
+            "Nhâm Thìn"
+          ]
+        }
+      ],
+      "theo_thang_rieng": [
+        {
+          "thang": 5,
+          "ky_ngay": [
+            "Tý",
+            "Sửu",
+            "Dần",
+            "Mão",
+            "Ngọ",
+            "Dậu"
+          ],
+          "ky_ngay_am_lich": [
+            24
+          ]
+        },
+        {
+          "thang": 6,
+          "ky_ngay": [
+            "Tý",
+            "Mão",
+            "Thìn",
+            "Tỵ",
+            "Ngọ",
+            "Dần",
+            "Tuất"
+          ],
+          "ky_ngay_am_lich": [
+            23
+          ]
+        },
+        {
+          "thang": 8,
+          "ky_ngay": [
+            "Tý",
+            "Mão",
+            "Ngọ",
+            "Mùi",
+            "Thân",
+            "Hợi"
+          ],
+          "ky_ngay_am_lich": [
+            27
+          ]
+        },
+        {
+          "thang": 9,
+          "ky_ngay": [
+            "Tý",
+            "Sửu",
+            "Dần",
+            "Tỵ",
+            "Thân"
+          ],
+          "ky_ngay_am_lich": [
+            15
+          ]
+        },
+        {
+          "thang": 10,
+          "ky_ngay": [
+            "Sửu",
+            "Dần",
+            "Thân",
+            "Thìn",
+            "Tuất",
+            "Hợi"
+          ],
+          "ky_ngay_am_lich": [
+            15
+          ]
+        },
+        {
+          "thang": 12,
+          "ky_ngay": [
+            "Tý",
+            "Mão",
+            "Thìn",
+            "Mùi",
+            "Dậu",
+            "Hợi"
+          ],
+          "ky_ngay_am_lich": [
+            11
+          ]
+        }
+      ]
+    },
+    "nien_sat_bat_nghi_tao_trach": {
+      "note": "Niên Sát Bất Nghi Tạo Trạch - tuổi (Chi năm sinh) nhóm tam hợp nào thì Sát (niên, nguyệt, thời đều cùng Chi) rơi vào Chi nào, kỵ cưỡng làm nhà (nhà ở không vượng)",
+      "source_page": 144,
+      "entries": [
+        {
+          "nhom_tuoi": [
+            "Dần",
+            "Ngọ",
+            "Tuất"
+          ],
+          "sat_tai_chi": "Sửu",
+          "ap_dung": [
+            "niên",
+            "nguyệt",
+            "thời"
+          ]
+        },
+        {
+          "nhom_tuoi": [
+            "Tỵ",
+            "Dậu",
+            "Sửu"
+          ],
+          "sat_tai_chi": "Thìn",
+          "ap_dung": [
+            "niên",
+            "nguyệt",
+            "thời"
+          ]
+        },
+        {
+          "nhom_tuoi": [
+            "Thân",
+            "Tý",
+            "Thìn"
+          ],
+          "sat_tai_chi": "Mùi",
+          "ap_dung": [
+            "niên",
+            "nguyệt",
+            "thời"
+          ]
+        },
+        {
+          "nhom_tuoi": [
+            "Hợi",
+            "Mão",
+            "Mùi"
+          ],
+          "sat_tai_chi": "Tuất",
+          "ap_dung": [
+            "niên",
+            "nguyệt",
+            "thời"
+          ]
+        }
+      ]
+    },
+    "nhung_ngay_dai_hao_tu_khi_quan_phu": {
+      "note": "Những Ngày Đại Hao - Tử Khí - Quan Phù kỵ thời tự tạo, nhập trạch (theo tháng) (bảng lặp lại ở trang 155 với tiêu đề 'kỵ an táng', cùng giá trị)",
+      "theo_thang": [
+        {
+          "thang": 1,
+          "chi": "Ngọ"
+        },
+        {
+          "thang": 2,
+          "chi": "Mùi"
+        },
+        {
+          "thang": 3,
+          "chi": "Kỷ",
+          "luu_y": "nguyên văn ghi 'ngày Kỷ' (Can) thay vì Chi, khác quy luật các tháng khác - giữ nguyên"
+        },
+        {
+          "thang": 4,
+          "chi": "Dậu"
+        },
+        {
+          "thang": 5,
+          "chi": "Tuất"
+        },
+        {
+          "thang": 6,
+          "chi": "Hợi"
+        },
+        {
+          "thang": 7,
+          "chi": "Tý"
+        },
+        {
+          "thang": 8,
+          "chi": "Sửu"
+        },
+        {
+          "thang": 9,
+          "chi": "Dần"
+        },
+        {
+          "thang": 10,
+          "chi": "Mão"
+        },
+        {
+          "thang": 11,
+          "chi": "Thìn"
+        },
+        {
+          "thang": 12,
+          "chi": "Tỵ"
+        }
+      ],
+      "source_pages": [
+        145,
+        155
+      ]
+    },
+    "nhung_ngay_tieu_hao": {
+      "note": "Những Ngày Tiểu Hao (theo tháng) - kỵ tự tạo, nhập trạch mức độ nhẹ hơn Đại Hao",
+      "source_page": 145,
+      "theo_thang": [
+        {
+          "thang": 1,
+          "chi": "Tỵ"
+        },
+        {
+          "thang": 2,
+          "chi": "Ngọ"
+        },
+        {
+          "thang": 3,
+          "chi": "Mùi"
+        },
+        {
+          "thang": 4,
+          "chi": "Thân"
+        },
+        {
+          "thang": 5,
+          "chi": "Dậu"
+        },
+        {
+          "thang": 6,
+          "chi": "Tuất"
+        },
+        {
+          "thang": 7,
+          "chi": "Hợi"
+        },
+        {
+          "thang": 8,
+          "chi": "Tý"
+        },
+        {
+          "thang": 9,
+          "chi": "Sửu"
+        },
+        {
+          "thang": 10,
+          "chi": "Dần"
+        },
+        {
+          "thang": 11,
+          "chi": "Mão"
+        },
+        {
+          "thang": 12,
+          "chi": "Thìn"
+        }
+      ]
+    },
+    "nhung_ngay_dia_hoa_rieng": {
+      "note": "Những Ngày Địa Hỏa (bảng riêng, khác bảng Thiên Hỏa/Thiên Lôi/Địa Hỏa ở trang 103-105) - kỵ làm nhà, theo tháng",
+      "source_page": 146,
+      "theo_thang": [
+        {
+          "thang": 1,
+          "chi": "Tuất"
+        },
+        {
+          "thang": 2,
+          "chi": "Dậu"
+        },
+        {
+          "thang": 3,
+          "chi": "Thân"
+        },
+        {
+          "thang": 4,
+          "chi": "Mùi"
+        },
+        {
+          "thang": 5,
+          "chi": "Ngọ"
+        },
+        {
+          "thang": 6,
+          "chi": "Tỵ"
+        },
+        {
+          "thang": 7,
+          "chi": "Thìn"
+        },
+        {
+          "thang": 8,
+          "chi": "Mão"
+        },
+        {
+          "thang": 9,
+          "chi": "Dần"
+        },
+        {
+          "thang": 10,
+          "chi": "Sửu"
+        },
+        {
+          "thang": 11,
+          "chi": "Tý"
+        },
+        {
+          "thang": 12,
+          "chi": "Hợi"
+        }
+      ],
+      "source_pages": [
+        146,
+        156,
+        157
+      ]
+    },
+    "nhung_ngay_nguyet_pha": {
+      "note": "Những Ngày Nguyệt Phá - kỵ làm nhà, cưới hỏi, khởi công, theo tháng",
+      "source_page": 146,
+      "theo_thang": [
+        {
+          "thang": 1,
+          "chi": "Thân"
+        },
+        {
+          "thang": 2,
+          "chi": "Tuất"
+        },
+        {
+          "thang": 3,
+          "chi": "Tuất"
+        },
+        {
+          "thang": 4,
+          "chi": "Hợi"
+        },
+        {
+          "thang": 5,
+          "chi": "Sửu"
+        },
+        {
+          "thang": 6,
+          "chi": "Sửu"
+        },
+        {
+          "thang": 7,
+          "chi": "Dần"
+        },
+        {
+          "thang": 8,
+          "chi": "Thìn"
+        },
+        {
+          "thang": 9,
+          "chi": "Thìn"
+        },
+        {
+          "thang": 10,
+          "chi": "Tỵ"
+        },
+        {
+          "thang": 11,
+          "chi": "Mùi"
+        },
+        {
+          "thang": 12,
+          "chi": "Mùi"
+        }
+      ]
+    },
+    "nhung_ngay_bang_tieu_ngoa_giai": {
+      "note": "Những Ngày Bằng Tiểu Ngoã Giải, theo tháng",
+      "source_pages": [
+        146,
+        147
+      ],
+      "theo_thang": [
+        {
+          "thang": 1,
+          "chi": "Tỵ"
+        },
+        {
+          "thang": 2,
+          "chi": "Tý"
+        },
+        {
+          "thang": 3,
+          "chi": "Sửu"
+        },
+        {
+          "thang": 4,
+          "chi": "Thìn"
+        },
+        {
+          "thang": 5,
+          "chi": "Mão"
+        },
+        {
+          "thang": 6,
+          "chi": "Tuất"
+        },
+        {
+          "thang": 7,
+          "chi": "Hợi"
+        },
+        {
+          "thang": 8,
+          "chi": "Ngọ"
+        },
+        {
+          "thang": 9,
+          "chi": "Mùi"
+        },
+        {
+          "thang": 10,
+          "chi": "Dần"
+        },
+        {
+          "thang": 11,
+          "chi": "Dậu"
+        },
+        {
+          "thang": 12,
+          "chi": "Thìn"
+        }
+      ]
+    },
+    "nhap_trach_cu_cat_nhat": {
+      "note": "Nhập Trạch Cư Cát Nhật - ngày tốt để dọn vào nhà mới, theo Can ngày sinh/khởi công tương ứng các Chi tốt",
+      "source_page": 147,
+      "entries": [
+        {
+          "can": "Giáp",
+          "cac_chi_tot": [
+            "Tý",
+            "Thìn"
+          ]
+        },
+        {
+          "can": "Ất",
+          "cac_chi_tot": [
+            "Sửu",
+            "Mùi",
+            "Dậu"
+          ]
+        },
+        {
+          "can": "Bính",
+          "cac_chi_tot": [
+            "Dần",
+            "Thìn",
+            "Ngọ"
+          ]
+        },
+        {
+          "can": "Đinh",
+          "cac_chi_tot": [
+            "Sửu",
+            "Tỵ"
+          ]
+        },
+        {
+          "can": "Mậu",
+          "cac_chi_tot": [
+            "Dần",
+            "Thìn"
+          ]
+        },
+        {
+          "can": "Canh",
+          "cac_chi_tot": [
+            "Dần",
+            "Ngọ"
+          ]
+        },
+        {
+          "can": "Tân",
+          "cac_chi_tot": [
+            "Hợi"
+          ]
+        },
+        {
+          "can": "Nhâm",
+          "cac_chi_tot": [
+            "Dần",
+            "Thìn"
+          ]
+        },
+        {
+          "can": "Quý",
+          "cac_chi_tot": [
+            "Sửu",
+            "Tỵ",
+            "Mão"
+          ]
+        }
+      ],
+      "luu_y": "Nguyên bản liệt kê theo cặp Can-Chi liền nhau (ví dụ 'Giáp Tý- Thìn', 'Canh Dần- Ngọ'); không thấy mục cho Kỷ - có thể bị bỏ sót trong bản in gốc."
+    },
+    "ngay_truc": {
+      "note": "Ngày Trực (Thập Nhị Trực / Kiến Trừ Thập Nhị Khách): chu kỳ 12 Trực gán cho 12 Chi, dùng chung cho việc xem ngày tốt xấu nói chung (làm nhà, xuất hành, cưới hỏi...)",
+      "source_page": 147,
+      "entries": [
+        {
+          "chi": "Tý",
+          "truc": "Bế"
+        },
+        {
+          "chi": "Sửu",
+          "truc": "Kiến"
+        },
+        {
+          "chi": "Dần",
+          "truc": "Trừ"
+        },
+        {
+          "chi": "Mão",
+          "truc": "Mãn"
+        },
+        {
+          "chi": "Thìn",
+          "truc": "Bình"
+        },
+        {
+          "chi": "Tỵ",
+          "truc": "Định"
+        },
+        {
+          "chi": "Ngọ",
+          "truc": "Chấp"
+        },
+        {
+          "chi": "Mùi",
+          "truc": "Phá"
+        },
+        {
+          "chi": "Thân",
+          "truc": "Nguy"
+        },
+        {
+          "chi": "Dậu",
+          "truc": "Thành"
+        },
+        {
+          "chi": "Tuất",
+          "truc": "Thu"
+        },
+        {
+          "chi": "Hợi",
+          "truc": "Khai"
+        }
+      ]
+    },
+    "cach_tim_sao_thien_y_dong_giuong": {
+      "note": "Cách tìm sao Thiên Y hàng tháng (đi cùng trực Bế) và các sao kỵ khi đóng giường",
+      "source_page": 148,
+      "quy_tac": "Sao Thiên Y đi cùng với trực Bế. Trực đi theo thứ tự Kiến - Trừ - Mãn - Bình - Định - Chấp - Phá - Nguy - Thành - Thu - Khai - Bế; đến ngày trực Bế thì gặp Thiên Y, hợp cho việc kê giường (nhật kỵ kê giường).",
+      "dong_giuong_kieng_gap_sao": [
+        "Tâm",
+        "Mão",
+        "Khuê",
+        "Lâu",
+        "Cơ",
+        "Vĩ",
+        "Lâm",
+        "Nguy"
+      ],
+      "luu_y": "'Lâm' có thể là lỗi in ấn/OCR của sao 'Sâm' hoặc 'Chẩn' trong Nhị Thập Bát Tú - giữ nguyên như bản gốc"
+    },
+    "gio_thien_la_dia_vong": {
+      "note": "Giờ Thiên La Địa Võng - giờ xấu theo mùa, kỵ việc lớn (đóng giường, tiểu nhi xuất thế...)",
+      "source_page": 148,
+      "tho": "Xuân ngộ ngưu dương thuỷ thương ba / Hạ ngộ Thìn Tuất, kiến diêm la / Thu ngộ mã hổ phùng tất tử / Đông phùng Dậu Sửu thị giao nha.",
+      "cach_giai": [
+        "Sửu",
+        "Mùi"
+      ],
+      "mua_ha": [
+        "Thìn",
+        "Tuất"
+      ],
+      "mua_thu": [
+        "Ngọ",
+        "Dần"
+      ],
+      "mua_dong": [
+        "Dậu",
+        "Sửu"
+      ],
+      "cham_ngon_di_kem": "Niên lợi bất như nguyệt lợi / Nguyệt lợi bất như nhật lợi / Nhật lợi bất như thời lợi / Có sự dùng chi đại cát. Đổng Công cát tinh dụng nhật trao cho là Cửu Thiên Huyền Nữ."
+    },
+    "nhung_ngay_nguyet_duc": {
+      "note": "Những Ngày Nguyệt Đức - ngày tốt hàng tháng (khác Nguyệt Đức Hoàng Đạo / Minh Đường Hoàng Đạo đã có trong stars_dictionary)",
+      "source_page": 149,
+      "theo_thang": [
+        {
+          "thang": 1,
+          "chi": "Hợi"
+        },
+        {
+          "thang": 2,
+          "chi": "Tuất"
+        },
+        {
+          "thang": 3,
+          "chi": "Dậu"
+        },
+        {
+          "thang": 4,
+          "chi": "Thân"
+        },
+        {
+          "thang": 5,
+          "chi": "Mùi"
+        },
+        {
+          "thang": 6,
+          "chi": "Ngọ"
+        },
+        {
+          "thang": 7,
+          "chi": "Tỵ"
+        },
+        {
+          "thang": 8,
+          "chi": "Thìn"
+        },
+        {
+          "thang": 9,
+          "chi": "Mão"
+        },
+        {
+          "thang": 10,
+          "chi": "Dần"
+        },
+        {
+          "thang": 11,
+          "chi": "Sửu"
+        },
+        {
+          "thang": 12,
+          "chi": "Tý"
+        }
+      ]
+    },
+    "nhung_ngay_thien_giai": {
+      "note": "Những Ngày Thiên Giải - ngày tốt hóa giải, theo cặp tháng cách 6 tháng",
+      "source_pages": [
+        149,
+        150
+      ],
+      "theo_thang": [
+        {
+          "thang": [
+            1,
+            7
+          ],
+          "chi": "Ngọ"
+        },
+        {
+          "thang": [
+            2,
+            8
+          ],
+          "chi": "Thân"
+        },
+        {
+          "thang": [
+            3,
+            9
+          ],
+          "chi": "Tuất"
+        },
+        {
+          "thang": [
+            4,
+            10
+          ],
+          "chi": "Tý"
+        },
+        {
+          "thang": [
+            5,
+            11
+          ],
+          "chi": "Dần"
+        },
+        {
+          "thang": [
+            6,
+            12
+          ],
+          "chi": "Thìn"
+        }
+      ]
+    },
+    "nhung_ngay_thien_quy": {
+      "note": "Những Ngày Thiên Quý - ngày tốt hàng tháng",
+      "source_page": 150,
+      "theo_thang": [
+        {
+          "thang": 1,
+          "chi": "Dần"
+        },
+        {
+          "thang": 2,
+          "chi": "Thân"
+        },
+        {
+          "thang": 3,
+          "chi": "Mão"
+        },
+        {
+          "thang": 4,
+          "chi": "Dậu"
+        },
+        {
+          "thang": 5,
+          "chi": "Thìn"
+        },
+        {
+          "thang": 6,
+          "chi": "Tuất"
+        },
+        {
+          "thang": 7,
+          "chi": "Tỵ"
+        },
+        {
+          "thang": 8,
+          "chi": "Hợi"
+        },
+        {
+          "thang": 9,
+          "chi": "Ngọ"
+        },
+        {
+          "thang": 10,
+          "chi": "Tý"
+        },
+        {
+          "thang": 11,
+          "chi": "Mùi"
+        },
+        {
+          "thang": 12,
+          "chi": "Sửu"
+        }
+      ]
+    },
+    "nhung_ngay_tam_hop": {
+      "note": "Những Ngày Tam Hợp - ngày tốt hàng tháng (thuộc bộ Tam Hợp Chi của tháng đó)",
+      "source_pages": [
+        150,
+        151
+      ],
+      "theo_thang": [
+        {
+          "thang": 1,
+          "chi": "Ngọ"
+        },
+        {
+          "thang": 2,
+          "chi": "Mùi"
+        },
+        {
+          "thang": 3,
+          "chi": "Thân"
+        },
+        {
+          "thang": 4,
+          "chi": "Dậu"
+        },
+        {
+          "thang": 5,
+          "chi": "Tuất"
+        },
+        {
+          "thang": 6,
+          "chi": "Hợi"
+        },
+        {
+          "thang": 7,
+          "chi": "Tý"
+        },
+        {
+          "thang": 8,
+          "chi": "Sửu"
+        },
+        {
+          "thang": 9,
+          "chi": "Dần"
+        },
+        {
+          "thang": 10,
+          "chi": "Mão"
+        },
+        {
+          "thang": 11,
+          "chi": "Thìn"
+        },
+        {
+          "thang": 12,
+          "chi": "Tỵ"
+        }
+      ]
+    },
+    "nhung_ngay_sinh_khi": {
+      "note": "Những Ngày Sinh Khí - thuận việc làm nhà, sửa nhà, cưới gả, động thổ",
+      "source_page": 151,
+      "theo_thang": [
+        {
+          "thang": 1,
+          "chi": "Tý"
+        },
+        {
+          "thang": 2,
+          "chi": "Sửu"
+        },
+        {
+          "thang": 3,
+          "chi": "Dần"
+        },
+        {
+          "thang": 4,
+          "chi": "Mão"
+        },
+        {
+          "thang": 5,
+          "chi": "Thìn"
+        },
+        {
+          "thang": 6,
+          "chi": "Tỵ"
+        },
+        {
+          "thang": 7,
+          "chi": "Ngọ"
+        },
+        {
+          "thang": 8,
+          "chi": "Mùi"
+        },
+        {
+          "thang": 9,
+          "chi": "Thân"
+        },
+        {
+          "thang": 10,
+          "chi": "Dậu"
+        },
+        {
+          "thang": 11,
+          "chi": "Tuất"
+        },
+        {
+          "thang": 12,
+          "chi": "Hợi"
+        }
+      ]
+    },
+    "nhung_ngay_phuc_sinh": {
+      "note": "Những Ngày Phúc Sinh - được phúc tốt, theo tháng",
+      "source_pages": [
+        152,
+        153
+      ],
+      "theo_thang": [
+        {
+          "thang": 1,
+          "chi": "Dậu"
+        },
+        {
+          "thang": 2,
+          "chi": "Mão"
+        },
+        {
+          "thang": 3,
+          "chi": "Tuất"
+        },
+        {
+          "thang": 4,
+          "chi": "Thìn"
+        },
+        {
+          "thang": 5,
+          "chi": "Hợi"
+        },
+        {
+          "thang": 6,
+          "chi": "Tỵ"
+        },
+        {
+          "thang": 7,
+          "chi": "Tý"
+        },
+        {
+          "thang": 8,
+          "chi": "Ngọ"
+        },
+        {
+          "thang": 9,
+          "chi": "Sửu"
+        },
+        {
+          "thang": 10,
+          "chi": "Mùi"
+        },
+        {
+          "thang": 11,
+          "chi": "Dần"
+        },
+        {
+          "thang": 12,
+          "chi": "Thân"
+        }
+      ]
+    },
+    "nhung_ngay_giai_than_giai_tru_sao_xau": {
+      "note": "Những Ngày Giải Thần - giải trừ sao xấu, theo cặp tháng liền nhau",
+      "source_page": 153,
+      "theo_thang": [
+        {
+          "thang": [
+            1,
+            2
+          ],
+          "chi": "Thân"
+        },
+        {
+          "thang": [
+            3,
+            4
+          ],
+          "chi": "Tuất"
+        },
+        {
+          "thang": [
+            5,
+            6
+          ],
+          "chi": "Tý"
+        },
+        {
+          "thang": [
+            7,
+            8
+          ],
+          "chi": "Dần"
+        },
+        {
+          "thang": [
+            9,
+            10
+          ],
+          "chi": "Thìn"
+        },
+        {
+          "thang": [
+            11,
+            12
+          ],
+          "chi": "Ngọ"
+        }
+      ]
+    },
+    "nhung_ngay_thien_an_huong_phuc_lam_nha_khai_truong": {
+      "note": "Những Ngày Thiên Ân - được hưởng phúc khi làm nhà, khai trương, theo tháng",
+      "source_page": 153,
+      "theo_thang": [
+        {
+          "thang": 1,
+          "chi": "Tuất"
+        },
+        {
+          "thang": 2,
+          "chi": "Sửu"
+        },
+        {
+          "thang": 3,
+          "chi": "Dần"
+        },
+        {
+          "thang": 4,
+          "chi": "Tỵ"
+        },
+        {
+          "thang": 5,
+          "chi": "Dậu"
+        },
+        {
+          "thang": 6,
+          "chi": "Mão"
+        },
+        {
+          "thang": 7,
+          "chi": "Tý"
+        },
+        {
+          "thang": 8,
+          "chi": "Ngọ"
+        },
+        {
+          "thang": 9,
+          "chi": "Thân"
+        },
+        {
+          "thang": 10,
+          "chi": "Thìn"
+        },
+        {
+          "thang": 11,
+          "chi": "Thân"
+        },
+        {
+          "thang": 12,
+          "chi": "Mùi"
+        }
+      ]
+    },
+    "cach_tinh_ngay_truc": {
+      "note": "Cách tính Ngày Trực theo tiết khí: sau mỗi tiết khí, trực Kiến khởi lại tại Chi tương ứng, sau đó các trực còn lại (Trừ, Mãn, Bình, Định, Chấp, Phá, Nguy, Thành, Thu, Khai, Bế) lần lượt đi theo các ngày kế tiếp",
+      "source_pages": [
+        153,
+        154
+      ],
+      "trinh_tu_truc": [
+        "Kiến",
+        "Trừ",
+        "Mãn",
+        "Bình",
+        "Định",
+        "Chấp",
+        "Phá",
+        "Nguy",
+        "Thành",
+        "Thu",
+        "Khai",
+        "Bế"
+      ],
+      "diem_khoi_truc_kien_theo_tiet_khi": [
+        {
+          "tiet_khi": "Lập xuân",
+          "truc_kien_tai_chi": "Dần"
+        },
+        {
+          "tiet_khi": "Kinh trập",
+          "truc_kien_tai_chi": "Mão"
+        },
+        {
+          "tiet_khi": "Thanh minh",
+          "truc_kien_tai_chi": "Thìn"
+        },
+        {
+          "tiet_khi": "Lập hạ",
+          "truc_kien_tai_chi": "Tỵ"
+        },
+        {
+          "tiet_khi": "Mang chủng",
+          "truc_kien_tai_chi": "Ngọ"
+        },
+        {
+          "tiet_khi": "Tiểu thử",
+          "truc_kien_tai_chi": "Mùi"
+        },
+        {
+          "tiet_khi": "Lập thu",
+          "truc_kien_tai_chi": "Thân"
+        },
+        {
+          "tiet_khi": "Bạch lộ",
+          "truc_kien_tai_chi": "Dậu"
+        },
+        {
+          "tiet_khi": "Hàn lộ",
+          "truc_kien_tai_chi": "Tuất"
+        },
+        {
+          "tiet_khi": "Lập đông",
+          "truc_kien_tai_chi": "Hợi"
+        },
+        {
+          "tiet_khi": "Đại tuyết",
+          "truc_kien_tai_chi": "Tý"
+        },
+        {
+          "tiet_khi": "Tiểu hàn",
+          "truc_kien_tai_chi": "Sửu"
+        }
+      ],
+      "danh_gia_truc": {
+        "tot": [
+          "Kiến",
+          "Trừ",
+          "Mãn",
+          "Bình",
+          "Định",
+          "Chấp",
+          "Thành",
+          "Khai"
+        ],
+        "xau": [
+          "Phá",
+          "Nguy",
+          "Thu",
+          "Bế"
+        ]
+      }
+    },
+    "nhung_ngay_sao_xau_chieu_moi_viec_lon": {
+      "note": "Những Ngày Có Các Sao Xấu Chiếu Trong Mọi Việc Lớn (Thiên Cường, Thụ Tử, Đại Hao, Tử Khí, Quan Phù, Thiên Cương hội tụ), theo cặp tháng cách 6 tháng",
+      "source_page": 154,
+      "cac_sao": [
+        "Thiên Cường",
+        "Thụ Tử",
+        "Đại Hao",
+        "Tử Khí",
+        "Quan Phù",
+        "Thiên Cương"
+      ],
+      "theo_thang": [
+        {
+          "thang": [
+            1,
+            7
+          ],
+          "chi": [
+            "Tỵ",
+            "Hợi"
+          ]
+        },
+        {
+          "thang": [
+            2,
+            8
+          ],
+          "chi": [
+            "Tý",
+            "Ngọ"
+          ]
+        },
+        {
+          "thang": [
+            3,
+            9
+          ],
+          "chi": [
+            "Mùi",
+            "Sửu"
+          ]
+        },
+        {
+          "thang": [
+            4,
+            10
+          ],
+          "chi": [
+            "Dần",
+            "Thân"
+          ]
+        },
+        {
+          "thang": [
+            5,
+            11
+          ],
+          "chi": [
+            "Dậu",
+            "Mão"
+          ]
+        },
+        {
+          "thang": [
+            6,
+            12
+          ],
+          "chi": [
+            "Thìn",
+            "Tuất"
+          ]
+        }
+      ]
+    },
+    "nhung_ngay_thu_tu": {
+      "note": "Những Ngày Thụ Tử (bảng độc lập trang 155) - đối chiếu khớp hoàn toàn với global_bad_days.json.tho_tu_sat_chu.theo_thang, xác nhận dữ liệu chính xác",
+      "source_page": 155,
+      "xac_nhan_khop_voi": "global_bad_days.json > tho_tu_sat_chu > theo_thang"
+    },
+    "ngay_hoa_tai": {
+      "note": "Ngày Hỏa Tai - kỵ làm nhà (nguy cơ hỏa hoạn), theo tháng",
+      "source_page": 157,
+      "theo_thang": [
+        {
+          "thang": 1,
+          "chi": "Sửu"
+        },
+        {
+          "thang": 2,
+          "chi": "Mùi"
+        },
+        {
+          "thang": 3,
+          "chi": "Dần"
+        },
+        {
+          "thang": 4,
+          "chi": "Thân"
+        },
+        {
+          "thang": 5,
+          "chi": "Mão"
+        },
+        {
+          "thang": 6,
+          "chi": "Dậu"
+        },
+        {
+          "thang": 7,
+          "chi": "Thìn"
+        },
+        {
+          "thang": 8,
+          "chi": "Tuất"
+        },
+        {
+          "thang": 9,
+          "chi": "Tỵ"
+        },
+        {
+          "thang": 10,
+          "chi": "Hợi"
+        },
+        {
+          "thang": 11,
+          "chi": "Tý"
+        },
+        {
+          "thang": 12,
+          "chi": "Ngọ"
+        }
+      ]
+    },
+    "nhung_ngay_tho_cam_kieng_dong_tho": {
+      "note": "Những Ngày Thổ Cấm (kiêng động thổ nói chung) - bảng riêng theo quý, khác bảng 'nhung_ngay_tho_cam_ky_dao_gieng_chon_cat' (trang 142, dành riêng đào giếng/chôn cất, giá trị tháng 7-8-9 và 10-11-12 khác nhau)",
+      "source_page": 157,
+      "theo_quy": [
+        {
+          "thang": [
+            1,
+            2,
+            3
+          ],
+          "chi": "Hợi"
+        },
+        {
+          "thang": [
+            4,
+            5,
+            6
+          ],
+          "chi": "Dần"
+        },
+        {
+          "thang": [
+            7,
+            8,
+            9
+          ],
+          "chi": "Thân"
+        }
+      ],
+      "luu_y": "Thiếu dữ liệu quý tháng 10-11-12 do trang bị cắt/không đọc được rõ trong bản gốc"
+    },
+    "cuc_thong_thien_khieu": {
+      "note": "18 Cục Thông Thiên Khiếu - Xem Tuổi Làm Nhà, Dựng Vợ, Gả Chồng (tác giả Quách Tiên Sinh, bí quyết Kham Dư). Mỗi tuổi (Can Chi năm sinh) ứng với 1 trong 18 'cục', mỗi cục có ý nghĩa tốt/xấu riêng.",
+      "source_pages": [
+        160,
+        161,
+        162
+      ],
+      "cach_tinh": "Theo tuổi (hành niên) của mình, tính từ Cục 1 lên, mỗi cục ứng 10 tuổi (Cục 1 = 1-10 tuổi, Cục 2 = 11-20 tuổi...). Ví dụ người 25 tuổi: tính từ cục tuổi của mình, thuận xuống mỗi cục 1 chục tuổi - 20 tuổi là 2 cục, còn lẻ 5 tuổi thì tiếp xuống cục thứ 3 là 21, thứ 4 là 22, cho đến 25 tuổi gặp được cục tốt thì làm; nếu chưa được thì tính hết 18 cục mà còn tuổi lẻ chưa hết thì lại tính từ cục 1 bắt đầu, đến cục tốt thì làm được.",
+      "vi_du": "Người tuổi Giáp Tý, tuổi Tân Mão mệnh người hành niên 14 tuổi: từ cục 12 ở cục 3, 13 ở cục 4, 14 ở cục 5 là cục Nhân Công Tiến Điền (cục tốt, làm được).",
+      "cac_cuc": [
+        {
+          "cuc": 1,
+          "ten": "Quý nhân Quan lộc",
+          "y_nghia": "Có chức tước, có tài lộc",
+          "tot_xau": "tốt",
+          "tuoi": [
+            "Giáp Tý",
+            "Canh Tuất",
+            "Tân Mão"
+          ]
+        },
+        {
+          "cuc": 2,
+          "ten": "Tử bại Ngưu mã",
+          "y_nghia": "Chết gia súc trâu ngựa",
+          "tot_xau": "xấu",
+          "tuoi": [
+            "Đinh Sửu",
+            "Nhâm Ngọ",
+            "Bính Thân",
+            "Kỷ Dậu"
+          ]
+        },
+        {
+          "cuc": 3,
+          "ten": "Thê tử thoái lạc",
+          "y_nghia": "Vợ con bỏ đi",
+          "tot_xau": "xấu",
+          "tuoi": [
+            "Giáp Dần",
+            "Tân Tỵ",
+            "Ất Mùi",
+            "Ất Hợi",
+            "Canh Tý"
+          ]
+        },
+        {
+          "cuc": 4,
+          "ten": "Tử biệt sinh ly",
+          "y_nghia": "Lìa bỏ nhau, chẳng lìa nhau sống thì lìa nhau chết",
+          "tot_xau": "xấu",
+          "tuoi": [
+            "Ất Mão",
+            "Đinh Mão",
+            "Mậu Ngọ"
+          ]
+        },
+        {
+          "cuc": 5,
+          "ten": "Nhân Công Tiến Điền",
+          "y_nghia": "Nhân làm việc công mà mua tậu được ruộng đất nhà cửa",
+          "tot_xau": "tốt",
+          "tuoi": [
+            "Bính Tuất",
+            "Canh Dần"
+          ]
+        },
+        {
+          "cuc": 6,
+          "ten": "Cát khánh vượng nhân",
+          "y_nghia": "Phúc tốt vượng người",
+          "tot_xau": "tốt",
+          "tuoi": [
+            "Giáp Thìn",
+            "Đinh Tỵ",
+            "Nhâm Thân",
+            "Tân Mùi",
+            "Tân Hợi"
+          ]
+        },
+        {
+          "cuc": 7,
+          "ten": "Đồ Hình Hỏa quang",
+          "y_nghia": "Tai nạn, hình tù, lửa cháy",
+          "tot_xau": "xấu",
+          "tuoi": [
+            "Bính Tý",
+            "Quý Sửu",
+            "Ất Dậu"
+          ]
+        },
+        {
+          "cuc": 8,
+          "ten": "Quyết hiệp nạp mệnh",
+          "y_nghia": "Tai bay vạ gió, phải nộp mình",
+          "tot_xau": "xấu",
+          "tuoi": [
+            "Canh Thìn"
+          ]
+        },
+        {
+          "cuc": 9,
+          "ten": "Huyết Quang lao tật",
+          "y_nghia": "Đổ máu, đau bệnh, lao tật",
+          "tot_xau": "xấu",
+          "tuoi": [
+            "Đinh Mùi",
+            "Kỷ Sửu",
+            "Quý Mão",
+            "Đinh Hợi",
+            "Bính Dần",
+            "Nhâm Tuất"
+          ]
+        },
+        {
+          "cuc": 10,
+          "ten": "Hỏa Quan Đồ Hình",
+          "y_nghia": "Lửa cháy, nước sôi, đâm chém",
+          "tot_xau": "xấu",
+          "tuoi": [
+            "Giáp Ngọ",
+            "Tân Dậu"
+          ]
+        },
+        {
+          "cuc": 11,
+          "ten": "Bát bại Thoái điền",
+          "y_nghia": "Bại sản, ruộng đất tiêu tán",
+          "tot_xau": "xấu",
+          "tuoi": [
+            "Kỷ Mão",
+            "Quý Tỵ",
+            "Mậu Tuất",
+            "Nhâm Tý"
+          ]
+        },
+        {
+          "cuc": 12,
+          "ten": "Tích súc Tiến Điền",
+          "y_nghia": "Chăn nuôi, tích luỹ, mua tậu",
+          "tot_xau": "tốt",
+          "tuoi": [
+            "Bính Thìn",
+            "Canh Ngọ"
+          ]
+        },
+        {
+          "cuc": 13,
+          "ten": "Sinh sản khố Lộc",
+          "y_nghia": "Giàu có kho, sinh sôi nảy nở lắm lộc",
+          "tot_xau": "tốt",
+          "tuoi": [
+            "Kỷ Tỵ",
+            "Đinh Dậu",
+            "Mậu Tý",
+            "Nhâm Dần",
+            "Kỷ Mão"
+          ]
+        },
+        {
+          "cuc": 14,
+          "ten": "Kim Ngân Thiên Lộc",
+          "y_nghia": "Vàng bạc lộc trời",
+          "tot_xau": "tốt",
+          "tuoi": [
+            "Giáp Thân",
+            "Ất Sửu",
+            "Quý Mùi",
+            "Quý Hợi"
+          ]
+        },
+        {
+          "cuc": 15,
+          "ten": "Công nha Tụng sự",
+          "y_nghia": "Quan sự, kiện tụng",
+          "tot_xau": "xấu",
+          "tuoi": [
+            "Mậu Dần"
+          ]
+        },
+        {
+          "cuc": 16,
+          "ten": "Ly hương tử bại",
+          "y_nghia": "Bỏ làng, chết yểu",
+          "tot_xau": "xấu",
+          "tuoi": [
+            "Kỷ Mùi",
+            "Kỷ Hợi",
+            "Canh Thân",
+            "Nhâm Thìn",
+            "Bính Ngọ"
+          ]
+        },
+        {
+          "cuc": 17,
+          "ten": "Nhân công trí phú",
+          "y_nghia": "Nhân công việc mà trở nên giàu có",
+          "tot_xau": "tốt",
+          "tuoi": [
+            "Giáp Dần",
+            "Tân Sửu"
+          ]
+        },
+        {
+          "cuc": 18,
+          "ten": "Yên ổn thất hỏa",
+          "y_nghia": "Ma quỷ nhiễu nhương, cháy đồ vật",
+          "tot_xau": "xấu",
+          "tuoi": [
+            "Ất Tỵ",
+            "Kỷ Tỵ",
+            "Mậu Thìn",
+            "Mậu Thân",
+            "Quý Dậu"
+          ]
+        }
+      ]
+    },
+    "nhung_ngay_du_hoa": {
+      "note": "Những Ngày Du Họa - kỵ, theo tháng",
+      "source_page": 162,
+      "theo_thang": [
+        {
+          "thang": 1,
+          "chi": "Tỵ"
+        },
+        {
+          "thang": 2,
+          "chi": "Dần"
+        },
+        {
+          "thang": 3,
+          "chi": "Hợi"
+        },
+        {
+          "thang": 4,
+          "chi": "Thân"
+        },
+        {
+          "thang": 5,
+          "chi": "Tỵ"
+        },
+        {
+          "thang": 6,
+          "chi": "Dần"
+        },
+        {
+          "thang": 7,
+          "chi": "Hợi"
+        },
+        {
+          "thang": 8,
+          "chi": "Thân"
+        },
+        {
+          "thang": 9,
+          "chi": "Tỵ"
+        },
+        {
+          "thang": 10,
+          "chi": "Dần"
+        },
+        {
+          "thang": 11,
+          "chi": "Hợi"
+        },
+        {
+          "thang": 12,
+          "chi": "Thân"
+        }
+      ]
+    },
+    "nhung_ngay_thien_cach": {
+      "note": "Những Ngày Thiên Cách - kỵ, theo tháng",
+      "source_page": 162,
+      "theo_thang": [
+        {
+          "thang": 1,
+          "chi": "Dần"
+        },
+        {
+          "thang": 2,
+          "chi": "Tý"
+        },
+        {
+          "thang": 3,
+          "chi": "Tuất"
+        },
+        {
+          "thang": 4,
+          "chi": "Thân"
+        },
+        {
+          "thang": 5,
+          "chi": "Ngọ"
+        },
+        {
+          "thang": 6,
+          "chi": "Thìn"
+        },
+        {
+          "thang": 7,
+          "chi": "Dần"
+        },
+        {
+          "thang": 8,
+          "chi": "Tý"
+        },
+        {
+          "thang": 9,
+          "chi": "Tuất"
+        },
+        {
+          "thang": 10,
+          "chi": "Thân"
+        },
+        {
+          "thang": 11,
+          "chi": "Ngọ"
+        },
+        {
+          "thang": 12,
+          "chi": "Thìn"
+        }
+      ]
+    },
+    "nhung_ngay_ngu_quy": {
+      "note": "Những Ngày Ngũ Quý - theo tháng",
+      "source_page": 162,
+      "theo_thang": [
+        {
+          "thang": 1,
+          "chi": "Ngọ"
+        },
+        {
+          "thang": 2,
+          "chi": "Dần"
+        },
+        {
+          "thang": 3,
+          "chi": "Thìn"
+        },
+        {
+          "thang": 4,
+          "chi": "Dậu"
+        },
+        {
+          "thang": 5,
+          "chi": "Mão"
+        },
+        {
+          "thang": 6,
+          "chi": "Thân"
+        },
+        {
+          "thang": 7,
+          "chi": "Sửu"
+        },
+        {
+          "thang": 8,
+          "chi": "Tỵ"
+        },
+        {
+          "thang": 9,
+          "chi": "Tý"
+        },
+        {
+          "thang": 10,
+          "chi": "Hợi"
+        },
+        {
+          "thang": 11,
+          "chi": "Mùi"
+        },
+        {
+          "thang": 12,
+          "chi": "Tuất"
+        }
+      ]
+    }
+  },
+  "an_tang": {
+    "bai_tho_tho_tu_sat_chu": {
+      "ref": "xem global_bad_days.json -> tho_tu_sat_chu (áp dụng chung, kỵ mọi việc kể cả an táng)"
+    },
+    "trung_tang_trung_phuc": {
+      "note": "Kỵ hôn nhân, ma chay, cải táng - theo tháng, cặp Can",
+      "source_page": 158,
+      "entries": [
+        {
+          "thang": 1,
+          "can": [
+            "Giáp",
+            "Canh"
+          ]
+        },
+        {
+          "thang": 2,
+          "can": [
+            "Ất",
+            "Tân"
+          ]
+        },
+        {
+          "thang": 3,
+          "can": [
+            "Mậu",
+            "Kỷ"
+          ]
+        },
+        {
+          "thang": 4,
+          "can": [
+            "Bính",
+            "Nhâm"
+          ]
+        },
+        {
+          "thang": 5,
+          "can": [
+            "Đinh",
+            "Quý"
+          ]
+        },
+        {
+          "thang": 6,
+          "can": [
+            "Kỷ",
+            "Mậu"
+          ]
+        },
+        {
+          "thang": 7,
+          "can": [
+            "Canh",
+            "Giáp"
+          ]
+        },
+        {
+          "thang": 8,
+          "can": [
+            "Tân",
+            "Ất"
+          ]
+        },
+        {
+          "thang": 9,
+          "can": [
+            "Kỷ",
+            "Kỷ"
+          ],
+          "luu_y": "nguyên văn sách in trùng 'Kỷ, Kỷ' - đã kiểm tra kỹ hình ảnh gốc, có thể là lỗi in ấn (kỳ vọng theo quy luật là 'Kỷ, Mậu')"
+        },
+        {
+          "thang": 10,
+          "can": [
+            "Nhâm",
+            "Bính"
+          ]
+        },
+        {
+          "thang": 11,
+          "can": [
+            "Quý",
+            "Đinh"
+          ]
+        },
+        {
+          "thang": 12,
+          "can": [
+            "Mậu",
+            "Mậu"
+          ],
+          "luu_y": "nguyên văn sách in trùng 'Mậu, Mậu' - có thể là lỗi in ấn (kỳ vọng theo quy luật là 'Mậu, Kỷ')"
+        }
+      ]
+    },
+    "ngay_trung_tang_poem": {
+      "note": "Thơ dân gian xác định người chết vào ngày nào là phạm Trùng Tang, theo mùa",
+      "source_page": 140,
+      "tho": "Xuân ba tháng thỏ kêu vang / Hạ ba tháng ngựa đón đường / Thu ba tháng gà gáy giục / Đông ba tháng chuột đào hang / Thế gian ai biết thì lành / Chết ngày ấy thị trùng tang.",
+      "giai_nghia": "Xuân: Mão (thỏ), Hạ: Ngọ (ngựa), Thu: Dậu (gà), Đông: Tý (chuột)"
+    },
+    "nhung_ngay_tho_cam_ky_dao_gieng_chon_cat": {
+      "note": "Kỵ đào giếng, chôn cất theo quý (3 tháng một)",
+      "source_page": 142,
+      "entries": [
+        {
+          "thang": "1-2-3",
+          "ngay": "Hợi"
+        },
+        {
+          "thang": "4-5-6",
+          "ngay": "Dần"
+        },
+        {
+          "thang": "7-8-9",
+          "ngay": "Tỵ"
+        },
+        {
+          "thang": "10-11-12",
+          "ngay": "Thân"
+        }
+      ]
+    },
+    "nhung_ngay_thien_hy_an_tang": {
+      "note": "Ngày Thiên Hỷ - tốt cho an táng, theo tháng",
+      "source_page": 150,
+      "entries": [
+        {
+          "thang": 1,
+          "ngay": "Tuất"
+        },
+        {
+          "thang": 2,
+          "ngay": "Hợi"
+        },
+        {
+          "thang": 3,
+          "ngay": "Tý"
+        },
+        {
+          "thang": 4,
+          "ngay": "Sửu"
+        },
+        {
+          "thang": 5,
+          "ngay": "Dần"
+        },
+        {
+          "thang": 6,
+          "ngay": "Mão"
+        },
+        {
+          "thang": 7,
+          "ngay": "Thìn"
+        },
+        {
+          "thang": 8,
+          "ngay": "Tỵ"
+        },
+        {
+          "thang": 9,
+          "ngay": "Ngọ"
+        },
+        {
+          "thang": 10,
+          "ngay": "Mùi"
+        },
+        {
+          "thang": 11,
+          "ngay": "Thân"
+        },
+        {
+          "thang": 12,
+          "ngay": "Dậu"
+        }
+      ]
+    },
+    "sat_chu_ve_bon_mua": {
+      "ref": "xem global_bad_days.json -> sat_chu.he_theo_bon_mua"
+    },
+    "trung_tanh_ky_theo_gio": {
+      "note": "Giờ Trùng Tang (đề cập trong TOC, chưa trích chi tiết bảng số liệu)",
+      "status": "chưa trích xuất đầy đủ - cần xử lý thêm nếu cần"
+    },
+    "bang_tinh_ve_viec_dam_ma": {
+      "note": "BẢNG TÍNH VỀ VIỆC ĐÁM MA - 12 'bài' ứng với 12 giai đoạn Trường Sinh (Trường Sinh, Mộc Dục, Quan Đái, Lâm Quan, Đế Vượng, Suy, Bệnh, Tử, Mộ, Tuyệt, Thai, Dưỡng), mỗi bài mô tả hoàn cảnh gia đình lúc an táng (thời điểm mãn số, số con trai/gái có mặt, có sẵn hòm rương hay không, có thầy chùa đưa linh hay không) dựa theo cách tính tuổi/ngày mất ứng với cung Trường Sinh. Đầy đủ 12/12 bài (trước đây chỉ trích 4 bài mẫu).",
+      "source_pages": [
+        163,
+        164
+      ],
+      "bai": [
+        {
+          "ten": "Trường Sinh",
+          "noi_dung": "Số này khi đến trung sự đau hai ngày thì mãn số, ngày ấy trời nắng, hòm rương sẵn, con trai 2 người, con gái 2 người, có hạn 45, 46 như qua đặng thì hưởng thọ đến 67 tuổi, có thầy chùa đưa linh."
+        },
+        {
+          "ten": "Mộc Dục",
+          "noi_dung": "Số này đến khi chết đau bệnh mà mãn số, có lúc ấy trời tối, hạn 17, 18, 19 tuổi khắc kỵ lắm, qua đặng thì hưởng thọ đến 72 tuổi mới mãn số, thấy mặt 1 đứa con trai, 2 đứa con gái đưa linh, không có thầy chùa.",
+          "luu_y": "tiêu đề in là 'MỘC DU', có thể là lỗi in ấn của 'Mộc Dục'"
+        },
+        {
+          "ten": "Quan Đái",
+          "noi_dung": "Số này đến khi đau bệnh mà mãn số, hạn 33, 34 tuổi khắc kỵ, như qua đặng thì hưởng thọ đến 64 tuổi, mãn lúc mùa đông tuyết trời lạnh, có hòm sẵn, có 3 người con trai, 2 người con gái đặng thấy mặt, có thầy chùa đưa linh."
+        },
+        {
+          "ten": "Lâm Quan",
+          "noi_dung": "Số này thọ bệnh 2, 3 ngày, mãn số lúc chiều tối, có hòm dương sẵn, có người con trai, 1 người con gái có mặt, thầy chùa đưa linh."
+        },
+        {
+          "ten": "Đế Vượng",
+          "noi_dung": "Số này thụ lệnh ngủ mê 5 ngày rồi mãn, có mặt con trai, con gái 5 người, có hòm rương sẵn, có thầy chùa đưa linh."
+        },
+        {
+          "ten": "Suy",
+          "noi_dung": "Số này khi mãn trong mùa đông, có trời mưa khi chôn, có hòm rương sẵn, có con trai 2, con gái 3 người, có thầy chùa đưa linh."
+        },
+        {
+          "ten": "Bệnh",
+          "noi_dung": "Số này đến khi chết đau bệnh mà mãn số, chết đi sống lại 1, 2 ngày mãn. Khi mãn vào mùa đông trời lạnh, có hòm rương sẵn, hòm sứt không liền, 1 con trai, 2 con gái có mặt, có thầy chùa đưa linh."
+        },
+        {
+          "ten": "Tử",
+          "noi_dung": "Số này đến khi chết đau bệnh mà mãn số nhằm mùa hạ, ngày mãn có trời mưa, có 1 con trai, 1 con rể, có hòm sẵn, bà con ít, không có thầy chùa đưa linh."
+        },
+        {
+          "ten": "Mộ",
+          "noi_dung": "Số này khi mãn trong mùa thu có hòm rương sẵn, có 1 con trai, 1 con gái, 1 con rể đứng lên lo an táng, có nhạc lễ, bà con đông, có thầy chùa đưa linh."
+        },
+        {
+          "ten": "Tuyệt",
+          "noi_dung": "Số này đến khi chết uống rượu nhà thân thích về rồi mãn, có mặt con rể, 2 con trai lo an táng, làm rương sẵn, có thầy chùa đưa linh."
+        },
+        {
+          "ten": "Thai",
+          "noi_dung": "Số này đến khi chết đau bệnh mà mãn số, có hai người con trai, một người con gái có mặt nhưng nhằm lúc con nghèo lắm, phải mượn hòm đem chôn, không có thầy chùa đưa linh."
+        },
+        {
+          "ten": "Dưỡng",
+          "noi_dung": "Số này đến khi chết sớm còn đi chơi chỗ đông người, nói chuyện, co cãi rồi về đến nhà tối mãn nhằm mùa đông, ngày chôn có trời mưa, có mặt hai người con trai, một người con gái, có hòm rương sẵn, có nhạc lễ, có thầy chùa đưa linh, bà con tới đông đưa đón rất long trọng."
+        }
+      ],
+      "luu_y": "Trang 163 có ghi chú 'chèn bảng' (placeholder) sau bài Suy - cho thấy bản gốc dự kiến chèn một bảng minh họa tại đây nhưng không xuất hiện trong bản in/scan này.",
+      "status": "đầy đủ 12/12 bài"
+    },
+    "tu_thoi_trung_tang_ky_an_tang": {
+      "note": "Kỵ an táng theo mùa (khác với bảng Trùng Tang Trùng Phục theo tháng đã có)",
+      "source_page": 44,
+      "xuan": "Dậu",
+      "ha": "Tý",
+      "thu": "Mùi",
+      "dong": "Mão"
+    },
+    "an_tang_cat_nhat": {
+      "note": "Những ngày Can Chi tốt để an táng",
+      "source_page": 44,
+      "ngay": [
+        "Giáp Tý",
+        "Canh Thân",
+        "Kỷ Dậu",
+        "Bính Thân",
+        "Nhâm Dần",
+        "Quý Dậu",
+        "Nhâm Thân",
+        "Nhâm Ngọ",
+        "Bính Ngọ",
+        "Đinh Dậu"
+      ]
+    },
+    "phep_tinh_gio": {
+      "note": "Bảng quy đổi giờ Chi sang giờ hiện đại (giờ Tý=23h-1h ... theo múi 2 tiếng mỗi Chi)",
+      "source_page": 44,
+      "entries": [
+        {
+          "chi": "Tý",
+          "gio": "11 giờ đêm - 1 giờ sáng"
+        },
+        {
+          "chi": "Sửu",
+          "gio": "1-3 giờ sáng"
+        },
+        {
+          "chi": "Dần",
+          "gio": "3-5 giờ sáng"
+        },
+        {
+          "chi": "Mão",
+          "gio": "5-7 giờ sáng"
+        },
+        {
+          "chi": "Thìn",
+          "gio": "7-9 giờ sáng"
+        },
+        {
+          "chi": "Tỵ",
+          "gio": "9-11 giờ sáng"
+        },
+        {
+          "chi": "Ngọ",
+          "gio": "11 giờ trưa - 1 giờ chiều"
+        },
+        {
+          "chi": "Mùi",
+          "gio": "1-3 giờ chiều"
+        },
+        {
+          "chi": "Thân",
+          "gio": "3-5 giờ chiều"
+        },
+        {
+          "chi": "Dậu",
+          "gio": "5-7 giờ chiều"
+        },
+        {
+          "chi": "Tuất",
+          "gio": "7-9 giờ tối"
+        },
+        {
+          "chi": "Hợi",
+          "gio": "9-11 giờ đêm"
+        }
+      ]
+    },
+    "nhap_niem_ky_gio_theo_tuoi": {
+      "note": "Khi nhập niệm hoặc chôn cất, tránh ngày/giờ theo nhóm tuổi (3 nhóm tam hợp) của người chết",
+      "source_page": 44,
+      "entries": [
+        {
+          "nhom_tuoi": [
+            "Thân",
+            "Tý",
+            "Thìn"
+          ],
+          "ky_gio": "Tý"
+        },
+        {
+          "nhom_tuoi": [
+            "Dần",
+            "Ngọ",
+            "Tuất"
+          ],
+          "ky_gio": "Hợi"
+        },
+        {
+          "nhom_tuoi": [
+            "Tỵ",
+            "Dậu",
+            "Sửu"
+          ],
+          "ky_gio": "Dần"
+        }
+      ],
+      "vi_du": "Người chết tuổi Thân-Tý-Thìn kỵ ngày niệm, chôn cất ngày Tý hoặc giờ Tý"
+    },
+    "phep_xem_12_thang_hoang_long": {
+      "note": "Lấy tuổi người chết (theo 1 trong 4 nhóm tam hợp) và năm chết (cũng theo nhóm tam hợp) tra ra 1 số (1-6), số này ứng với một trong 6 bài thơ đoán vận nhà (Thần Giác, Tế nhi, Mục yêu, Vi túc, Tản tử, Phúc tường)",
+      "source_pages": [
+        47,
+        48,
+        49,
+        50
+      ],
+      "bang_tra_so": {
+        "Thân_Ty_Thin": [
+          {
+            "nam_chet": [
+              "Tý",
+              "Hợi"
+            ],
+            "so": 2
+          },
+          {
+            "nam_chet": [
+              "Tý",
+              "Ngọ"
+            ],
+            "so": 3
+          },
+          {
+            "nam_chet": [
+              "Dần",
+              "Thân"
+            ],
+            "so": 5
+          },
+          {
+            "nam_chet": [
+              "Mão",
+              "Dậu"
+            ],
+            "so": 6
+          },
+          {
+            "nam_chet": [
+              "Thìn",
+              "Tuất"
+            ],
+            "so": 1
+          },
+          {
+            "nam_chet": [
+              "Sửu",
+              "Mùi"
+            ],
+            "so": 4
+          }
+        ],
+        "Dan_Ngo_Tuat": [
+          {
+            "nam_chet": [
+              "Thìn",
+              "Tuất"
+            ],
+            "so": 1
+          },
+          {
+            "nam_chet": [
+              "Tỵ",
+              "Hợi"
+            ],
+            "so": 2
+          },
+          {
+            "nam_chet": [
+              "Tý",
+              "Ngọ"
+            ],
+            "so": 3
+          },
+          {
+            "nam_chet": [
+              "Sửu",
+              "Mùi"
+            ],
+            "so": 4
+          },
+          {
+            "nam_chet": [
+              "Dần",
+              "Thân"
+            ],
+            "so": 5
+          },
+          {
+            "nam_chet": [
+              "Mão",
+              "Dậu"
+            ],
+            "so": 6
+          }
+        ],
+        "Hoi_Mao_Mui": [
+          {
+            "nam_chet": [
+              "Sửu",
+              "Mùi"
+            ],
+            "so": 1
+          },
+          {
+            "nam_chet": [
+              "Thìn",
+              "Tuất"
+            ],
+            "so": 2
+          },
+          {
+            "nam_chet": [
+              "Mão",
+              "Dậu"
+            ],
+            "so": 3
+          },
+          {
+            "nam_chet": [
+              "Tỵ",
+              "Hợi"
+            ],
+            "so": 4
+          },
+          {
+            "nam_chet": [
+              "Dần",
+              "Thân"
+            ],
+            "so": 5
+          },
+          {
+            "nam_chet": [
+              "Tỵ",
+              "Ngọ"
+            ],
+            "so": 6
+          }
+        ],
+        "Ty_Dau_Suu": [
+          {
+            "nam_chet": [
+              "Sửu",
+              "Mùi"
+            ],
+            "so": 1
+          },
+          {
+            "nam_chet": [
+              "Dần",
+              "Thân"
+            ],
+            "so": 2
+          },
+          {
+            "nam_chet": [
+              "Mão",
+              "Dần"
+            ],
+            "so": 3
+          },
+          {
+            "nam_chet": [
+              "Thìn",
+              "Tuất"
+            ],
+            "so": 4
+          },
+          {
+            "nam_chet": [
+              "Tỵ",
+              "Hợi"
+            ],
+            "so": 5
+          },
+          {
+            "nam_chet": [
+              "Tý",
+              "Ngọ"
+            ],
+            "so": 6
+          }
+        ]
+      },
+      "y_nghia_so": {
+        "1": {
+          "ten": "Thần Giác",
+          "tho": "Thần Giác ba năm sự chẳng thường / Ba năm con cháu khổ tai ương / Gia tài đất cát chưa kiên mãi / Anh em thân tộc cũng chẳng nhường"
+        },
+        "2": {
+          "ten": "Tế nhi",
+          "tho": "Tế nhi nhất định chủ hồi hương / Cháu con hoà thuận vẫn yên thường / Làm ăn tiền phát gia quyền tước / Tài lộc công danh có như thường"
+        },
+        "3": {
+          "ten": "Mục yêu",
+          "tho": "Mục yêu gia phả thấy rõ ràng / Cháu con dâm loạn khiến gian tham / Bài bạc tiêu hao đều chẳng tốt / Phá tan sự nghiệp phải nghèo nàn"
+        },
+        "4": {
+          "ten": "Vi túc",
+          "tho": "Vi túc ca dao cổ lại phương / Chết gặp hai chữ bị tổn thương / Cháu con ly tán thêm nghèo khổ / Luỵ ứa gian nan chịu loang tường"
+        },
+        "5": {
+          "ten": "Tản tử",
+          "tho": "Tản tử tổ phục hồn quy hương / Anh đệ tiếng vang rộng bốn phương / Chết gặp hai chữ thật là tốt / Ngày sau con cháu được phú cường"
+        },
+        "6": {
+          "ten": "Phúc tường",
+          "tho": "Phúc tường nhất kiến ngọ quán vương / Chớ có bị ai chớ lo lường / Phú quý công danh sẵn cũng có / Con cháu sang trọng hưởng vinh sương"
+        }
+      }
+    },
+    "cach_tru_trung": {
+      "note": "Bài thuốc/nghi thức trừ trùng (chống 'trùng tang') khi an táng - các vị và trọng lượng, dùng chỉ ngũ sắc kết tứ tung ngũ hoành lên mặt thuốc rồi cho vào túi vải để yểm",
+      "source_page": 50,
+      "vi_thuoc": [
+        {
+          "ten": "Thần sa",
+          "luong": "3 đồng cân"
+        },
+        {
+          "ten": "Chu sa",
+          "luong": "2 đồng cân"
+        },
+        {
+          "ten": "Hùng hoàng",
+          "luong": "5 đồng cân"
+        },
+        {
+          "ten": "Sương tuật",
+          "luong": "5 đồng cân"
+        },
+        {
+          "ten": "Địa liền",
+          "luong": "5 đồng cân"
+        },
+        {
+          "ten": "Ang uỷ",
+          "luong": "3 đồng cân"
+        },
+        {
+          "ten": "Huyết giác",
+          "luong": "3 đồng cân"
+        },
+        {
+          "ten": "Đại hồi",
+          "luong": "5 đồng cân"
+        },
+        {
+          "ten": "Quế chi",
+          "luong": "5 đồng cân"
+        }
+      ]
+    },
+    "bang_tinh_ve_viec_dam_ma_grid": {
+      "note": "Sơ đồ 12 Chi (Tỵ Ngọ Mùi Thân / Thìn ... / Mão ... Dậu / Dần Sửu Tý Hợi) tính từ tuổi người chết, chia 3 vùng: Thiên Di (Tý Ngọ Mão Dậu), Nhập Mộ (Thìn Tuất Sửu Mùi), Trùng Tang (Dần Thân Tỵ Hợi). Đây là bảng dùng để đếm tuổi vòng quanh 12 cung nhằm biết vong linh rơi vào Thiên Di / Nhập Mộ / Trùng Tang.",
+      "source_page": 42,
+      "thien_di": [
+        "Tý",
+        "Ngọ",
+        "Mão",
+        "Dậu"
+      ],
+      "nhap_mo": [
+        "Thìn",
+        "Tuất",
+        "Sửu",
+        "Mùi"
+      ],
+      "trung_tang": [
+        "Dần",
+        "Thân",
+        "Tỵ",
+        "Hợi"
+      ],
+      "diem_khoi_dem": {
+        "nam": "bắt đầu đếm từ cung Dần theo chiều nghịch (mũi tên lên)",
+        "nu": "bắt đầu đếm từ cung Thân theo chiều thuận (mũi tên xuống)"
+      }
+    },
+    "nhung_ngay_ky_tham_nguoi_om": {
+      "note": "Ngày kỵ đi thăm người ốm (Can Chi cụ thể)",
+      "source_page": 143,
+      "danh_sach": [
+        "Nhâm Dần",
+        "Nhâm Ngọ",
+        "Canh Ngọ",
+        "Giáp Dần",
+        "Ất Mão",
+        "Kỷ Mão"
+      ],
+      "tho": "Thần tiên lưu hạ thử lục thần / Thăm người bệnh tật bệnh thế nhân vong"
+    },
+    "nhung_ngay_thien_hy_an_tang_v2": {
+      "note": "Những Ngày Thiên Hỷ An Táng (bảng theo tháng riêng, trang 150) - đối chiếu với mục nhung_ngay_thien_hy_an_tang đã có trước đó",
+      "source_page": 150,
+      "theo_thang": [
+        {
+          "thang": 1,
+          "chi": "Tuất"
+        },
+        {
+          "thang": 2,
+          "chi": "Hợi"
+        },
+        {
+          "thang": 3,
+          "chi": "Tý"
+        },
+        {
+          "thang": 4,
+          "chi": "Sửu"
+        },
+        {
+          "thang": 5,
+          "chi": "Dần"
+        },
+        {
+          "thang": 6,
+          "chi": "Mão"
+        },
+        {
+          "thang": 7,
+          "chi": "Thìn"
+        },
+        {
+          "thang": 8,
+          "chi": "Tỵ"
+        },
+        {
+          "thang": 9,
+          "chi": "Ngọ"
+        },
+        {
+          "thang": 10,
+          "chi": "Mùi"
+        },
+        {
+          "thang": 11,
+          "chi": "Thân"
+        },
+        {
+          "thang": 12,
+          "chi": "Dậu"
+        }
+      ]
+    },
+    "nhung_ngay_tu_ly": {
+      "note": "Những Ngày Tử Ly - kỵ (liên quan an táng/việc lớn)",
+      "source_page": 159,
+      "quy_tac": "Trước tiết Xuân phân, Thu phân, Đông chí, Hạ chí một ngày"
+    },
+    "nhung_ngay_tu_tuyet": {
+      "note": "Những Ngày Tứ Tuyệt - kỵ (liên quan an táng/việc lớn)",
+      "source_page": 159,
+      "quy_tac": "Trước tiết Lập xuân, Lập hạ, Lập thu, Lập đông một ngày",
+      "ghi_chu_gio": "Theo hiệp kỷ lịch Can Chi thì ngày bắt đầu từ 23h30' sang giờ Tý của ngày hôm sau. Giờ Tý chính là Tý 0h đêm; giờ Ngọ chính là Ngọ 12h trưa. Trẻ phạm giờ Kim Xà Thiết Tỏa phải cúng giải nhương tinh."
+    }
+  },
+  "xuat_hanh": {
+    "chu_cong_xuat_hanh": {
+      "note": "Bảng bói theo 60 ngày Giáp Tý - Quý Hợi (Lục Thập Hoa Giáp), mỗi ngày một bài thơ chỉ dẫn ngày tốt/xấu đi đường, cầu quan, buôn bán, cưới hỏi. Chia làm 6 tuần (mỗi tuần 10 ngày, mở đầu bằng một ngày Giáp). Đầy đủ 60/60 ngày.",
+      "source_pages": [
+        113,
+        114,
+        115,
+        116,
+        117
+      ],
+      "tuan_giap_ty": {
+        "ngay_bat_dau": "Giáp Tý",
+        "cac_ngay": [
+          "Giáp Tý",
+          "Ất Sửu",
+          "Bính Dần",
+          "Đinh Mão",
+          "Mậu Thìn",
+          "Kỷ Tỵ",
+          "Canh Ngọ",
+          "Tân Mùi",
+          "Nhâm Thân",
+          "Quý Dậu"
+        ],
+        "tho": "Giáp Tý, Ất Sửu hai ngày / Đi đường được của vận hay đến nhà / Cầu quan tìm ngày Bính Dần / Nhược bằng buôn bán, thập phần kể gì / Đinh Mão ngày ấy chớ đi / Đạo tặc trở ngại lâm nguy khôn lường / Mậu Thìn ngày ấy bình an / Nhận ra công sự việc quan chớ dùng / Kỷ Tỵ, Canh Ngọ đại hung / Hành trình buôn bán tốn công phải là / Tân Mùi chính trực gian ngoan / Hành trình phải ốm tân toan nhiều ngày."
+      },
+      "tuan_giap_tuat": {
+        "ngay_bat_dau": "Giáp Tuất",
+        "cac_ngay": [
+          "Giáp Tuất",
+          "Ất Hợi",
+          "Bính Tý",
+          "Đinh Sửu",
+          "Mậu Dần",
+          "Kỷ Mão",
+          "Canh Thìn",
+          "Tân Tỵ",
+          "Nhâm Ngọ",
+          "Quý Mùi"
+        ],
+        "tho": "Giáp Tuất, Ất Hợi tai bay chớ dùng / Như ngày Bính Tý đại hung / Đạo tặc thực dữ nhớ không nên làm / Đinh Sửu được ngày cầu quan / Rượu chè buôn bán bình an sang giàu / Mậu Dần đi phải ốm đau / Được ngày Kỷ Mão lợi cầu đi lên / Canh Thìn dữ thay lạ kỳ / Nhược bằng chứng cứ ra đi bỏ mình / Tân Tỵ ngày ấy thất tinh / Nhược bằng giá thú vô sinh khổ nhiều / Quý Mùi, Nhâm Ngọ ra đi / Cầu quan buôn bán lợi thì quá ư."
+      },
+      "tuan_giap_than": {
+        "ngay_bat_dau": "Giáp Thân",
+        "cac_ngay": [
+          "Giáp Thân",
+          "Ất Dậu",
+          "Bính Tuất",
+          "Đinh Hợi",
+          "Mậu Tý",
+          "Kỷ Sửu",
+          "Canh Dần",
+          "Tân Mão",
+          "Nhâm Thìn",
+          "Quý Tỵ"
+        ],
+        "tho": "Giáp Thân, Ất Dậu thờ ơ / Bính Tuất, Đinh Hợi hung nơ chờ dùng / Mậu Tý, Kỷ Sửu hợp cùng / Đi đường được của tiền công đến nhà / Canh Dần rủi long đi xa / Cầu quan cũng được xuống co chơi bởi / Tân Mão ngày ấy dữ trời / Bằng khi khẩn thiết phải người đánh ta / Nhâm Thìn ngày ấy chẳng hoa / Nhược bằng Quý, Tỵ oan gia khốn làm."
+      },
+      "tuan_giap_ngo": {
+        "ngay_bat_dau": "Giáp Ngọ",
+        "cac_ngay": [
+          "Giáp Ngọ",
+          "Ất Mùi",
+          "Bính Thân",
+          "Đinh Dậu",
+          "Mậu Tuất",
+          "Kỷ Hợi",
+          "Canh Tý",
+          "Tân Sửu",
+          "Nhâm Dần",
+          "Quý Mão"
+        ],
+        "tho": "Giáp Ngọ đi thì bình an, / Ất Mùi ngày ấy thiên ban dục tài / Bính Thân đạo tặc phản tai / Ngày ấy thực dữ chẳng sai đâu mà / Đinh Dậu ngày ấy bình an, / Mậu Tuất, Kỷ Hợi thiên ban bội phần / Canh Tý, Tân Sửu, Nhâm Dần, / Trong ba ngày ấy thập phần cũng lành / Quý Mão ngày ấy tươi lành."
+      },
+      "tuan_giap_thin": {
+        "ngay_bat_dau": "Giáp Thìn",
+        "cac_ngay": [
+          "Giáp Thìn",
+          "Ất Tỵ",
+          "Bính Ngọ",
+          "Đinh Mùi",
+          "Mậu Thân",
+          "Kỷ Dậu",
+          "Canh Tuất",
+          "Tân Hợi",
+          "Nhâm Tý",
+          "Quý Sửu"
+        ],
+        "tho": "Giáp Thìn đại cát hợp thành không sai / Ất Tỵ, Bính Ngọ, Đinh Mùi / Trong ba ngày ấy việc chơi chớ làm / Mậu Thân, Kỷ Dậu chẳng bàn / Ốm đau chủ Tính phải oan khốn lòng / Canh Tuất đi ngày làm thay / Bàn tiệc ăn uống cỏ cây đợi chờ / Tân Hợi, Nhâm Tý thờ ơ / Trăm sự thì cũng thờ ơ chờ dùng / Quý Sửu ngày ấy hợp cùng."
+      },
+      "tuan_giap_dan": {
+        "ngay_bat_dau": "Giáp Dần",
+        "cac_ngay": [
+          "Giáp Dần",
+          "Ất Mão",
+          "Bính Thìn",
+          "Đinh Tỵ",
+          "Mậu Ngọ",
+          "Kỷ Mùi",
+          "Canh Thân",
+          "Tân Dậu",
+          "Nhâm Tuất",
+          "Quý Hợi"
+        ],
+        "tho": "Giáp Dần trước dữ sau lại lành / Ất Mão, Bính Thìn mong manh / Đi đường phải ốm giữ mình cho hay / Đinh Tỵ là thứ nhất này / Bàn tiệc ăn uống no say hãi hùng / Mậu Ngọ, Kỷ Mùi chẳng dùng / Canh Thân, Tân Dậu phải cùng can qua / Nhâm Tuất, Quý Hợi gần xa, / Đều là thực dữ ấy ta chớ dùng / Ai mà còn cãi Chu Công / Xét xem cho biết cát hung trình bày."
+      }
+    },
+    "nhung_ngay_tho_ky_vang_vong_ky_xuat_hanh_dong_tho": {
+      "note": "Kỵ xuất hành, động thổ, theo tháng",
+      "source_page": 142,
+      "entries": [
+        {
+          "thang": 1,
+          "ngay": "Dần"
+        },
+        {
+          "thang": 2,
+          "ngay": "Tỵ"
+        },
+        {
+          "thang": 3,
+          "ngay": "Thân"
+        },
+        {
+          "thang": 4,
+          "ngay": "Hợi"
+        },
+        {
+          "thang": 5,
+          "ngay": "Mão"
+        },
+        {
+          "thang": 6,
+          "ngay": "Ngọ"
+        },
+        {
+          "thang": 7,
+          "ngay": "Dậu"
+        },
+        {
+          "thang": 8,
+          "ngay": "Tý"
+        },
+        {
+          "thang": 9,
+          "ngay": "Thìn"
+        },
+        {
+          "thang": 10,
+          "ngay": "Mùi"
+        },
+        {
+          "thang": 11,
+          "ngay": "Thân"
+        },
+        {
+          "thang": 12,
+          "ngay": "Dậu"
+        }
+      ],
+      "source_pages": [
+        142,
+        157
+      ]
+    },
+    "nhung_ngay_thien_quan_xuat_hanh_giao_dich_tot": {
+      "note": "Ngày tốt để xuất hành, giao dịch (lặp theo cặp tháng cách nhau 6 tháng)",
+      "source_page": 152,
+      "entries": [
+        {
+          "thang": [
+            1,
+            7
+          ],
+          "ngay": "Tuất"
+        },
+        {
+          "thang": [
+            2,
+            8
+          ],
+          "ngay": "Tý"
+        },
+        {
+          "thang": [
+            3,
+            9
+          ],
+          "ngay": "Dần"
+        },
+        {
+          "thang": [
+            4,
+            10
+          ],
+          "ngay": "Thìn"
+        },
+        {
+          "thang": [
+            5,
+            11
+          ],
+          "ngay": "Ngọ"
+        },
+        {
+          "thang": [
+            6,
+            12
+          ],
+          "ngay": "Thân"
+        }
+      ]
+    },
+    "nhung_ngay_loc_ma_xuat_hanh_di_chuyen_tot": {
+      "note": "Ngày tốt để xuất hành, di chuyển chỗ ở (lặp theo cặp tháng cách nhau 6 tháng)",
+      "source_page": 152,
+      "entries": [
+        {
+          "thang": [
+            1,
+            7
+          ],
+          "ngay": "Ngọ"
+        },
+        {
+          "thang": [
+            2,
+            8
+          ],
+          "ngay": "Thân"
+        },
+        {
+          "thang": [
+            3,
+            9
+          ],
+          "ngay": "Tuất"
+        },
+        {
+          "thang": [
+            4,
+            10
+          ],
+          "ngay": "Tý"
+        },
+        {
+          "thang": [
+            5,
+            11
+          ],
+          "ngay": "Dần"
+        },
+        {
+          "thang": [
+            6,
+            12
+          ],
+          "ngay": "Thìn"
+        }
+      ]
+    },
+    "bang_tinh_ngay_gio_tot_di_duong_viec_nho": {
+      "note": "Mục 'BẢNG TÍNH NGÀY TỐT - GIỜ TỐT ĐỂ ĐI ĐƯỜNG (VIỆC NHỎ)' được đề cập trong sách (khoảng trang 50) nhưng chưa trích xuất chi tiết bảng số liệu",
+      "status": "chưa xử lý"
+    },
+    "gio_hoang_dao_hac_dao": {
+      "note": "Phép tính Giờ Hoàng Đạo / Hắc Đạo (giờ tốt/xấu trong ngày) được đề cập trong sách (khoảng trang 45-50) nhưng chưa trích xuất chi tiết bảng số liệu - liên quan tới việc chọn giờ xuất hành",
+      "status": "chưa xử lý"
+    },
+    "luc_dieu_ngay_gio_tot_di_duong": {
+      "note": "Bảng Tính Ngày Tốt - Giờ Tốt Để Đi Đường (việc nhỏ) - hệ Lục Diệu cổ điển, cặp tháng âm lịch ứng với 1 trong 6 loại ngày (Đại An, Lưu Liên, Tốc Hỷ, Xích Khẩu, Tiểu Cát, Không Vong)",
+      "source_pages": [
+        50,
+        51
+      ],
+      "note2": "Đây thực chất là dữ liệu xuất hành (đi đường), đặt tạm ở đây theo thứ tự đọc được nhưng nên tham chiếu chéo với events_rules.xuat_hanh",
+      "entries": [
+        {
+          "thang_cap": [
+            1,
+            7
+          ],
+          "loai_ngay": "Đại An"
+        },
+        {
+          "thang_cap": [
+            2,
+            8
+          ],
+          "loai_ngay": "Lưu Liên"
+        },
+        {
+          "thang_cap": [
+            3,
+            9
+          ],
+          "loai_ngay": "Tốc Hỷ"
+        },
+        {
+          "thang_cap": [
+            4,
+            10
+          ],
+          "loai_ngay": "Xích Khẩu"
+        },
+        {
+          "thang_cap": [
+            5,
+            11
+          ],
+          "loai_ngay": "Tiểu Cát"
+        },
+        {
+          "thang_cap": [
+            6,
+            12
+          ],
+          "loai_ngay": "Không Vong"
+        }
+      ]
+    },
+    "nhung_ngay_khong_vong_bon_mua": {
+      "note": "Kỵ xuất hành, theo mùa (thơ)",
+      "source_page": 103,
+      "tho": "Xuân Mùi, Tuất, Hợi thầy bảo cho hay / Hạ thì rồng rắn lên mây / Sáu con chuột bạch nằm ngoài cửa hang / Thu thì thân Dậu trâu vàng / Đông thì Dần Mão ngựa sang nước người",
+      "giai": {
+        "xuan": [
+          "Mùi",
+          "Tuất",
+          "Hợi"
+        ],
+        "ha": [
+          "Thìn",
+          "Tỵ"
+        ],
+        "thu": [
+          "Thân",
+          "Dậu",
+          "Sửu"
+        ],
+        "dong": [
+          "Dần",
+          "Mão",
+          "Ngọ"
+        ]
+      }
+    },
+    "chiem_vang_vong_nhat": {
+      "note": "Vãng Vong - kỵ xuất hành, giá thú - theo tháng",
+      "source_page": 106,
+      "entries": {
+        "1": "Dần",
+        "2": "Tỵ",
+        "3": "Thân",
+        "4": "Hợi",
+        "5": "Mão",
+        "6": "Ngọ",
+        "7": "Dậu",
+        "8": "Tý",
+        "9": "Thìn",
+        "10": "Mùi",
+        "11": "Tuất",
+        "12": "Sửu"
+      }
+    },
+    "nhung_ngay_xich_tong_tu_giang_ha": {
+      "note": "2 ngày âm lịch mỗi tháng, kỵ chung (Xích Tòng Tử giáng hạ)",
+      "source_page": 106,
+      "entries": {
+        "1": [
+          7,
+          11
+        ],
+        "2": [
+          9,
+          10
+        ],
+        "3": [
+          15,
+          16
+        ],
+        "4": [
+          9,
+          22
+        ],
+        "5": [
+          9,
+          14
+        ],
+        "6": [
+          10,
+          20
+        ],
+        "7": [
+          8,
+          9
+        ],
+        "8": [
+          18,
+          29
+        ],
+        "9": [
+          2,
+          23
+        ],
+        "10": [
+          1,
+          14
+        ],
+        "11": [
+          2,
+          21
+        ],
+        "12": [
+          1,
+          30
+        ]
+      },
+      "canh_bao": "Thiên quân trì mãn giai lưu huyết / Khỏi ốc điền địa tận gia diệt / Mai táng, khốc thanh tràng bất tuyệt / Phu phụ hôn nhân tảo biệt ly"
+    },
+    "chiem_thien_loi_da_gio": {
+      "note": "Giờ Thiên Lôi (sét đánh) kỵ theo Can ngày",
+      "source_page": 105,
+      "entries": {
+        "Giáp": [
+          "Sửu",
+          "Ất"
+        ],
+        "Ất": [
+          "Ngọ",
+          "Nhâm"
+        ],
+        "Bính": [
+          "Dậu",
+          "Tân",
+          "Đinh"
+        ],
+        "Đinh": [
+          "Tý",
+          "Canh"
+        ],
+        "Mậu": [
+          "Tuất",
+          "Nhâm",
+          "Giáp"
+        ],
+        "Kỷ": [
+          "Tuất",
+          "Nhâm",
+          "Giáp"
+        ],
+        "Canh": [
+          "Dần",
+          "Mậu",
+          "Canh"
+        ],
+        "Tân": [
+          "Dần",
+          "Mậu",
+          "Canh"
+        ],
+        "Nhâm": [
+          "Tý",
+          "Canh"
+        ],
+        "Quý": [
+          "Dậu",
+          "Tân",
+          "Đinh"
+        ]
+      }
+    },
+    "luc_nham_dai_don": {
+      "note": "Xuất hành theo quẻ Lục Nhâm Đại Độn (Lục Nhâm tẩu mã) - tính giờ xuất hành tốt hay xấu theo tháng và cung khởi. 6 cung: Đại An, Lưu Niên (Bàng xà), Tốc Hỷ (Lục hợp), Xích Khẩu (Phu tước), Tiểu Cát (Thanh Long), Không Vong (Thiên không). Đại An, Tốc Hỷ, Tiểu Cát là giờ tốt; Lưu Niên, Xích Khẩu, Không Vong là giờ kém.",
+      "source_pages": [
+        117,
+        118,
+        119
+      ],
+      "bang_cung_theo_thang": [
+        {
+          "thang": [
+            2,
+            8
+          ],
+          "cung": "Lưu Niên"
+        },
+        {
+          "thang": [
+            3,
+            9
+          ],
+          "cung": "Tốc Hỷ"
+        },
+        {
+          "thang": [
+            4,
+            10
+          ],
+          "cung": "Xích Khẩu"
+        },
+        {
+          "thang": [
+            1,
+            7
+          ],
+          "cung": "Đại An"
+        },
+        {
+          "thang": [
+            6,
+            12
+          ],
+          "cung": "Không Vong"
+        },
+        {
+          "thang": [
+            5,
+            11
+          ],
+          "cung": "Tiểu Cát"
+        }
+      ],
+      "vi_du": "Tháng giêng, tháng 7 khởi mùng 1 tại Đại An tính thuận theo kim đồng hồ",
+      "cach_don_gio_di": "Chỉ dùng tháng ngày và giờ, không dùng năm cứ như tháng giêng, tháng bảy khởi mồng một ở cung Dần, mồng hai ở cung Tỵ, mồng ba ở cung Ngọ, mồng bốn ở cung Mùi, mồng năm ở cung Tý, mồng sáu ở cung Sửu. Cứ thế, mỗi ngày một cung đi xuôi theo chiều kim đồng hồ. Tháng ở đâu khởi mùng 1 ở đó, giờ Tý cũng khởi tại đấy; mỗi giờ đi một cung xuôi tiếp. Ví dụ: Ngày 13 ở cung Dần, giờ Tý ở cung Dần, giờ Sửu ở cung Tỵ, giờ Dần ở cung Ngọ - vậy là giờ Tốc Hỷ nên xuất hành.",
+      "cung": [
+        {
+          "ten": "Đại An",
+          "tho": "Đại an gặp được quý nhân / Có cơm có rượu có tiền tiễn đưa / Chẳng thời cũng được đại an / Bình an vô sự tâm thần thanh nhàn",
+          "tot_xau": "tốt"
+        },
+        {
+          "ten": "Lưu Niên (Bàng xà)",
+          "tho": "Lưu niên là chuyện bất thường / Tìm bạn chẳng thấy nửa đường phân ly / Không thì lưu lạc một khi / Nhiều đường trắc trở nhiều khi nhọc nhằn",
+          "tot_xau": "kém"
+        },
+        {
+          "ten": "Tốc Hỷ (Lục hợp)",
+          "tho": "Tốc hỷ là bạn trùng phùng / Gặp trùng gặp bạn vợ chồng sánh đôi / Có tài có lộc hẳn hoi / Cầu gì cũng được mừng vui thỏa lòng",
+          "tot_xau": "tốt"
+        },
+        {
+          "ten": "Xích Khẩu (Phu tước)",
+          "tho": "Xích khẩu là quá bần cùng / Sinh ra khẩu thiệt bạn cùng thị phi / Chẳng thời mất của có khi / Không thì chó cắn phân ly vợ chồng",
+          "tot_xau": "kém"
+        },
+        {
+          "ten": "Tiểu Cát (Thanh Long)",
+          "tho": "Tiểu cát gặp hội thanh long / Cầu tài cầu lộc ở trong quẻ này / Cầu gì toại ý vui vầy / Bình an vô sự gặp thầy, gặp quen",
+          "tot_xau": "tốt"
+        },
+        {
+          "ten": "Không Vong (Thiên không)",
+          "tho": "Không vong gặp quẻ khẩn cần / Bệnh tật khẩn thiết chẳng làm được chi / Không thì ốn tiểu thê nhi / Không thì trộm cắp phân ly bất thường",
+          "tot_xau": "kém"
+        }
+      ],
+      "chu_y_ngu_hanh": [
+        "Khoa đại độn này cũng rất cần tới việc luận ngũ hành. Ví dụ: một người mệnh Thủy đi vào giờ Tốc Hỷ là giờ Ngọ (Giáp Ngọ) - giờ sa trung kim, thế là thủy sinh kim, xuất hành giờ đó là chọn tốt.",
+        "Một người mệnh Mộc đi giờ Tiểu Cát giờ Tuất - Bính Tuất giờ ốc thượng thổ, như vậy là mộc khắc thổ, cũng tốt nhưng đã bị triết giảm một nửa rồi.",
+        "Cũng là giờ Đại An, Tốc Hỷ, Tiểu Cát mà có người đi lại được việc, có kẻ lại không được việc, cũng vì tính lý ngũ hành cả.",
+        "Khoa Lục Nhâm đại độn có thể nói là độc đáo, không lường được, xem để biết giờ đó đi hướng nào có lợi (tốt), ngồi hướng nào nói chuyện để thắng lợi."
+      ]
+    },
+    "ngay_gio_dinh_cuc": {
+      "note": "Bảng Ngày Giờ Định Cục: mỗi ngày trong 60 ngày Lục Thập Hoa Giáp có phương hướng Hỷ thần (nơi gặp việc vui), Kế thần (Hỷ thần thứ hai), Tài thần (nơi cầu tài), 2 ngày Không Vong tương ứng, và các giờ Chi tốt để xuất hành. Đầy đủ 60/60 ngày.",
+      "source_pages": [
+        119,
+        120,
+        121,
+        122,
+        123,
+        124,
+        125,
+        126,
+        127,
+        128,
+        129,
+        130,
+        131,
+        132,
+        133,
+        134,
+        135,
+        136,
+        137
+      ],
+      "entries": [
+        {
+          "ngay": "Giáp Tý",
+          "hy_than": "đông bắc",
+          "ke_than": "đông nam",
+          "tai_than": "đông nam",
+          "khong_vong": [
+            "Ngọ",
+            "Hợi"
+          ],
+          "gio_tot": [
+            "Sửu",
+            "Dần",
+            "Mão",
+            "Tý"
+          ]
+        },
+        {
+          "ngay": "Ất Sửu",
+          "hy_than": "tây bắc",
+          "ke_than": "đông nam",
+          "tai_than": "đông nam",
+          "khong_vong": [
+            "Mùi",
+            "Hợi"
+          ],
+          "gio_tot": [
+            "Mão",
+            "Tỵ",
+            "Dần",
+            "Thân"
+          ]
+        },
+        {
+          "ngay": "Bính Dần",
+          "hy_than": "tây nam",
+          "ke_than": "chính tây",
+          "tai_than": "chính tây",
+          "khong_vong": [
+            "Thân",
+            "Hợi"
+          ],
+          "gio_tot": [
+            "Tý",
+            "Sửu",
+            "Thìn",
+            "Mùi"
+          ]
+        },
+        {
+          "ngay": "Đinh Mão",
+          "hy_than": "chính nam",
+          "ke_than": "chính nam",
+          "tai_than": "chính tây",
+          "khong_vong": [
+            "Ngọ",
+            "Hợi"
+          ],
+          "gio_tot": [
+            "Dần",
+            "Ngọ",
+            "Mão",
+            "Mùi"
+          ]
+        },
+        {
+          "ngay": "Mậu Thìn",
+          "hy_than": "đông nam",
+          "ke_than": "chính nam",
+          "tai_than": "chính bắc",
+          "khong_vong": [
+            "Tuất",
+            "Hợi"
+          ],
+          "gio_tot": [
+            "Dần",
+            "Mão",
+            "Tỵ",
+            "Thân"
+          ]
+        },
+        {
+          "ngay": "Kỷ Tỵ",
+          "hy_than": "đông bắc",
+          "ke_than": "chính nam",
+          "tai_than": "chính bắc",
+          "khong_vong": [
+            "Dậu",
+            "Hợi"
+          ],
+          "gio_tot": [
+            "Sửu",
+            "Dần",
+            "Thìn",
+            "Tỵ"
+          ]
+        },
+        {
+          "ngay": "Canh Ngọ",
+          "hy_than": "tây bắc",
+          "ke_than": "chính nam",
+          "tai_than": "chính tây",
+          "khong_vong": [
+            "Tý",
+            "Hợi"
+          ],
+          "gio_tot": [
+            "Sửu",
+            "Mão",
+            "Ngọ",
+            "Thân"
+          ]
+        },
+        {
+          "ngay": "Tân Mùi",
+          "hy_than": "tây nam",
+          "ke_than": "tây nam",
+          "tai_than": "chính nam",
+          "khong_vong": [
+            "Sửu",
+            "Hợi"
+          ],
+          "gio_tot": [
+            "Dần",
+            "Mão",
+            "Tỵ",
+            "Thân"
+          ]
+        },
+        {
+          "ngay": "Nhâm Thân",
+          "hy_than": "chính nam",
+          "ke_than": "tây nam",
+          "tai_than": "chính nam",
+          "khong_vong": [
+            "Dần",
+            "Hợi"
+          ],
+          "gio_tot": [
+            "Tý",
+            "Sửu",
+            "Thìn",
+            "Tỵ"
+          ]
+        },
+        {
+          "ngay": "Quý Dậu",
+          "hy_than": "đông nam",
+          "ke_than": "tây nam",
+          "tai_than": "chính nam",
+          "khong_vong": [
+            "Mão",
+            "Hợi"
+          ],
+          "gio_tot": [
+            "Dần",
+            "Tỵ",
+            "Ngọ",
+            "Mùi"
+          ]
+        },
+        {
+          "ngay": "Giáp Tuất",
+          "hy_than": "đông bắc",
+          "ke_than": "tây nam",
+          "tai_than": "đông nam",
+          "khong_vong": [
+            "Thìn",
+            "Dậu"
+          ],
+          "gio_tot": [
+            "Sửu",
+            "Mão",
+            "Ngọ",
+            "Hợi"
+          ]
+        },
+        {
+          "ngay": "Ất Hợi",
+          "hy_than": "tây bắc",
+          "ke_than": "tây nam",
+          "tai_than": "đông nam",
+          "khong_vong": [
+            "Tỵ",
+            "Dậu"
+          ],
+          "gio_tot": [
+            "Thìn",
+            "Tuất",
+            "Sửu",
+            "Mùi"
+          ]
+        },
+        {
+          "ngay": "Bính Tý",
+          "hy_than": "tây nam",
+          "ke_than": "tây nam",
+          "tai_than": "chính tây",
+          "khong_vong": [
+            "Ngọ",
+            "Dậu"
+          ],
+          "gio_tot": [
+            "Tý",
+            "Sửu",
+            "Dần",
+            "Mão"
+          ]
+        },
+        {
+          "ngay": "Đinh Sửu",
+          "hy_than": "chính nam",
+          "ke_than": "chính tây",
+          "tai_than": "chính tây",
+          "khong_vong": [
+            "Mùi",
+            "Dậu"
+          ],
+          "gio_tot": [
+            "Dần",
+            "Mão",
+            "Tỵ",
+            "Ngọ"
+          ]
+        },
+        {
+          "ngay": "Mậu Dần",
+          "hy_than": "đông nam",
+          "ke_than": "chính tây",
+          "tai_than": "chính bắc",
+          "khong_vong": [
+            "Thân",
+            "Dậu"
+          ],
+          "gio_tot": [
+            "Sửu",
+            "Thìn",
+            "Tỵ",
+            "Mùi"
+          ]
+        },
+        {
+          "ngay": "Kỷ Mão",
+          "hy_than": "đông bắc",
+          "ke_than": "chính tây",
+          "tai_than": "chính bắc",
+          "khong_vong": [
+            "Thân",
+            "Dậu"
+          ],
+          "gio_tot": [
+            "Dần",
+            "Mão",
+            "Ngọ",
+            "Mùi"
+          ]
+        },
+        {
+          "ngay": "Canh Thìn",
+          "hy_than": "tây bắc",
+          "ke_than": "chính tây",
+          "tai_than": "chính đông",
+          "khong_vong": [
+            "Thân",
+            "Tuất"
+          ],
+          "gio_tot": [
+            "Sửu",
+            "Dần",
+            "Thìn",
+            "Ngọ"
+          ]
+        },
+        {
+          "ngay": "Tân Tỵ",
+          "hy_than": "tây nam",
+          "ke_than": "chính tây",
+          "tai_than": "chính đông",
+          "khong_vong": [
+            "Dậu",
+            "Hợi"
+          ],
+          "gio_tot": [
+            "Sửu",
+            "Thìn",
+            "Ngọ",
+            "Mùi"
+          ]
+        },
+        {
+          "ngay": "Nhâm Ngọ",
+          "hy_than": "chính nam",
+          "ke_than": "tây bắc",
+          "tai_than": "chính nam",
+          "khong_vong": [
+            "Tý",
+            "Dậu"
+          ],
+          "gio_tot": [
+            "Sửu",
+            "Mão",
+            "Ngọ",
+            "Mùi"
+          ]
+        },
+        {
+          "ngay": "Quý Mùi",
+          "hy_than": "đông nam",
+          "ke_than": "tây bắc",
+          "tai_than": "chính nam",
+          "khong_vong": [
+            "Sửu",
+            "Dậu"
+          ],
+          "gio_tot": [
+            "Dần",
+            "Mão",
+            "Thìn",
+            "Tỵ"
+          ]
+        },
+        {
+          "ngay": "Giáp Thân",
+          "hy_than": "đông bắc",
+          "ke_than": "tây bắc",
+          "tai_than": "đông nam",
+          "khong_vong": [
+            "Dần",
+            "Mùi"
+          ],
+          "gio_tot": [
+            "Tý",
+            "Sửu",
+            "Thìn",
+            "Tỵ"
+          ]
+        },
+        {
+          "ngay": "Ất Dậu",
+          "hy_than": "tây bắc",
+          "ke_than": "tây bắc",
+          "tai_than": "đông nam",
+          "khong_vong": [
+            "Mão",
+            "Mùi"
+          ],
+          "gio_tot": [
+            "Tý",
+            "Sửu",
+            "Dần",
+            "Dậu"
+          ]
+        },
+        {
+          "ngay": "Bính Tuất",
+          "hy_than": "tây nam",
+          "ke_than": "tây bắc",
+          "tai_than": "chính tây",
+          "khong_vong": [
+            "Thìn",
+            "Mùi"
+          ],
+          "gio_tot": [
+            "Tý",
+            "Sửu",
+            "Thìn",
+            "Tỵ"
+          ]
+        },
+        {
+          "ngay": "Đinh Hợi",
+          "hy_than": "chính nam",
+          "ke_than": "tây bắc",
+          "tai_than": "chính tây",
+          "khong_vong": [
+            "Tỵ",
+            "Mùi"
+          ],
+          "gio_tot": [
+            "Sửu",
+            "Thìn",
+            "Dậu",
+            "Tuất"
+          ]
+        },
+        {
+          "ngay": "Mậu Tý",
+          "hy_than": "đông nam",
+          "ke_than": "chính bắc",
+          "tai_than": "chính bắc",
+          "khong_vong": [
+            "Ngọ",
+            "Mùi"
+          ],
+          "gio_tot": [
+            "Sửu",
+            "Mão",
+            "Ngọ",
+            "Thân"
+          ]
+        },
+        {
+          "ngay": "Kỷ Sửu",
+          "hy_than": "đông bắc",
+          "ke_than": "chính bắc",
+          "tai_than": "chính bắc",
+          "khong_vong": [
+            "Dậu",
+            "Mùi"
+          ],
+          "gio_tot": [
+            "Tý",
+            "Dần",
+            "Mão",
+            "Dậu"
+          ]
+        },
+        {
+          "ngay": "Canh Dần",
+          "hy_than": "tây bắc",
+          "ke_than": "chính bắc",
+          "tai_than": "chính đông",
+          "khong_vong": [
+            "Ngọ",
+            "Thân"
+          ],
+          "gio_tot": null,
+          "luu_y": "nguyên bản chỉ ghi 'Giờ tốt' rồi bỏ trống, không nêu rõ các chi cụ thể"
+        },
+        {
+          "ngay": "Tân Mão",
+          "hy_than": "tây nam",
+          "ke_than": "chính bắc",
+          "tai_than": "chính đông",
+          "khong_vong": [
+            "Thân",
+            "Dậu"
+          ],
+          "gio_tot": [
+            "Tý",
+            "Dần",
+            "Mão"
+          ]
+        },
+        {
+          "ngay": "Nhâm Thìn",
+          "hy_than": "chính nam",
+          "ke_than": "chính bắc",
+          "tai_than": "chính nam",
+          "khong_vong": [
+            "Mão",
+            "Tuất"
+          ],
+          "gio_tot": [
+            "Sửu",
+            "Dần",
+            "Thìn",
+            "Tỵ"
+          ]
+        },
+        {
+          "ngay": "Quý Tỵ",
+          "hy_than": "đông nam",
+          "ke_than": "tại thiên",
+          "tai_than": "chính nam",
+          "khong_vong": [
+            "Ngọ",
+            "Hợi"
+          ],
+          "gio_tot": [
+            "Sửu",
+            "Mão",
+            "Thìn",
+            "Tỵ"
+          ]
+        },
+        {
+          "ngay": "Giáp Ngọ",
+          "hy_than": "đông bắc",
+          "ke_than": "tại thiên",
+          "tai_than": "đông nam",
+          "khong_vong": [
+            "Tý",
+            "Thìn"
+          ],
+          "gio_tot": [
+            "Dần",
+            "Mão",
+            "Ngọ",
+            "Mùi"
+          ]
+        },
+        {
+          "ngay": "Ất Mùi",
+          "hy_than": "tây bắc",
+          "ke_than": "tại thiên",
+          "tai_than": "đông nam",
+          "khong_vong": [
+            "Sửu",
+            "Thìn"
+          ],
+          "gio_tot": [
+            "Dần",
+            "Mão",
+            "Ngọ",
+            "Thân"
+          ]
+        },
+        {
+          "ngay": "Bính Thân",
+          "hy_than": "tây nam",
+          "ke_than": "tại thiên",
+          "tai_than": "chính tây",
+          "khong_vong": [
+            "Dần",
+            "Tỵ"
+          ],
+          "gio_tot": [
+            "Tý",
+            "Sửu",
+            "Mùi",
+            "Tuất"
+          ]
+        },
+        {
+          "ngay": "Đinh Dậu",
+          "hy_than": "chính nam",
+          "ke_than": "tại thiên",
+          "tai_than": "chính tây",
+          "khong_vong": [
+            "Mão",
+            "Tỵ"
+          ],
+          "gio_tot": [
+            "Tý",
+            "Sửu",
+            "Dần",
+            "Ngọ"
+          ]
+        },
+        {
+          "ngay": "Mậu Tuất",
+          "hy_than": "tây nam",
+          "ke_than": "tại thiên",
+          "tai_than": "chính tây",
+          "khong_vong": [
+            "Dần",
+            "Tỵ"
+          ],
+          "gio_tot": [
+            "Tý",
+            "Sửu",
+            "Mùi",
+            "Tuất"
+          ]
+        },
+        {
+          "ngay": "Kỷ Hợi",
+          "hy_than": "đông bắc",
+          "ke_than": "tại thiên",
+          "tai_than": "chính bắc",
+          "khong_vong": [
+            "Thìn",
+            "Tỵ"
+          ],
+          "gio_tot": [
+            "Tý",
+            "Sửu",
+            "Dần",
+            "Ngọ"
+          ]
+        },
+        {
+          "ngay": "Canh Tý",
+          "hy_than": "tây bắc",
+          "ke_than": "tại thiên",
+          "tai_than": "chính đông",
+          "khong_vong": [
+            "Thìn",
+            "Ngọ"
+          ],
+          "gio_tot": [
+            "Tý",
+            "Sửu",
+            "Mão",
+            "Thân"
+          ]
+        },
+        {
+          "ngay": "Tân Sửu",
+          "hy_than": "tây nam",
+          "ke_than": "tại thiên",
+          "tai_than": "chính đông",
+          "khong_vong": [
+            "Thìn",
+            "Mùi"
+          ],
+          "gio_tot": [
+            "Dần",
+            "Mão",
+            "Thân",
+            "Hợi"
+          ]
+        },
+        {
+          "ngay": "Nhâm Dần",
+          "hy_than": "chính nam",
+          "ke_than": "tại thiên",
+          "tai_than": "chính nam",
+          "khong_vong": [
+            "Thìn",
+            "Thân"
+          ],
+          "gio_tot": [
+            "Tý",
+            "Sửu",
+            "Ngọ",
+            "Mùi"
+          ]
+        },
+        {
+          "ngay": "Quý Mão",
+          "hy_than": "đông nam",
+          "ke_than": "tại thiên",
+          "tai_than": "chính nam",
+          "khong_vong": [
+            "Thìn",
+            "Dậu"
+          ],
+          "gio_tot": [
+            "Dần",
+            "Mão",
+            "Tỵ",
+            "Ngọ"
+          ]
+        },
+        {
+          "ngay": "Giáp Thìn",
+          "hy_than": "đông bắc",
+          "ke_than": "tại thiên",
+          "tai_than": "đông nam",
+          "khong_vong": [
+            "Dần",
+            "Tuất"
+          ],
+          "gio_tot": [
+            "Tý",
+            "Sửu",
+            "Ngọ",
+            "Thân"
+          ]
+        },
+        {
+          "ngay": "Ất Tỵ",
+          "hy_than": "tây bắc",
+          "ke_than": "tại thiên",
+          "tai_than": "đông nam",
+          "khong_vong": [
+            "Dần",
+            "Hợi"
+          ],
+          "gio_tot": [
+            "Tý",
+            "Sửu",
+            "Thân",
+            "Tuất"
+          ]
+        },
+        {
+          "ngay": "Bính Ngọ",
+          "hy_than": "tây nam",
+          "ke_than": "tại thiên",
+          "tai_than": "chính tây",
+          "khong_vong": [
+            "Tý",
+            "Thìn"
+          ],
+          "gio_tot": [
+            "Sửu",
+            "Ngọ",
+            "Thân",
+            "Dậu"
+          ]
+        },
+        {
+          "ngay": "Đinh Mùi",
+          "hy_than": "chính nam",
+          "ke_than": "tại thiên",
+          "tai_than": "chính tây",
+          "khong_vong": [
+            "Sửu",
+            "Mão"
+          ],
+          "gio_tot": [
+            "Tỵ",
+            "Ngọ",
+            "Thân",
+            "Dậu"
+          ]
+        },
+        {
+          "ngay": "Mậu Thân",
+          "hy_than": "đông nam",
+          "ke_than": "tại thiên",
+          "tai_than": "chính bắc",
+          "khong_vong": [
+            "Dần",
+            "Mão"
+          ],
+          "gio_tot": [
+            "Tý",
+            "Sửu",
+            "Thìn",
+            "Tỵ"
+          ]
+        },
+        {
+          "ngay": "Kỷ Dậu",
+          "hy_than": "đông bắc",
+          "ke_than": "đông bắc",
+          "tai_than": "chính bắc",
+          "khong_vong": [
+            "Dần",
+            "Mão"
+          ],
+          "gio_tot": [
+            "Tý",
+            "Ngọ",
+            "Mùi",
+            "Thân"
+          ]
+        },
+        {
+          "ngay": "Canh Tuất",
+          "hy_than": "tây bắc",
+          "ke_than": "đông bắc",
+          "tai_than": "đông nam",
+          "khong_vong": [
+            "Dần",
+            "Thìn"
+          ],
+          "gio_tot": [
+            "Sửu",
+            "Tỵ",
+            "Ngọ",
+            "Thân"
+          ]
+        },
+        {
+          "ngay": "Tân Hợi",
+          "hy_than": "tây nam",
+          "ke_than": "đông bắc",
+          "tai_than": "chính đông",
+          "khong_vong": [
+            "Mão",
+            "Tỵ"
+          ],
+          "gio_tot": [
+            "Sửu",
+            "Ngọ",
+            "Mùi",
+            "Thân"
+          ]
+        },
+        {
+          "ngay": "Nhâm Tý",
+          "hy_than": "chính nam",
+          "ke_than": "đông bắc",
+          "tai_than": "chính nam",
+          "khong_vong": [
+            "Dần",
+            "Ngọ"
+          ],
+          "gio_tot": [
+            "Tý",
+            "Sửu",
+            "Ngọ",
+            "Mùi"
+          ]
+        },
+        {
+          "ngay": "Quý Sửu",
+          "hy_than": "đông nam",
+          "ke_than": "đông bắc",
+          "tai_than": "chính nam",
+          "khong_vong": [
+            "Sửu",
+            "Mùi"
+          ],
+          "gio_tot": [
+            "Dần",
+            "Mão",
+            "Thìn",
+            "Tỵ"
+          ]
+        },
+        {
+          "ngay": "Giáp Dần",
+          "hy_than": "đông bắc",
+          "ke_than": "đông bắc",
+          "tai_than": "đông nam",
+          "khong_vong": [
+            "Thân",
+            "Dậu"
+          ],
+          "gio_tot": [
+            "Sửu",
+            "Mùi",
+            "Dần",
+            "Tuất"
+          ]
+        },
+        {
+          "ngay": "Ất Mão",
+          "hy_than": "tây bắc",
+          "ke_than": "chính đông",
+          "tai_than": "đông nam",
+          "khong_vong": [
+            "Thìn",
+            "Dậu"
+          ],
+          "gio_tot": [
+            "Tý",
+            "Mão",
+            "Ngọ",
+            "Thân"
+          ]
+        },
+        {
+          "ngay": "Bính Thìn",
+          "hy_than": "tây nam",
+          "ke_than": "chính đông",
+          "tai_than": "chính tây",
+          "khong_vong": [
+            "Sửu",
+            "Tuất"
+          ],
+          "gio_tot": [
+            "Dần",
+            "Dậu",
+            "Mùi",
+            "Thân"
+          ]
+        },
+        {
+          "ngay": "Đinh Tỵ",
+          "hy_than": "chính nam",
+          "ke_than": "chính đông",
+          "tai_than": "chính tây",
+          "khong_vong": [
+            "Dậu",
+            "Hợi"
+          ],
+          "gio_tot": [
+            "Thìn",
+            "Tý",
+            "Ngọ",
+            "Mùi"
+          ]
+        },
+        {
+          "ngay": "Mậu Ngọ",
+          "hy_than": "đông nam",
+          "ke_than": "chính đông",
+          "tai_than": "chính bắc",
+          "khong_vong": [
+            "Tý",
+            "Sửu"
+          ],
+          "gio_tot": [
+            "Mão",
+            "Ngọ",
+            "Mùi",
+            "Thân"
+          ]
+        },
+        {
+          "ngay": "Kỷ Mùi",
+          "hy_than": "đông bắc",
+          "ke_than": "chính đông",
+          "tai_than": "chính bắc",
+          "khong_vong": [
+            "Tý",
+            "Sửu"
+          ],
+          "gio_tot": [
+            "Dần",
+            "Mão",
+            "Tỵ",
+            "Ngọ"
+          ]
+        },
+        {
+          "ngay": "Canh Thân",
+          "hy_than": "tây bắc",
+          "ke_than": "đông nam",
+          "tai_than": "chính đông",
+          "khong_vong": [
+            "Tý",
+            "Dần"
+          ],
+          "gio_tot": [
+            "Thìn",
+            "Tỵ",
+            "Mùi",
+            "Thân"
+          ]
+        },
+        {
+          "ngay": "Tân Dậu",
+          "hy_than": "tây nam",
+          "ke_than": "đông nam",
+          "tai_than": "chính đông",
+          "khong_vong": [
+            "Tý",
+            "Sửu"
+          ],
+          "gio_tot": [
+            "Dần",
+            "Tỵ",
+            "Ngọ",
+            "Mùi"
+          ]
+        },
+        {
+          "ngay": "Nhâm Tuất",
+          "hy_than": "chính nam",
+          "ke_than": "đông nam",
+          "tai_than": "chính nam",
+          "khong_vong": [
+            "Tý",
+            "Thìn"
+          ],
+          "gio_tot": [
+            "Tỵ",
+            "Ngọ",
+            "Mùi",
+            "Thân"
+          ]
+        },
+        {
+          "ngay": "Quý Hợi",
+          "hy_than": "đông nam",
+          "ke_than": "đông nam",
+          "tai_than": "chính nam",
+          "khong_vong": [
+            "Tý",
+            "Tỵ"
+          ],
+          "gio_tot": [
+            "Mão",
+            "Thìn",
+            "Ngọ",
+            "Mùi"
+          ]
+        }
+      ]
+    }
+  },
+  "global_note_chon_ngay": {
+    "note": "Nguyên tắc chọn ngày (trang 159): Hễ phạm phải các ngày xấu (Thập Ác, Đại Bại, Tử Ly, Tứ Tuyệt...) thì việc gì cũng hư hỏng. Phàm việc cần chọn ngày hợp mệnh mà kiêng ngày tuổi. Phép chọn ngày có từ thời Đường/Ngu/Tam Đại nhưng chỉ từng việc mà chọn ngày.",
+    "source_page": 159,
+    "noi_su_dung_can": {
+      "viec": "Tế tự, cưới xin...",
+      "can": [
+        "Ất",
+        "Tân",
+        "Đinh",
+        "Quý",
+        "Kỷ"
+      ],
+      "loai": "âm can"
+    },
+    "ngoai_su_dung_can": {
+      "viec": "đánh dẹp, giao thiệp...",
+      "can": [
+        "Giáp",
+        "Bính",
+        "Mậu",
+        "Canh",
+        "Nhâm"
+      ],
+      "loai": "dương can"
+    }
+  }
+}

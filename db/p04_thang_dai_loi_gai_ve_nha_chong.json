@@ -1,0 +1,195 @@
+{
+ "source": "Ngoc Hap Thong Thu",
+ "pages": [
+  88,
+  89
+ ],
+ "topic": "Tháng đại lợi gái về nhà chồng",
+ "description": "Bride's marriage-month table by her birth-branch pair: dai loi (best), tieu loi (guard matchmaker), phong ong co (guard groom's parents), phong phu mau (guard bride's parents), phong phu chu (guard groom), phong nu than (guard bride).",
+ "rules": [
+  {
+   "tuoi_gai": [
+    "Sửu",
+    "Mùi"
+   ],
+   "dai_loi": [
+    5,
+    11
+   ],
+   "tieu_loi": [
+    4,
+    10
+   ],
+   "phong_ong_co": [
+    2,
+    8
+   ],
+   "phong_phu_mau": [
+    2,
+    8
+   ],
+   "phong_phu_chu": [
+    1,
+    7
+   ],
+   "phong_nu_than": [
+    6,
+    12
+   ]
+  },
+  {
+   "tuoi_gai": [
+    "Dần",
+    "Thân"
+   ],
+   "dai_loi": [
+    2,
+    8
+   ],
+   "tieu_loi": [
+    3,
+    9
+   ],
+   "phong_ong_co": [
+    4,
+    10
+   ],
+   "phong_phu_mau": [
+    5,
+    11
+   ],
+   "phong_phu_chu": [
+    6,
+    12
+   ],
+   "phong_nu_than": [
+    1,
+    7
+   ]
+  },
+  {
+   "tuoi_gai": [
+    "Mão",
+    "Dậu"
+   ],
+   "dai_loi": [
+    1,
+    7
+   ],
+   "tieu_loi": [
+    6,
+    12
+   ],
+   "phong_ong_co": [
+    5,
+    11
+   ],
+   "phong_phu_mau": [
+    4,
+    10
+   ],
+   "phong_phu_chu": [
+    3,
+    9
+   ],
+   "phong_nu_than": [
+    2,
+    8
+   ]
+  },
+  {
+   "tuoi_gai": [
+    "Thìn",
+    "Tuất"
+   ],
+   "dai_loi": [
+    4,
+    10
+   ],
+   "tieu_loi": [
+    5,
+    11
+   ],
+   "phong_ong_co": [
+    6,
+    12
+   ],
+   "phong_phu_mau": [
+    1,
+    7
+   ],
+   "phong_phu_chu": [
+    2,
+    8
+   ],
+   "phong_nu_than": [
+    3,
+    9
+   ]
+  },
+  {
+   "tuoi_gai": [
+    "Tỵ",
+    "Hợi"
+   ],
+   "dai_loi": [
+    3,
+    9
+   ],
+   "tieu_loi": [
+    2,
+    8
+   ],
+   "phong_ong_co": [
+    1,
+    7
+   ],
+   "phong_phu_mau": [
+    6,
+    12
+   ],
+   "phong_phu_chu": [
+    5,
+    11
+   ],
+   "phong_nu_than": [
+    4,
+    10
+   ]
+  },
+  {
+   "tuoi_gai": [
+    "Ngọ",
+    "Tý"
+   ],
+   "dai_loi": [
+    6,
+    12
+   ],
+   "tieu_loi": [
+    1,
+    7
+   ],
+   "phong_ong_co": [
+    2,
+    8
+   ],
+   "phong_phu_mau": [
+    3,
+    9
+   ],
+   "phong_phu_chu": [
+    4,
+    10
+   ],
+   "phong_nu_than": [
+    5,
+    11
+   ]
+  }
+ ],
+ "notes": [
+  "OCR row Dần-Thân in đại lợi cột đọc '07-08' — chuẩn truyền thống là 2-8; đã sửa theo hệ đối xứng.",
+  "Phòng tiểu lợi kỵ ông bà mai; phòng phụ mẫu kỵ cha mẹ cô dâu; phòng ông cô kỵ cha mẹ chú rể; phòng phu chủ kỵ chú rể; phòng nữ thân kỵ cô dâu. Không có người tương ứng thì dùng được."
+ ]
+}

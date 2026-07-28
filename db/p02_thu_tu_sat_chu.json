@@ -1,0 +1,50 @@
+{
+ "source": "Ngoc Hap Thong Thu",
+ "pages": [
+  38,
+  39
+ ],
+ "topic": "Bài thơ Thụ Tử - Sát Chủ",
+ "description": "Monthly Thu Tu (death-receiving) and Sat Chu (master-killing) days, decoded from folk verse. Verse names Thụ tử first, Sát chủ second for each month.",
+ "verse": "Một chó nằm kế rắn quấn ngang / Hai con rồng ấp chuột lông vàng / Ba lợn lái ngăn dê đực chạy / Bốn con rắn trắng phủ mèo lang ... Mười một mèo kêu hùm lại sợ / Mười hai gà gáy chốn long sàng",
+ "rules": [
+  {
+   "thang": 1,
+   "thu_tu": "Tuất",
+   "sat_chu": "Tỵ"
+  },
+  {
+   "thang": 2,
+   "thu_tu": "Thìn",
+   "sat_chu": "Tý"
+  },
+  {
+   "thang": 3,
+   "thu_tu": "Hợi",
+   "sat_chu": "Mùi"
+  },
+  {
+   "thang": 4,
+   "thu_tu": "Tỵ",
+   "sat_chu": "Mão"
+  },
+  {
+   "thang": 5,
+   "thu_tu": "Tý",
+   "sat_chu": null,
+   "note": "verse partially illegible in OCR"
+  },
+  {
+   "thang": 11,
+   "thu_tu": "Mão",
+   "sat_chu": "Dần"
+  },
+  {
+   "thang": 12,
+   "thu_tu": "Dậu",
+   "sat_chu": null,
+   "note": "'gà gáy chốn long sàng'"
+  }
+ ],
+ "note": "OCR legible for months 1-4, 11-12; intermediate months follow same verse pattern (thu tu named first, sat chu second). Verify months 5-10 against original if critical."
+}

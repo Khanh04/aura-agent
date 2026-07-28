@@ -1,0 +1,212 @@
+{
+  "source": "Ngoc Hap Thong Thu",
+  "pages": [
+    79,
+    81
+  ],
+  "topic": "Giờ Phúc Tinh (và các giờ cát khác)",
+  "description": "Auspicious day-hour combinations: Giờ Phúc Tinh, Giờ Nhật Lộc, Thiên Ất Quý Nhâm, Thiên Quan/Thiên Phúc Quý Nhân.",
+  "rules": [
+    {
+      "id": "gpt-1",
+      "type": "gio_phuc_tinh",
+      "title": "Giờ Phúc Tinh",
+      "table": [
+        {
+          "day_stem": "Giáp",
+          "good_hours": "Dần"
+        },
+        {
+          "day_stem": "Ất",
+          "good_hours": "Hợi, Sửu"
+        },
+        {
+          "day_stem": "Bính",
+          "good_hours": "Tý, Sửu"
+        },
+        {
+          "day_stem": "Đinh",
+          "good_hours": "Dậu"
+        },
+        {
+          "day_stem": "Mậu",
+          "good_hours": "Thân"
+        },
+        {
+          "day_stem": "Kỷ",
+          "good_hours": "Mùi"
+        },
+        {
+          "day_stem": "Canh",
+          "good_hours": "Ngọ"
+        },
+        {
+          "day_stem": "Tân",
+          "good_hours": "Tý"
+        },
+        {
+          "day_stem": "Nhâm",
+          "good_hours": "Thìn"
+        },
+        {
+          "day_stem": "Quý",
+          "good_hours": "Mão"
+        }
+      ]
+    },
+    {
+      "id": "gpt-2",
+      "type": "gio_nhat_loc",
+      "title": "Giờ Nhật Lộc",
+      "table": [
+        {
+          "day_stem": "Giáp",
+          "good_hours": "Thìn"
+        },
+        {
+          "day_stem": "Ất",
+          "good_hours": "Mão, Tuất"
+        },
+        {
+          "day_stem": "Bính",
+          "good_hours": "Tý, Thân"
+        },
+        {
+          "day_stem": "Đinh",
+          "good_hours": "Ngọ"
+        },
+        {
+          "day_stem": "Mậu",
+          "good_hours": "Tý, Thìn"
+        },
+        {
+          "day_stem": "Kỷ",
+          "good_hours": "Dần"
+        },
+        {
+          "day_stem": "Canh",
+          "good_hours": "Thân, Tuất"
+        },
+        {
+          "day_stem": "Tân",
+          "good_hours": "Thân, Dậu"
+        },
+        {
+          "day_stem": "Nhâm",
+          "good_hours": "Ngọ, Hợi"
+        },
+        {
+          "day_stem": "Quý",
+          "good_hours": "Tý, Thìn"
+        }
+      ]
+    },
+    {
+      "id": "gpt-3",
+      "type": "thien_at_quy_nham",
+      "title": "Ngày giờ Thiên Ất Quý Nhâm (Thiên khôi, Thiên việt)",
+      "poem": "Giáp Mậu thị ngưu dương / Ất Kỷ thử hầu hương / Canh Tân phùng mã hổ / Nhâm Quý thỏ xà lòng",
+      "table": [
+        {
+          "day_stem": "Giáp",
+          "good_hours": "Sửu, Mùi"
+        },
+        {
+          "day_stem": "Ất",
+          "good_hours": "Tý, Thân"
+        },
+        {
+          "day_stem": "Bính",
+          "good_hours": "Ngọ, Dần"
+        },
+        {
+          "day_stem": "Đinh",
+          "good_hours": "Mão, Tỵ"
+        },
+        {
+          "day_stem": "Mậu",
+          "good_hours": "Sửu, Mùi"
+        },
+        {
+          "day_stem": "Kỷ",
+          "good_hours": "Tý, Thân"
+        },
+        {
+          "day_stem": "Canh",
+          "good_hours": "Ngọ, Dần"
+        },
+        {
+          "day_stem": "Tân",
+          "good_hours": "Mão, Tỵ"
+        },
+        {
+          "day_stem": "Nhâm",
+          "good_hours": "Mão, Tỵ"
+        },
+        {
+          "day_stem": "Quý",
+          "good_hours": "Mão, Tỵ"
+        }
+      ]
+    },
+    {
+      "id": "gpt-4",
+      "type": "thien_quan_thien_phuc",
+      "title": "Ngày giờ Thiên Quan / Thiên Phúc Quý Nhân",
+      "poem": "Thiên quan Thiên phúc Giáp đàm Mùi kê / Ất Thìn Thân Bính về Tý Tỵ / Đinh Dần cung Hợi vị tương lâm / Mậu lâm Mão Kỷ Dậu Dần / Canh thời Hợi Ngọ còn Tân Dậu xà / Nhâm Tuất Ngọ quý Ngọ xà",
+      "table": [
+        {
+          "day_stem": "Giáp",
+          "thien_quan": "Mùi",
+          "thien_phuc": "Dần"
+        },
+        {
+          "day_stem": "Ất",
+          "thien_quan": "Thìn",
+          "thien_phuc": "Thân"
+        },
+        {
+          "day_stem": "Bính",
+          "thien_quan": "Tý",
+          "thien_phuc": "Tỵ"
+        },
+        {
+          "day_stem": "Đinh",
+          "thien_quan": "Dần",
+          "thien_phuc": "Hợi"
+        },
+        {
+          "day_stem": "Mậu",
+          "thien_quan": "Mão",
+          "thien_phuc": "Mão"
+        },
+        {
+          "day_stem": "Kỷ",
+          "thien_quan": "Dậu",
+          "thien_phuc": "Dần"
+        },
+        {
+          "day_stem": "Canh",
+          "thien_quan": "Hợi",
+          "thien_phuc": "Ngọ"
+        },
+        {
+          "day_stem": "Tân",
+          "thien_quan": "Dậu",
+          "thien_phuc": "Tỵ"
+        },
+        {
+          "day_stem": "Nhâm",
+          "thien_quan": "Tuất",
+          "thien_phuc": "Ngọ"
+        },
+        {
+          "day_stem": "Quý",
+          "thien_quan": "Ngọ",
+          "thien_phuc": "Tỵ"
+        }
+      ],
+      "note": "Ví dụ trong sách ghi 'Ngày Bính thiên quan ở giờ Tỵ, thiên phúc ở giờ Tý' — có vẻ đảo (bảng chính thống: Bính thiên quan Tý, thiên phúc Tỵ)."
+    }
+  ]
+}

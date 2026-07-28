@@ -1,0 +1,111 @@
+{
+ "source": "Ngoc Hap Thong Thu",
+ "pages": [
+  47,
+  48,
+  49,
+  50
+ ],
+ "topic": "Phép xem 12 tháng Hoàng Long (đám ma)",
+ "description": "Hoang Long death-year number lookup by deceased's tuoi group, and the 6 verse meanings (Than Giac..Phuc Tuong) interpreting the number.",
+ "rules": [
+  {
+   "tuoi_group": [
+    "Thân",
+    "Tý",
+    "Thìn"
+   ],
+   "map": {
+    "Tỵ/Hợi": 2,
+    "Tý/Ngọ": 3,
+    "Dần/Thân": 5,
+    "Mão/Dậu": 6,
+    "Thìn/Tuất": 1,
+    "Sửu/Mùi": 4
+   }
+  },
+  {
+   "tuoi_group": [
+    "Dần",
+    "Ngọ",
+    "Tuất"
+   ],
+   "map": {
+    "Thìn/Tuất": 1,
+    "Tỵ/Hợi": 2,
+    "Tý/Ngọ": 3,
+    "Sửu/Mùi": 4,
+    "Dần/Thân": 5,
+    "Mão/Dậu": 6
+   }
+  },
+  {
+   "tuoi_group": [
+    "Hợi",
+    "Mão",
+    "Mùi"
+   ],
+   "map": {
+    "Sửu/Mùi": 1,
+    "Thìn/Tuất": 2,
+    "Mão/Dậu": 3,
+    "Tỵ/Hợi": 4,
+    "Dần/Thân": 5,
+    "Tý/Ngọ": 6
+   }
+  },
+  {
+   "tuoi_group": [
+    "Tỵ",
+    "Dậu",
+    "Sửu"
+   ],
+   "map": {
+    "Sửu/Mùi": 1,
+    "Dần/Thân": 2,
+    "Mão/Dậu": 3,
+    "Thìn/Tuất": 4,
+    "Tỵ/Hợi": 5,
+    "Tý/Ngọ": 6
+   }
+  }
+ ],
+ "so_meanings": [
+  {
+   "so": 1,
+   "ten": "Thần Giác",
+   "tot_xau": "xấu",
+   "meaning": "3 năm con cháu khổ tai ương, gia tài hao, anh em bất hoà"
+  },
+  {
+   "so": 2,
+   "ten": "Tế Nhi",
+   "tot_xau": "tốt",
+   "meaning": "chủ hồi hương, cháu con hoà thuận, tiền phát, tài lộc công danh"
+  },
+  {
+   "so": 3,
+   "ten": "Mục Yêu",
+   "tot_xau": "xấu",
+   "meaning": "cháu con dâm loạn gian tham, bài bạc tiêu hao, phá tan sự nghiệp"
+  },
+  {
+   "so": 4,
+   "ten": "Vi Túc",
+   "tot_xau": "xấu",
+   "meaning": "bị tổn thương, cháu con ly tán, nghèo khổ gian nan"
+  },
+  {
+   "so": 5,
+   "ten": "Tản Tử",
+   "tot_xau": "tốt",
+   "meaning": "tổ phục hồn quy hương, anh em tiếng vang, con cháu phú cường"
+  },
+  {
+   "so": 6,
+   "ten": "Phúc Tường",
+   "tot_xau": "tốt",
+   "meaning": "phú quý công danh sẵn có, con cháu sang trọng hưởng vinh xương"
+  }
+ ]
+}

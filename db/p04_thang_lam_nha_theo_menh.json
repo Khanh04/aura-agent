@@ -1,0 +1,96 @@
+{
+ "source": "Ngoc Hap Thong Thu",
+ "pages": [
+  89,
+  90
+ ],
+ "topic": "Tìm tháng đại lợi trai làm nhà (theo mệnh)",
+ "description": "House-building month outcomes by owner's element (menh Kim/Moc/Thuy/Hoa/Tho).",
+ "rules": [
+  {
+   "menh": "Kim",
+   "thang": {
+    "1": "Chủ nghèo",
+    "2": "Con chết",
+    "3": "Cha mẹ ốm",
+    "4": "Giàu sang",
+    "5": "Vợ con chết",
+    "6": "Đại cát",
+    "7": "Con nghèo",
+    "8": "Gia đình ốm",
+    "9": "Tốt",
+    "10": "Hưng",
+    "11": "Hưng",
+    "12": "Tán tài"
+   }
+  },
+  {
+   "menh": "Mộc",
+   "thang": {
+    "1": "Hưng",
+    "2": "Phú",
+    "3": "Quý",
+    "4": "Bệnh",
+    "5": "Phú",
+    "6": "Hưng",
+    "7": "Nghèo",
+    "8": "Tán",
+    "9": "Tài",
+    "10": "Hưng",
+    "11": "Tán tài",
+    "12": "Con cháu hay"
+   }
+  },
+  {
+   "menh": "Thủy",
+   "thang": {
+    "1": "Sát",
+    "2": "Phú",
+    "3": "Hưng",
+    "4": "Bệnh",
+    "5": "Suy",
+    "6": "Tiến tài",
+    "7": "Không vong",
+    "8": "Bệnh",
+    "9": "Phú",
+    "10": "Quý",
+    "11": "Sát",
+    "12": "Tán tài"
+   }
+  },
+  {
+   "menh": "Hỏa",
+   "thang": {
+    "1": "Hưng",
+    "2": "Phú",
+    "3": "Tử",
+    "4": "Tiến tài",
+    "5": "Mất của",
+    "6": "Phú",
+    "7": "Sát",
+    "8": "Quý",
+    "9": "Sát",
+    "10": "Phúc",
+    "11": "Hưng",
+    "12": "Đại phú"
+   }
+  },
+  {
+   "menh": "Thổ",
+   "thang": {
+    "1": "Bát tràng",
+    "2": "Bần",
+    "3": "Thất vật",
+    "4": "Phú quý",
+    "5": "Sát",
+    "6": "Đại cát",
+    "7": "Hưng",
+    "8": "Suy",
+    "9": "Tiến tài",
+    "10": "Con bệnh",
+    "11": "Vợ chồng chẳng hòa",
+    "12": "Con bệnh"
+   }
+  }
+ ]
+}

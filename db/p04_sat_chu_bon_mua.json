@@ -1,0 +1,202 @@
+{
+ "source": "Ngoc Hap Thong Thu",
+ "pages": [
+  90,
+  91,
+  92
+ ],
+ "topic": "Đại sát bốn mùa, tứ thời thu chủ sát thủ, sát chủ mùa/tháng/giờ",
+ "description": "Seasonal dai sat / sat chu days and monthly sat chu day & hour rules (decoded from verses).",
+ "rules": [
+  {
+   "name": "Đại sát bốn mùa",
+   "rules": [
+    {
+     "mua": "Xuân",
+     "ngay": "Dần"
+    },
+    {
+     "mua": "Hạ",
+     "ngay": "Tỵ"
+    },
+    {
+     "mua": "Thu",
+     "ngay": "Thân"
+    },
+    {
+     "mua": "Đông",
+     "ngay": "Ngọ"
+    }
+   ],
+   "verse": "Xuân Dần, Hạ Tỵ bảo cho hay / Thu Thân, Đông Ngọ có bốn ngày"
+  },
+  {
+   "name": "Tứ thời thu chủ sát thủ",
+   "rules": [
+    {
+     "mua": "Xuân",
+     "ngay": "Dậu (kê)"
+    },
+    {
+     "mua": "Hạ",
+     "ngay": "Tý (thử)"
+    },
+    {
+     "mua": "Thu",
+     "ngay": "Mùi (dương)"
+    },
+    {
+     "mua": "Đông",
+     "ngay": "Dần (hổ)"
+    }
+   ],
+   "avoid": "cưới vợ, làm nhà"
+  },
+  {
+   "name": "Sát chủ bốn mùa",
+   "rules": [
+    {
+     "mua": "Xuân",
+     "ngay": "Thân"
+    },
+    {
+     "mua": "Hạ",
+     "ngay": "Ngọ"
+    },
+    {
+     "mua": "Thu",
+     "ngay": "Mùi"
+    },
+    {
+     "mua": "Đông",
+     "ngay": "Mão"
+    }
+   ]
+  },
+  {
+   "name": "Sát chủ hai tháng một ngày",
+   "verse": "Tháng 1+2 thỏ / 3+4 dê / 5+6 rồng / 7+8 chuột / 9+10 hùm / 11+12 khỉ",
+   "rules": [
+    {
+     "thang": [
+      1,
+      2
+     ],
+     "ngay": "Mão"
+    },
+    {
+     "thang": [
+      3,
+      4
+     ],
+     "ngay": "Mùi"
+    },
+    {
+     "thang": [
+      5,
+      6
+     ],
+     "ngay": "Thìn"
+    },
+    {
+     "thang": [
+      7,
+      8
+     ],
+     "ngay": "Tý"
+    },
+    {
+     "thang": [
+      9,
+      10
+     ],
+     "ngay": "Dần"
+    },
+    {
+     "thang": [
+      11,
+      12
+     ],
+     "ngay": "Thân"
+    }
+   ]
+  },
+  {
+   "name": "Sát chủ giờ",
+   "rules": [
+    {
+     "thang": 1,
+     "gio": "Tý"
+    },
+    {
+     "thang": 2,
+     "gio": "Sửu"
+    },
+    {
+     "thang": 3,
+     "gio": "Dần"
+    },
+    {
+     "thang": 4,
+     "gio": "Mão"
+    },
+    {
+     "thang": 5,
+     "gio": "Thìn"
+    },
+    {
+     "thang": 6,
+     "gio": "Tỵ"
+    }
+   ],
+   "note": "Sách chỉ in tháng 1-6; tháng 7-12 suy tiếp tuần tự."
+  },
+  {
+   "name": "Giờ thư tứ kỵ",
+   "rules": [
+    {
+     "thang": [
+      1,
+      2
+     ],
+     "gio": "Mão"
+    },
+    {
+     "thang": [
+      3,
+      7
+     ],
+     "gio": "Sửu"
+    },
+    {
+     "thang": [
+      4,
+      8
+     ],
+     "gio": "Thìn"
+    },
+    {
+     "thang": [
+      5,
+      6
+     ],
+     "gio": "Tý"
+    },
+    {
+     "thang": [
+      9,
+      10
+     ],
+     "gio": "Dậu"
+    },
+    {
+     "thang": [
+      11,
+      12
+     ],
+     "gio": "Thân"
+    }
+   ]
+  }
+ ]
+}

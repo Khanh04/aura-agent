@@ -1,0 +1,28 @@
+{
+ "source": "Ngoc Hap Thong Thu",
+ "pages": [
+  87,
+  88
+ ],
+ "topic": "Chu Đường Đệ (chọn ngày cưới trong tháng)",
+ "description": "Chu Duong counting method for wedding day: full month counts forward from Phu through Co, Duong...; short month counts backward from Phu through Tao. Only days landing on Đường, Đệ, Trù, Táo are usable.",
+ "rules": [
+  {
+   "rule": "Tháng đủ: khởi mùng 1 từ chữ Phu, thuận qua Cô, Đường... đến ngày cưới"
+  },
+  {
+   "rule": "Tháng thiếu: khởi mùng 1 từ chữ Phụ, đánh nghịch qua Táo trở đi"
+  },
+  {
+   "usable": [
+    "Đường",
+    "Đệ",
+    "Trù",
+    "Táo"
+   ]
+  },
+  {
+   "warning": "Phạm chữ Ông: bố chồng chết; phạm chữ Cô: mẹ chồng chết"
+  }
+ ]
+}

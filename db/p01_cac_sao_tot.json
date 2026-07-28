@@ -1,0 +1,139 @@
+{
+ "source": "Ngoc Hap Thong Thu",
+ "pages": [
+  9
+ ],
+ "topic": "Các sao tốt",
+ "description": "Auspicious stars and activities they favor. Also lists equally-good stars, and warning that good stars are overridden by Thụ Tử, Sát Chủ, Tam Nương sát, Nguyệt Kỵ, Dương Công kỵ, Ngày con nước.",
+ "rules": [
+  {
+   "stt": 1,
+   "sao": "Thiên phúc",
+   "good_for": "đi nhận công tác (việc quan), về nhà mới, lễ cúng"
+  },
+  {
+   "stt": 2,
+   "sao": "Thiên phú",
+   "good_for": "làm kho tàng để chứa đựng thóc lúa đồ dùng"
+  },
+  {
+   "stt": 3,
+   "sao": "Thiên hỷ",
+   "good_for": "cưới xin, xuất hành, nhận trầu cau ăn hỏi, mọi việc tốt"
+  },
+  {
+   "stt": 4,
+   "sao": "Thiên xá",
+   "good_for": "lễ cầu thần, tha cho người phạm tội; kỵ săn bắn, đâm chém, chôn cất"
+  },
+  {
+   "stt": 5,
+   "sao": "Thiên y",
+   "good_for": "tìm thầy chữa bệnh, bốc thuốc — bệnh được mau khỏi"
+  },
+  {
+   "stt": 6,
+   "sao": "Nguyệt không",
+   "good_for": "dâng sớ trình bày công việc, đóng giường nằm, làm nhà, may màn"
+  },
+  {
+   "stt": 7,
+   "sao": "Nguyệt tài",
+   "good_for": "mở cửa hàng, buôn bán, làm kho, làm bếp, xuất hành, rời chỗ ở"
+  },
+  {
+   "stt": 8,
+   "sao": "Minh tinh",
+   "good_for": "đi việc quan, khiếu nại, tố tụng, dỡ mồ mả"
+  },
+  {
+   "stt": 9,
+   "sao": "Sinh khí",
+   "good_for": "tu sửa, động thổ, nhận trầu cau ăn hỏi, cưới xin"
+  },
+  {
+   "stt": 10,
+   "sao": "Giải thần",
+   "good_for": "giải bỏ kiện cáo, tha người phạm tội, tìm thuốc giải trừ, tắm gội"
+  },
+  {
+   "stt": 11,
+   "sao": "Phả hộ",
+   "good_for": "làm việc phúc, cưới vợ, gả chồng, xuất hành"
+  },
+  {
+   "stt": 12,
+   "sao": "Tục thế",
+   "good_for": "hỏi vợ gả chồng, dựng con trưởng, nhận trầu cau ăn hỏi"
+  },
+  {
+   "stt": 13,
+   "sao": "Ích hậu",
+   "good_for": "cưới hỏi, nhận trầu cau, tìm người kế tự, di chúc cho con cháu"
+  },
+  {
+   "stt": 14,
+   "sao": "Địa tài",
+   "good_for": "thu nhận tiền tài, đồ vật nhập kho — phát tài"
+  },
+  {
+   "stt": 15,
+   "sao": "Mẫu xương",
+   "good_for": "làm kho chứa tiền của thóc lúa, chăn nuôi, trồng trọt, thụ dưỡng được nhiều lợi"
+  },
+  {
+   "stt": 16,
+   "sao": "Lộc khố",
+   "good_for": "thu cất thóc lúa tài vật vào kho, chứa đựng mọi thứ tốt"
+  },
+  {
+   "stt": 17,
+   "sao": "Quan nhật",
+   "good_for": "các việc lớn: thăng quan, tiến chức, tặng thưởng"
+  },
+  {
+   "stt": 18,
+   "sao": "Dân nhật",
+   "good_for": "động thổ đào đắp, chữa các việc vặt, đồ dùng hàng ngày"
+  },
+  {
+   "stt": 19,
+   "sao": "Dịch mã",
+   "good_for": "xuất hành, cầu y, trị bệnh"
+  },
+  {
+   "stt": 20,
+   "sao": "Diệu xương",
+   "good_for": "thu nợ, mua gia súc"
+  }
+ ],
+ "other_good_stars": [
+  "Thiên đức",
+  "Nguyệt đức",
+  "Thiên đức hợp",
+  "Nguyệt đức hợp",
+  "Thiên quý",
+  "Thiên mã",
+  "Thiên giải",
+  "Thiên hành",
+  "Thiên quan",
+  "Nguyệt ân",
+  "Yếu an",
+  "Dịch mã",
+  "Lục hợp",
+  "Tam hợp",
+  "Kính tâm",
+  "Mãn đức tinh",
+  "Hoạt diệu",
+  "Hội hộ",
+  "U vi tinh",
+  "Thánh tâm",
+  "Cát khánh",
+  "Tứ vượng",
+  "Tuế hợp",
+  "Đại hồng sa",
+  "Ngọc đường",
+  "Minh đức"
+ ],
+ "override_note": "Nếu gặp ngày Thụ tử, Sát chủ, Tam nương sát, Nguyệt kỵ, Dương công kỵ, ngày con nước thì phải kiêng mọi việc dù có sao tốt."
+}

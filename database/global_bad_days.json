@@ -1,0 +1,240 @@
+{
+  "source": "Ngoc Hap Thong Thu.pdf",
+  "tam_nuong": {
+    "note": "Ngày Tam Nương - kỵ trăm việc (bách sự kỵ), tính theo ngày âm lịch hàng tháng, không phụ thuộc Can Chi",
+    "source_pages": [
+      39,
+      40
+    ],
+    "ngay_am_lich": [
+      3,
+      7,
+      13,
+      18,
+      22,
+      27
+    ]
+  },
+  "nguyet_ky": {
+    "note": "Ngày Nguyệt Kỵ - mùng 5, 14, 23 hàng tháng âm lịch, kỵ đi xa/đi buôn/việc lớn",
+    "source_pages": [
+      39,
+      40
+    ],
+    "ngay_am_lich": [
+      5,
+      14,
+      23
+    ]
+  },
+  "tho_tu_sat_chu": {
+    "note": "Bài Thơ Thụ Tử - Sát Chủ: mỗi tháng âm lịch có 1 ngày Chi là Thụ Tử và 1 ngày Chi là Sát Chủ (Thụ Tử nói trước, Sát Chủ nói sau). Mọi việc đều kỵ vào các ngày này.",
+    "source_pages": [
+      38,
+      39
+    ],
+    "theo_thang": [
+      {
+        "thang": 1,
+        "thu_tu": "Tuất",
+        "sat_chu": "Tỵ"
+      },
+      {
+        "thang": 2,
+        "thu_tu": "Thìn",
+        "sat_chu": "Tý"
+      },
+      {
+        "thang": 3,
+        "thu_tu": "Hợi",
+        "sat_chu": "Mùi"
+      },
+      {
+        "thang": 4,
+        "thu_tu": "Tỵ",
+        "sat_chu": "Mão"
+      },
+      {
+        "thang": 5,
+        "thu_tu": "Tý",
+        "sat_chu": "Thân"
+      },
+      {
+        "thang": 6,
+        "thu_tu": "Ngọ",
+        "sat_chu": "Tuất"
+      },
+      {
+        "thang": 7,
+        "thu_tu": "Sửu",
+        "sat_chu": "Sửu",
+        "note": "nguyên văn bài thơ ghi cả hai đều là Sửu (trâu đực/trâu cái)"
+      },
+      {
+        "thang": 8,
+        "thu_tu": "Mùi",
+        "sat_chu": "Hợi"
+      },
+      {
+        "thang": 9,
+        "thu_tu": "Dần",
+        "sat_chu": "Ngọ"
+      },
+      {
+        "thang": 10,
+        "thu_tu": "Thân",
+        "sat_chu": "Dậu"
+      },
+      {
+        "thang": 11,
+        "thu_tu": "Mão",
+        "sat_chu": "Dần"
+      },
+      {
+        "thang": 12,
+        "thu_tu": "Dậu",
+        "sat_chu": "Thìn",
+        "note": "Xác nhận bởi bảng NGÀY SÁT CHỦ riêng ở trang 156 (khớp với các tháng 1-11 của bài thơ, bổ sung tháng 12 mà bài thơ gốc không nêu rõ)"
+      }
+    ]
+  },
+  "sat_chu": {
+    "note": "Sách ghi nhiều hệ quy tắc Sát Chủ khác nhau (không hợp nhất) - lưu riêng từng hệ đúng như văn bản gốc",
+    "he_theo_thang": "xem tho_tu_sat_chu.theo_thang ở trên (Sát Chủ theo tháng, đi kèm Thụ Tử)",
+    "he_theo_bon_mua": {
+      "source_page": 91,
+      "title": "NGÀY SÁT CHỦ VỀ BỐN MÙA",
+      "xuan": "Thân",
+      "ha": "Ngọ",
+      "thu": "Mùi",
+      "dong": "Mão"
+    },
+    "he_hai_thang_pham_mot_ngay": {
+      "source_page": 91,
+      "title": "SÁT CHỦ HAI THÁNG PHẠM MỘT NGÀY",
+      "entries": [
+        {
+          "thang": "1+2",
+          "con_vat": "Thỏ (Mão)",
+          "chi": "Mão"
+        },
+        {
+          "thang": "3+4",
+          "con_vat": "Dê",
+          "chi": "Mùi"
+        },
+        {
+          "thang": "5+6",
+          "con_vat": "Rồng",
+          "chi": "Thìn"
+        },
+        {
+          "thang": "7+8",
+          "con_vat": "Chuột",
+          "chi": "Tý"
+        },
+        {
+          "thang": "9+10",
+          "con_vat": "Hùm (Hổ)",
+          "chi": "Dần"
+        },
+        {
+          "thang": "11+12",
+          "con_vat": "Khỉ",
+          "chi": "Thân"
+        }
+      ]
+    },
+    "he_tu_thoi_thu_chu_sat_thu": {
+      "source_page": 91,
+      "title": "TỨ THỜI THU CHỦ SÁT THỦ",
+      "note": "Kiêng cưới vợ, làm nhà",
+      "xuan": "Dậu (kê)",
+      "ha": "Tý (thử)",
+      "thu": "Mùi (dương)",
+      "dong": "Dần (hổ)"
+    }
+  },
+  "duong_cong_ky_nhat": {
+    "note": "Mười Ba Ngày Dương Công - kỵ hết thảy mọi việc, đặc biệt kỵ làm nhà. Tính theo ngày âm lịch hàng tháng.",
+    "source_pages": [
+      52,
+      158
+    ],
+    "theo_thang": [
+      {
+        "thang": 1,
+        "ngay_am_lich": [
+          13
+        ]
+      },
+      {
+        "thang": 2,
+        "ngay_am_lich": [
+          12
+        ]
+      },
+      {
+        "thang": 3,
+        "ngay_am_lich": [
+          9
+        ]
+      },
+      {
+        "thang": 4,
+        "ngay_am_lich": [
+          7
+        ]
+      },
+      {
+        "thang": 5,
+        "ngay_am_lich": [
+          5
+        ]
+      },
+      {
+        "thang": 6,
+        "ngay_am_lich": [
+          3
+        ]
+      },
+      {
+        "thang": 7,
+        "ngay_am_lich": [
+          8,
+          29
+        ]
+      },
+      {
+        "thang": 8,
+        "ngay_am_lich": [
+          27
+        ]
+      },
+      {
+        "thang": 9,
+        "ngay_am_lich": [
+          25
+        ]
+      },
+      {
+        "thang": 10,
+        "ngay_am_lich": [
+          23
+        ]
+      },
+      {
+        "thang": 11,
+        "ngay_am_lich": [
+          21
+        ]
+      },
+      {
+        "thang": 12,
+        "ngay_am_lich": [
+          19
+        ]
+      }
+    ]
+  }
+}

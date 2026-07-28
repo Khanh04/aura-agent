@@ -1,0 +1,100 @@
+{
+ "source": "Ngoc Hap Thong Thu",
+ "pages": [
+  86,
+  87
+ ],
+ "topic": "Chiêm nghinh hôn cát nhật & ngày giá thú bất tương",
+ "description": "Auspicious marriage days and 'bat tuong' (no-conflict) marriage day combinations per day stem.",
+ "nghinh_hon_cat_nhat": [
+  "Bính Tý",
+  "Đinh Sửu",
+  "Nhâm Tý",
+  "Canh Mão",
+  "Ất Sửu",
+  "Kỷ Mão"
+ ],
+ "gia_thu_bat_tuong": [
+  {
+   "can": "Canh",
+   "chi": [
+    "Tý",
+    "Dần",
+    "Thìn",
+    "Ngọ"
+   ]
+  },
+  {
+   "can": "Tân",
+   "chi": [
+    "Tỵ",
+    "Sửu",
+    "Hợi",
+    "Mùi"
+   ]
+  },
+  {
+   "can": "Nhâm",
+   "chi": [
+    "Thân",
+    "Thìn",
+    "Ngọ"
+   ]
+  },
+  {
+   "can": "Quý",
+   "chi": [
+    "Hợi",
+    "Tỵ",
+    "Mão"
+   ]
+  },
+  {
+   "can": "Giáp",
+   "chi": [
+    "Thân",
+    "Tuất"
+   ]
+  },
+  {
+   "can": "Ất",
+   "chi": [
+    "Sửu",
+    "Tỵ",
+    "Mùi",
+    "Dậu"
+   ]
+  },
+  {
+   "can": "Bính",
+   "chi": [
+    "Tý",
+    "Tuất",
+    "Dần"
+   ]
+  },
+  {
+   "can": "Đinh",
+   "chi": [
+    "Sửu"
+   ]
+  },
+  {
+   "can": "Mậu",
+   "chi": [
+    "Thìn",
+    "Thân",
+    "Ngọ"
+   ]
+  },
+  {
+   "can": "Kỷ",
+   "chi": [
+    "Sửu",
+    "Hợi",
+    "Mùi"
+   ]
+  }
+ ],
+ "note": "Tránh dùng nếu trùng ngày Ly Sào, Không Phòng."
+}

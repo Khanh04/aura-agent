@@ -1,0 +1,83 @@
+{
+ "source": "Ngoc Hap Thong Thu",
+ "pages": [
+  52
+ ],
+ "topic": "Dương Công kỵ nhật (ngày làm nhà)",
+ "description": "Duong Cong taboo days per lunar month — do not build a house.",
+ "rules": [
+  {
+   "thang": 1,
+   "ngay": [
+    13
+   ]
+  },
+  {
+   "thang": 2,
+   "ngay": [
+    12
+   ]
+  },
+  {
+   "thang": 3,
+   "ngay": [
+    9
+   ]
+  },
+  {
+   "thang": 4,
+   "ngay": [
+    7
+   ]
+  },
+  {
+   "thang": 5,
+   "ngay": [
+    5
+   ]
+  },
+  {
+   "thang": 6,
+   "ngay": [
+    3
+   ]
+  },
+  {
+   "thang": 7,
+   "ngay": [
+    8,
+    29
+   ]
+  },
+  {
+   "thang": 8,
+   "ngay": [
+    27
+   ]
+  },
+  {
+   "thang": 9,
+   "ngay": [
+    25
+   ]
+  },
+  {
+   "thang": 10,
+   "ngay": [
+    23
+   ]
+  },
+  {
+   "thang": 11,
+   "ngay": [
+    21
+   ]
+  },
+  {
+   "thang": 12,
+   "ngay": [
+    19
+   ]
+  }
+ ]
+}

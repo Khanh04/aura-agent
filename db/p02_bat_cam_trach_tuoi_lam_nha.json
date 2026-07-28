@@ -1,0 +1,290 @@
+{
+ "source": "Ngoc Hap Thong Thu",
+ "pages": [
+  54
+ ],
+ "topic": "Bảng lập thành tuổi làm nhà (Bát cẩm trạch)",
+ "description": "House-building age table: 9-cycle Trach sequence (Phuc, Duc, Bai, Hu, Khoc, Quy, Tu, Bao, Loc) by age 1-64. Good: Phúc, Đức, Bảo, Lộc. Bad: Bại, Hư, Khốc, Quỷ, Tử.",
+ "cycle": [
+  "Trạch Phúc",
+  "Trạch Đức",
+  "Trạch Bại",
+  "Trạch Hư",
+  "Trạch Khốc",
+  "Trạch Quỷ",
+  "Trạch Tử",
+  "Trạch Bảo",
+  "Trạch Lộc"
+ ],
+ "good": [
+  "Trạch Phúc",
+  "Trạch Đức",
+  "Trạch Bảo",
+  "Trạch Lộc"
+ ],
+ "bad": [
+  "Trạch Bại",
+  "Trạch Hư",
+  "Trạch Khốc",
+  "Trạch Quỷ",
+  "Trạch Tử"
+ ],
+ "rules": [
+  {
+   "tuoi": 1,
+   "trach": "Trạch Phúc"
+  },
+  {
+   "tuoi": 2,
+   "trach": "Trạch Đức"
+  },
+  {
+   "tuoi": 3,
+   "trach": "Trạch Bại"
+  },
+  {
+   "tuoi": 4,
+   "trach": "Trạch Hư"
+  },
+  {
+   "tuoi": 5,
+   "trach": "Trạch Khốc"
+  },
+  {
+   "tuoi": 6,
+   "trach": "Trạch Quỷ"
+  },
+  {
+   "tuoi": 7,
+   "trach": "Trạch Tử"
+  },
+  {
+   "tuoi": 8,
+   "trach": "Trạch Bảo"
+  },
+  {
+   "tuoi": 9,
+   "trach": "Trạch Lộc"
+  },
+  {
+   "tuoi": 10,
+   "trach": "Trạch Phúc"
+  },
+  {
+   "tuoi": 11,
+   "trach": "Trạch Đức"
+  },
+  {
+   "tuoi": 12,
+   "trach": "Trạch Bại"
+  },
+  {
+   "tuoi": 13,
+   "trach": "Trạch Hư"
+  },
+  {
+   "tuoi": 14,
+   "trach": "Trạch Khốc"
+  },
+  {
+   "tuoi": 15,
+   "trach": "Trạch Quỷ"
+  },
+  {
+   "tuoi": 16,
+   "trach": "Trạch Tử"
+  },
+  {
+   "tuoi": 17,
+   "trach": "Trạch Bảo"
+  },
+  {
+   "tuoi": 18,
+   "trach": "Trạch Lộc"
+  },
+  {
+   "tuoi": 19,
+   "trach": "Trạch Phúc"
+  },
+  {
+   "tuoi": 20,
+   "trach": "Trạch Đức"
+  },
+  {
+   "tuoi": 21,
+   "trach": "Trạch Bại"
+  },
+  {
+   "tuoi": 22,
+   "trach": "Trạch Hư"
+  },
+  {
+   "tuoi": 23,
+   "trach": "Trạch Khốc"
+  },
+  {
+   "tuoi": 24,
+   "trach": "Trạch Quỷ"
+  },
+  {
+   "tuoi": 25,
+   "trach": "Trạch Tử"
+  },
+  {
+   "tuoi": 26,
+   "trach": "Trạch Bảo"
+  },
+  {
+   "tuoi": 27,
+   "trach": "Trạch Lộc"
+  },
+  {
+   "tuoi": 28,
+   "trach": "Trạch Phúc"
+  },
+  {
+   "tuoi": 29,
+   "trach": "Trạch Đức"
+  },
+  {
+   "tuoi": 30,
+   "trach": "Trạch Bại"
+  },
+  {
+   "tuoi": 31,
+   "trach": "Trạch Hư"
+  },
+  {
+   "tuoi": 32,
+   "trach": "Trạch Khốc"
+  },
+  {
+   "tuoi": 33,
+   "trach": "Trạch Quỷ"
+  },
+  {
+   "tuoi": 34,
+   "trach": "Trạch Tử"
+  },
+  {
+   "tuoi": 35,
+   "trach": "Trạch Bảo"
+  },
+  {
+   "tuoi": 36,
+   "trach": "Trạch Lộc"
+  },
+  {
+   "tuoi": 37,
+   "trach": "Trạch Phúc"
+  },
+  {
+   "tuoi": 38,
+   "trach": "Trạch Đức"
+  },
+  {
+   "tuoi": 39,
+   "trach": "Trạch Bại"
+  },
+  {
+   "tuoi": 40,
+   "trach": "Trạch Hư"
+  },
+  {
+   "tuoi": 41,
+   "trach": "Trạch Khốc"
+  },
+  {
+   "tuoi": 42,
+   "trach": "Trạch Quỷ"
+  },
+  {
+   "tuoi": 43,
+   "trach": "Trạch Tử"
+  },
+  {
+   "tuoi": 44,
+   "trach": "Trạch Bảo"
+  },
+  {
+   "tuoi": 45,
+   "trach": "Trạch Lộc"
+  },
+  {
+   "tuoi": 46,
+   "trach": "Trạch Phúc"
+  },
+  {
+   "tuoi": 47,
+   "trach": "Trạch Đức"
+  },
+  {
+   "tuoi": 48,
+   "trach": "Trạch Bại"
+  },
+  {
+   "tuoi": 49,
+   "trach": "Trạch Hư"
+  },
+  {
+   "tuoi": 50,
+   "trach": "Trạch Khốc"
+  },
+  {
+   "tuoi": 51,
+   "trach": "Trạch Quỷ"
+  },
+  {
+   "tuoi": 52,
+   "trach": "Trạch Tử"
+  },
+  {
+   "tuoi": 53,
+   "trach": "Trạch Bảo"
+  },
+  {
+   "tuoi": 54,
+   "trach": "Trạch Lộc"
+  },
+  {
+   "tuoi": 55,
+   "trach": "Trạch Phúc"
+  },
+  {
+   "tuoi": 56,
+   "trach": "Trạch Đức"
+  },
+  {
+   "tuoi": 57,
+   "trach": "Trạch Bại"
+  },
+  {
+   "tuoi": 58,
+   "trach": "Trạch Hư"
+  },
+  {
+   "tuoi": 59,
+   "trach": "Trạch Khốc"
+  },
+  {
+   "tuoi": 60,
+   "trach": "Trạch Quỷ"
+  },
+  {
+   "tuoi": 61,
+   "trach": "Trạch Tử"
+  },
+  {
+   "tuoi": 62,
+   "trach": "Trạch Bảo"
+  },
+  {
+   "tuoi": 63,
+   "trach": "Trạch Lộc"
+  },
+  {
+   "tuoi": 64,
+   "trach": "Trạch Phúc"
+  }
+ ]
+}

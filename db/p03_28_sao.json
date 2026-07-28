@@ -1,0 +1,450 @@
+{
+  "source": "Ngoc Hap Thong Thu",
+  "pages": [
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77
+  ],
+  "topic": "28 sao (Thập bát tú) dùng xem ngày",
+  "description": "The 28 lunar mansions (sao): for each, its name, element/animal, good/bad rating, meaning verse, and favorable/unfavorable activities.",
+  "rules": [
+    {
+      "id": "sao-01",
+      "number": 1,
+      "name": "Giác",
+      "full_name": "Giác mộc giao",
+      "element_animal": "Mộc/Giao (rồng)",
+      "rating": "tốt",
+      "meaning": "Giác tính được việc chủ vinh thân; Đi thi đỗ đạt, gặp quý nhân; Giá thu hôn nhân sinh quý tử.",
+      "good_activities": [
+        "đi thi đỗ đạt",
+        "gặp quý nhân",
+        "hôn nhân sinh quý tử"
+      ],
+      "bad_activities": [
+        "mai táng",
+        "sửa âm phần"
+      ]
+    },
+    {
+      "id": "sao-02",
+      "number": 2,
+      "name": "Cang",
+      "full_name": "Cang kim long",
+      "element_animal": "Kim/Long (rồng)",
+      "rating": "xấu",
+      "meaning": "Cang kim đứng trưởng phải giữ mình; Mọi việc làm ăn tính thật rành; Chôn cất, hôn nhân đều nên tránh; Làm liều hậu quả khó phân minh.",
+      "good_activities": [],
+      "bad_activities": [
+        "chôn cất",
+        "hôn nhân",
+        "làm liều"
+      ]
+    },
+    {
+      "id": "sao-03",
+      "number": 3,
+      "name": "Đê",
+      "full_name": "Đê thổ lạc",
+      "element_animal": "Thổ/Lạc",
+      "rating": "xấu",
+      "meaning": "Đê tinh rất xấu phải đề phòng; Động thổ, hôn nhân dễ tai ương; Kinh doanh, ký kết hang chìm đắm; Xuất hành, xây cất ngoại đôi phương.",
+      "good_activities": [],
+      "bad_activities": [
+        "động thổ",
+        "hôn nhân",
+        "kinh doanh ký kết",
+        "xuất hành xây cất"
+      ]
+    },
+    {
+      "id": "sao-04",
+      "number": 4,
+      "name": "Phòng",
+      "full_name": "Phòng nhật thỏ",
+      "element_animal": "Nhật/Thỏ",
+      "rating": "tốt",
+      "meaning": "Phòng tinh tốt lắm, vượng điền tài; Hạnh phúc, giàu sang đẹp cả hai; Xây cất cưới xin gia cảnh thắm; Sĩ nông công thương thấy hòa hài.",
+      "good_activities": [
+        "vượng điền tài",
+        "hạnh phúc giàu sang",
+        "xây cất cưới xin",
+        "sĩ nông công thương hòa hài"
+      ],
+      "bad_activities": []
+    },
+    {
+      "id": "sao-05",
+      "number": 5,
+      "name": "Tâm",
+      "full_name": "Tâm nguyệt hổ",
+      "element_animal": "Nguyệt/Hổ",
+      "rating": "xấu",
+      "meaning": "Sao tâm xấu lắm, chớ xem thường; Việc việc dặn lòng hãy thủy chung; Ăn hỏi, cưới xin đều bất lợi; Kinh doanh thua lỗ kiện nhau hung.",
+      "good_activities": [],
+      "bad_activities": [
+        "ăn hỏi cưới xin",
+        "kinh doanh (thua lỗ kiện)"
+      ]
+    },
+    {
+      "id": "sao-06",
+      "number": 6,
+      "name": "Vĩ",
+      "full_name": "Vĩ hỏa hổ",
+      "element_animal": "Hỏa/Hổ",
+      "rating": "tốt",
+      "meaning": "Vĩ tinh chiếu sáng tốt vô cùng; Làm nhà cưới gả được hanh thông; Xuất ngoại kinh doanh nhiều thuận lợi; Tiến chức thăng quan sự nghiệp hưng.",
+      "good_activities": [
+        "làm nhà cưới gả",
+        "xuất ngoại kinh doanh",
+        "tiến chức thăng quan"
+      ],
+      "bad_activities": []
+    },
+    {
+      "id": "sao-07",
+      "number": 7,
+      "name": "Cơ",
+      "full_name": "Cơ thủy báo",
+      "element_animal": "Thủy/Báo (beo)",
+      "rating": "tốt",
+      "meaning": "Cơ tính sáng chiếu giúp cho người; Sự nghiệp cao cường viễn cảnh tươi; Cửa to nhà rộng, tiên bạc chứa; Mộ kết ông bà, phúc để đời.",
+      "good_activities": [
+        "sự nghiệp cao cường",
+        "cửa to nhà rộng",
+        "mộ kết ông bà (phúc để đời)"
+      ],
+      "bad_activities": []
+    },
+    {
+      "id": "sao-08",
+      "number": 8,
+      "name": "Đẩu",
+      "full_name": "Đẩu mộc giải",
+      "element_animal": "Mộc/Giải (trăn)",
+      "rating": "tốt",
+      "meaning": "Đẩu tinh sáng láng, lại dồi dào; Hôn nhân sinh nở vẹn toàn sao; Chăn nuôi, cấy gặt nhiều tiên của; Làm nhà, thả cá xứng ước ao.",
+      "good_activities": [
+        "hôn nhân sinh nở",
+        "chăn nuôi cấy gặt",
+        "làm nhà thả cá"
+      ],
+      "bad_activities": []
+    },
+    {
+      "id": "sao-09",
+      "number": 9,
+      "name": "Ngưu",
+      "full_name": "Ngưu kim ngưu",
+      "element_animal": "Kim/Ngưu (trâu)",
+      "rating": "xấu",
+      "meaning": "Sao Ngưu tổn lực với hao tài; Gây dựng bất lợi, dễ bi ai; Cưới hỏi xa nhà nên cẩn thận; Kinh doanh trồng trọt mất vốn lời.",
+      "good_activities": [],
+      "bad_activities": [
+        "gây dựng",
+        "cưới hỏi xa nhà",
+        "kinh doanh trồng trọt"
+      ]
+    },
+    {
+      "id": "sao-10",
+      "number": 10,
+      "name": "Nữ",
+      "full_name": "Nữ thổ bấc",
+      "element_animal": "Thổ/Bấc",
+      "rating": "xấu",
+      "meaning": "Nữ tinh phụ nữ phải e mình; Giao dịch, đề phòng kẻ sở khanh; Sinh nở nên tìm thầy thuốc giỏi; Hao tài tốn của thiệt gia đình.",
+      "good_activities": [
+        "sinh nở (nên thầy thuốc giỏi)"
+      ],
+      "bad_activities": [
+        "giao dịch",
+        "hao tài tốn của"
+      ]
+    },
+    {
+      "id": "sao-11",
+      "number": 11,
+      "name": "Hư",
+      "full_name": "Hư thật thủ",
+      "element_animal": "Thật/Thủ (chó săn)",
+      "rating": "xấu",
+      "meaning": "Sao hư chiếu tới chủ tai ương; Nam nữ gần nhau phải giữ chừng; Một phút ba năm hoa dễ héo; Sau này đã chắc mãi thương yêu?",
+      "good_activities": [],
+      "bad_activities": [
+        "nam nữ gần nhau (tránh)"
+      ]
+    },
+    {
+      "id": "sao-12",
+      "number": 12,
+      "name": "Nguy",
+      "full_name": "Nguy nguyệt yến",
+      "element_animal": "Nguyệt/Yến (én)",
+      "rating": "xấu",
+      "meaning": "Sao nguy kỵ nhất việc làm nhà; Nhà rộng lầu cao ở được à?; Kinh doanh việc hiếu đều nên tránh; E rồi bại sản với khuynh gia.",
+      "good_activities": [],
+      "bad_activities": [
+        "làm nhà",
+        "kinh doanh",
+        "việc hiếu"
+      ]
+    },
+    {
+      "id": "sao-13",
+      "number": 13,
+      "name": "Thất",
+      "full_name": "Thất hỏa trư",
+      "element_animal": "Hỏa/Trư (lợn)",
+      "rating": "tốt",
+      "meaning": "Thất tinh chiếu sáng việc thông hanh; Công danh sự nghiệp rất quang minh; Mở hiệu, làm nhà đều thành đạt; Hôn nhân, con cái ắt thân vinh.",
+      "good_activities": [
+        "công danh sự nghiệp",
+        "mở hiệu làm nhà",
+        "hôn nhân con cái"
+      ],
+      "bad_activities": []
+    },
+    {
+      "id": "sao-14",
+      "number": 14,
+      "name": "Bích",
+      "full_name": "Bích thủy dư",
+      "element_animal": "Thủy/Dư (vẹt)",
+      "rating": "tốt",
+      "meaning": "Bích tinh mọi việc thuận nhân tình; Cưới hỏi sinh con xứng ý mình; Thương mại kinh doanh nhiều lợi lộc; Làm nhà lợp mái ắt khang minh.",
+      "good_activities": [
+        "cưới hỏi sinh con",
+        "thương mại kinh doanh",
+        "làm nhà lợp mái"
+      ],
+      "bad_activities": []
+    },
+    {
+      "id": "sao-15",
+      "number": 15,
+      "name": "Khuê",
+      "full_name": "Khuê mộc lang",
+      "element_animal": "Mộc/Lang (sói)",
+      "rating": "xấu",
+      "meaning": "Khuê tính thuộc mộc có phần lành; Vợ chồng hòa thuận phúc lộc sinh; Chỉ tránh mở hàng cùng động thổ; Đưa ma, sửa mộ cùng nên rành.",
+      "good_activities": [
+        "vợ chồng hòa thuận phúc lộc sinh"
+      ],
+      "bad_activities": [
+        "mở hàng",
+        "động thổ",
+        "đưa ma sửa mộ"
+      ]
+    },
+    {
+      "id": "sao-16",
+      "number": 16,
+      "name": "Lâu",
+      "full_name": "Lâu kim cẩu",
+      "element_animal": "Kim/Cẩu (chó)",
+      "rating": "tốt",
+      "meaning": "Sao lâu lợp mái tốt vô cùng; Thêm người, thêm của thịnh lại hưng; Hôn nhân ngày ấy thịnh quý tử; Nhận chức sao ngày chức lại thăng.",
+      "good_activities": [
+        "lợp mái",
+        "thêm người của",
+        "hôn nhân quý tử",
+        "nhận chức thăng"
+      ],
+      "bad_activities": []
+    },
+    {
+      "id": "sao-17",
+      "number": 17,
+      "name": "Vị",
+      "full_name": "Vị thổ trì",
+      "element_animal": "Thổ/Trì (róc)",
+      "rating": "tốt",
+      "meaning": "Vị tinh phú quý với vinh hoa; Mọi việc nên hay ráng sức ta; Mua bán xây nhà cùng cưới hỏi; Công to việc lớn rất thuận hòa.",
+      "good_activities": [
+        "mua bán xây nhà cưới hỏi",
+        "công to việc lớn"
+      ],
+      "bad_activities": []
+    },
+    {
+      "id": "sao-18",
+      "number": 18,
+      "name": "Mão",
+      "full_name": "Mão kê nhật",
+      "element_animal": "Nhật/Kê (gà)",
+      "rating": "xấu",
+      "meaning": "Mão tinh cẩn thận việc chăn nuôi; Làm nhà làm cửa e thiệt người; Làm quan nhậm chức phòng tai họa; Hôn nhân giá thú kém xinh tươi.",
+      "good_activities": [],
+      "bad_activities": [
+        "chăn nuôi",
+        "làm nhà làm cửa",
+        "làm quan nhậm chức",
+        "hôn nhân giá thú"
+      ]
+    },
+    {
+      "id": "sao-19",
+      "number": 19,
+      "name": "Tất",
+      "full_name": "Tất nguyệt ô",
+      "element_animal": "Nguyệt/Ô (quạ)",
+      "rating": "tốt",
+      "meaning": "Tất tinh chiếu sáng tốt hòa điều; Nông trang thóc gạo, hoa tằm nhiều; Nhà cửa khang trang hôn thú đẹp; Sinh con nam quý nữ yêu kiều.",
+      "good_activities": [
+        "nông trang thóc gạo hoa tằm",
+        "nhà cửa khang trang hôn thú",
+        "sinh con nam quý nữ yêu kiều"
+      ],
+      "bad_activities": []
+    },
+    {
+      "id": "sao-20",
+      "number": 20,
+      "name": "Chủy",
+      "full_name": "Chủy hòa hầu",
+      "element_animal": "Hòa/Hầu (khỉ)",
+      "rating": "xấu",
+      "meaning": "Chủy tinh cẩn thận mắc cửa quan; Vàng nén bạc kho dễ sạch sanh; Quan viên danh chức càng nên giữ; Thầy thợ coi chừng chuyện tiếng tăm.",
+      "good_activities": [],
+      "bad_activities": [
+        "mắc cửa quan",
+        "vàng bạc kho sạch",
+        "quan viên danh chức",
+        "thầy thợ tiếng tăm"
+      ]
+    },
+    {
+      "id": "sao-21",
+      "number": 21,
+      "name": "Sâm",
+      "full_name": "Sâm thủy viên",
+      "element_animal": "Thủy/Vên (khỉ)",
+      "rating": "tốt",
+      "meaning": "Sâm tinh cũng gọi văn khúc xương; Mưu cầu sự nghiệp đại cát tường; Mở hiệu xây nhà thì rất tốt; Hôn thú về sau rẽ đôi đường.",
+      "good_activities": [
+        "mưu cầu sự nghiệp",
+        "mở hiệu xây nhà",
+        "hôn thú"
+      ],
+      "bad_activities": []
+    },
+    {
+      "id": "sao-22",
+      "number": 22,
+      "name": "Tỉnh",
+      "full_name": "Tỉnh mộc hãn",
+      "element_animal": "Mộc/Hãn (heo rừng)",
+      "rating": "tốt",
+      "meaning": "Tỉnh tinh chỉ tránh việc tang thôi; Thi cử công danh đệ nhất ngôi; Trồng trọt chăn nuôi thu hoạch tốt; Làm nhà hôn thú đẹp cả đôi.",
+      "good_activities": [
+        "thi cử công danh",
+        "trồng trọt chăn nuôi",
+        "làm nhà hôn thú"
+      ],
+      "bad_activities": [
+        "việc tang"
+      ]
+    },
+    {
+      "id": "sao-23",
+      "number": 23,
+      "name": "Quỷ",
+      "full_name": "Quỷ kim dương",
+      "element_animal": "Kim/Dương (dê)",
+      "rating": "xấu",
+      "meaning": "Quỷ tinh chiếu rọi khiến buồn thương; Làm nhà chẳng ở chủ nhân vong; Cưới xin ngày ấy cần nên tránh; Sao này chỉ lợi việc hiếu tang.",
+      "good_activities": [
+        "việc hiếu tang"
+      ],
+      "bad_activities": [
+        "làm nhà",
+        "cưới xin"
+      ]
+    },
+    {
+      "id": "sao-24",
+      "number": 24,
+      "name": "Liễu",
+      "full_name": "Liễu thổ chương",
+      "element_animal": "Thổ/Chương (chồn)",
+      "rating": "xấu",
+      "meaning": "Liễu tinh chiếu dọi lắm nguy nan; Hao tài tổn sức lại bi thương; Hơn hết thì nên chăm hướng thiện; Lo sao bản mệnh được an khang.",
+      "good_activities": [
+        "chăm hướng thiện, bản mệnh an khang"
+      ],
+      "bad_activities": [
+        "hao tài tổn sức bi thương"
+      ]
+    },
+    {
+      "id": "sao-25",
+      "number": 25,
+      "name": "Tinh",
+      "full_name": "Tinh nhật mã",
+      "element_animal": "Nhật/Mã (ngựa)",
+      "rating": "xấu",
+      "meaning": "Sao tinh chiếu rọi tránh hợp hôn; Vợ bỏ chồng ruồng, trẻ héo hon; Nhất việc làm nhà thì rất tốt; Nhì việc công danh dễ mãn nguyện.",
+      "good_activities": [
+        "làm nhà",
+        "công danh"
+      ],
+      "bad_activities": [
+        "hợp hôn"
+      ]
+    },
+    {
+      "id": "sao-26",
+      "number": 26,
+      "name": "Trương",
+      "full_name": "Trương nguyệt lộc",
+      "element_animal": "Nguyệt/Lộc (nai)",
+      "rating": "tốt",
+      "meaning": "Sao chương ngày ấy đẹp làm nhà; Cưới hỏi gia đình thắm tựa hoa; Mở hàng nhập học đều hay cả; Tang ma chu đáo phú hà xa.",
+      "good_activities": [
+        "làm nhà",
+        "cưới hỏi gia đình",
+        "mở hàng nhập học",
+        "tang ma chu đáo"
+      ],
+      "bad_activities": []
+    },
+    {
+      "id": "sao-27",
+      "number": 27,
+      "name": "Đực",
+      "full_name": "Đực hỏa xà",
+      "element_animal": "Hỏa/Xà (rắn)",
+      "rating": "xấu",
+      "meaning": "Đực tinh tốt kỵ việc làm nhà; Tai nạn chợt xảy thiệt chủ nhà; Nam nữ gần nhau gìn chữ trinh; Thói nguyệt, tham hoa, lắm xót xa.",
+      "good_activities": [],
+      "bad_activities": [
+        "làm nhà",
+        "nam nữ gần nhau",
+        "tham hoa"
+      ]
+    },
+    {
+      "id": "sao-28",
+      "number": 28,
+      "name": "Chẩn",
+      "full_name": "Chẩn thủy dần",
+      "element_animal": "Thủy/Dần (cá sấu)",
+      "rating": "tốt",
+      "meaning": "Chẩn tinh chiếu rọi chủ vẻ vang; Thăng quan, thăng chức lộc tài tăng; Việc hiếu, việc hôn đều rất tốt; Kinh doanh buôn bán ắt phồn xương.",
+      "good_activities": [
+        "thăng quan thăng chức",
+        "việc hiếu việc hôn",
+        "kinh doanh buôn bán"
+      ],
+      "bad_activities": []
+    }
+  ]
+}

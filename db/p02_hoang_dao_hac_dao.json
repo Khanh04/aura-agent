@@ -1,0 +1,122 @@
+{
+ "source": "Ngoc Hap Thong Thu",
+ "pages": [
+  45,
+  46,
+  47
+ ],
+ "topic": "Ngày & giờ Hoàng Đạo - Hắc Đạo",
+ "description": "Auspicious (hoang dao) vs inauspicious (hac dao) days per lunar month pair, plus the hour-calculation verse.",
+ "rules": [
+  {
+   "thang": [
+    1,
+    7
+   ],
+   "hoang_dao": [
+    "Tý",
+    "Sửu",
+    "Tỵ",
+    "Mùi"
+   ],
+   "hac_dao": [
+    "Ngọ",
+    "Mão",
+    "Hợi",
+    "Dậu"
+   ]
+  },
+  {
+   "thang": [
+    2,
+    8
+   ],
+   "hoang_dao": [
+    "Dần",
+    "Mão",
+    "Mùi",
+    "Dậu"
+   ],
+   "hac_dao": [
+    "Thân",
+    "Tỵ",
+    "Hợi",
+    "Sửu"
+   ]
+  },
+  {
+   "thang": [
+    3,
+    9
+   ],
+   "hoang_dao": [
+    "Thìn",
+    "Tỵ",
+    "Dậu",
+    "Hợi"
+   ],
+   "hac_dao": [
+    "Tuất",
+    "Mùi",
+    "Mão",
+    "Sửu"
+   ]
+  },
+  {
+   "thang": [
+    4,
+    10
+   ],
+   "hoang_dao": [
+    "Ngọ",
+    "Mùi",
+    "Hợi",
+    "Sửu"
+   ],
+   "hac_dao": [
+    "Tý",
+    "Dậu",
+    "Mão",
+    "Tỵ"
+   ]
+  },
+  {
+   "thang": [
+    5,
+    11
+   ],
+   "hoang_dao": [
+    "Thân",
+    "Dậu",
+    "Sửu",
+    "Mão"
+   ],
+   "hac_dao": [
+    "Dần",
+    "Hợi",
+    "Mùi",
+    "Tỵ"
+   ]
+  },
+  {
+   "thang": [
+    6,
+    12
+   ],
+   "hoang_dao": [
+    "Tuất",
+    "Hợi",
+    "Mão",
+    "Tỵ"
+   ],
+   "hac_dao": [
+    "Thìn",
+    "Sửu",
+    "Mùi",
+    "Dậu"
+   ]
+  }
+ ],
+ "gio_hoang_dao_verse": "Dần Thân gia Tý, Mão Dậu Dần / Thìn Tuất tầm Thìn, Tý Ngọ Thân / Tỵ Ngọ thiên cương tầm Ngọ vị / Sửu Mùi tòng Tuất định kỳ chân",
+ "phep_tinh_gio": "Tý 23-01h, Sửu 01-03h, Dần 03-05h, Mão 05-07h, Thìn 07-09h, Tỵ 09-11h, Ngọ 11-13h, Mùi 13-15h, Thân 15-17h, Dậu 17-19h, Tuất 19-21h, Hợi 21-23h"
+}

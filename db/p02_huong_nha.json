@@ -1,0 +1,90 @@
+{
+ "source": "Ngoc Hap Thong Thu",
+ "pages": [
+  55
+ ],
+ "topic": "Hướng nhà kỵ theo tuổi",
+ "description": "Taboo house directions per birth branch.",
+ "rules": [
+  {
+   "tuoi": "Tý",
+   "ky_huong": [
+    "Nam"
+   ]
+  },
+  {
+   "tuoi": "Ngọ",
+   "ky_huong": [
+    "Bắc"
+   ]
+  },
+  {
+   "tuoi": "Mão",
+   "ky_huong": [
+    "Đông"
+   ]
+  },
+  {
+   "tuoi": "Dậu",
+   "ky_huong": [
+    "Tây"
+   ]
+  },
+  {
+   "tuoi": "Sửu",
+   "ky_huong": [
+    "Bắc",
+    "Đông Bắc"
+   ]
+  },
+  {
+   "tuoi": "Mùi",
+   "ky_huong": [
+    "Nam",
+    "Tây Nam"
+   ]
+  },
+  {
+   "tuoi": "Thìn",
+   "ky_huong": [
+    "Nam",
+    "Đông Nam"
+   ]
+  },
+  {
+   "tuoi": "Tuất",
+   "ky_huong": [
+    "Tây",
+    "Tây Bắc"
+   ]
+  },
+  {
+   "tuoi": "Dần",
+   "ky_huong": [
+    "Đông",
+    "Đông Nam"
+   ]
+  },
+  {
+   "tuoi": "Thân",
+   "ky_huong": [
+    "Tây",
+    "Tây Bắc"
+   ]
+  },
+  {
+   "tuoi": "Tỵ",
+   "ky_huong": [
+    "Nam",
+    "Đông Nam"
+   ]
+  },
+  {
+   "tuoi": "Hợi",
+   "ky_huong": [
+    "Bắc",
+    "Tây Bắc"
+   ]
+  }
+ ]
+}

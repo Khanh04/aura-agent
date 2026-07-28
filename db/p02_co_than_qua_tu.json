@@ -1,0 +1,28 @@
+{
+ "source": "Ngoc Hap Thong Thu",
+ "pages": [
+  39
+ ],
+ "topic": "Ngày Cô Thần Quả Tú",
+ "description": "Co Than / Qua Tu days by season — avoid marriage.",
+ "verse": "Ba xuân chẳng thấy trâu cày / Ba hạ chẳng thấy rồng bay lên trời / Ba thu chẳng thấy dê chơi / Ba đông chẳng thấy chó giời sủa săn",
+ "rules": [
+  {
+   "mua": "Xuân",
+   "ngay": "Sửu"
+  },
+  {
+   "mua": "Hạ",
+   "ngay": "Thìn"
+  },
+  {
+   "mua": "Thu",
+   "ngay": "Mùi"
+  },
+  {
+   "mua": "Đông",
+   "ngay": "Tuất"
+  }
+ ],
+ "avoid": "giá thú, hôn nhân"
+}
