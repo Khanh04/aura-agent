@@ -12,7 +12,7 @@ over that would silently drop rules that don't match its assumptions, which
 is worse than returning too much. get_event_rules returns the whole
 category block and lets the agent (which already has the resolved lunar
 month/day Can-Chi in conversation context) pick out what's relevant and
-cite the source_page -- consistent with this app's overall design: raw data
+cite the source_pages -- consistent with this app's overall design: raw data
 in, LLM synthesis out.
 """
 
@@ -206,5 +206,5 @@ def get_trung_tang(birth_year: int, death_lunar_year: int, gender: Literal["nam"
         "landing_chi": landing_chi,
         "zone": zone,
         "note": block["note"],
-        "source_page": block["source_page"],
+        "source_pages": block["source_pages"],
     }

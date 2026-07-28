@@ -102,15 +102,16 @@
     "note": "Sách ghi nhiều hệ quy tắc Sát Chủ khác nhau (không hợp nhất) - lưu riêng từng hệ đúng như văn bản gốc",
     "he_theo_thang": "xem tho_tu_sat_chu.theo_thang ở trên (Sát Chủ theo tháng, đi kèm Thụ Tử)",
     "he_theo_bon_mua": {
-      "source_page": 91,
       "title": "NGÀY SÁT CHỦ VỀ BỐN MÙA",
       "xuan": "Thân",
       "ha": "Ngọ",
       "thu": "Mùi",
-      "dong": "Mão"
+      "dong": "Mão",
+      "source_pages": [
+        91
+      ]
     },
     "he_hai_thang_pham_mot_ngay": {
-      "source_page": 91,
       "title": "SÁT CHỦ HAI THÁNG PHẠM MỘT NGÀY",
       "entries": [
         {
@@ -143,16 +144,21 @@
           "con_vat": "Khỉ",
           "chi": "Thân"
         }
+      ],
+      "source_pages": [
+        91
       ]
     },
     "he_tu_thoi_thu_chu_sat_thu": {
-      "source_page": 91,
       "title": "TỨ THỜI THU CHỦ SÁT THỦ",
       "note": "Kiêng cưới vợ, làm nhà",
       "xuan": "Dậu (kê)",
       "ha": "Tý (thử)",
       "thu": "Mùi (dương)",
-      "dong": "Dần (hổ)"
+      "dong": "Dần (hổ)",
+      "source_pages": [
+        91
+      ]
     }
   },
   "duong_cong_ky_nhat": {

@@ -950,7 +950,6 @@
   },
   "xem_nam_tim_nguyet_kien": {
     "note": "Tìm Chi của tháng giêng (Nguyệt Kiến) dựa theo Can của năm",
-    "source_page": 58,
     "entries": [
       {
         "can_nam": [
@@ -987,11 +986,13 @@
         ],
         "thang_gieng_tai": "Giáp Dần"
       }
+    ],
+    "source_pages": [
+      58
     ]
   },
   "phuong_huong_tot_tung_nam": {
     "note": "Hướng lợi / hướng sát theo nhóm năm Tam Hợp",
-    "source_page": 58,
     "entries": [
       {
         "nam_nhom": [
@@ -1041,11 +1042,13 @@
         ],
         "sat_huong": "Đông"
       }
+    ],
+    "source_pages": [
+      58
     ]
   },
   "tam_tai_han": {
     "note": "Hạn Tam Tai - 3 năm liên tiếp xui xẻo, dễ gặp bệnh hoạn/thất bại/tang chế, tính theo nhóm năm sinh Tam Hợp",
-    "source_page": 64,
     "bang_tra": [
       {
         "nhom_sinh": [
@@ -1173,7 +1176,10 @@
         }
       ],
       "phep_cung_le": "Tuổi nào gặp tam tai 3 năm liền thì cúng 1 lần trong tháng Giêng cũng được. Lễ vật: 1 bộ tam sinh (trứng, thịt luộc, tôm luộc), 1 bộ đồ thế cô hình ông cọp, gạo, muối, nhang, đèn, trầu, rượu, tóc rụng của mình (nếu có), gói chung buộc 1 sợi dây lưng và ít tiền thật; chờ trời chạng vạng tối đem ra ngã ba đường đặt lễ, thắp nhang đèn quay mặt về hướng tam tai của năm đó mà cúng đúng vị thần năm đó, xưng tên tuổi người cúng, xong bỏ lại chợ đem về chỉ trừ bầu rượu."
-    }
+    },
+    "source_pages": [
+      64
+    ]
   },
   "thai_tue_nhap_trach_dai_sat_nien_hung": {
     "note": "Thơ luận về Thái Tuế nhập trạch (khắc hướng nhà tu tạo) theo Chi của năm/tuổi - mỗi câu ứng với 1 Chi (Tý->Hợi) nêu Chi năm kỵ tu tạo trạch. Sách in lặp lại bài thơ này 4 lần (trang 65, 141, 144-145) với văn bản hơi khác nhau (dị bản/lỗi in); dưới đây là bản ghép nối rõ nhất từ các lần xuất hiện trực tiếp đọc bằng hình ảnh (141, 144-145), có đối chiếu bản trang 65.",
@@ -1190,7 +1196,6 @@
   "lam_nha_bo_sung": {
     "nhung_nam_sat_khong_nen_lam_nha": {
       "note": "Theo nhóm năm sinh Tam Hợp, có 1 Chi năm/tháng/giờ bị Sát, kỵ làm nhà",
-      "source_page": 66,
       "entries": [
         {
           "nhom_sinh": [
@@ -1225,18 +1230,31 @@
           "sat_tai": "Mùi (niên, nguyệt, thời)"
         }
       ],
-      "cau_ket": "Niên sát bất nghi tạo trạch / Cưỡng mà làm nhà không vượng"
+      "cau_ket": "Niên sát bất nghi tạo trạch / Cưỡng mà làm nhà không vượng",
+      "source_pages": [
+        66
+      ]
     }
   },
   "ham_chan_quan_ngoc_hap_ky": {
     "note": "Đoạn văn giới thiệu/truyền thuyết về nguồn gốc sách Ngọc Hạp (Ông Hám Chân Quân) - văn xuôi, không phải bảng số liệu, chỉ trích đoạn mở đầu",
-    "source_page": 66,
-    "trich_doan": "Ông Hán Chân Quân thân người đài tác phúc thì nguyên, hay điều thương thương, làm chay, có người được phúc, có kẻ bị tội tai họa sinh ra họa phá tận con cháu. Vì thế Ông Hán Chân Quân sát trong bản án thiên tào thì thấy, chỉ vì những kẻ tầm thường không biết chọn ngày mà chung tiến Tổ Tiên không biết những ngày trong vòng 60 của lục Giáp tuần trong các vì sao hoặc ở địa phủ, hoặc ở nhân gian, dĩ chí phạm phải mà con cháu phạm phải chịu tai..."
+    "trich_doan": "Ông Hán Chân Quân thân người đài tác phúc thì nguyên, hay điều thương thương, làm chay, có người được phúc, có kẻ bị tội tai họa sinh ra họa phá tận con cháu. Vì thế Ông Hán Chân Quân sát trong bản án thiên tào thì thấy, chỉ vì những kẻ tầm thường không biết chọn ngày mà chung tiến Tổ Tiên không biết những ngày trong vòng 60 của lục Giáp tuần trong các vì sao hoặc ở địa phủ, hoặc ở nhân gian, dĩ chí phạm phải mà con cháu phạm phải chịu tai...",
+    "source_pages": [
+      66
+    ]
   },
   "van_nien_12_thang_du_bao": {
     "note": "Bài văn vần dự báo thời tiết/mùa màng/dịch bệnh theo từng tháng âm lịch trong năm (dạng 'sấm truyền' nông lịch) - văn bản dài, mang tính chất dự báo thời tiết dân gian chung cho cả năm chứ không phải quy tắc chọn ngày cá nhân, nên chỉ trích đoạn đại diện thay vì toàn văn",
-    "source_pages": "58-63 (trích đoạn từ 59-60)",
+    "source_pages": [
+      58,
+      59,
+      60,
+      61,
+      62,
+      63
+    ],
     "trich_doan_thang_1_va_2": "Đại tiết phân phan thi vãn niên / Dân đắc lập xuân tinh trạch thử / Nông pha bất dụng lực Canh Điền // Tháng 2: Kinh trập vẫn xuôi mễ tự mê (bủn) / Xuân phân hữu vũ bệnh nhân ly (ít) / Nguyệt chung dân đắc phùng tam Mão (trong) / Ba ngày Mão hoa quả được mùa / Chính thảo cao hoa xứ xứ phì",
-    "trich_doan_thang_9": "Ngày thu xa mưa được mùa nhưng nhiều cảm ốm"
+    "trich_doan_thang_9": "Ngày thu xa mưa được mùa nhưng nhiều cảm ốm",
+    "page_note": "trích đoạn từ 59-60"
   }
 }

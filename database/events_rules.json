@@ -3,7 +3,6 @@
   "coverage_note": "Cuốn sách có 164 trang với rất nhiều bảng ngày chi tiết (nhiều hơn số liệu bên dưới). File này tổng hợp các quy tắc chính, có tên mục rõ ràng, cho 4 nhóm sự kiện được yêu cầu, kèm số trang nguồn để tra cứu / bổ sung sau. Một số bảng rất lớn (vd. Chu Công Xuất Hành đủ 60 ngày Giáp Tý-Quý Hợi, trang 113-136) chỉ lấy mẫu đại diện do khối lượng quá lớn.",
   "cuoi_hoi": {
     "xem_ngay_le_ket_hon_theo_mua": {
-      "source_page": 56,
       "note": "Ngày kỵ theo mùa khi làm lễ kết hôn",
       "xuan": [
         "Thìn",
@@ -23,27 +22,34 @@
         "Thân",
         "Dậu",
         "Sửu"
+      ],
+      "applies_by": "mua",
+      "source_pages": [
+        56
       ]
     },
     "ngay_co_than_qua_tu": {
       "note": "Kiêng giá thú - Cô Thần (nam kỵ) / Quả Tú (nữ kỵ)",
       "theo_mua_bon_mua_cach_1": {
-        "source_page": 56,
         "xuan": "Sửu",
         "ha": "Thìn",
         "thu": "Mùi",
-        "dong": "Tuất"
+        "dong": "Tuất",
+        "source_pages": [
+          56
+        ]
       },
       "theo_mua_bon_mua_cach_2": {
-        "source_page": 93,
         "xuan": "Thìn",
         "ha": "Thân",
         "thu": "Tuất",
         "dong": "Tuất",
-        "luu_y": "sách ghi 2 hệ Bốn Mùa Cô Thần hơi khác nhau ở các trang khác nhau, giữ nguyên cả hai theo văn bản gốc"
+        "luu_y": "sách ghi 2 hệ Bốn Mùa Cô Thần hơi khác nhau ở các trang khác nhau, giữ nguyên cả hai theo văn bản gốc",
+        "source_pages": [
+          93
+        ]
       },
       "theo_thang": {
-        "source_page": 158,
         "entries": [
           {
             "thang": 1,
@@ -129,10 +135,12 @@
               "Mão"
             ]
           }
+        ],
+        "source_pages": [
+          158
         ]
       },
       "ngay_qua_co_ky_gia_thu_theo_thang": {
-        "source_page": 93,
         "note": "phân biệt nam cô (kỵ cho nam) / nữ quả (kỵ cho nữ)",
         "entries": [
           {
@@ -205,8 +213,12 @@
             ],
             "loai": "nam cô"
           }
+        ],
+        "source_pages": [
+          93
         ]
-      }
+      },
+      "applies_by": "mua"
     },
     "ngay_ly_sao_lia_to": {
       "note": "Kỵ nhập thất, giá thú - ngày Can Chi cụ thể",
@@ -251,11 +263,11 @@
         "Kỷ Hợi (thơ)",
         "Tân Tỵ (thơ)"
       ],
-      "tho_bo_sung": "Tân Mão ngày ấy dữ thay / Mậu Thìn, Kỷ Tỵ chớ gây hôn nhân (trang 140)"
+      "tho_bo_sung": "Tân Mão ngày ấy dữ thay / Mậu Thìn, Kỷ Tỵ chớ gây hôn nhân (trang 140)",
+      "applies_by": "none"
     },
     "hong_sa_ky_nhat": {
       "note": "Kiêng ba ngày về việc lấy vợ lấy chồng",
-      "source_page": 40,
       "bon_thang_manh": {
         "thang": [
           1,
@@ -282,21 +294,27 @@
           12
         ],
         "ky_ngay": "Sửu"
-      }
+      },
+      "applies_by": "mua",
+      "source_pages": [
+        40
+      ]
     },
     "nghinh_hon_ky_nhat": {
       "note": "4 ngày xấu về việc đính hôn",
-      "source_page": 40,
       "ngay": [
         "Ất Tỵ",
         "Tân Hợi",
         "Mậu Thân",
         "Giáp Dần"
+      ],
+      "applies_by": "none",
+      "source_pages": [
+        40
       ]
     },
     "tuyet_phong_nhat": {
       "note": "Ngày xấu, kỵ hôn nhân (chỉ thấy tháng 10, 11 trong phần đã trích)",
-      "source_page": 40,
       "entries": [
         {
           "thang": 10,
@@ -316,11 +334,14 @@
             "Mùi"
           ]
         }
+      ],
+      "applies_by": "thang",
+      "source_pages": [
+        40
       ]
     },
     "chiem_nghinh_hon_cat_nhat": {
       "note": "Ngày lành hôn nhân, dùng được mọi tháng",
-      "source_page": 86,
       "ngay": [
         "Bính Tý",
         "Đinh Sửu",
@@ -328,6 +349,10 @@
         "Canh Mão",
         "Ất Sửu",
         "Kỷ Mão"
+      ],
+      "applies_by": "none",
+      "source_pages": [
+        86
       ]
     },
     "gia_thu_bat_tuong": {
@@ -387,27 +412,34 @@
           "Tỵ",
           "Mão"
         ]
-      }
+      },
+      "applies_by": "tuoi"
     },
     "ngay_ngau_lang_chuc_nu": {
       "note": "Ngày xấu theo mùa, kỵ cưới hỏi",
-      "source_page": 94,
       "xuan": "nghe tiếng chim khách (kim kê)",
       "ha": "thỏ chạy về đồng hoang",
       "thu": "khỉ (hầu)",
-      "dong": "hổ"
+      "dong": "hổ",
+      "applies_by": "mua",
+      "source_pages": [
+        94
+      ]
     },
     "chu_duong_cho_viec_cuoi_vo": {
       "note": "Phép đếm chọn ngày cưới bằng chu kỳ 4 chữ Phu - Cô - Đường - Đệ - Trù - Táo (đếm từ mùng 1 tháng, chỉ dùng khi rơi đúng vào Đường/Đệ/Trù/Táo). Phạm chữ Ông/Cô sẽ khiến bố/mẹ chồng chết sớm.",
-      "source_page": 87
+      "applies_by": "none",
+      "source_pages": [
+        87
+      ]
     },
     "huong_nha_nghinh_hon_theo_tuoi": {
       "note": "Hướng kỵ khi làm lễ đón dâu/rước rể theo tuổi (dùng chung bảng Hướng Nhà)",
-      "ref": "xem core_astrology / lam_nha.huong_nha_ky_theo_tuoi"
+      "ref": "xem events_rules.json -> lam_nha.huong_nha_ky_theo_tuoi",
+      "applies_by": "ref"
     },
     "khong_phong_nhat": {
       "note": "Kỵ động phòng (đêm tân hôn) theo mùa",
-      "source_page": 41,
       "xuan": [
         "Thìn",
         "Tỵ",
@@ -428,11 +460,14 @@
         "Thân",
         "Sửu"
       ],
-      "thang_12": "kiêng ngày Tỵ, Ngọ, Mùi, Dậu"
+      "thang_12": "kiêng ngày Tỵ, Ngọ, Mùi, Dậu",
+      "applies_by": "mua",
+      "source_pages": [
+        41
+      ]
     },
     "con_trai_con_gai_kho_nuoi_ky": {
       "note": "Hệ 1: giờ sinh kỵ theo tháng khiến con khó nuôi (phạm phải lớn lên hay đau/ho ra huyết)",
-      "source_page": 41,
       "entries": [
         {
           "thang": 1,
@@ -482,11 +517,14 @@
           "thang": 12,
           "gio_ky": "Mùi"
         }
+      ],
+      "applies_by": "thang",
+      "source_pages": [
+        41
       ]
     },
     "tre_con_hay_khoc_da_de": {
       "note": "Hệ 2 (nhóm 3 tháng): giờ sinh kỵ khiến trẻ hay khóc dạ đề",
-      "source_page": 41,
       "entries": [
         {
           "thang_nhom": [
@@ -520,11 +558,14 @@
           ],
           "gio_ky": "Mão"
         }
+      ],
+      "applies_by": "thang",
+      "source_pages": [
+        41
       ]
     },
     "tre_con_kho_nuoi_tho_rang": {
       "note": "Hệ 3 (Thơ Rằng, khác hệ 2): giờ sinh kỵ theo nhóm 3 tháng, dùng đoán mệnh trẻ sơ sinh, liên hệ Bát Sơn Tuyệt Mạng",
-      "source_page": 53,
       "entries": [
         {
           "thang_nhom": [
@@ -558,11 +599,14 @@
           ],
           "gio_ky": "Mùi"
         }
+      ],
+      "applies_by": "thang",
+      "source_pages": [
+        53
       ]
     },
     "ngay_cau_tien_ba_cuu_benh": {
       "note": "Tuổi con (theo Chi) ứng với ngày Chi để cầu Tiên Bà cứu bệnh (dùng cho trẻ khóc dạ đề / ốm)",
-      "source_page": 42,
       "entries": [
         {
           "tuoi": "Tý",
@@ -648,6 +692,10 @@
             "Tuất"
           ]
         }
+      ],
+      "applies_by": "tuoi",
+      "source_pages": [
+        42
       ]
     },
     "luc_dieu_ngay_tot_di_duong": {
@@ -700,7 +748,8 @@
           ],
           "loai_ngay": "Không Vong"
         }
-      ]
+      ],
+      "applies_by": "thang"
     },
     "xem_ngay_nhan_duyen_sat_cong_truc_tinh_xau": {
       "note": "Ngày Sát Cống / Ngày Nhân Duyên (tốt cho cưới hỏi VÀ làm nhà) / Ngày Trực Tinh Xấu, theo nhóm tháng Tứ Mạnh(1,4,7,10)/Tứ Trọng(2,5,8,11)/Tứ Quý(3,6,9,12)",
@@ -791,11 +840,11 @@
           "Quý Tỵ",
           "Tân Mão"
         ]
-      }
+      },
+      "applies_by": "mua"
     },
     "thang_dai_loi_gai_ve_nha_chong": {
       "note": "Tháng Đại Lợi khi con gái xuất giá (về nhà chồng), theo nhóm tuổi Tam Hợp/Lục Hợp của cô dâu. Các cột: tháng đại lợi (tốt nhất), phòng tiểu lợi mai nhân (kỵ ông bà mai nếu có), phòng ông cô (kỵ cha mẹ chú rể), phòng phụ mẫu (kỵ cha mẹ cô dâu), phòng phu chủ (kỵ chú rể), phòng nữ thân (kỵ cô dâu)",
-      "source_page": 88,
       "entries": [
         {
           "nhom_tuoi": "Sửu-Mùi",
@@ -960,11 +1009,14 @@
           ]
         }
       ],
-      "ghi_chu": "Nếu không còn cha mẹ cô dâu thì tháng 'phòng phụ mẫu' dùng được; phòng ông cô kỵ cha mẹ chú rể; phòng phu chủ kỵ chú rể; phòng nữ thân kỵ cô dâu."
+      "ghi_chu": "Nếu không còn cha mẹ cô dâu thì tháng 'phòng phụ mẫu' dùng được; phòng ông cô kỵ cha mẹ chú rể; phòng phu chủ kỵ chú rể; phòng nữ thân kỵ cô dâu.",
+      "applies_by": "thang",
+      "source_pages": [
+        88
+      ]
     },
     "ngay_co_than_qua_tu_theo_thang_v2": {
       "note": "Một hệ Cô Thần Quả Tú KHÁC nữa, theo tháng trực tiếp (khác với bảng theo_thang đã có trong ngay_co_than_qua_tu ở trên - có thể trùng hoặc là dị bản, giữ cả hai theo đúng văn bản gốc)",
-      "source_page": 92,
       "entries": [
         {
           "thang": 1,
@@ -1051,11 +1103,16 @@
           ]
         }
       ],
-      "canh_bao": "Ấy là quả tú cô thần, nếu ai phạm phải hại thân đến già"
+      "canh_bao": "Ấy là quả tú cô thần, nếu ai phạm phải hại thân đến già",
+      "applies_by": "thang",
+      "variant_of": "ngay_co_than_qua_tu",
+      "variant_note": "Hệ Cô Thần Quả Tú khác, theo tháng trực tiếp; có thể trùng hoặc là dị bản của ngay_co_than_qua_tu.",
+      "source_pages": [
+        92
+      ]
     },
     "bon_mua_khong_phong": {
       "note": "Kỵ giá thú (động phòng) theo mùa",
-      "source_page": 95,
       "tho": "Xuân kê hạ thử thị không phòng / Hạ khuyển trương dương, ngộ đại hung / Thu Mão, Ngọ Dần, tổi tính mệnh / Đông hầu, Dậu Sửu kết hợp chung",
       "giai": {
         "xuan": "Dậu(kê)",
@@ -1063,22 +1120,28 @@
         "thu": "Mão+Ngọ+Dần",
         "dong": "Thân(hầu)+Dậu+Sửu"
       },
-      "luu_y": "Nam đáo nữ gia nam tất tử / Nữ đáo nam gia nữ tất vong"
+      "luu_y": "Nam đáo nữ gia nam tất tử / Nữ đáo nam gia nữ tất vong",
+      "applies_by": "mua",
+      "source_pages": [
+        95
+      ]
     },
     "nhung_ngay_bat_luong": {
       "note": "Kỵ giá thú",
-      "source_page": 95,
       "tho": "Xuân Dần, hạ Mùi thị bất lương / Thu Tuất, đông Sửu thập phần thương / Giá thú vị chi thị bất tường",
       "giai": {
         "xuan": "Dần",
         "ha": "Mùi",
         "thu": "Tuất",
         "dong": "Sửu"
-      }
+      },
+      "applies_by": "prose",
+      "source_pages": [
+        95
+      ]
     },
     "nhung_ngay_khong_phong_v2": {
       "note": "Một hệ Không Phòng khác (theo mùa, khác bon_mua_khong_phong)",
-      "source_page": 95,
       "tho": "Xuân Thìn Tý Tỵ thị không phòng / Hạ Tuất, Hợi, Mùi phá bại vong / Thu Mão, Ngọ Dần phùng tất tử / Đông Thân, Dậu Sửu thì hôn ly",
       "giai": {
         "xuan": [
@@ -1102,22 +1165,30 @@
           "Sửu"
         ]
       },
-      "luu_y": "Tôn kiến tam niên ly phụ mẫu / Phu thê nam bắc biệt đông tây"
+      "luu_y": "Tôn kiến tam niên ly phụ mẫu / Phu thê nam bắc biệt đông tây",
+      "applies_by": "mua",
+      "variant_of": "bon_mua_khong_phong",
+      "variant_note": "Một hệ Không Phòng khác (theo mùa), khác bon_mua_khong_phong.",
+      "source_pages": [
+        95
+      ]
     },
     "khong_phong_toi_ky_gio": {
       "note": "Giờ tối kỵ động phòng theo Can ngày cưới",
-      "source_page": 96,
       "entries": {
         "Giáp,Kỷ": "giờ Thân Dậu",
         "Ất,Canh": "giờ Ngọ Mùi",
         "Bính,Tân": "giờ Tỵ Thìn",
         "Đinh,Nhâm": "giờ Dần Mão",
         "Mậu,Quý": "giờ Tý Sửu"
-      }
+      },
+      "applies_by": "none",
+      "source_pages": [
+        96
+      ]
     },
     "gia_thu_khong_phong_ky_nhat": {
       "note": "Ngày kỵ giá thú không phòng theo tháng",
-      "source_page": 96,
       "entries": {
         "1": [
           "Tý",
@@ -1164,11 +1235,14 @@
           "Thìn",
           "Tỵ"
         ]
-      }
+      },
+      "applies_by": "thang",
+      "source_pages": [
+        96
+      ]
     },
     "thien_dia_tranh_hung_gia_thu_ky_nhat": {
       "note": "Ngày kỵ giá thú (Thiên Địa Tranh Hùng) theo tháng",
-      "source_page": 96,
       "entries": {
         "1": [
           "Ngọ",
@@ -1217,14 +1291,14 @@
           "Thìn",
           "Tỵ"
         ]
-      }
+      },
+      "applies_by": "thang",
+      "source_pages": [
+        96
+      ]
     },
     "ngay_bat_ma_sat_ky_hop_hon": {
       "note": "Ngày kỵ hợp hôn theo tháng",
-      "source_page": [
-        96,
-        97
-      ],
       "entries": {
         "1": "Dần",
         "2": "Hợi",
@@ -1238,11 +1312,15 @@
         "10": "Ngọ",
         "11": "Mão",
         "12": "Dậu"
-      }
+      },
+      "applies_by": "thang",
+      "source_pages": [
+        96,
+        97
+      ]
     },
     "gia_thu_dai_hoa_tai_vong_nhat": {
       "note": "Ngày kỵ giá thú (đại họa tại vong nhật) theo tháng",
-      "source_page": 97,
       "entries": {
         "1": "Tuất",
         "2": "Dậu",
@@ -1256,11 +1334,14 @@
         "10": "Sửu",
         "11": "Thân",
         "12": "Dậu"
-      }
+      },
+      "applies_by": "thang",
+      "source_pages": [
+        97
+      ]
     },
     "tu_thoi_hoang_tuyen_bat_ma_ky_gia_thu": {
       "note": "Ngày kỵ giá thú theo mùa (Hoàng Tuyền Bắt Mã)",
-      "source_page": 97,
       "entries": {
         "xuan": [
           "Dần",
@@ -1282,11 +1363,14 @@
           "Mão",
           "Mùi"
         ]
-      }
+      },
+      "applies_by": "mua",
+      "source_pages": [
+        97
+      ]
     },
     "thai_bach_chu_thuong_ky_nghinh_hon": {
       "note": "Ngày trong tháng kỵ đón dâu theo hướng Thái Bạch chiếm giữ",
-      "source_page": 97,
       "entries": [
         {
           "ngay_am_lich": [
@@ -1352,22 +1436,28 @@
           ],
           "huong_ky": "Thiên Võ Kỵ (không rõ hướng, kỵ chung)"
         }
+      ],
+      "applies_by": "none",
+      "source_pages": [
+        97
       ]
     },
     "chiem_nu_ve_nha_nam_loi_phuong": {
       "note": "Hướng xuất/nhập lợi khi đón dâu theo Mệnh của cô dâu/chú rể",
-      "source_page": 98,
       "entries": {
         "Thổ": "xuất Bắc, nhập Bắc phương",
         "Kim": "xuất Đông, nhập Tây (tốt)",
         "Mộc": "xuất Đông, nhập Tây (tốt)",
         "Thủy": "xuất Nam, nhập Tây (tốt)",
         "Hỏa": "xuất Nam, nhập Tây (tốt)"
-      }
+      },
+      "applies_by": "prose",
+      "source_pages": [
+        98
+      ]
     },
     "nhung_nam_hung_nien_ky_cuoi_hoi": {
       "note": "Tuổi (Chi) ứng với 1 năm Hung Niên kỵ cưới hỏi - khác nhau cho con trai và con gái",
-      "source_page": 98,
       "canh_bao": "Những năm hung niên trai không nên cưới vợ, gái không nên lấy chồng, vì bị khắc kỵ khó ở đời với nhau còn thêm tai họa",
       "entries": [
         {
@@ -1430,21 +1520,27 @@
           "hung_nien_trai": "Ngọ",
           "hung_nien_gai": "Thìn"
         }
+      ],
+      "applies_by": "tuoi",
+      "source_pages": [
+        98
       ]
     },
     "thien_cau_hanh_thuc_gia_thu_tu_thoi_dai_hung": {
       "note": "Ngày Can Chi đại hung cho giá thú theo mùa",
-      "source_page": 99,
       "entries": {
         "xuan": "Giáp Tý",
         "ha": "Bính Tý",
         "thu": "Canh Tý",
         "dong": "Nhâm Tý"
-      }
+      },
+      "applies_by": "mua",
+      "source_pages": [
+        99
+      ]
     },
     "ngay_nu_that_khong_phong": {
       "note": "Ngày kỵ động phòng cho nữ theo tháng",
-      "source_page": 99,
       "entries": {
         "1": [
           "Dần",
@@ -1494,38 +1590,42 @@
           "Dậu",
           "Dần"
         ]
-      }
+      },
+      "applies_by": "thang",
+      "source_pages": [
+        99
+      ]
     },
     "nhung_ngay_tam_tang_sat_hung": {
       "note": "Ngày Tam Tang Sát theo mùa - kỵ giá thú (và các việc mưu sự lớn)",
-      "source_page": [
-        99,
-        100
-      ],
       "tho": "Xuân Chí Long, hạ Chí Chi Dương / Thu Khuyển, đông Ngưu tối kỵ cường / Táng tự tu tri nghi viễn tụy / Nhược phòng thứ nhất tất tai ương / Tam tang ngày ấy, tối hung lương / Các sự cầu mưu định bất xương / Giá thú hôn nhân vô nam nữ / Phu phụ tác sự tối bất thường",
       "giai": {
         "xuan": "Thìn (long)",
         "ha": "Mùi (dương)",
         "thu": "Tuất (khuyển)",
         "dong": "Sửu (ngưu)"
-      }
+      },
+      "applies_by": "prose",
+      "source_pages": [
+        99,
+        100
+      ]
     },
     "ngay_tieu_hong_xa": {
       "note": "Ngày Tiểu Hồng Xa - kỵ cưới vợ làm nhà",
-      "source_page": 100,
       "tho": "Tứ trọng kim kê, tứ mạnh xà / Tứ quý Sửu nhật, thị hồng xa / Cưới vợ làm nhà nên ghi nhớ / Nếu phạm về sau, hại đến ta",
       "giai": {
         "tu_trong_2_5_8_11": "Dậu (kim kê)",
         "tu_manh_1_4_7_10": "Tỵ (xà)",
         "tu_quy_3_6_9_12": "Sửu"
-      }
+      },
+      "applies_by": "prose",
+      "source_pages": [
+        100
+      ]
     },
     "that_ac_dai_bai_bach_su_ky": {
       "note": "Thập Ác Đại Bại - kỵ trăm việc, tính theo nhóm năm Can (niên) + tháng + ngày Can Chi cụ thể. Chỉ trích các nhóm đọc được rõ.",
-      "source_page": [
-        100,
-        101
-      ],
       "entries": [
         {
           "nhom_nam_can": "Giáp Kỷ niên",
@@ -1596,22 +1696,29 @@
             ]
           ]
         }
+      ],
+      "applies_by": "none",
+      "source_pages": [
+        100,
+        101
       ]
     },
     "bach_ho_dai_sat_nhap_cung": {
       "note": "Bạch Hổ Đại Sát nhập cung - 100 việc đều kỵ. Mỗi năm có 24 ngày tiết khí là ngày Bạch Hổ nhập cung, các ngày Can Giáp Bính Mậu Canh Nhâm gặp Chi Dần là ngày Bạch Hổ (mọi năm mọi tháng như nhau).",
-      "source_page": 101,
       "gio_bach_ho_nhap_cung": [
         "Ngày Mậu Thìn giờ Giáp Tý",
         "Ngày Giáp Tuất giờ Đinh Sửu, Giáp Thân",
         "Ngày Bính Tuất giờ Giáp Ngọ",
         "Ngày Kỷ Mùi giờ Giáp Thìn",
         "Ngày Quý Mão / Nhâm Tuất giờ Giáp Dần"
+      ],
+      "applies_by": "none",
+      "source_pages": [
+        101
       ]
     },
     "chiem_sao_quy_khoc_tinh": {
       "note": "Sao Quỷ Khốc mỗi tháng ở ngày Tuất (trừ các trường hợp liệt kê) - kỵ chung",
-      "source_page": 101,
       "entries": {
         "1": "Ngọ",
         "2": "Tuất",
@@ -1625,14 +1732,14 @@
         "10": "Hợi",
         "11": "Sửu",
         "12": "Mão"
-      }
+      },
+      "applies_by": "thang",
+      "source_pages": [
+        101
+      ]
     },
     "chiem_ngu_mo_bach_su_ky": {
       "note": "Ngũ Mộ - kỵ trăm việc, theo tháng",
-      "source_page": [
-        101,
-        102
-      ],
       "entries": {
         "1+2": "Ất Mùi",
         "3+6+9": [
@@ -1642,11 +1749,15 @@
         ],
         "5": "Tuất",
         "7+8": "Tân Sửu"
-      }
+      },
+      "applies_by": "thang",
+      "source_pages": [
+        101,
+        102
+      ]
     },
     "chiem_kim_than_that_sat_ky_phap": {
       "note": "Kim Thần Thất Sát - theo nhóm năm Can (niên)",
-      "source_page": 102,
       "entries": {
         "Giáp Kỷ niên": "ngày Ngọ Mùi",
         "Ất Canh niên": "ngày Thìn Tỵ",
@@ -1664,20 +1775,30 @@
           "Thân",
           "Dậu"
         ]
-      }
+      },
+      "applies_by": "none",
+      "source_pages": [
+        102
+      ]
     },
     "ngay_sat_su_bon_mua": {
       "note": "Ngày Sát Sư theo mùa (thợ cả) + các ngày đại hung khác",
-      "source_page": 102,
-      "tho": "Xuân Giáp Dần hạ Đinh Tỵ / Thu Tân Mùi, đông Nhâm Tý / Giáp Tý, Canh Ngọ nhật đại hung / Bính Tý, Ất Mùi sát sự cung / Cánh hữu Nhâm Tý giai bất lợi"
+      "tho": "Xuân Giáp Dần hạ Đinh Tỵ / Thu Tân Mùi, đông Nhâm Tý / Giáp Tý, Canh Ngọ nhật đại hung / Bính Tý, Ất Mùi sát sự cung / Cánh hữu Nhâm Tý giai bất lợi",
+      "applies_by": "mua",
+      "source_pages": [
+        102
+      ]
     },
     "nhung_ngay_pha_quan_ky_gia_thu": {
       "note": "Ngày Phá Quân - kỵ giá thú",
-      "source_page": 102,
       "entries": [
         "Canh Dần và Canh Thân",
         "Nhâm Thìn ngộ Mậu Thìn",
         "Giáp Dần phùng Kỷ Hợi"
+      ],
+      "applies_by": "none",
+      "source_pages": [
+        102
       ]
     },
     "nhung_ngay_thien_thanh_cuoi_ga_giao_dich_tot": {
@@ -1729,11 +1850,11 @@
           ],
           "chi": "Tỵ"
         }
-      ]
+      ],
+      "applies_by": "thang"
     },
     "nhung_ngay_nghinh_hon_hop": {
       "note": "Những Ngày Nghinh Hôn - cặp Can Dần/Mão tốt cho việc đón dâu/nghinh hôn, mỗi cặp mang tên một loại 'hợp'",
-      "source_page": 159,
       "entries": [
         {
           "can_chi": [
@@ -1771,7 +1892,11 @@
           "ten_hop": "Kim Trạch hợp"
         }
       ],
-      "ky_doi_bep": "Dời đổi hay xây bồi đắp bếp nên tránh ngày đại kỵ: Bính, Đinh - mùng 1 và ngày 25, ngày 15 tháng 5"
+      "ky_doi_bep": "Dời đổi hay xây bồi đắp bếp nên tránh ngày đại kỵ: Bính, Đinh - mùng 1 và ngày 25, ngày 15 tháng 5",
+      "applies_by": "none",
+      "source_pages": [
+        159
+      ]
     }
   },
   "lam_nha": {
@@ -1830,7 +1955,6 @@
       "truyen_thuyet": "Kim Lâu vốn là con trai của Nguyễn Hiệu Thế và Phạm Thị Nha (sinh Bính Dần, mùng 1 tháng 8), sau hóa thành thần Kim Lâu; ai làm nhà phạm tuổi 1,3,6,8 thì hại người hại của.",
       "kim_lau_tam_pham_sat": {
         "note": "Người phạm Kim Lâu tam phạm theo nhóm năm sinh - chỉ rõ sát thân/sát vợ/sát con",
-        "source_page": 113,
         "entries": [
           {
             "nhom_tuoi": [
@@ -1862,11 +1986,14 @@
             "sat_vo": "Mão",
             "sat_con": "Tỵ"
           }
+        ],
+        "source_pages": [
+          113
         ]
-      }
+      },
+      "applies_by": "tuoi"
     },
     "huong_nha_ky_theo_tuoi": {
-      "source_page": 55,
       "entries": [
         {
           "tuoi": "Tý",
@@ -1948,11 +2075,14 @@
             "Tây Bắc"
           ]
         }
+      ],
+      "applies_by": "tuoi",
+      "source_pages": [
+        55
       ]
     },
     "co_nhat_tuan_phong_tranh_lam_nha_cuoi_vo": {
       "note": "Ngày Chi kỵ làm nhà / cưới vợ theo tháng",
-      "source_page": 55,
       "entries": [
         {
           "thang": 1,
@@ -2002,23 +2132,31 @@
           "thang": 12,
           "ngay": "Tý"
         }
+      ],
+      "applies_by": "thang",
+      "source_pages": [
+        55
       ]
     },
     "duong_cong_ky_nhat_lam_nha": {
-      "ref": "xem global_bad_days.json -> duong_cong_ky_nhat"
+      "ref": "xem global_bad_days.json -> duong_cong_ky_nhat",
+      "applies_by": "ref"
     },
     "ngu_hanh_tuong_sinh_khac": {
-      "ref": "xem core_astrology.json -> ngu_hanh_tuong_sinh / ngu_hanh_tuong_khac"
+      "ref": "xem core_astrology.json -> ngu_hanh_tuong_sinh / ngu_hanh_tuong_khac",
+      "applies_by": "ref"
     },
     "nhung_ngay_thien_hoa_ky_cat_lam_nha": {
       "note": "Ngày Thiên Hỏa - kỵ lợp nhà/làm nhà",
-      "source_page": 39,
       "tho": "Một năm hai sáu chuột già, hai sáu mười mèo ra / Ba bảy mười một ngựa, bốn tám mười hai gà",
-      "giai_nghia": "Tháng giêng, tháng năm, tháng chín ngày Tý là ngày Thiên Hỏa; cứ thế suy ra cho các tháng khác theo quy luật con vật trong bài thơ (Tý, Mão, Ngọ, Dậu lần lượt theo nhóm tháng 1-5-9, 2-6-10, 3-7-11, 4-8-12)"
+      "giai_nghia": "Tháng giêng, tháng năm, tháng chín ngày Tý là ngày Thiên Hỏa; cứ thế suy ra cho các tháng khác theo quy luật con vật trong bài thơ (Tý, Mão, Ngọ, Dậu lần lượt theo nhóm tháng 1-5-9, 2-6-10, 3-7-11, 4-8-12)",
+      "applies_by": "prose",
+      "source_pages": [
+        39
+      ]
     },
     "nhung_ngay_thien_cuong_xau": {
       "note": "Ngày Thiên Cường xấu, theo tháng",
-      "source_page": 142,
       "entries": [
         {
           "thang": 1,
@@ -2068,11 +2206,14 @@
           "thang": 12,
           "ngay": "Tuất"
         }
+      ],
+      "applies_by": "thang",
+      "source_pages": [
+        142
       ]
     },
     "sat_chu_thien_hoa_dia_hoa_hoa_tai_nguyet_pha": {
       "note": "Kiêng làm nhà - bảng Sát Chủ theo tháng (khớp với hệ Thọ Tử-Sát Chủ đã ghi trong global_bad_days)",
-      "source_page": 156,
       "entries": [
         {
           "thang": 1,
@@ -2122,11 +2263,14 @@
           "thang": 12,
           "ngay": "Thìn"
         }
+      ],
+      "applies_by": "thang",
+      "source_pages": [
+        156
       ]
     },
     "tieu_hao_ky_xuat_nhap_tien_tai": {
       "note": "Ngày kỵ xuất/nhập tiền tài theo tháng (liên quan xây dựng/kinh doanh)",
-      "source_page": 156,
       "entries": [
         {
           "thang": 1,
@@ -2176,11 +2320,14 @@
           "thang": 12,
           "ngay": "Thìn"
         }
+      ],
+      "applies_by": "thang",
+      "source_pages": [
+        156
       ]
     },
     "nhung_ngay_thu_tru_thuong_luong": {
       "note": "Ngày dựng thượng lương (đòn dông) - nhóm Tứ Mạnh/Tứ Trọng/Tứ Quý",
-      "source_page": 87,
       "tu_manh": [
         "Tân Kỷ Dậu",
         "Đinh Mùi",
@@ -2207,11 +2354,14 @@
         "Ất Tỵ",
         "Canh Tuất",
         "Quý Hợi"
+      ],
+      "applies_by": "mua",
+      "source_pages": [
+        87
       ]
     },
     "tu_thoi_sat_su": {
       "note": "Thơ chữ Hán Việt: kiêng động thổ/làm nhà theo mùa (đối với thợ cả)",
-      "source_page": 140,
       "xuan": [
         "Thìn",
         "Tuất"
@@ -2227,6 +2377,10 @@
       "dong": [
         "Tý",
         "Ngọ"
+      ],
+      "applies_by": "mua",
+      "source_pages": [
+        140
       ]
     },
     "gio_hoang_dao": {
@@ -2327,11 +2481,11 @@
           ]
         }
       ],
-      "phep_tinh_gio_hoang_dao": "Câu quyết: 'Dần Thân gia Tý, Mão Dậu Dần; Thìn Tuất tầm Thìn, Tý Ngọ Thân; Tỵ Ngọ thiên cương tầm Ngọ vị; Sửu Mùi Tòng Tuất định kỳ chân' - dùng để tính giờ Hoàng Đạo trong ngày dựa vào Chi của ngày đó. Ví dụ ngày Dần/Thân: bấm 12 chữ 'Đạo Viễn Kỳ Thời Thông Đạt Lộ Dao Hà Nhật Hoàn Trình' lần lượt vào 12 cung Tý-Hợi; chữ nào có phụ âm đầu là 'Đ' thì giờ (Chi) đó là giờ Hoàng Đạo."
+      "phep_tinh_gio_hoang_dao": "Câu quyết: 'Dần Thân gia Tý, Mão Dậu Dần; Thìn Tuất tầm Thìn, Tý Ngọ Thân; Tỵ Ngọ thiên cương tầm Ngọ vị; Sửu Mùi Tòng Tuất định kỳ chân' - dùng để tính giờ Hoàng Đạo trong ngày dựa vào Chi của ngày đó. Ví dụ ngày Dần/Thân: bấm 12 chữ 'Đạo Viễn Kỳ Thời Thông Đạt Lộ Dao Hà Nhật Hoàn Trình' lần lượt vào 12 cung Tý-Hợi; chữ nào có phụ âm đầu là 'Đ' thì giờ (Chi) đó là giờ Hoàng Đạo.",
+      "applies_by": "thang"
     },
     "bat_son_tuyet_mang": {
       "note": "Cặp hướng/quẻ bát quái xung khắc, kỵ khi chọn hướng nhà",
-      "source_page": 53,
       "cap_ky": [
         [
           "Càn",
@@ -2350,11 +2504,14 @@
           "Chấn"
         ]
       ],
-      "tho": "Bà Càn đi chợ Hồ Ly / Mua con cá Cấn làm chi tốn tiền / Làm Khôn ông Khảm đứng lên / Nom Đoài gánh nước, Chấn liền gãy xương"
+      "tho": "Bà Càn đi chợ Hồ Ly / Mua con cá Cấn làm chi tốn tiền / Làm Khôn ông Khảm đứng lên / Nom Đoài gánh nước, Chấn liền gãy xương",
+      "applies_by": "prose",
+      "source_pages": [
+        53
+      ]
     },
     "bang_lap_thanh_tuoi_lam_nha": {
       "note": "Bát Cẩm Trạch - tuổi (mụ) ứng với 1 trong 9 loại Trạch, lặp lại theo chu kỳ 9 tuổi (tuổi 1,10,19,28... cùng loại). Thứ tự chu kỳ 9: Phúc, Đức, Bại, Hư, Khốc, Quỷ, Tử, Bảo, Lộc.",
-      "source_page": 54,
       "chu_ky_thu_tu": [
         "Trạch Phúc",
         "Trạch Đức",
@@ -2377,11 +2534,14 @@
         "7,16,25,34,43,52,61": "Trạch Tử",
         "8,17,26,35,44,53,62": "Trạch Bảo",
         "9,18,27,36,45,54,63": "Trạch Lộc"
-      }
+      },
+      "applies_by": "tuoi",
+      "source_pages": [
+        54
+      ]
     },
     "gio_quan_sat_theo_thang": {
       "note": "Giờ Quan Sát theo tháng (liên quan tới trẻ nhỏ mới sinh / 'Giờ quan sát ký tiểu nhi xuất thế'), tháng 4-12 đọc được rõ; tháng 1-3 nguồn ở trang 52 chưa khớp rõ với mẫu này nên chưa đưa vào để tránh sai lệch",
-      "source_page": 53,
       "entries": [
         {
           "thang": 4,
@@ -2428,11 +2588,14 @@
           "gio": "Thìn",
           "khung_gio": "7-9 giờ sáng"
         }
+      ],
+      "applies_by": "thang",
+      "source_pages": [
+        53
       ]
     },
     "huong_khoi_cong_bat_cuu_trach": {
       "note": "Đồ hình Bát Cửu Trạch (bát quái) dùng để tính hướng khởi công theo tuổi/tháng - trang 43, sơ đồ dạng bảng bát quái (Tốn/Ly/Khôn, Chấn/(trung ương)/Đoài, Cấn/Khảm/Càn với các số 1-12); dữ liệu dạng hình vẽ, khó số hoá đầy đủ, ghi chú ví dụ: 'Tháng 10 tại cung Ly thì mùng 1 cũng tại cung Ly' (tránh xung)",
-      "source_page": 43,
       "tranh_xung": {
         "tu_hoanh_xung": [
           "Dần-Thân-Tỵ-Hợi"
@@ -2465,11 +2628,14 @@
         ]
       },
       "nam_khoi_tu": "Dần",
-      "nu_khoi_tu": "Thân"
+      "nu_khoi_tu": "Thân",
+      "applies_by": "tuoi",
+      "source_pages": [
+        43
+      ]
     },
     "nhung_ngay_tao_oc_tot": {
       "note": "Những ngày tốt để hạ móng, tu sửa, tạo (xây nhà) - dùng chung mọi năm mọi tháng",
-      "source_page": 85,
       "ngay": [
         "Giáp Dần",
         "Mậu Dần",
@@ -2494,7 +2660,11 @@
         "Kỷ Sửu",
         "Tân Sửu"
       ],
-      "cau_ket": "Thụ tru cát nhật tạo trạch hành / Đông tác phúc tu tự thượng lương / Kỵ tam cường nhật ngày Bính Dần, Tân Tỵ, Mậu Thân, Kỷ Hợi"
+      "cau_ket": "Thụ tru cát nhật tạo trạch hành / Đông tác phúc tu tự thượng lương / Kỵ tam cường nhật ngày Bính Dần, Tân Tỵ, Mậu Thân, Kỷ Hợi",
+      "applies_by": "none",
+      "source_pages": [
+        85
+      ]
     },
     "tim_thang_dai_loi_trai_lam_nha_theo_menh": {
       "note": "Tháng tốt/xấu để trai làm nhà, theo Mệnh (Nạp Âm) của gia chủ - nhãn mô tả kết quả từng tháng",
@@ -2572,20 +2742,23 @@
         "11": "Vợ chồng chẳng hòa",
         "12": "Con bệnh",
         "luu_y": "nguyên văn trang 90 in nhãn tháng 8 là 'Tháng 2' (lặp) - có thể là lỗi in ấn, suy luận theo thứ tự là tháng 8"
-      }
+      },
+      "applies_by": "thang"
     },
     "nhung_ngay_thien_dao_tuong_giao": {
       "note": "Ngày kỵ (thiên đạo tương giao)",
-      "source_page": 90,
       "ngay": [
         "Mậu Thìn",
         "Kỷ Tỵ",
         "Canh Thìn"
+      ],
+      "applies_by": "none",
+      "source_pages": [
+        90
       ]
     },
     "sat_chu_gio": {
       "note": "Giờ Sát Chủ theo tháng (đếm theo Chi bắt đầu từ giờ Tý cộng dồn, và giờ Chi tương ứng) - chỉ đọc được tháng 1-6",
-      "source_page": 92,
       "entries": [
         {
           "thang": 1,
@@ -2617,11 +2790,14 @@
           "gio_dem": 12,
           "gio_chi": "Tỵ"
         }
+      ],
+      "applies_by": "thang",
+      "source_pages": [
+        92
       ]
     },
     "gio_thu_tu_ky": {
       "note": "Giờ Thư Tứ Kỵ theo cặp tháng cách nhau 4 tháng",
-      "source_page": 92,
       "entries": {
         "1+2": "Mão",
         "3+7": "Sửu",
@@ -2629,17 +2805,26 @@
         "5+6": "Tý",
         "9+10": "Dậu",
         "11+12": "Thân"
-      }
+      },
+      "applies_by": "thang",
+      "source_pages": [
+        92
+      ]
     },
     "nhung_ngay_thien_hoa_ky_cat_lam_nha_v2": {
       "note": "Ngày Thiên Hỏa kỵ cất làm nhà theo nhóm tháng, dạng con vật (khác bản thơ đã có)",
-      "source_page": 103,
       "entries": {
         "1,5,9": "Tý (chuột già)",
         "2,6,10": "Mão (mèo)",
         "3,7,11": "Ngọ (ngựa)",
         "4,8,12": "Dậu (gà)"
-      }
+      },
+      "applies_by": "thang",
+      "variant_of": "nhung_ngay_thien_hoa_ky_cat_lam_nha",
+      "variant_note": "Ngày Thiên Hỏa kỵ cất làm nhà theo nhóm tháng dạng con vật; khác bản thơ ở nhung_ngay_thien_hoa_ky_cat_lam_nha.",
+      "source_pages": [
+        103
+      ]
     },
     "nhung_ngay_thien_hoa_dia_hoa_kieng_ky_chi_tiet": {
       "note": "Bảng chi tiết Thiên Hỏa/Thiên Lôi/Địa Hỏa kỵ làm nhà theo từng tháng",
@@ -2718,11 +2903,11 @@
           "thien_hoa": "Dậu",
           "dia_hoa": "Tý"
         }
-      ]
+      ],
+      "applies_by": "thang"
     },
     "chiem_sao_hoang_oc_ma_oc": {
       "note": "Chiêm Sao Hoang Ốc (nhà bỏ hoang) và Ma Ốc (nhà ma ở) theo mùa",
-      "source_page": 105,
       "hoang_oc": {
         "xuan": "Thìn",
         "ha": "Mùi",
@@ -2735,11 +2920,14 @@
         "thu": "Tỵ",
         "dong": "Hợi"
       },
-      "ghi_chu": "Xuân Thân, Hạ Dần tạo ốc ma / Thu Tỵ, Đông Hợi bất cư gia"
+      "ghi_chu": "Xuân Thân, Hạ Dần tạo ốc ma / Thu Tỵ, Đông Hợi bất cư gia",
+      "applies_by": "tuoi",
+      "source_pages": [
+        105
+      ]
     },
     "nhung_ngay_thien_ma_ky_gia_thu_va_tao_oc": {
       "note": "Kỵ giá thú và tạo ốc, theo mùa",
-      "source_page": 106,
       "entries": {
         "xuan": [
           "Mùi",
@@ -2761,19 +2949,25 @@
           "Mão",
           "Ngọ"
         ]
-      }
+      },
+      "applies_by": "mua",
+      "source_pages": [
+        106
+      ]
     },
     "nhung_ngay_nguyen_ky_chi_tiet": {
       "note": "Diễn giải chi tiết vì sao mùng 5,14,23 là Nguyệt Kỵ - dựa theo phép đếm Tứ Mạnh/Trọng/Quý",
-      "source_page": 107,
       "tu_manh_1_4_7_10": "vào ngày 5",
       "tu_trong_2_5_8_11": "vào ngày 14",
       "tu_quy_3_6_9_12": "vào ngày 23",
-      "tich": "Truyền rằng ông Lý Khan ra nhà mới thì chết 3 người con trai vào những ngày này (Sở ngũ, thập tứ, nhị thập tam)"
+      "tich": "Truyền rằng ông Lý Khan ra nhà mới thì chết 3 người con trai vào những ngày này (Sở ngũ, thập tứ, nhị thập tam)",
+      "applies_by": "mua",
+      "source_pages": [
+        107
+      ]
     },
     "nhung_ngay_trung_nhi_ky": {
       "note": "Ngày Trùng Nhị Kỵ (kỵ chung, làm nhà/cưới hỏi) theo cụm ngày âm lịch trong tháng",
-      "source_page": 108,
       "entries": [
         "1,11,21",
         "2,12 (riêng ngày 11 tháng 11 thì không kỵ)",
@@ -2786,34 +2980,41 @@
         "9,19,29",
         "10 tháng 10"
       ],
-      "luu_y": "Sau tiết Đại Hàn, 100 việc không kỵ ngày trùng nhị nữa (đại hàn dĩ hậu bách, vô câm kỵ)"
+      "luu_y": "Sau tiết Đại Hàn, 100 việc không kỵ ngày trùng nhị nữa (đại hàn dĩ hậu bách, vô câm kỵ)",
+      "applies_by": "none",
+      "source_pages": [
+        108
+      ]
     },
     "nhung_ngay_lo_ban_sat_ky_phat_moc": {
       "note": "Ngày Lỗ Ban Sát kỵ đốn/phạt gỗ, theo mùa",
-      "source_page": 108,
       "entries": {
         "xuan": "Tý",
         "ha": "Mão",
         "thu": "Ngọ",
         "dong": "Dậu"
-      }
+      },
+      "applies_by": "mua",
+      "source_pages": [
+        108
+      ]
     },
     "ky_khoi_cong_lam_nha_phu_dau_sat": {
       "note": "Kỵ khởi công làm nhà (Phủ Đầu Sát) theo mùa",
-      "source_page": [
-        108,
-        109
-      ],
       "entries": {
         "xuan": "Thìn",
         "ha": "Mùi",
         "thu": "Ngọ",
         "dong": "Dậu"
-      }
+      },
+      "applies_by": "mua",
+      "source_pages": [
+        108,
+        109
+      ]
     },
     "nhung_ngay_mua_lon_nuoi_tot": {
       "note": "Ngày tốt để mua lợn về nuôi",
-      "source_page": 109,
       "ngay": [
         "Giáp Tý",
         "Giáp Thìn",
@@ -2824,22 +3025,32 @@
         "Nhâm Tuất",
         "Quý Mùi",
         "Quý Sửu"
+      ],
+      "applies_by": "none",
+      "source_pages": [
+        109
       ]
     },
     "nhung_ngay_ky_lam_nha_lon": {
       "note": "Ngày kỵ làm nhà lớn",
-      "source_page": 109,
       "entries": [
         "Canh Dần và Canh Thân",
         "Giáp Dần",
         "Nhâm Thìn và Mậu Thìn",
         "Kỷ Mão"
+      ],
+      "applies_by": "none",
+      "source_pages": [
+        109
       ]
     },
     "gio_quan_sat_ky_tieu_nhi_xuat_the": {
       "note": "Giờ Quan Sát kỵ trẻ mới sinh, theo độ tuổi bà mẹ/mốc tuổi (thơ Hán Việt)",
-      "source_page": 110,
-      "tho": "Chính thất sơ sinh Tỵ Hợi thời / Nhị bát Thìn Tuất diệc nan y / Tam cửu Mão Dậu sinh vô dưỡng / Tứ thập Dần Thân số định kỳ / Ngũ thập nhất nguyệt Tý Ngọ suy / Lục thập nhị Sửu Mùi kim xà"
+      "tho": "Chính thất sơ sinh Tỵ Hợi thời / Nhị bát Thìn Tuất diệc nan y / Tam cửu Mão Dậu sinh vô dưỡng / Tứ thập Dần Thân số định kỳ / Ngũ thập nhất nguyệt Tý Ngọ suy / Lục thập nhị Sửu Mùi kim xà",
+      "applies_by": "prose",
+      "source_pages": [
+        110
+      ]
     },
     "bat_cuu_trach_chi_tiet_tuoi": {
       "note": "Bát Cửu Trạch - bảng Bát Quái đầy đủ với số tuổi cụ thể (bổ sung/đối chiếu với bang_lap_thanh_tuoi_lam_nha ở trên, dùng tên gọi Bát Quái)",
@@ -2945,16 +3156,19 @@
         ]
       },
       "y_nghia": "Bốn trạch tốt (Phúc-Đức-Bản-Lộc) nên làm nhà cưới vợ; 5 trạch xấu (Bại-Hư-Khốc-Quỷ-Tử) nên tránh, phạm phải dễ sát chủ hoặc sát vợ (thê)",
-      "quy_tac_bo_sung": "Tuổi thuộc Dương cục (Can Giáp Bính Mậu Canh Nhâm, Chi Dần Ngọ Tuất Thân Tý Thìn) thì lấy vợ/làm nhà vào các năm 9,18,27,36,45,54,63,72,81. Tuổi thuộc Âm cục (Can Ất Tân Bính Quý Kỷ, Chi Tỵ Dậu Sửu Hợi Mão Mùi) thì vào các năm 2,11,20,29,38,47,56."
+      "quy_tac_bo_sung": "Tuổi thuộc Dương cục (Can Giáp Bính Mậu Canh Nhâm, Chi Dần Ngọ Tuất Thân Tý Thìn) thì lấy vợ/làm nhà vào các năm 9,18,27,36,45,54,63,72,81. Tuổi thuộc Âm cục (Can Ất Tân Bính Quý Kỷ, Chi Tỵ Dậu Sửu Hợi Mão Mùi) thì vào các năm 2,11,20,29,38,47,56.",
+      "applies_by": "tuoi"
     },
     "dien_tich_than_kim_lau_truyen_thuyet": {
       "note": "Truyền thuyết về nguồn gốc Thần Kim Lâu (bổ sung câu chuyện quê quán)",
-      "source_page": 112,
-      "trich_doan": "Thủy tổ đường thế đến nay, quê tại Tràng An phủ, Thạch Uy huyện, Phú Uy xã..."
+      "trich_doan": "Thủy tổ đường thế đến nay, quê tại Tràng An phủ, Thạch Uy huyện, Phú Uy xã...",
+      "applies_by": "prose",
+      "source_pages": [
+        112
+      ]
     },
     "nhung_ngay_khong_nen_sua_lam_chuong_nuoi_lon": {
       "note": "Những ngày không nên sửa chữa/làm chuồng nuôi lợn",
-      "source_page": 143,
       "quy_tac_chung": "Kỵ trong các tháng 1, 2, 3, 4, 7, 11 (âm lịch)",
       "theo_mua": [
         {
@@ -3073,11 +3287,14 @@
             11
           ]
         }
+      ],
+      "applies_by": "mua",
+      "source_pages": [
+        143
       ]
     },
     "nien_sat_bat_nghi_tao_trach": {
       "note": "Niên Sát Bất Nghi Tạo Trạch - tuổi (Chi năm sinh) nhóm tam hợp nào thì Sát (niên, nguyệt, thời đều cùng Chi) rơi vào Chi nào, kỵ cưỡng làm nhà (nhà ở không vượng)",
-      "source_page": 144,
       "entries": [
         {
           "nhom_tuoi": [
@@ -3131,6 +3348,10 @@
             "thời"
           ]
         }
+      ],
+      "applies_by": "nhom_tuoi",
+      "source_pages": [
+        144
       ]
     },
     "nhung_ngay_dai_hao_tu_khi_quan_phu": {
@@ -3189,11 +3410,11 @@
       "source_pages": [
         145,
         155
-      ]
+      ],
+      "applies_by": "thang"
     },
     "nhung_ngay_tieu_hao": {
       "note": "Những Ngày Tiểu Hao (theo tháng) - kỵ tự tạo, nhập trạch mức độ nhẹ hơn Đại Hao",
-      "source_page": 145,
       "theo_thang": [
         {
           "thang": 1,
@@ -3243,11 +3464,14 @@
           "thang": 12,
           "chi": "Thìn"
         }
+      ],
+      "applies_by": "thang",
+      "source_pages": [
+        145
       ]
     },
     "nhung_ngay_dia_hoa_rieng": {
       "note": "Những Ngày Địa Hỏa (bảng riêng, khác bảng Thiên Hỏa/Thiên Lôi/Địa Hỏa ở trang 103-105) - kỵ làm nhà, theo tháng",
-      "source_page": 146,
       "theo_thang": [
         {
           "thang": 1,
@@ -3299,14 +3523,12 @@
         }
       ],
       "source_pages": [
-        146,
-        156,
-        157
-      ]
+        146
+      ],
+      "applies_by": "thang"
     },
     "nhung_ngay_nguyet_pha": {
       "note": "Những Ngày Nguyệt Phá - kỵ làm nhà, cưới hỏi, khởi công, theo tháng",
-      "source_page": 146,
       "theo_thang": [
         {
           "thang": 1,
@@ -3356,6 +3578,10 @@
           "thang": 12,
           "chi": "Mùi"
         }
+      ],
+      "applies_by": "thang",
+      "source_pages": [
+        146
       ]
     },
     "nhung_ngay_bang_tieu_ngoa_giai": {
@@ -3413,11 +3639,11 @@
           "thang": 12,
           "chi": "Thìn"
         }
-      ]
+      ],
+      "applies_by": "thang"
     },
     "nhap_trach_cu_cat_nhat": {
       "note": "Nhập Trạch Cư Cát Nhật - ngày tốt để dọn vào nhà mới, theo Can ngày sinh/khởi công tương ứng các Chi tốt",
-      "source_page": 147,
       "entries": [
         {
           "can": "Giáp",
@@ -3485,11 +3711,14 @@
           ]
         }
       ],
-      "luu_y": "Nguyên bản liệt kê theo cặp Can-Chi liền nhau (ví dụ 'Giáp Tý- Thìn', 'Canh Dần- Ngọ'); không thấy mục cho Kỷ - có thể bị bỏ sót trong bản in gốc."
+      "luu_y": "Nguyên bản liệt kê theo cặp Can-Chi liền nhau (ví dụ 'Giáp Tý- Thìn', 'Canh Dần- Ngọ'); không thấy mục cho Kỷ - có thể bị bỏ sót trong bản in gốc.",
+      "applies_by": "none",
+      "source_pages": [
+        147
+      ]
     },
     "ngay_truc": {
       "note": "Ngày Trực (Thập Nhị Trực / Kiến Trừ Thập Nhị Khách): chu kỳ 12 Trực gán cho 12 Chi, dùng chung cho việc xem ngày tốt xấu nói chung (làm nhà, xuất hành, cưới hỏi...)",
-      "source_page": 147,
       "entries": [
         {
           "chi": "Tý",
@@ -3539,11 +3768,14 @@
           "chi": "Hợi",
           "truc": "Khai"
         }
+      ],
+      "applies_by": "none",
+      "source_pages": [
+        147
       ]
     },
     "cach_tim_sao_thien_y_dong_giuong": {
       "note": "Cách tìm sao Thiên Y hàng tháng (đi cùng trực Bế) và các sao kỵ khi đóng giường",
-      "source_page": 148,
       "quy_tac": "Sao Thiên Y đi cùng với trực Bế. Trực đi theo thứ tự Kiến - Trừ - Mãn - Bình - Định - Chấp - Phá - Nguy - Thành - Thu - Khai - Bế; đến ngày trực Bế thì gặp Thiên Y, hợp cho việc kê giường (nhật kỵ kê giường).",
       "dong_giuong_kieng_gap_sao": [
         "Tâm",
@@ -3555,11 +3787,14 @@
         "Lâm",
         "Nguy"
       ],
-      "luu_y": "'Lâm' có thể là lỗi in ấn/OCR của sao 'Sâm' hoặc 'Chẩn' trong Nhị Thập Bát Tú - giữ nguyên như bản gốc"
+      "luu_y": "'Lâm' có thể là lỗi in ấn/OCR của sao 'Sâm' hoặc 'Chẩn' trong Nhị Thập Bát Tú - giữ nguyên như bản gốc",
+      "applies_by": "prose",
+      "source_pages": [
+        148
+      ]
     },
     "gio_thien_la_dia_vong": {
       "note": "Giờ Thiên La Địa Võng - giờ xấu theo mùa, kỵ việc lớn (đóng giường, tiểu nhi xuất thế...)",
-      "source_page": 148,
       "tho": "Xuân ngộ ngưu dương thuỷ thương ba / Hạ ngộ Thìn Tuất, kiến diêm la / Thu ngộ mã hổ phùng tất tử / Đông phùng Dậu Sửu thị giao nha.",
       "cach_giai": [
         "Sửu",
@@ -3577,11 +3812,14 @@
         "Dậu",
         "Sửu"
       ],
-      "cham_ngon_di_kem": "Niên lợi bất như nguyệt lợi / Nguyệt lợi bất như nhật lợi / Nhật lợi bất như thời lợi / Có sự dùng chi đại cát. Đổng Công cát tinh dụng nhật trao cho là Cửu Thiên Huyền Nữ."
+      "cham_ngon_di_kem": "Niên lợi bất như nguyệt lợi / Nguyệt lợi bất như nhật lợi / Nhật lợi bất như thời lợi / Có sự dùng chi đại cát. Đổng Công cát tinh dụng nhật trao cho là Cửu Thiên Huyền Nữ.",
+      "applies_by": "mua",
+      "source_pages": [
+        148
+      ]
     },
     "nhung_ngay_nguyet_duc": {
       "note": "Những Ngày Nguyệt Đức - ngày tốt hàng tháng (khác Nguyệt Đức Hoàng Đạo / Minh Đường Hoàng Đạo đã có trong stars_dictionary)",
-      "source_page": 149,
       "theo_thang": [
         {
           "thang": 1,
@@ -3631,6 +3869,10 @@
           "thang": 12,
           "chi": "Tý"
         }
+      ],
+      "applies_by": "thang",
+      "source_pages": [
+        149
       ]
     },
     "nhung_ngay_thien_giai": {
@@ -3682,11 +3924,11 @@
           ],
           "chi": "Thìn"
         }
-      ]
+      ],
+      "applies_by": "thang"
     },
     "nhung_ngay_thien_quy": {
       "note": "Những Ngày Thiên Quý - ngày tốt hàng tháng",
-      "source_page": 150,
       "theo_thang": [
         {
           "thang": 1,
@@ -3736,6 +3978,10 @@
           "thang": 12,
           "chi": "Sửu"
         }
+      ],
+      "applies_by": "thang",
+      "source_pages": [
+        150
       ]
     },
     "nhung_ngay_tam_hop": {
@@ -3793,11 +4039,11 @@
           "thang": 12,
           "chi": "Tỵ"
         }
-      ]
+      ],
+      "applies_by": "thang"
     },
     "nhung_ngay_sinh_khi": {
       "note": "Những Ngày Sinh Khí - thuận việc làm nhà, sửa nhà, cưới gả, động thổ",
-      "source_page": 151,
       "theo_thang": [
         {
           "thang": 1,
@@ -3847,6 +4093,10 @@
           "thang": 12,
           "chi": "Hợi"
         }
+      ],
+      "applies_by": "thang",
+      "source_pages": [
+        151
       ]
     },
     "nhung_ngay_phuc_sinh": {
@@ -3904,11 +4154,11 @@
           "thang": 12,
           "chi": "Thân"
         }
-      ]
+      ],
+      "applies_by": "thang"
     },
     "nhung_ngay_giai_than_giai_tru_sao_xau": {
       "note": "Những Ngày Giải Thần - giải trừ sao xấu, theo cặp tháng liền nhau",
-      "source_page": 153,
       "theo_thang": [
         {
           "thang": [
@@ -3952,11 +4202,14 @@
           ],
           "chi": "Ngọ"
         }
+      ],
+      "applies_by": "thang",
+      "source_pages": [
+        153
       ]
     },
     "nhung_ngay_thien_an_huong_phuc_lam_nha_khai_truong": {
       "note": "Những Ngày Thiên Ân - được hưởng phúc khi làm nhà, khai trương, theo tháng",
-      "source_page": 153,
       "theo_thang": [
         {
           "thang": 1,
@@ -4006,6 +4259,10 @@
           "thang": 12,
           "chi": "Mùi"
         }
+      ],
+      "applies_by": "thang",
+      "source_pages": [
+        153
       ]
     },
     "cach_tinh_ngay_truc": {
@@ -4095,11 +4352,11 @@
           "Thu",
           "Bế"
         ]
-      }
+      },
+      "applies_by": "prose"
     },
     "nhung_ngay_sao_xau_chieu_moi_viec_lon": {
       "note": "Những Ngày Có Các Sao Xấu Chiếu Trong Mọi Việc Lớn (Thiên Cường, Thụ Tử, Đại Hao, Tử Khí, Quan Phù, Thiên Cương hội tụ), theo cặp tháng cách 6 tháng",
-      "source_page": 154,
       "cac_sao": [
         "Thiên Cường",
         "Thụ Tử",
@@ -4169,16 +4426,22 @@
             "Tuất"
           ]
         }
+      ],
+      "applies_by": "thang",
+      "source_pages": [
+        154
       ]
     },
     "nhung_ngay_thu_tu": {
       "note": "Những Ngày Thụ Tử (bảng độc lập trang 155) - đối chiếu khớp hoàn toàn với global_bad_days.json.tho_tu_sat_chu.theo_thang, xác nhận dữ liệu chính xác",
-      "source_page": 155,
-      "xac_nhan_khop_voi": "global_bad_days.json > tho_tu_sat_chu > theo_thang"
+      "xac_nhan_khop_voi": "global_bad_days.json > tho_tu_sat_chu > theo_thang",
+      "applies_by": "none",
+      "source_pages": [
+        155
+      ]
     },
     "ngay_hoa_tai": {
       "note": "Ngày Hỏa Tai - kỵ làm nhà (nguy cơ hỏa hoạn), theo tháng",
-      "source_page": 157,
       "theo_thang": [
         {
           "thang": 1,
@@ -4228,11 +4491,14 @@
           "thang": 12,
           "chi": "Ngọ"
         }
+      ],
+      "applies_by": "thang",
+      "source_pages": [
+        157
       ]
     },
     "nhung_ngay_tho_cam_kieng_dong_tho": {
       "note": "Những Ngày Thổ Cấm (kiêng động thổ nói chung) - bảng riêng theo quý, khác bảng 'nhung_ngay_tho_cam_ky_dao_gieng_chon_cat' (trang 142, dành riêng đào giếng/chôn cất, giá trị tháng 7-8-9 và 10-11-12 khác nhau)",
-      "source_page": 157,
       "theo_quy": [
         {
           "thang": [
@@ -4259,7 +4525,11 @@
           "chi": "Thân"
         }
       ],
-      "luu_y": "Thiếu dữ liệu quý tháng 10-11-12 do trang bị cắt/không đọc được rõ trong bản gốc"
+      "luu_y": "Thiếu dữ liệu quý tháng 10-11-12 do trang bị cắt/không đọc được rõ trong bản gốc",
+      "applies_by": "prose",
+      "source_pages": [
+        157
+      ]
     },
     "cuc_thong_thien_khieu": {
       "note": "18 Cục Thông Thiên Khiếu - Xem Tuổi Làm Nhà, Dựng Vợ, Gả Chồng (tác giả Quách Tiên Sinh, bí quyết Kham Dư). Mỗi tuổi (Can Chi năm sinh) ứng với 1 trong 18 'cục', mỗi cục có ý nghĩa tốt/xấu riêng.",
@@ -4477,11 +4747,11 @@
             "Quý Dậu"
           ]
         }
-      ]
+      ],
+      "applies_by": "cuc"
     },
     "nhung_ngay_du_hoa": {
       "note": "Những Ngày Du Họa - kỵ, theo tháng",
-      "source_page": 162,
       "theo_thang": [
         {
           "thang": 1,
@@ -4531,11 +4801,14 @@
           "thang": 12,
           "chi": "Thân"
         }
+      ],
+      "applies_by": "thang",
+      "source_pages": [
+        162
       ]
     },
     "nhung_ngay_thien_cach": {
       "note": "Những Ngày Thiên Cách - kỵ, theo tháng",
-      "source_page": 162,
       "theo_thang": [
         {
           "thang": 1,
@@ -4585,11 +4858,14 @@
           "thang": 12,
           "chi": "Thìn"
         }
+      ],
+      "applies_by": "thang",
+      "source_pages": [
+        162
       ]
     },
     "nhung_ngay_ngu_quy": {
       "note": "Những Ngày Ngũ Quý - theo tháng",
-      "source_page": 162,
       "theo_thang": [
         {
           "thang": 1,
@@ -4639,16 +4915,20 @@
           "thang": 12,
           "chi": "Tuất"
         }
+      ],
+      "applies_by": "thang",
+      "source_pages": [
+        162
       ]
     }
   },
   "an_tang": {
     "bai_tho_tho_tu_sat_chu": {
-      "ref": "xem global_bad_days.json -> tho_tu_sat_chu (áp dụng chung, kỵ mọi việc kể cả an táng)"
+      "ref": "xem global_bad_days.json -> tho_tu_sat_chu (áp dụng chung, kỵ mọi việc kể cả an táng)",
+      "applies_by": "ref"
     },
     "trung_tang_trung_phuc": {
       "note": "Kỵ hôn nhân, ma chay, cải táng - theo tháng, cặp Can",
-      "source_page": 158,
       "entries": [
         {
           "thang": 1,
@@ -4736,17 +5016,23 @@
           ],
           "luu_y": "nguyên văn sách in trùng 'Mậu, Mậu' - có thể là lỗi in ấn (kỳ vọng theo quy luật là 'Mậu, Kỷ')"
         }
+      ],
+      "applies_by": "thang",
+      "source_pages": [
+        158
       ]
     },
     "ngay_trung_tang_poem": {
       "note": "Thơ dân gian xác định người chết vào ngày nào là phạm Trùng Tang, theo mùa",
-      "source_page": 140,
       "tho": "Xuân ba tháng thỏ kêu vang / Hạ ba tháng ngựa đón đường / Thu ba tháng gà gáy giục / Đông ba tháng chuột đào hang / Thế gian ai biết thì lành / Chết ngày ấy thị trùng tang.",
-      "giai_nghia": "Xuân: Mão (thỏ), Hạ: Ngọ (ngựa), Thu: Dậu (gà), Đông: Tý (chuột)"
+      "giai_nghia": "Xuân: Mão (thỏ), Hạ: Ngọ (ngựa), Thu: Dậu (gà), Đông: Tý (chuột)",
+      "applies_by": "prose",
+      "source_pages": [
+        140
+      ]
     },
     "nhung_ngay_tho_cam_ky_dao_gieng_chon_cat": {
       "note": "Kỵ đào giếng, chôn cất theo quý (3 tháng một)",
-      "source_page": 142,
       "entries": [
         {
           "thang": "1-2-3",
@@ -4764,11 +5050,14 @@
           "thang": "10-11-12",
           "ngay": "Thân"
         }
+      ],
+      "applies_by": "thang",
+      "source_pages": [
+        142
       ]
     },
     "nhung_ngay_thien_hy_an_tang": {
       "note": "Ngày Thiên Hỷ - tốt cho an táng, theo tháng",
-      "source_page": 150,
       "entries": [
         {
           "thang": 1,
@@ -4818,14 +5107,20 @@
           "thang": 12,
           "ngay": "Dậu"
         }
+      ],
+      "applies_by": "thang",
+      "source_pages": [
+        150
       ]
     },
     "sat_chu_ve_bon_mua": {
-      "ref": "xem global_bad_days.json -> sat_chu.he_theo_bon_mua"
+      "ref": "xem global_bad_days.json -> sat_chu.he_theo_bon_mua",
+      "applies_by": "ref"
     },
     "trung_tanh_ky_theo_gio": {
       "note": "Giờ Trùng Tang (đề cập trong TOC, chưa trích chi tiết bảng số liệu)",
-      "status": "chưa trích xuất đầy đủ - cần xử lý thêm nếu cần"
+      "status": "chưa trích xuất đầy đủ - cần xử lý thêm nếu cần",
+      "applies_by": "status"
     },
     "bang_tinh_ve_viec_dam_ma": {
       "note": "BẢNG TÍNH VỀ VIỆC ĐÁM MA - 12 'bài' ứng với 12 giai đoạn Trường Sinh (Trường Sinh, Mộc Dục, Quan Đái, Lâm Quan, Đế Vượng, Suy, Bệnh, Tử, Mộ, Tuyệt, Thai, Dưỡng), mỗi bài mô tả hoàn cảnh gia đình lúc an táng (thời điểm mãn số, số con trai/gái có mặt, có sẵn hòm rương hay không, có thầy chùa đưa linh hay không) dựa theo cách tính tuổi/ngày mất ứng với cung Trường Sinh. Đầy đủ 12/12 bài (trước đây chỉ trích 4 bài mẫu).",
@@ -4885,19 +5180,22 @@
         }
       ],
       "luu_y": "Trang 163 có ghi chú 'chèn bảng' (placeholder) sau bài Suy - cho thấy bản gốc dự kiến chèn một bảng minh họa tại đây nhưng không xuất hiện trong bản in/scan này.",
-      "status": "đầy đủ 12/12 bài"
+      "status": "đầy đủ 12/12 bài",
+      "applies_by": "prose"
     },
     "tu_thoi_trung_tang_ky_an_tang": {
       "note": "Kỵ an táng theo mùa (khác với bảng Trùng Tang Trùng Phục theo tháng đã có)",
-      "source_page": 44,
       "xuan": "Dậu",
       "ha": "Tý",
       "thu": "Mùi",
-      "dong": "Mão"
+      "dong": "Mão",
+      "applies_by": "mua",
+      "source_pages": [
+        44
+      ]
     },
     "an_tang_cat_nhat": {
       "note": "Những ngày Can Chi tốt để an táng",
-      "source_page": 44,
       "ngay": [
         "Giáp Tý",
         "Canh Thân",
@@ -4909,11 +5207,14 @@
         "Nhâm Ngọ",
         "Bính Ngọ",
         "Đinh Dậu"
+      ],
+      "applies_by": "none",
+      "source_pages": [
+        44
       ]
     },
     "phep_tinh_gio": {
       "note": "Bảng quy đổi giờ Chi sang giờ hiện đại (giờ Tý=23h-1h ... theo múi 2 tiếng mỗi Chi)",
-      "source_page": 44,
       "entries": [
         {
           "chi": "Tý",
@@ -4963,11 +5264,14 @@
           "chi": "Hợi",
           "gio": "9-11 giờ đêm"
         }
+      ],
+      "applies_by": "none",
+      "source_pages": [
+        44
       ]
     },
     "nhap_niem_ky_gio_theo_tuoi": {
       "note": "Khi nhập niệm hoặc chôn cất, tránh ngày/giờ theo nhóm tuổi (3 nhóm tam hợp) của người chết",
-      "source_page": 44,
       "entries": [
         {
           "nhom_tuoi": [
@@ -4994,7 +5298,11 @@
           "ky_gio": "Dần"
         }
       ],
-      "vi_du": "Người chết tuổi Thân-Tý-Thìn kỵ ngày niệm, chôn cất ngày Tý hoặc giờ Tý"
+      "vi_du": "Người chết tuổi Thân-Tý-Thìn kỵ ngày niệm, chôn cất ngày Tý hoặc giờ Tý",
+      "applies_by": "nhom_tuoi",
+      "source_pages": [
+        44
+      ]
     },
     "phep_xem_12_thang_hoang_long": {
       "note": "Lấy tuổi người chết (theo 1 trong 4 nhóm tam hợp) và năm chết (cũng theo nhóm tam hợp) tra ra 1 số (1-6), số này ứng với một trong 6 bài thơ đoán vận nhà (Thần Giác, Tế nhi, Mục yêu, Vi túc, Tản tử, Phúc tường)",
@@ -5207,11 +5515,11 @@
           "ten": "Phúc tường",
           "tho": "Phúc tường nhất kiến ngọ quán vương / Chớ có bị ai chớ lo lường / Phú quý công danh sẵn cũng có / Con cháu sang trọng hưởng vinh sương"
         }
-      }
+      },
+      "applies_by": "thang"
     },
     "cach_tru_trung": {
       "note": "Bài thuốc/nghi thức trừ trùng (chống 'trùng tang') khi an táng - các vị và trọng lượng, dùng chỉ ngũ sắc kết tứ tung ngũ hoành lên mặt thuốc rồi cho vào túi vải để yểm",
-      "source_page": 50,
       "vi_thuoc": [
         {
           "ten": "Thần sa",
@@ -5249,11 +5557,14 @@
           "ten": "Quế chi",
           "luong": "5 đồng cân"
         }
+      ],
+      "applies_by": "prose",
+      "source_pages": [
+        50
       ]
     },
     "bang_tinh_ve_viec_dam_ma_grid": {
       "note": "Sơ đồ 12 Chi (Tỵ Ngọ Mùi Thân / Thìn ... / Mão ... Dậu / Dần Sửu Tý Hợi) tính từ tuổi người chết, chia 3 vùng: Thiên Di (Tý Ngọ Mão Dậu), Nhập Mộ (Thìn Tuất Sửu Mùi), Trùng Tang (Dần Thân Tỵ Hợi). Đây là bảng dùng để đếm tuổi vòng quanh 12 cung nhằm biết vong linh rơi vào Thiên Di / Nhập Mộ / Trùng Tang.",
-      "source_page": 42,
       "thien_di": [
         "Tý",
         "Ngọ",
@@ -5275,11 +5586,14 @@
       "diem_khoi_dem": {
         "nam": "bắt đầu đếm từ cung Dần theo chiều nghịch (mũi tên lên)",
         "nu": "bắt đầu đếm từ cung Thân theo chiều thuận (mũi tên xuống)"
-      }
+      },
+      "applies_by": "none",
+      "source_pages": [
+        42
+      ]
     },
     "nhung_ngay_ky_tham_nguoi_om": {
       "note": "Ngày kỵ đi thăm người ốm (Can Chi cụ thể)",
-      "source_page": 143,
       "danh_sach": [
         "Nhâm Dần",
         "Nhâm Ngọ",
@@ -5288,11 +5602,14 @@
         "Ất Mão",
         "Kỷ Mão"
       ],
-      "tho": "Thần tiên lưu hạ thử lục thần / Thăm người bệnh tật bệnh thế nhân vong"
+      "tho": "Thần tiên lưu hạ thử lục thần / Thăm người bệnh tật bệnh thế nhân vong",
+      "applies_by": "prose",
+      "source_pages": [
+        143
+      ]
     },
     "nhung_ngay_thien_hy_an_tang_v2": {
       "note": "Những Ngày Thiên Hỷ An Táng (bảng theo tháng riêng, trang 150) - đối chiếu với mục nhung_ngay_thien_hy_an_tang đã có trước đó",
-      "source_page": 150,
       "theo_thang": [
         {
           "thang": 1,
@@ -5342,18 +5659,30 @@
           "thang": 12,
           "chi": "Dậu"
         }
+      ],
+      "applies_by": "thang",
+      "variant_of": "nhung_ngay_thien_hy_an_tang",
+      "variant_note": "Bảng Thiên Hỷ An Táng theo tháng riêng (trang 150); đối chiếu với nhung_ngay_thien_hy_an_tang.",
+      "source_pages": [
+        150
       ]
     },
     "nhung_ngay_tu_ly": {
       "note": "Những Ngày Tử Ly - kỵ (liên quan an táng/việc lớn)",
-      "source_page": 159,
-      "quy_tac": "Trước tiết Xuân phân, Thu phân, Đông chí, Hạ chí một ngày"
+      "quy_tac": "Trước tiết Xuân phân, Thu phân, Đông chí, Hạ chí một ngày",
+      "applies_by": "prose",
+      "source_pages": [
+        159
+      ]
     },
     "nhung_ngay_tu_tuyet": {
       "note": "Những Ngày Tứ Tuyệt - kỵ (liên quan an táng/việc lớn)",
-      "source_page": 159,
       "quy_tac": "Trước tiết Lập xuân, Lập hạ, Lập thu, Lập đông một ngày",
-      "ghi_chu_gio": "Theo hiệp kỷ lịch Can Chi thì ngày bắt đầu từ 23h30' sang giờ Tý của ngày hôm sau. Giờ Tý chính là Tý 0h đêm; giờ Ngọ chính là Ngọ 12h trưa. Trẻ phạm giờ Kim Xà Thiết Tỏa phải cúng giải nhương tinh."
+      "ghi_chu_gio": "Theo hiệp kỷ lịch Can Chi thì ngày bắt đầu từ 23h30' sang giờ Tý của ngày hôm sau. Giờ Tý chính là Tý 0h đêm; giờ Ngọ chính là Ngọ 12h trưa. Trẻ phạm giờ Kim Xà Thiết Tỏa phải cúng giải nhương tinh.",
+      "applies_by": "prose",
+      "source_pages": [
+        159
+      ]
     }
   },
   "xuat_hanh": {
@@ -5461,11 +5790,11 @@
           "Quý Hợi"
         ],
         "tho": "Giáp Dần trước dữ sau lại lành / Ất Mão, Bính Thìn mong manh / Đi đường phải ốm giữ mình cho hay / Đinh Tỵ là thứ nhất này / Bàn tiệc ăn uống no say hãi hùng / Mậu Ngọ, Kỷ Mùi chẳng dùng / Canh Thân, Tân Dậu phải cùng can qua / Nhâm Tuất, Quý Hợi gần xa, / Đều là thực dữ ấy ta chớ dùng / Ai mà còn cãi Chu Công / Xét xem cho biết cát hung trình bày."
-      }
+      },
+      "applies_by": "none"
     },
     "nhung_ngay_tho_ky_vang_vong_ky_xuat_hanh_dong_tho": {
       "note": "Kỵ xuất hành, động thổ, theo tháng",
-      "source_page": 142,
       "entries": [
         {
           "thang": 1,
@@ -5517,13 +5846,12 @@
         }
       ],
       "source_pages": [
-        142,
-        157
-      ]
+        142
+      ],
+      "applies_by": "thang"
     },
     "nhung_ngay_thien_quan_xuat_hanh_giao_dich_tot": {
       "note": "Ngày tốt để xuất hành, giao dịch (lặp theo cặp tháng cách nhau 6 tháng)",
-      "source_page": 152,
       "entries": [
         {
           "thang": [
@@ -5567,11 +5895,14 @@
           ],
           "ngay": "Thân"
         }
+      ],
+      "applies_by": "thang",
+      "source_pages": [
+        152
       ]
     },
     "nhung_ngay_loc_ma_xuat_hanh_di_chuyen_tot": {
       "note": "Ngày tốt để xuất hành, di chuyển chỗ ở (lặp theo cặp tháng cách nhau 6 tháng)",
-      "source_page": 152,
       "entries": [
         {
           "thang": [
@@ -5615,15 +5946,21 @@
           ],
           "ngay": "Thìn"
         }
+      ],
+      "applies_by": "thang",
+      "source_pages": [
+        152
       ]
     },
     "bang_tinh_ngay_gio_tot_di_duong_viec_nho": {
       "note": "Mục 'BẢNG TÍNH NGÀY TỐT - GIỜ TỐT ĐỂ ĐI ĐƯỜNG (VIỆC NHỎ)' được đề cập trong sách (khoảng trang 50) nhưng chưa trích xuất chi tiết bảng số liệu",
-      "status": "chưa xử lý"
+      "status": "chưa xử lý",
+      "applies_by": "status"
     },
     "gio_hoang_dao_hac_dao": {
       "note": "Phép tính Giờ Hoàng Đạo / Hắc Đạo (giờ tốt/xấu trong ngày) được đề cập trong sách (khoảng trang 45-50) nhưng chưa trích xuất chi tiết bảng số liệu - liên quan tới việc chọn giờ xuất hành",
-      "status": "chưa xử lý"
+      "status": "chưa xử lý",
+      "applies_by": "status"
     },
     "luc_dieu_ngay_gio_tot_di_duong": {
       "note": "Bảng Tính Ngày Tốt - Giờ Tốt Để Đi Đường (việc nhỏ) - hệ Lục Diệu cổ điển, cặp tháng âm lịch ứng với 1 trong 6 loại ngày (Đại An, Lưu Liên, Tốc Hỷ, Xích Khẩu, Tiểu Cát, Không Vong)",
@@ -5675,11 +6012,11 @@
           ],
           "loai_ngay": "Không Vong"
         }
-      ]
+      ],
+      "applies_by": "thang"
     },
     "nhung_ngay_khong_vong_bon_mua": {
       "note": "Kỵ xuất hành, theo mùa (thơ)",
-      "source_page": 103,
       "tho": "Xuân Mùi, Tuất, Hợi thầy bảo cho hay / Hạ thì rồng rắn lên mây / Sáu con chuột bạch nằm ngoài cửa hang / Thu thì thân Dậu trâu vàng / Đông thì Dần Mão ngựa sang nước người",
       "giai": {
         "xuan": [
@@ -5701,11 +6038,14 @@
           "Mão",
           "Ngọ"
         ]
-      }
+      },
+      "applies_by": "mua",
+      "source_pages": [
+        103
+      ]
     },
     "chiem_vang_vong_nhat": {
       "note": "Vãng Vong - kỵ xuất hành, giá thú - theo tháng",
-      "source_page": 106,
       "entries": {
         "1": "Dần",
         "2": "Tỵ",
@@ -5719,11 +6059,14 @@
         "10": "Mùi",
         "11": "Tuất",
         "12": "Sửu"
-      }
+      },
+      "applies_by": "thang",
+      "source_pages": [
+        106
+      ]
     },
     "nhung_ngay_xich_tong_tu_giang_ha": {
       "note": "2 ngày âm lịch mỗi tháng, kỵ chung (Xích Tòng Tử giáng hạ)",
-      "source_page": 106,
       "entries": {
         "1": [
           7,
@@ -5774,11 +6117,14 @@
           30
         ]
       },
-      "canh_bao": "Thiên quân trì mãn giai lưu huyết / Khỏi ốc điền địa tận gia diệt / Mai táng, khốc thanh tràng bất tuyệt / Phu phụ hôn nhân tảo biệt ly"
+      "canh_bao": "Thiên quân trì mãn giai lưu huyết / Khỏi ốc điền địa tận gia diệt / Mai táng, khốc thanh tràng bất tuyệt / Phu phụ hôn nhân tảo biệt ly",
+      "applies_by": "thang",
+      "source_pages": [
+        106
+      ]
     },
     "chiem_thien_loi_da_gio": {
       "note": "Giờ Thiên Lôi (sét đánh) kỵ theo Can ngày",
-      "source_page": 105,
       "entries": {
         "Giáp": [
           "Sửu",
@@ -5826,7 +6172,11 @@
           "Tân",
           "Đinh"
         ]
-      }
+      },
+      "applies_by": "none",
+      "source_pages": [
+        105
+      ]
     },
     "luc_nham_dai_don": {
       "note": "Xuất hành theo quẻ Lục Nhâm Đại Độn (Lục Nhâm tẩu mã) - tính giờ xuất hành tốt hay xấu theo tháng và cung khởi. 6 cung: Đại An, Lưu Niên (Bàng xà), Tốc Hỷ (Lục hợp), Xích Khẩu (Phu tước), Tiểu Cát (Thanh Long), Không Vong (Thiên không). Đại An, Tốc Hỷ, Tiểu Cát là giờ tốt; Lưu Niên, Xích Khẩu, Không Vong là giờ kém.",
@@ -5918,7 +6268,8 @@
         "Một người mệnh Mộc đi giờ Tiểu Cát giờ Tuất - Bính Tuất giờ ốc thượng thổ, như vậy là mộc khắc thổ, cũng tốt nhưng đã bị triết giảm một nửa rồi.",
         "Cũng là giờ Đại An, Tốc Hỷ, Tiểu Cát mà có người đi lại được việc, có kẻ lại không được việc, cũng vì tính lý ngũ hành cả.",
         "Khoa Lục Nhâm đại độn có thể nói là độc đáo, không lường được, xem để biết giờ đó đi hướng nào có lợi (tốt), ngồi hướng nào nói chuyện để thắng lợi."
-      ]
+      ],
+      "applies_by": "thang"
     },
     "ngay_gio_dinh_cuc": {
       "note": "Bảng Ngày Giờ Định Cục: mỗi ngày trong 60 ngày Lục Thập Hoa Giáp có phương hướng Hỷ thần (nơi gặp việc vui), Kế thần (Hỷ thần thứ hai), Tài thần (nơi cầu tài), 2 ngày Không Vong tương ứng, và các giờ Chi tốt để xuất hành. Đầy đủ 60/60 ngày.",
@@ -6899,12 +7250,12 @@
             "Mùi"
           ]
         }
-      ]
+      ],
+      "applies_by": "none"
     }
   },
   "global_note_chon_ngay": {
     "note": "Nguyên tắc chọn ngày (trang 159): Hễ phạm phải các ngày xấu (Thập Ác, Đại Bại, Tử Ly, Tứ Tuyệt...) thì việc gì cũng hư hỏng. Phàm việc cần chọn ngày hợp mệnh mà kiêng ngày tuổi. Phép chọn ngày có từ thời Đường/Ngu/Tam Đại nhưng chỉ từng việc mà chọn ngày.",
-    "source_page": 159,
     "noi_su_dung_can": {
       "viec": "Tế tự, cưới xin...",
       "can": [
@@ -6926,6 +7277,9 @@
         "Nhâm"
       ],
       "loai": "dương can"
-    }
+    },
+    "source_pages": [
+      159
+    ]
   }
 }

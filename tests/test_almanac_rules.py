@@ -55,6 +55,7 @@ def test_trung_tang_gender_changes_direction():
     assert nam["landing_chi"] != nu["landing_chi"]
     assert nam["zone"] in ("thien_di", "nhap_mo", "trung_tang")
     assert nu["zone"] in ("thien_di", "nhap_mo", "trung_tang")
+    assert isinstance(nam["source_pages"], list) and all(isinstance(p, int) for p in nam["source_pages"])
 
 
 def test_get_year_profile_returns_menh_and_direction():
