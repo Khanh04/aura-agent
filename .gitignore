@@ -7,6 +7,7 @@ frontend/dist/
 frontend/*.tsbuildinfo
 .pytest_cache/
 .claude/settings.local.json
+CLAUDE.md
 
 # Source PDF and OCR pipeline scratch output -- regenerable via
 # ocr_all.py/ocr_layout.py against the PDF; database/ and db/ (the final
