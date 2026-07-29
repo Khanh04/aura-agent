@@ -202,7 +202,10 @@ def solar_range_to_lunar(start: date, end: date) -> list[LunarDate]:
     if days <= 0:
         raise ValueError("end date must not be before start date")
     if days > _MAX_RANGE_DAYS:
-        raise ValueError(f"range spans {days} days, over the {_MAX_RANGE_DAYS}-day cap -- narrow it")
+        raise ValueError(
+            f"range spans {days} days, over the {_MAX_RANGE_DAYS}-day cap -- do not retry with a "
+            "smaller range yourself; tell the user the range is too wide and ask them to narrow it"
+        )
     return [
         solar_to_lunar((start + timedelta(n)).day, (start + timedelta(n)).month, (start + timedelta(n)).year)
         for n in range(days)

@@ -122,17 +122,24 @@ def get_star_info(day_chi: str, lunar_month: int) -> dict:
     }
 
 
-def get_kim_lau(birth_year: int, target_lunar_year: int) -> dict:
+def get_kim_lau(birth_year: int | None, target_lunar_year: int) -> dict:
     """Kim Lâu: bad luck for cưới hỏi/làm nhà if tuổi mụ's last digit is in
     {1,3,6,8}. The book's own prose note says "mod 9", but its own worked
     examples (vi_du_tuoi_pham: 21,23,26,28) only satisfy a mod-10 (last
     digit) rule, not mod 9 -- e.g. 23 % 9 == 5, not in {1,3,6,8}, while
     23 % 10 == 3, which is. Trusting the concrete examples over the
-    (apparently mistranscribed) prose gloss."""
+    (apparently mistranscribed) prose gloss.
+
+    birth_year is Optional so a caller with no real birth year can pass None
+    and get an explicit unavailable result instead of being forced to supply
+    some number just to satisfy the signature."""
+    if birth_year is None:
+        return {"available": False, "reason": "birth_year not provided"}
     block = _events_rules()["lam_nha"]["kim_lau"]
     tuoi_mu = target_lunar_year - birth_year + 1
     remainder = tuoi_mu % 10
     return {
+        "available": True,
         "tuoi_mu": tuoi_mu,
         "remainder_mod_10": remainder,
         "is_kim_lau": remainder in (1, 3, 6, 8),
@@ -142,7 +149,7 @@ def get_kim_lau(birth_year: int, target_lunar_year: int) -> dict:
     }
 
 
-def get_cuc_thong_thien_khieu(birth_can_chi: str, age: int) -> dict:
+def get_cuc_thong_thien_khieu(birth_can_chi: str, age: int | None) -> dict:
     """18-cục cycle (Xem Tuổi Làm Nhà, Dựng Vợ, Gả Chồng): each cục spans 10
     years starting from the person's birth Can-Chi cục, wrapping after 18.
 
@@ -154,7 +161,13 @@ def get_cuc_thong_thien_khieu(birth_can_chi: str, age: int) -> dict:
     the clearly-stated rule over the damaged example; flag this as lower
     confidence in the agent's response rather than tuning the code to match
     an unreadable example.
+
+    age is Optional so a caller with no real age can pass None and get an
+    explicit unavailable result instead of being forced to supply some
+    number just to satisfy the signature.
     """
+    if age is None:
+        return {"available": False, "reason": "age not provided"}
     block = _events_rules()["lam_nha"]["cuc_thong_thien_khieu"]
     cuc_list = block["cac_cuc"]
 
@@ -257,9 +270,15 @@ def get_xuat_hanh_dinh_cuc(day_can_chi: str) -> dict:
     }
 
 
-def get_trung_tang(birth_year: int, death_lunar_year: int, gender: Literal["nam", "nu"]) -> dict:
+def get_trung_tang(birth_year: int | None, death_lunar_year: int, gender: Literal["nam", "nu"]) -> dict:
     """Trùng Tang: age-at-death counted around a 12-cung table, direction
-    depends on the deceased's gender."""
+    depends on the deceased's gender.
+
+    birth_year is Optional so a caller with no real birth year can pass None
+    and get an explicit unavailable result instead of being forced to supply
+    some number just to satisfy the signature."""
+    if birth_year is None:
+        return {"available": False, "reason": "birth_year not provided"}
     block = _events_rules()["an_tang"]["bang_tinh_ve_viec_dam_ma_grid"]
     age_at_death = death_lunar_year - birth_year + 1
 
@@ -280,6 +299,7 @@ def get_trung_tang(birth_year: int, death_lunar_year: int, gender: Literal["nam"
         zone = "trung_tang"
 
     return {
+        "available": True,
         "age_at_death": age_at_death,
         "landing_chi": landing_chi,
         "zone": zone,

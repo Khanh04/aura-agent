@@ -31,6 +31,13 @@ def test_kim_lau_matches_book_examples():
     assert result["is_kim_lau"] is False
 
 
+def test_kim_lau_unavailable_without_birth_year():
+    assert ar.get_kim_lau(birth_year=None, target_lunar_year=2026) == {
+        "available": False,
+        "reason": "birth_year not provided",
+    }
+
+
 def test_cuc_thong_thien_khieu_birth_cuc_lookup():
     # database/events_rules.json lam_nha.cuc_thong_thien_khieu.cac_cuc: cục 1's
     # "tuoi" list is ["Giáp Tý", "Canh Tuất", "Tân Mão"].
@@ -49,6 +56,13 @@ def test_cuc_thong_thien_khieu_wraps_after_18():
     assert wrapped["cuc"] == start
 
 
+def test_cuc_thong_thien_khieu_unavailable_without_age():
+    assert ar.get_cuc_thong_thien_khieu("Tân Mão", age=None) == {
+        "available": False,
+        "reason": "age not provided",
+    }
+
+
 def test_trung_tang_gender_changes_direction():
     nam = ar.get_trung_tang(birth_year=2000, death_lunar_year=2026, gender="nam")
     nu = ar.get_trung_tang(birth_year=2000, death_lunar_year=2026, gender="nu")
@@ -56,6 +70,13 @@ def test_trung_tang_gender_changes_direction():
     assert nam["zone"] in ("thien_di", "nhap_mo", "trung_tang")
     assert nu["zone"] in ("thien_di", "nhap_mo", "trung_tang")
     assert isinstance(nam["source_pages"], list) and all(isinstance(p, int) for p in nam["source_pages"])
+
+
+def test_trung_tang_unavailable_without_birth_year():
+    assert ar.get_trung_tang(birth_year=None, death_lunar_year=2026, gender="nam") == {
+        "available": False,
+        "reason": "birth_year not provided",
+    }
 
 
 def test_get_year_profile_returns_menh_and_direction():
@@ -111,9 +132,12 @@ if __name__ == "__main__":
     test_non_bad_day_has_no_flags()
     test_duong_cong_ky_nhat_is_month_specific()
     test_kim_lau_matches_book_examples()
+    test_kim_lau_unavailable_without_birth_year()
     test_cuc_thong_thien_khieu_birth_cuc_lookup()
     test_cuc_thong_thien_khieu_wraps_after_18()
+    test_cuc_thong_thien_khieu_unavailable_without_age()
     test_trung_tang_gender_changes_direction()
+    test_trung_tang_unavailable_without_birth_year()
     test_get_year_profile_returns_menh_and_direction()
     test_get_event_rules_returns_whole_category()
     test_get_truc_resets_at_kien_and_steps_forward()

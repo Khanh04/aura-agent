@@ -34,7 +34,13 @@ aura_agent = Agent(
         "3. Một số quy tắc phụ thuộc vào tuổi (và với an táng, cả giới tính) của người liên quan: Kim "
         "Lâu và Cục Thông Thiên Khiếu (dùng cho cưới hỏi/làm nhà) cần năm sinh; Trùng Tang (dùng cho an "
         "táng) cần năm sinh VÀ giới tính (nam/nữ) của người mất. Nếu thiếu thông tin này và câu hỏi cần "
-        "đến nó, hãy hỏi lại người dùng CHÍNH XÁC MỘT câu hỏi còn thiếu, đừng đoán hay bỏ qua.\n"
+        "đến nó, hãy hỏi lại người dùng CHÍNH XÁC MỘT câu hỏi còn thiếu, đừng đoán hay bỏ qua. TUYỆT ĐỐI "
+        "KHÔNG được tự bịa, ước lượng, hay suy đoán năm sinh/tuổi từ ngữ cảnh (VD: đoán 'bố' nghĩa là "
+        "sinh khoảng năm nào đó) rồi gọi 'get_kim_lau'/'get_cuc_thong_thien_khieu'/'get_trung_tang' với "
+        "con số bịa ra đó -- nếu người dùng chưa nói rõ năm sinh bằng một con số cụ thể, PHẢI dừng lại "
+        "và hỏi trước khi gọi 3 tool này. Ngược lại, suy luận giới tính từ từ xưng hô người dùng đã dùng "
+        "(bố/ông/anh -> nam; mẹ/bà/chị -> nữ) là hợp lệ, không cần hỏi lại riêng về giới tính trong "
+        "trường hợp đó.\n"
         "4. Một số quy tắc trong sách tự mâu thuẫn với nhau (sách ghi nhiều dị bản, có 'luu_y'/"
         "'variant_of' về sự mâu thuẫn hoặc dị bản). Khi gặp trường hợp này, hãy nói rõ sự mâu thuẫn "
         "thay vì chọn đại một bên.\n"
@@ -52,9 +58,11 @@ aura_agent = Agent(
         "định được ngày nào (VD: bạn đang hỏi lại người dùng về ngày tháng).\n"
         "9. Khi người dùng nhờ chọn/tìm ngày tốt trong một khoảng thời gian (không phải một "
         "ngày cụ thể), hãy tự quy đổi khoảng đó sang một khoảng ngày dương lịch ISO cụ thể "
-        "(như cách quy tắc 1 xử lý ngày tương đối). Nếu khoảng quá rộng (quá 60 ngày) hoặc "
-        "không rõ ràng ('năm sau', 'quý 3'), hãy hỏi lại người dùng để thu hẹp trước khi gọi "
-        "tool. Gọi 'get_candidate_days' một lần cho khoảng đã thu hẹp; nếu cần đối chiếu sao "
+        "(như cách quy tắc 1 xử lý ngày tương đối). Nếu khoảng quá rộng (quá 60 ngày), không "
+        "rõ ràng ('năm sau', 'quý 3'), HOẶC người dùng không nói khoảng thời gian nào cả (VD: "
+        "'chọn giúp tôi ngày đẹp'), hãy hỏi lại người dùng để xác định/thu hẹp khoảng trước khi "
+        "gọi tool -- TUYỆT ĐỐI KHÔNG tự chọn một khoảng mặc định (VD: hôm nay + 60 ngày) rồi trả "
+        "lời luôn. Gọi 'get_candidate_days' một lần cho khoảng đã thu hẹp; nếu cần đối chiếu sao "
         "tốt/xấu cho (các) ngày có khả năng cao, gọi thêm 'get_star_info' riêng cho từng ngày "
         "đó. Luôn gọi 'get_event_rules' cho loại sự kiện liên quan để đối chiếu, và áp dụng "
         "quy tắc 3 nếu cần thông tin riêng của người liên quan. Chọn ra 1-3 ngày tốt nhất kèm "
@@ -125,23 +133,44 @@ def get_year_profile(can_chi_year: str) -> dict:
 
 
 @aura_agent.tool_plain
-def get_kim_lau(birth_year: int, target_lunar_year: int) -> dict:
+def get_kim_lau(birth_year: int | None, target_lunar_year: int) -> dict:
     """Check Kim Lâu (bad-luck age check for cưới hỏi/làm nhà) for a person given
-    their birth year and the lunar year of the event."""
+    their birth year and the lunar year of the event. birth_year is the user's
+    ACTUAL stated birth year as a number -- if they haven't given one in this
+    conversation, pass birth_year=None (do NOT guess/estimate/invent a number)
+    and then ask them for it in your text reply; the tool will return
+    'available': False for None, which is the correct, honest result when the
+    real value isn't known. When explaining an 'available': True result,
+    describe it using this tool's own 'remainder_mod_10' field (tuổi mụ chia
+    dư cho 10) -- do NOT say "chia 9"/mod 9 even though the book's prose
+    claims that; that prose is a known mistranscription (see
+    almanac_rules.get_kim_lau's docstring)."""
     return almanac_rules.get_kim_lau(birth_year, target_lunar_year)
 
 
 @aura_agent.tool_plain
-def get_cuc_thong_thien_khieu(birth_can_chi: str, age: int) -> dict:
+def get_cuc_thong_thien_khieu(birth_can_chi: str, age: int | None) -> dict:
     """Check the 18-cục cycle (used for làm nhà/cưới hỏi age suitability), given the
-    person's birth-year Can-Chi and their current age."""
+    person's birth-year Can-Chi and their current age. age is the user's
+    ACTUAL stated age/birth year as a number -- if they haven't given one in
+    this conversation, pass age=None (do NOT guess/estimate/invent a number)
+    and then ask them for it in your text reply; the tool will return
+    'available': False for None, which is the correct, honest result when the
+    real value isn't known."""
     return almanac_rules.get_cuc_thong_thien_khieu(birth_can_chi, age)
 
 
 @aura_agent.tool_plain
-def get_trung_tang(birth_year: int, death_lunar_year: int, gender: Literal["nam", "nu"]) -> dict:
+def get_trung_tang(birth_year: int | None, death_lunar_year: int, gender: Literal["nam", "nu"]) -> dict:
     """Check Trùng Tang (used for an táng only) for the deceased, given their birth
-    year, the lunar year of death, and their gender (direction of the count differs)."""
+    year, the lunar year of death, and their gender (direction of the count differs).
+    birth_year is the user's ACTUAL stated birth year as a number -- if they
+    haven't given one in this conversation, pass birth_year=None (do NOT
+    guess/estimate/invent a number) and then ask them for it in your text
+    reply; the tool will return 'available': False for None, which is the
+    correct, honest result when the real value isn't known. Gender inferred
+    from a kinship term the user already used (bố/ông/anh -> nam; mẹ/bà/chị
+    -> nữ) is fine to use without asking."""
     return almanac_rules.get_trung_tang(birth_year, death_lunar_year, gender)
 
 
@@ -184,7 +213,10 @@ def get_candidate_days(start_date: str, end_date: str) -> list[dict]:
     day's lunar date, Can-Chi, and universal bad-day flags (Tam Nương/Nguyệt Kỵ/Dương
     Công) -- for picking a good day within a period. Does NOT include star_info
     (call 'get_star_info' per shortlisted candidate) or event-specific rules (call
-    'get_event_rules' separately) -- combine all three to recommend specific days."""
+    'get_event_rules' separately) -- combine all three to recommend specific days.
+    Do NOT call this with a range you picked yourself (a default window, or a
+    narrower guess after a too-wide range was rejected) when the user hasn't
+    confirmed a specific range -- ask them in your text reply instead."""
     start = date.fromisoformat(start_date)
     end = date.fromisoformat(end_date)
     try:
