@@ -2,14 +2,9 @@
 
 A chat agent for Vietnamese lunar-calendar and almanac lookups, grounded in
 a digitized copy of *Ngọc Hạp Thông Thư*. Ask it about a date in plain
-Vietnamese — "ngày 15/8/2026 cưới có tốt không, tôi sinh năm 1995?" — and it
-resolves the lunar date, Can-Chi, and menh, then looks up wedding/house-
-building/burial/travel rules and answers with citations, asking a follow-up
-question when it needs more info (birth year, gender, event type) instead
-of guessing.
-
-Full architecture notes, data-quality issues found in the source book, and
-known ceilings: [`CLAUDE.md`](./CLAUDE.md).
+Vietnamese and it resolves the lunar date, Can-Chi, and menh, then looks up
+event rules and answers with citations, asking a follow-up
+question when it needs more info (birth year, gender, event type).
 
 ## Architecture
 
