@@ -14,9 +14,20 @@ category block and lets the agent (which already has the resolved lunar
 month/day Can-Chi in conversation context) pick out what's relevant and
 cite the source_pages -- consistent with this app's overall design: raw data
 in, LLM synthesis out.
+
+get_event_rules now additionally *annotates* -- never truncates -- that
+return: "_match" carries the current lunar month's rows for blocks in a
+recognisable month/season-keyed shape, and "_ref" inlines the blocks that a
+"ref" pointer points at. Both are computed by matching the block's actual
+field shape, not by trusting its "applies_by" tag -- "tuoi" alone means
+three different things across its 9 blocks (birth-year tuổi mụ in kim_lau,
+the day's Heavenly Stem in gia_thu_bat_tuong, a birth-year Chi elsewhere),
+so a tag-trusting filter would silently misapply one block's rule using
+another's semantics. See _rows_for_month.
 """
 
 import json
+import re
 from functools import lru_cache
 from pathlib import Path
 from typing import Literal
@@ -29,6 +40,21 @@ _SEASON_BY_MONTH = {
     7: "Thu", 8: "Thu", 9: "Thu",
     10: "Đông", 11: "Đông", 12: "Đông",
 }
+
+# Key names meaning "a set of lunar months", for blocks keyed directly by
+# season/quarter instead of by a numbered-month entries list. Several
+# spellings per quarter -- the book isn't consistent and the JSON keeps it
+# verbatim (see e.g. lam_nha.gio_thien_la_dia_vong's mua_ha/mua_thu/mua_dong).
+_MONTHS_BY_SEASON_KEY = {
+    "xuan": {1, 2, 3}, "ha": {4, 5, 6}, "thu": {7, 8, 9}, "dong": {10, 11, 12},
+    "mua_xuan": {1, 2, 3}, "mua_ha": {4, 5, 6}, "mua_thu": {7, 8, 9}, "mua_dong": {10, 11, 12},
+    "tu_manh": {1, 4, 7, 10}, "tu_trong": {2, 5, 8, 11}, "tu_quy": {3, 6, 9, 12},
+    "tu_manh_1_4_7_10": {1, 4, 7, 10}, "tu_trong_2_5_8_11": {2, 5, 8, 11},
+    "tu_quy_3_6_9_12": {3, 6, 9, 12},
+    "bon_thang_manh": {1, 4, 7, 10}, "bon_thang_trong": {2, 5, 8, 11},
+    "bon_thang_quy": {3, 6, 9, 12},
+}
+_MONTH_FIELDS = ("thang", "thang_nhom", "thang_cap")
 
 EventType = Literal["cuoi_hoi", "lam_nha", "an_tang", "xuat_hanh"]
 
@@ -98,10 +124,117 @@ def get_global_bad_day_flags(lunar_day: int, lunar_month: int | None = None) -> 
     return flags
 
 
-def get_event_rules(event_type: EventType) -> dict:
-    """Whole rule set for one of the 4 curated event categories -- see
-    module docstring for why this isn't filtered further here."""
-    return _events_rules()[event_type]
+def _months(spec) -> set[int] | None:
+    """Normalize a block's month spec -- 3, [1, 7], "1+2", "1,5,9", "4-5-6"
+    -- to a set of month ints. None for anything non-numeric ("Giêng-Bảy")
+    or outside 1..12 (rejects e.g. bang_lap_thanh_tuoi_lam_nha's
+    "1,10,19,28,37,46,55,64" birth-year-remainder key, which isn't months)."""
+    if isinstance(spec, int):
+        nums = {spec}
+    elif isinstance(spec, list) and all(isinstance(x, int) for x in spec):
+        nums = set(spec)
+    elif isinstance(spec, str):
+        nums = {int(n) for n in re.findall(r"\d+", spec)}
+    else:
+        return None
+    return nums if nums and nums <= set(range(1, 13)) else None
+
+
+def _rows_for_month(block: dict, lunar_month: int) -> dict | None:
+    """The rows of one events_rules block that apply in lunar_month, or None
+    if the block isn't in a shape this can filter.
+
+    Dispatches on the block's actual field shape, not on its applies_by tag
+    -- applies_by is documentation only, not a contract (see module
+    docstring). Only the MONTH is matched, never the day: the field next to
+    the month is sometimes a day Chi, but also sometimes an hour
+    (gio_ky/gio_chi/gio), a day Stem (can), or a day-type (loai_ngay) --
+    picking one to compare a day Chi against would silently misapply rules,
+    the same failure mode this whole thing exists to avoid. The agent
+    compares the day itself, reading the returned row's field name.
+    """
+    for field in ("entries", "theo_thang"):
+        rows = block.get(field)
+        if isinstance(rows, list) and rows and isinstance(rows[0], dict):
+            key = next((f for f in _MONTH_FIELDS if f in rows[0]), None)
+            if key and any(_months(r.get(key)) for r in rows):
+                return {
+                    "field": f"{field}.{key}",
+                    "rows": [r for r in rows if lunar_month in (_months(r.get(key)) or ())],
+                }
+        if isinstance(rows, dict) and rows and all(_months(k) for k in rows):
+            return {
+                "field": field,
+                "rows": [{"thang": k, "gia_tri": v} for k, v in rows.items()
+                         if lunar_month in _months(k)],
+            }
+
+    # Season/quarter keys sitting directly on the block. Deliberately not
+    # guessed at when the key names don't match _MONTHS_BY_SEASON_KEY exactly
+    # -- e.g. lam_nha.gio_thien_la_dia_vong's Xuân data sits under an unnamed
+    # "cach_giai" key with no "mua_xuan" sibling, so it's skipped by
+    # omission here rather than misread.
+    seasonal = {k: v for k, v in block.items() if k in _MONTHS_BY_SEASON_KEY}
+    if seasonal:
+        return {
+            "field": "|".join(seasonal),
+            "rows": [{"khoa": k, "gia_tri": v} for k, v in seasonal.items()
+                     if lunar_month in _MONTHS_BY_SEASON_KEY[k]],
+        }
+    return None
+
+
+_DB_LOADERS = {
+    "core_astrology": _core_astrology,
+    "events_rules": _events_rules,
+    "global_bad_days": _global_bad_days,
+    "stars_dictionary": _stars_dictionary,
+}
+
+
+def _resolve_ref(ref: str) -> dict:
+    """Follow a block's free-text ref ("xem <file>.json -> <dotted.path>",
+    optionally two paths split by " / " and a trailing prose parenthetical)
+    to the block(s) it points at, so the agent doesn't have to parse prose
+    and spend a second tool call. One level -- none of events_rules.json's
+    5 refs chains to another ref."""
+    m = re.match(r"xem (\w+)\.json\s*->\s*(.+)", ref)
+    if not m or m.group(1) not in _DB_LOADERS:
+        return {}
+    data = _DB_LOADERS[m.group(1)]()
+    resolved = {}
+    for path in re.sub(r"\s*\(.*\)\s*$", "", m.group(2)).split(" / "):
+        node = data
+        for seg in path.strip().split("."):
+            node = node.get(seg) if isinstance(node, dict) else None
+            if node is None:
+                break
+        if node is not None:
+            resolved[path.strip()] = node
+    return resolved
+
+
+def get_event_rules(event_type: EventType, lunar_month: int | None = None) -> dict:
+    """Whole rule set for one of the 4 curated event categories -- never
+    filtered down, only annotated (see module docstring).
+
+    Blocks with a "ref" pointer get the block it points at inlined as "_ref".
+    When lunar_month is given, blocks in a recognisable month/season-keyed
+    shape also get "_match": {field, rows} -- just that month's rows of that
+    one field. The block itself is still returned verbatim, and blocks in
+    any other shape come back exactly as before, so the result is always a
+    superset of the unannotated one."""
+    out = {}
+    for name, block in _events_rules()[event_type].items():
+        extra = {}
+        if "ref" in block:
+            extra["_ref"] = _resolve_ref(block["ref"])
+        if lunar_month is not None:
+            match = _rows_for_month(block, lunar_month)
+            if match:
+                extra["_match"] = match
+        out[name] = {**block, **extra} if extra else block
+    return out
 
 
 def get_star_info(day_chi: str, lunar_month: int) -> dict:

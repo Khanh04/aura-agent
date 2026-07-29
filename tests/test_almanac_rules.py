@@ -91,6 +91,89 @@ def test_get_event_rules_returns_whole_category():
     assert isinstance(rules, dict) and len(rules) > 0
 
 
+def test_event_rules_month_filter_never_drops_a_block():
+    unfiltered = ar.get_event_rules("lam_nha")
+    filtered = ar.get_event_rules("lam_nha", lunar_month=3)
+    assert set(filtered) == set(unfiltered)
+    # A sample block's original fields all survive the annotation.
+    block = filtered["nhung_ngay_tieu_hao"]
+    assert block["note"] == unfiltered["nhung_ngay_tieu_hao"]["note"]
+    assert block["theo_thang"] == unfiltered["nhung_ngay_tieu_hao"]["theo_thang"]
+    assert block["source_pages"] == unfiltered["nhung_ngay_tieu_hao"]["source_pages"]
+
+
+def test_event_rules_month_filter_picks_the_right_row():
+    # database/events_rules.json lam_nha.nhung_ngay_tieu_hao: theo_thang list,
+    # month 3 -> chi "Mùi".
+    match = ar.get_event_rules("lam_nha", lunar_month=3)["nhung_ngay_tieu_hao"]["_match"]
+    assert match == {"field": "theo_thang.thang", "rows": [{"thang": 3, "chi": "Mùi"}]}
+
+
+def test_event_rules_month_filter_handles_grouped_month_keys():
+    # entries as a dict keyed by grouped month-spec strings ("3+6+9", "1,5,9").
+    ngu_mo = ar.get_event_rules("cuoi_hoi", lunar_month=9)["chiem_ngu_mo_bach_su_ky"]["_match"]
+    assert ngu_mo["rows"] == [{"thang": "3+6+9", "gia_tri": ["Tý", "Tuất", "Thìn"]}]
+
+    thien_hoa_v2 = ar.get_event_rules("lam_nha", lunar_month=5)["nhung_ngay_thien_hoa_ky_cat_lam_nha_v2"]["_match"]
+    assert thien_hoa_v2["rows"] == [{"thang": "1,5,9", "gia_tri": "Tý (chuột già)"}]
+
+    # entries as a list of dicts with a string quarter range ("4-5-6").
+    tho_cam = ar.get_event_rules("an_tang", lunar_month=5)["nhung_ngay_tho_cam_ky_dao_gieng_chon_cat"]["_match"]
+    assert tho_cam["rows"] == [{"thang": "4-5-6", "ngay": "Dần"}]
+
+    # entries as a list of dicts with a literal int list ([1, 7]).
+    thien_quan = ar.get_event_rules("xuat_hanh", lunar_month=7)["nhung_ngay_thien_quan_xuat_hanh_giao_dich_tot"]["_match"]
+    assert thien_quan["rows"] == [{"thang": [1, 7], "ngay": "Tuất"}]
+
+
+def test_event_rules_mua_exception_is_not_guessed():
+    # lam_nha.gio_thien_la_dia_vong: Xuân's data sits under an unnamed
+    # "cach_giai" key, not "mua_xuan" -- must not be guessed at.
+    ha = ar.get_event_rules("lam_nha", lunar_month=5)["gio_thien_la_dia_vong"]
+    assert ha["_match"]["rows"] == [{"khoa": "mua_ha", "gia_tri": ["Thìn", "Tuất"]}]
+
+    xuan = ar.get_event_rules("lam_nha", lunar_month=2)["gio_thien_la_dia_vong"]
+    assert xuan["_match"]["rows"] == []
+    assert "cach_giai" not in xuan["_match"]["field"]
+    assert xuan["cach_giai"] == ["Sửu", "Mùi"]  # still present verbatim
+
+
+def test_event_rules_tuoi_and_prose_blocks_are_not_filtered():
+    unfiltered = ar.get_event_rules("cuoi_hoi")
+    filtered = ar.get_event_rules("cuoi_hoi", lunar_month=3)
+    for key in ("gia_thu_bat_tuong", "nhung_ngay_bat_luong"):
+        assert "_match" not in filtered[key]
+        assert filtered[key] == unfiltered[key]
+
+    unfiltered_lam_nha = ar.get_event_rules("lam_nha")
+    filtered_lam_nha = ar.get_event_rules("lam_nha", lunar_month=3)
+    for key in ("kim_lau", "bang_lap_thanh_tuoi_lam_nha", "cuc_thong_thien_khieu", "hoang_dao_hac_dao_theo_thang"):
+        assert "_match" not in filtered_lam_nha[key]
+        assert filtered_lam_nha[key] == unfiltered_lam_nha[key]
+
+
+def test_event_rules_annotation_does_not_mutate_the_cache():
+    ar.get_event_rules("lam_nha", lunar_month=3)
+    assert "_match" not in ar.get_event_rules("lam_nha")["nhung_ngay_tieu_hao"]
+
+    month_7 = ar.get_event_rules("lam_nha", lunar_month=7)["nhung_ngay_tieu_hao"]["_match"]
+    assert month_7["rows"] == [{"thang": 7, "chi": "Hợi"}]
+
+
+def test_event_rules_resolves_refs():
+    lam_nha = ar.get_event_rules("lam_nha")
+    two_path = lam_nha["ngu_hanh_tuong_sinh_khac"]["_ref"]
+    assert set(two_path) == {"ngu_hanh_tuong_sinh", "ngu_hanh_tuong_khac"}
+
+    an_tang = ar.get_event_rules("an_tang")
+    assert an_tang["bai_tho_tho_tu_sat_chu"]["_ref"]  # trailing parenthetical still resolves
+    bon_mua = an_tang["sat_chu_ve_bon_mua"]["_ref"]["sat_chu.he_theo_bon_mua"]
+    assert bon_mua["xuan"] == "Thân"
+
+    cuoi_hoi = ar.get_event_rules("cuoi_hoi")
+    assert cuoi_hoi["huong_nha_nghinh_hon_theo_tuoi"]["_ref"]
+
+
 def test_get_truc_resets_at_kien_and_steps_forward():
     # database/events_rules.json lam_nha.cach_tinh_ngay_truc: tiết-khí index 0
     # (Lập xuân) resets Trực Kiến at Chi Dần, then steps Trừ, Mãn, ... daily.
@@ -140,6 +223,13 @@ if __name__ == "__main__":
     test_trung_tang_unavailable_without_birth_year()
     test_get_year_profile_returns_menh_and_direction()
     test_get_event_rules_returns_whole_category()
+    test_event_rules_month_filter_never_drops_a_block()
+    test_event_rules_month_filter_picks_the_right_row()
+    test_event_rules_month_filter_handles_grouped_month_keys()
+    test_event_rules_mua_exception_is_not_guessed()
+    test_event_rules_tuoi_and_prose_blocks_are_not_filtered()
+    test_event_rules_annotation_does_not_mutate_the_cache()
+    test_event_rules_resolves_refs()
     test_get_truc_resets_at_kien_and_steps_forward()
     test_get_hoang_dao_hac_dao_ngay_wraps_by_month_pair()
     test_get_xuat_hanh_dinh_cuc_looks_up_full_can_chi()

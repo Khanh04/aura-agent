@@ -45,10 +45,17 @@ aura_agent = Agent(
         "'variant_of' về sự mâu thuẫn hoặc dị bản). Khi gặp trường hợp này, hãy nói rõ sự mâu thuẫn "
         "thay vì chọn đại một bên.\n"
         "5. Luôn trích dẫn quy tắc/số trang nguồn (source_pages) mà bạn dùng để trả lời, để người dùng "
-        "có thể tra lại. Mỗi quy tắc con trong kết quả 'get_event_rules' có trường 'applies_by' cho biết "
-        "nó được phân theo tháng/mùa/tuổi/nhóm tuổi/cục (thang/mua/tuoi/nhom_tuoi/cuc) hay không có cách "
-        "phân loại cụ thể (ref/status/prose/none) -- dùng trường này để biết cách đối chiếu quy tắc với "
-        "ngày âm lịch đã xác định.\n"
+        "có thể tra lại (nếu quy tắc con có '_match'/'_ref', vẫn trích 'source_pages' của khối gốc, "
+        "không phải của '_match'/'_ref'). Khi gọi 'get_event_rules', LUÔN truyền kèm 'lunar_month' đã "
+        "xác định được. Các quy tắc con phân theo tháng/mùa sẽ có sẵn trường '_match' do công cụ lọc "
+        "sẵn: '_match.rows' là các dòng của riêng tháng đó trong trường '_match.field'. rows rỗng chỉ "
+        "có nghĩa là trường đó không có dòng nào cho tháng này, KHÔNG có nghĩa là cả quy tắc con không "
+        "áp dụng -- vẫn phải đọc các phần còn lại của khối. '_match' chỉ lọc theo THÁNG, không kết luận "
+        "gì về ngày: tự đối chiếu Chi ngày đã xác định với giá trị trong dòng, và đọc kỹ tên trường vì "
+        "có dòng nói về GIỜ (gio_ky/gio_chi/gio) hoặc Can của ngày (can), không phải Chi ngày. Quy tắc "
+        "con KHÔNG có '_match' là loại không tự lọc theo tháng được -- tự đối chiếu bằng trường "
+        "'applies_by' (thang/mua/tuoi/nhom_tuoi/cuc/ref/status/prose/none) như trước. Trường '_ref' "
+        "(nếu có) là nội dung khối được tham chiếu, đã tra sẵn -- dùng luôn, không gọi thêm tool.\n"
         "6. Nếu không đủ dữ liệu để trả lời chắc chắn, hãy nói thẳng là không đủ dữ liệu, đừng bịa.\n"
         "7. Trả lời bằng văn bản thuần (plain text) -- KHÔNG dùng cú pháp Markdown (không **in đậm**, "
         "không dùng dấu * hay - để gạch đầu dòng); giao diện hiển thị nguyên văn, không render Markdown.\n"
@@ -64,7 +71,7 @@ aura_agent = Agent(
         "gọi tool -- TUYỆT ĐỐI KHÔNG tự chọn một khoảng mặc định (VD: hôm nay + 60 ngày) rồi trả "
         "lời luôn. Gọi 'get_candidate_days' một lần cho khoảng đã thu hẹp; nếu cần đối chiếu sao "
         "tốt/xấu cho (các) ngày có khả năng cao, gọi thêm 'get_star_info' riêng cho từng ngày "
-        "đó. Luôn gọi 'get_event_rules' cho loại sự kiện liên quan để đối chiếu, và áp dụng "
+        "đó. Luôn gọi 'get_event_rules' (kèm lunar_month) cho loại sự kiện liên quan để đối chiếu, và áp dụng "
         "quy tắc 3 nếu cần thông tin riêng của người liên quan. Chọn ra 1-3 ngày tốt nhất kèm "
         "lý do và trích dẫn nguồn; cuối cùng gọi 'convert_date' cho ngày được đề xuất tốt "
         "nhất để điền trường 'lunar' theo quy tắc 8 (trường 'lunar' chỉ chứa một ngày).\n"
@@ -112,10 +119,22 @@ def get_global_bad_days(lunar_day: int, lunar_month: int | None = None) -> list[
 
 
 @aura_agent.tool_plain
-def get_event_rules(event_type: Literal["cuoi_hoi", "lam_nha", "an_tang", "xuat_hanh"]) -> dict:
+def get_event_rules(
+    event_type: Literal["cuoi_hoi", "lam_nha", "an_tang", "xuat_hanh"],
+    lunar_month: int | None = None,
+) -> dict:
     """Fetch all curated almanac rules for one of the 4 known event categories
-    (cuoi_hoi=wedding, lam_nha=house-building, an_tang=burial, xuat_hanh=travel)."""
-    return almanac_rules.get_event_rules(event_type)
+    (cuoi_hoi=wedding, lam_nha=house-building, an_tang=burial, xuat_hanh=travel).
+    ALWAYS pass lunar_month once 'convert_date' has given you one: rules keyed
+    by lunar month or season then come back with a '_match' field holding only
+    that month's row(s) instead of the full 12-row table. '_match' filters by
+    MONTH only and concludes nothing about the day -- compare the day yourself,
+    reading the row's field name (gio_ky/gio_chi/gio are HOURS, 'can' is the
+    day's Stem, not its Chi). Blocks with no '_match' weren't in a filterable
+    shape -- read them yourself via their 'applies_by' tag. Blocks whose data
+    lives elsewhere in the book arrive with '_ref' already resolved; don't make
+    a second call for those."""
+    return almanac_rules.get_event_rules(event_type, lunar_month)
 
 
 @aura_agent.tool_plain
