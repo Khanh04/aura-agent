@@ -70,6 +70,42 @@ def test_get_event_rules_returns_whole_category():
     assert isinstance(rules, dict) and len(rules) > 0
 
 
+def test_get_truc_resets_at_kien_and_steps_forward():
+    # database/events_rules.json lam_nha.cach_tinh_ngay_truc: tiết-khí index 0
+    # (Lập xuân) resets Trực Kiến at Chi Dần, then steps Trừ, Mãn, ... daily.
+    kien = ar.get_truc(tiet_khi_index=0, day_chi="Dần")
+    assert kien["truc"] == "Kiến"
+    assert kien["tot_xau"] == "tot"
+
+    tru = ar.get_truc(tiet_khi_index=0, day_chi="Mão")
+    assert tru["truc"] == "Trừ"
+    assert tru["tot_xau"] == "tot"
+
+    # Phá is 6 steps after Kiến (Dần) -> Chi Thân; danh_gia_truc marks it xấu.
+    pha = ar.get_truc(tiet_khi_index=0, day_chi="Thân")
+    assert pha["truc"] == "Phá"
+    assert pha["tot_xau"] == "xau"
+
+
+def test_get_hoang_dao_hac_dao_ngay_wraps_by_month_pair():
+    # database/events_rules.json lam_nha.hoang_dao_hac_dao_theo_thang: tháng
+    # Giêng and tháng Bảy share the same row.
+    thang_1 = ar.get_hoang_dao_hac_dao_ngay(1, "Tý")
+    thang_7 = ar.get_hoang_dao_hac_dao_ngay(7, "Tý")
+    assert thang_1["classification"] == thang_7["classification"] == "hoang_dao"
+
+    assert ar.get_hoang_dao_hac_dao_ngay(1, "Ngọ")["classification"] == "hac_dao"
+
+
+def test_get_xuat_hanh_dinh_cuc_looks_up_full_can_chi():
+    entry = ar.get_xuat_hanh_dinh_cuc("Giáp Tý")
+    assert entry["available"] is True
+    assert entry["hy_than"] == "đông bắc"
+    assert set(entry["gio_tot"]) == {"Sửu", "Dần", "Mão", "Tý"}
+
+    assert ar.get_xuat_hanh_dinh_cuc("Không Tồn Tại")["available"] is False
+
+
 if __name__ == "__main__":
     test_tam_nuong_day()
     test_non_bad_day_has_no_flags()
@@ -80,4 +116,7 @@ if __name__ == "__main__":
     test_trung_tang_gender_changes_direction()
     test_get_year_profile_returns_menh_and_direction()
     test_get_event_rules_returns_whole_category()
+    test_get_truc_resets_at_kien_and_steps_forward()
+    test_get_hoang_dao_hac_dao_ngay_wraps_by_month_pair()
+    test_get_xuat_hanh_dinh_cuc_looks_up_full_can_chi()
     print("ok")

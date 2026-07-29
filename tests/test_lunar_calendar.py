@@ -71,6 +71,17 @@ def test_solar_range_to_lunar_rejects_backwards_range():
         pass
 
 
+def test_get_tiet_khi_index():
+    # Verified against real 2024 solar-term dates: this module resolves to
+    # whole-day granularity, so transitions land about a day after the
+    # commonly-published date (see get_tiet_khi_index's docstring) -- these
+    # assertions use dates confirmed to already be on the new side.
+    assert lunar_calendar.get_tiet_khi_index(lunar_calendar.jdn(5, 2, 2024)) == 0  # Lập xuân
+    assert lunar_calendar.get_tiet_khi_index(lunar_calendar.jdn(3, 2, 2024)) == 11  # Tiểu hàn (before Lập xuân)
+    assert lunar_calendar.get_tiet_khi_index(lunar_calendar.jdn(6, 6, 2024)) == 4  # Mang chủng
+    assert lunar_calendar.get_tiet_khi_index(lunar_calendar.jdn(7, 12, 2024)) == 10  # Đại tuyết
+
+
 def test_solar_range_to_lunar_rejects_over_cap():
     start = date(2026, 1, 1)
     try:
@@ -87,6 +98,7 @@ if __name__ == "__main__":
     test_round_trip()
     test_can_chi_for_year_matches_almanac()
     test_can_chi_for_day_and_month_are_valid_names()
+    test_get_tiet_khi_index()
     test_solar_range_to_lunar_matches_single_date()
     test_solar_range_to_lunar_rejects_backwards_range()
     test_solar_range_to_lunar_rejects_over_cap()

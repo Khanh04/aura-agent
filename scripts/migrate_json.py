@@ -67,7 +67,7 @@ MANUAL_OVERRIDES: dict[str, str] = {
     "lam_nha.nhung_ngay_thien_hoa_ky_cat_lam_nha": "prose",
     "lam_nha.nhung_ngay_thu_tru_thuong_luong": "mua",
     "lam_nha.tu_thoi_sat_su": "mua",
-    "lam_nha.gio_hoang_dao": "thang",
+    "lam_nha.hoang_dao_hac_dao_theo_thang": "thang",
     "lam_nha.bat_son_tuyet_mang": "prose",
     "lam_nha.bang_lap_thanh_tuoi_lam_nha": "tuoi",
     "lam_nha.huong_khoi_cong_bat_cuu_trach": "tuoi",

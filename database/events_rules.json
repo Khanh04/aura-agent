@@ -2383,7 +2383,7 @@
         140
       ]
     },
-    "gio_hoang_dao": {
+    "hoang_dao_hac_dao_theo_thang": {
       "note": "Bảng kê ngày Hoàng Đạo tốt / Hắc Đạo xấu theo lịch Can Chi từng tháng (2 nguồn trang 45 và 47, khớp nhau)",
       "source_pages": [
         45,
@@ -5958,8 +5958,8 @@
       "applies_by": "status"
     },
     "gio_hoang_dao_hac_dao": {
-      "note": "Phép tính Giờ Hoàng Đạo / Hắc Đạo (giờ tốt/xấu trong ngày) được đề cập trong sách (khoảng trang 45-50) nhưng chưa trích xuất chi tiết bảng số liệu - liên quan tới việc chọn giờ xuất hành",
-      "status": "chưa xử lý",
+      "note": "Ngày Hoàng Đạo/Hắc Đạo (cấp độ ngày) đã được trích xuất đầy đủ tại lam_nha.hoang_dao_hac_dao_theo_thang (khớp cả 2 nguồn trang 45 và 47) - tra ở đó. Riêng phép tính Giờ Hoàng Đạo/Hắc Đạo (cấp độ giờ trong ngày, câu quyết 'Dần Thân gia Tý...' cũng đã chép lại nguyên văn tại lam_nha.hoang_dao_hac_dao_theo_thang.phep_tinh_gio_hoang_dao) vẫn chưa xử lý được: bảng số liệu gốc (trang 45-46) OCR ra trống/hỏng, và ví dụ minh họa của chính sách ('ngày Dần Thân thì giờ Tý Sửu- Thìn Tỵ- Mùi Tuất là giờ hoàng đạo') không khớp nhất quán với quy tắc phụ âm đầu 'Đ' mà sách tự nêu khi kiểm tra lại thủ công - cùng loại lỗi OCR đã ghi nhận ở cuc_thong_thien_khieu. Không suy diễn thêm ngoài sách.",
+      "status": "chưa xử lý (chỉ còn phần giờ)",
       "applies_by": "status"
     },
     "luc_dieu_ngay_gio_tot_di_duong": {

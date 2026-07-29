@@ -96,7 +96,7 @@ def _get_new_moon_day(k: float) -> int:
     return _INT(jd_new + 0.5 + _TIME_ZONE / 24)
 
 
-def _get_sun_longitude_sector(jd: int) -> int:
+def _get_sun_longitude_deg(jd: int) -> float:
     t = (jd - 2451545.5 - _TIME_ZONE / 24) / 36525
     t2 = t * t
     dr = math.pi / 180
@@ -108,10 +108,29 @@ def _get_sun_longitude_sector(jd: int) -> int:
     dl += (0.019993 - 0.000101 * t) * math.sin(dr * 2 * m) + 0.000290 * math.sin(dr * 3 * m)
 
     l = l0 + dl
-    l = l * dr
-    l = l - math.pi * 2 * _INT(l / (math.pi * 2))
+    return l - 360 * _INT(l / 360)
 
-    return _INT(l / math.pi * 6)
+
+def _get_sun_longitude_sector(jd: int) -> int:
+    return _INT(_get_sun_longitude_deg(jd) / 30)
+
+
+def get_tiet_khi_index(jd: int) -> int:
+    """Which of the 12 major tiet-khi (solar terms starting at Lap Xuan) jd
+    falls in, as index 0-11 in the same order as events_rules.json's
+    cach_tinh_ngay_truc.diem_khoi_truc_kien_theo_tiet_khi list. Tiet-khi
+    boundaries sit at 315, 345, 15, 45... degrees -- a 15-degree phase offset
+    from the trung-khi sectors _get_sun_longitude_sector uses for lunar-month
+    math, using the same underlying sun-longitude formula.
+
+    ponytail: like the rest of this module, resolves to whole-day (jd)
+    granularity, not the exact crossing instant -- transitions land about a
+    day later than commonly-published tiet-khi dates (verified against 2024:
+    e.g. Lap Xuan and Mang Chung both flip a day after their usual cited
+    date). Same class of imprecision as the leap-month boundary caveat above;
+    not fixed for the same reason (small, stable algorithm; day-level
+    precision is enough for this app)."""
+    return _INT(((_get_sun_longitude_deg(jd) - 315) % 360) / 30)
 
 
 def _get_lunar_month_11(yy: int) -> int:

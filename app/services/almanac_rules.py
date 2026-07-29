@@ -179,6 +179,84 @@ def get_cuc_thong_thien_khieu(birth_can_chi: str, age: int) -> dict:
     }
 
 
+def get_truc(tiet_khi_index: int, day_chi: str) -> dict:
+    """Trực (Thập Nhị Kiến Trừ): resets to 'Kiến' at the Chi the book names
+    for the current tiết-khí, then steps forward daily through the 12 trực.
+    tiet_khi_index (0-11, Lập Xuân=0) comes from
+    lunar_calendar.get_tiet_khi_index(jd) -- this is the accurate,
+    tiết-khí-anchored method (cach_tinh_ngay_truc), not the separate fixed
+    Chi->Trực table elsewhere in lam_nha (ngay_truc), which only agrees with
+    this one for about a month a year."""
+    block = _events_rules()["lam_nha"]["cach_tinh_ngay_truc"]
+    chi_order = ["Tý", "Sửu", "Dần", "Mão", "Thìn", "Tỵ", "Ngọ", "Mùi", "Thân", "Dậu", "Tuất", "Hợi"]
+
+    tiet_entry = block["diem_khoi_truc_kien_theo_tiet_khi"][tiet_khi_index]
+    reset_chi = tiet_entry["truc_kien_tai_chi"]
+    offset = (chi_order.index(day_chi) - chi_order.index(reset_chi)) % 12
+    truc = block["trinh_tu_truc"][offset]
+
+    return {
+        "tiet_khi": tiet_entry["tiet_khi"],
+        "day_chi": day_chi,
+        "truc": truc,
+        "tot_xau": "tot" if truc in block["danh_gia_truc"]["tot"] else "xau",
+        "source_pages": block["source_pages"],
+    }
+
+
+def get_hoang_dao_hac_dao_ngay(lunar_month: int, day_chi: str) -> dict:
+    """Ngày Hoàng Đạo (auspicious) / Hắc Đạo (inauspicious) classification of
+    a day-branch, via the book's 6-group lunar-month-pair table (tháng 1&7,
+    2&8, ... 6&12).
+
+    ponytail: this table only classifies 8 of the 12 Chi per month (4
+    hoang_dao + 4 hac_dao); the other 4 return classification=None here.
+    Verified against real dates (lichngaytot.com): when this table does
+    return a classification it's correct, but mainstream sites use a
+    different, finer-grained rotating 12-quan system (Thanh Long/Minh
+    Đường/...) that classifies every day -- so None here doesn't mean the
+    day is neutral, just that this book's simpler table doesn't cover it.
+    Not backfilled from that other system since it isn't this source book's
+    own table."""
+    block = _events_rules()["lam_nha"]["hoang_dao_hac_dao_theo_thang"]
+    entry = block["entries"][(lunar_month - 1) % 6]
+
+    if day_chi in entry["hoang_dao"]:
+        classification = "hoang_dao"
+    elif day_chi in entry["hac_dao"]:
+        classification = "hac_dao"
+    else:
+        classification = None
+
+    return {
+        "thang": entry["thang"],
+        "day_chi": day_chi,
+        "classification": classification,
+        "source_pages": block["source_pages"],
+    }
+
+
+def get_xuat_hanh_dinh_cuc(day_can_chi: str) -> dict:
+    """Hỷ thần/Kế thần/Tài thần directions, Không Vong days, and giờ tốt for
+    xuất hành, keyed by the day's full Can-Chi (e.g. "Giáp Tý") -- full 60/60
+    Lục Thập Hoa Giáp coverage."""
+    block = _events_rules()["xuat_hanh"]["ngay_gio_dinh_cuc"]
+    entry = next((e for e in block["entries"] if e["ngay"] == day_can_chi), None)
+    if entry is None:
+        return {"available": False, "reason": f"Can-Chi '{day_can_chi}' not found in the 60-day table"}
+
+    return {
+        "available": True,
+        "ngay": entry["ngay"],
+        "hy_than": entry["hy_than"],
+        "ke_than": entry["ke_than"],
+        "tai_than": entry["tai_than"],
+        "khong_vong": entry["khong_vong"],
+        "gio_tot": entry["gio_tot"],
+        "source_pages": block["source_pages"],
+    }
+
+
 def get_trung_tang(birth_year: int, death_lunar_year: int, gender: Literal["nam", "nu"]) -> dict:
     """Trùng Tang: age-at-death counted around a 12-cung table, direction
     depends on the deceased's gender."""

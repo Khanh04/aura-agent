@@ -59,7 +59,19 @@ aura_agent = Agent(
         "đó. Luôn gọi 'get_event_rules' cho loại sự kiện liên quan để đối chiếu, và áp dụng "
         "quy tắc 3 nếu cần thông tin riêng của người liên quan. Chọn ra 1-3 ngày tốt nhất kèm "
         "lý do và trích dẫn nguồn; cuối cùng gọi 'convert_date' cho ngày được đề xuất tốt "
-        "nhất để điền trường 'lunar' theo quy tắc 8 (trường 'lunar' chỉ chứa một ngày)."
+        "nhất để điền trường 'lunar' theo quy tắc 8 (trường 'lunar' chỉ chứa một ngày).\n"
+        "10. Khi người dùng hỏi chung chung về một ngày tốt/xấu ra sao (VD: 'hôm nay ngày "
+        "tốt hay xấu?', hỏi về Trực, hỏi về Hoàng Đạo/Hắc Đạo) mà KHÔNG gắn với một trong 4 "
+        "loại sự kiện ở quy tắc 2, đừng ép về một trong 4 loại đó -- hãy tra cứu trực tiếp "
+        "bằng CẢ 4 tool sau, mỗi tool trả lời một khái niệm KHÁC NHAU, không thể suy ra cái "
+        "này từ cái kia: 'get_truc' (Trực -- BẮT BUỘC gọi tool này nếu câu hỏi có nhắc đến "
+        "Trực; tên sao trong 'get_star_info' dù có chữ 'hoàng đạo' KHÔNG phải là Trực, không "
+        "được dùng để suy đoán Trực), 'get_hoang_dao_hac_dao_ngay' (Hoàng Đạo/Hắc Đạo -- BẮT "
+        "BUỘC gọi tool này nếu câu hỏi có nhắc đến Hoàng Đạo/Hắc Đạo, không được suy đoán từ "
+        "tên sao), 'get_star_info' (sao tốt/xấu), và 'get_global_bad_days' (Tam Nương/Nguyệt "
+        "Kỵ/Dương Công). Nếu người dùng hỏi thêm về hướng/giờ xuất hành, gọi thêm "
+        "'get_xuat_hanh_dinh_cuc'. Chỉ suy luận sang một trong 4 loại sự kiện khi người dùng "
+        "nêu rõ một việc cụ thể cần làm."
     ),
 )
 
@@ -131,6 +143,39 @@ def get_trung_tang(birth_year: int, death_lunar_year: int, gender: Literal["nam"
     """Check Trùng Tang (used for an táng only) for the deceased, given their birth
     year, the lunar year of death, and their gender (direction of the count differs)."""
     return almanac_rules.get_trung_tang(birth_year, death_lunar_year, gender)
+
+
+@aura_agent.tool_plain
+def get_truc(gregorian_date: str, day_chi: str) -> dict:
+    """The ONLY source of truth for Trực (the 12-day Kiến-Trừ-Mãn-Bình...
+    cycle). Whenever the user asks about Trực for a day, call this tool --
+    star names from get_star_info (even ones containing "hoàng đạo") are a
+    different concept and must never be used to guess Trực."""
+    year, month, day = (int(p) for p in gregorian_date.split("-"))
+    jd = lunar_calendar.solar_to_lunar(day, month, year)["jd"]
+    tiet_khi_index = lunar_calendar.get_tiet_khi_index(jd)
+    return almanac_rules.get_truc(tiet_khi_index, day_chi)
+
+
+@aura_agent.tool_plain
+def get_hoang_dao_hac_dao_ngay(lunar_month: int, day_chi: str) -> dict:
+    """The ONLY source of truth for whether a day is Hoàng Đạo (auspicious)
+    or Hắc Đạo (inauspicious). Whenever the user asks about Hoàng Đạo/Hắc
+    Đạo for a day, call this tool -- do not infer the answer from star names
+    returned by get_star_info, which is a separate, less reliable table.
+    IMPORTANT: the book's table only classifies 8 of the 12 Chi per month --
+    when 'classification' comes back null/None, that means the book does NOT
+    classify this day either way. You MUST say the book has no Hoàng
+    Đạo/Hắc Đạo data for this day -- do NOT default to calling it Hoàng Đạo
+    or Hắc Đạo, and do NOT guess based on other tools' data."""
+    return almanac_rules.get_hoang_dao_hac_dao_ngay(lunar_month, day_chi)
+
+
+@aura_agent.tool_plain
+def get_xuat_hanh_dinh_cuc(day_can_chi: str) -> dict:
+    """Look up Hỷ thần/Kế thần/Tài thần directions, Không Vong days, and giờ
+    tốt for xuất hành, given the day's full Can-Chi (e.g. 'Giáp Tý')."""
+    return almanac_rules.get_xuat_hanh_dinh_cuc(day_can_chi)
 
 
 @aura_agent.tool_plain
